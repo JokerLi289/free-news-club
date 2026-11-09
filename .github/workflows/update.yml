@@ -1,0 +1,37 @@
+name: Update Free News Club
+
+on:
+  schedule:
+    - cron: "7 * * * *" # 每小时（UTC）自动抓取精选一次
+  workflow_dispatch: # 也可在 Actions 页手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fnc-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install feedparser
+      - name: Fetch & build
+        run: python scripts/fetch.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "auto: refresh Free News Club $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
