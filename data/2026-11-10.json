@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10 06:12",
+ "generated_at": "2026-11-10 07:12",
  "raw_total": 181,
  "items": [
   {
@@ -63,6 +63,16 @@
    "score": 53
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
+   "link": "https://wallstreetcn.com/articles/3785604",
+   "time": "11-09 22:19",
+   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
+   "comment": "",
+   "score": 50
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -73,16 +83,6 @@
    "score": 49
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美伊和谈信号重创原油，黄仁勋风波未阻AI交易回暖，纳指涨近3%，英伟达逆市跌超4%",
-   "link": "https://wallstreetcn.com/articles/3785518",
-   "time": "11-09 21:55",
-   "summary": "美伊核谈判取得进展的消息重创原油，油价大跌缓和通胀担忧；与此同时，AI交易延续上周五的回暖势头，并未因英伟达CEO黄仁勋相关风波而重新陷入抛售，推动美股两大主要指数大幅上涨。周一，纳指涨近3%，标普创七个月来最大日涨幅，而英伟达逆势收跌逾4%。 AI基础设施和数据中心产业链股票普遍走高，上周遭遇大幅抛售的甲骨文、戴尔、CoreWeave等股票延续反弹，数据中心供电商Bloom Energy和光通信",
-   "comment": "",
-   "score": 48
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
@@ -91,6 +91,16 @@
    "summary": "arXiv:2611.08495v1 Announce Type: new Abstract: Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples. Existing data selection methods mostly rely on diversity, importance, or a combination of both, without explicitly constraining the distributional consistency between the selected subset and the full data in the embedding space. We propose QMAC, a quality aware multiband characteristic function matching method that formulates data selection as a joint optimization problem of distribution matching and quality filtering. QMAC matches the empirical characteristic functions of the selected subset and the full data across multiple frequency scales, capturing both global semantic coverage and local perturbations, while using task related quality scores to filter noisy and low quality samples. We systematically evaluate QMAC on 4 data types, 8 target models, and 44 benchmarks. Experimental results show that QMAC outperforms existing data selection baselines on standard image-text instruction data, substantially surpasses random selection on standard text instruction, image-text reasoning, and text reasoning data, and exceeds full data training in multiple model and budget combinations. The code will be made publicly available upon acceptance of the paper.",
    "comment": "",
    "score": 48
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美伊和谈信号重创原油，黄仁勋风波未阻AI交易回暖，纳指涨近3%，英伟达逆市跌超4%",
+   "link": "https://wallstreetcn.com/articles/3785518",
+   "time": "11-09 21:55",
+   "summary": "美伊核谈判取得进展的消息重创原油，油价大跌缓和通胀担忧；与此同时，AI交易延续上周五的回暖势头，并未因英伟达CEO黄仁勋相关风波而重新陷入抛售，推动美股两大主要指数大幅上涨。周一，纳指涨近3%，标普创七个月来最大日涨幅，而英伟达逆势收跌逾4%。 周一美油大幅回落，10年期美债收益率继续上行、价格两连跌，标普两日反弹 AI基础设施和数据中心产业链股票普遍走高，上周遭遇大幅抛售的甲骨文、戴尔、Core",
+   "comment": "",
+   "score": 47
   },
   {
    "group": "学术",
@@ -185,22 +195,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "周二美国10月CPI报告将缺失同比数据，系2025年政府停摆所致",
-   "link": "https://wallstreetcn.com/articles/3785607",
-   "time": "11-09 22:00",
-   "summary": "美国劳工统计局（BLS）将于本周二发布10月消费者价格指数（CPI）报告，但不会公布同比变动数据。 BLS发言人Cody Parkinson表示，2025年政府停摆期间，BLS未能完整采集当月部分价格数据，且事后也无法追溯补全，导致该机构在计算今年10月CPI及核心CPI的12个月同比变动时缺乏必要的基期数据。 与此相关的实际薪资同比增速数据同样不会公布。 通常情况下，同比涨幅是公众理解通胀走势最",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "沪指缩量涨0.3%，创业板午后转跌，煤炭掀起涨停潮，物理AI爆发，恒科指跌超1%，美团大跌6%",
    "link": "https://wallstreetcn.com/articles/3785511",
    "time": "11-09 08:14",
    "summary": "11月9日，A股早盘集体上涨，三大股指盘初上涨，深成指、创业板涨超1%，盘中冲高回落，午后深成指、创业板纷纷转跌。太空算力、物理AI、电路板等概念股爆发，AI硬件股内部分化，国产芯片拉升，支撑科创50指数。煤炭、燃气、能源设备等板块活跃，其中煤炭掀起涨停潮。 港股全天震荡下跌，恒指、恒科指午后双双下跌，恒科指跌幅超过1%，科网股多数走低，美团大跌超6%，AI硬件、芯片午后亦多数回落，中际旭创跌超4",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "周二美国10月CPI报告将缺失同比数据，系2025年政府停摆所致",
+   "link": "https://wallstreetcn.com/articles/3785607",
+   "time": "11-09 22:00",
+   "summary": "美国劳工统计局（BLS）将于本周二发布10月消费者价格指数（CPI）报告，但不会公布同比变动数据。 BLS发言人Cody Parkinson表示，2025年政府停摆期间，BLS未能完整采集当月部分价格数据，且事后也无法追溯补全，导致该机构在计算今年10月CPI及核心CPI的12个月同比变动时缺乏必要的基期数据。 与此相关的实际薪资同比增速数据同样不会公布。 通常情况下，同比涨幅是公众理解通胀走势最",
+   "comment": "",
+   "score": 29
   },
   {
    "group": "AI与数据",
@@ -220,17 +230,17 @@
    "time": "11-09 20:20",
    "summary": "AI概念股上周遭遇剧烈抛售之际，Anthropic的重磅IPO即将进入正式路演阶段。这家AI行业明星最快将于本周二启动IPO营销，力争在美国感恩节前完成上市，但市场对AI资产的风险偏好已经发生变化，其发行定价和投资者认购需求将接受严峻考验。 上周AI产业链股票集体重挫后， 华尔街见闻 提到，上周五的报道称，部分潜在投资者讨论的Anthropic估值已降至约1.2万亿至1.3万亿美元，甚至有人考虑低",
    "comment": "",
-   "score": 27
+   "score": 26
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "纽约联储调查：美国消费者通胀预期稳定，失业率担忧升至2020年以来最高",
+   "title": "美联储调查：美国消费者通胀预期稳定，失业率担忧升至2020年以来最高",
    "link": "https://wallstreetcn.com/articles/3785596",
    "time": "11-09 18:22",
    "summary": "美国消费者对未来一年通胀预期保持稳定，但对劳动力市场的悲观情绪明显升温，折射出当前经济前景的内在矛盾。 纽约联储周一发布的月度消费者预期调查显示， 受访者对未来一年通胀的预期维持在3.9%，三年及五年通胀预期亦分别稳定在3.3%和3%。 与此同时，消费者对失业率上升的预期概率攀升至2020年4月以来最高水平，折射出民众对就业市场的隐忧。 通胀预期总体平稳，但就业前景的分歧将为美联储的政策路径提供重",
    "comment": "",
-   "score": 25
+   "score": 24
   },
   {
    "group": "财经深度",
@@ -251,16 +261,6 @@
    "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
    "comment": "",
    "score": 21
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "谷歌推出两款新TPU，挑战英伟达霸主地位！",
-   "link": "https://wallstreetcn.com/articles/3785589",
-   "time": "11-09 12:31",
-   "summary": "谷歌正大举拓展其人工智能芯片产品线，将与英伟达的竞争推向新阶段。这一举措发生在AI芯片市场需求持续旺盛、竞争格局加速转变的关键节点。 Alphabet于周一宣布推出新型张量处理器（TPU）变体芯片——TPU 8tx 和 TPU 8i Max，分别针对机密计算和长上下文窗口应用场景。至此，谷歌 TPU 芯片系列扩展至四款，覆盖更精细的市场需求。谷歌芯片业务负责人 Amin Vahdat 表示，“未来",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "财经深度",
