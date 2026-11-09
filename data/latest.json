@@ -1,366 +1,316 @@
 {
- "generated_at": "2026-11-10 01:23",
- "raw_total": 201,
+ "generated_at": "2026-11-10 01:41",
+ "raw_total": 181,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋丑闻搅动市场，英伟达跌5%，美股三大指数齐涨，半导体指数涨3%，布油跌超3%",
-   "link": "https://wallstreetcn.com/articles/3785518",
-   "time": "11-09 23:11",
-   "summary": "美股在经历标普500指数近一年来最差单周表现后，周一盘前出现企稳迹象。与此同时，英伟达首席执行官黄仁勋承认婚外情并公开致歉，令这家芯片巨头股价再度承压。 英伟达美股开盘跌8.8%，目前跌幅收窄至不足5%。此前CEO黄仁勋公开承认婚外情，公司董事会已启动调查。 标普500指数涨约1.6%，道指涨超1.3%，纳指涨超2%，半导体指数涨超3.4%，银行指数涨3.3%，罗素2000指数涨1.2%。",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "历史性科技崩溃背后，是恐慌性出清还是真实的周期转折？",
-   "link": "https://wallstreetcn.com/articles/3785593",
-   "time": "11-09 22:53",
-   "summary": "近期全球金融市场剧烈波动，周期股与动量因子出现历史性回撤，市场对经济周期见顶的担忧急剧升温。 摩根士丹利全球固定收益研究主管Andrew Sheets认为， 当前的价格剧烈调整更可能接近一次重大不确定性的集中出清，而非经济周期终结的前兆。 在宏观层面，多项关键领先指标并未发出周期见顶信号—— 全球制造业PMI保持强势，美国收益率曲线依然正斜率，银行贷款增速在美国、欧洲及亚洲均在上行。",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "中科星云发布“星云星座计划”，拟建“天地对等”太空算力网",
-   "link": "https://wallstreetcn.com/articles/3785592",
-   "time": "11-09 22:18",
-   "summary": "11月9日，2026太空云产业生态大会暨中科星云成立大会在合肥举行。中科星云太空智能科技（合肥）有限公司（以下简称\"中科星云\"）在会上宣布投入运营，认缴注册资本15亿元。工商登记信息显示，该公司已于11月2日完成设立登记。",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "高盛点名关键趋势线，纳斯达克最后防线岌岌可危",
-   "link": "https://wallstreetcn.com/articles/3785591",
-   "time": "11-09 21:04",
-   "summary": "纳斯达克100指数连续四周下跌，一条多年趋势线成为市场最后的技术支撑，而它正面临决定性考验。 高盛科技、媒体与电信板块首席专家Peter Callahan在最新周报中明确指出， 纳斯达克100指数正在重新测试连接2025年4月低点与2026年3月低点的关键基准趋势线。",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "中国小车，撑起10月纯电出口半壁江山",
-   "link": "https://wallstreetcn.com/articles/3785590",
-   "time": "11-09 20:57",
-   "summary": "作者 | 周智宇 10月，中国车企的A00+A0级纯电车比去年同期多批发了约14万辆，几乎全部增量都来自出口。 按中国汽车流通协会乘用车市场信息联席分会（以下简称“乘联分会”）11月9日公布的数据，10月这两类小车合计出口约20万辆，占中国纯电乘用车出口的56.4%，一年前这个比例还只有42.1%。 去年10月，A00+A0级纯电车的出口量约占厂商批发量的15%。今年10月，55.",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "字节的算力供应商，要IPO了",
-   "link": "https://wallstreetcn.com/articles/3785588",
-   "time": "11-09 20:34",
-   "summary": "近日，新加坡数据中心建造商DayOne正式向美国SEC提交Form F-1注册声明，计划在2026年内在纳斯达克上市。据路透社等媒体报道，该公司目标最高筹资约50亿美元（约合人民币333.9亿元），潜在估值约200亿美元（约合人民币1335.61亿元）。 在F-1文件中，一家匿名客户在2025年以及2026年上半年，给DayOne贡献了近70%的收入。",
-   "score": 7,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Talk Your Book: Customized and Income",
-   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-customized-and-income/",
-   "time": "11-09 21:00",
-   "summary": "On today's Talk Your Book we speak with Kacie Walsh Jason from Dimensional Fund Advisors about the benefits of investing in separately managed accounts.",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
-   "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
-   "time": "11-09 19:00",
-   "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Expect Less and Appreciate More",
-   "link": "https://awealthofcommonsense.com/2026/11/expect-less-and-appreciate-more/",
-   "time": "11-09 12:04",
-   "summary": "Why a mid-life crisis is impossible to ignore. The post Expect Less and Appreciate More appeared first on A Wealth of Common Sense. ...",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Diversification & Drawdowns",
-   "link": "https://awealthofcommonsense.com/2026/11/diversification-drawdowns/",
-   "time": "11-07 05:30",
-   "summary": "We had some big drawdowns in the market this week. The post Diversification & Drawdowns appeared first on A Wealth of Common Sense. ...",
-   "score": 3,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "2026.45: Falling Leaves (and Stocks)",
-   "link": "https://stratechery.com/2026/falling-leaves-and-stocks/",
-   "time": "11-07 02:14",
-   "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
-   "score": 3,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Not Boring",
-   "title": "Weekly Dose of Optimism #218",
-   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-218",
-   "time": "11-06 21:53",
-   "summary": "Plasmid DNA Immunotherapy, Zipline, DREADDs, NOM4D, Reincarnation + Extra Doses",
-   "score": 1,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
-   "link": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
-   "time": "11-06 19:00",
-   "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
-   "score": 1,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Not Boring",
-   "title": "Runway: Learning From Watching the World",
-   "link": "https://www.notboring.co/p/runway-learning-from-watching-the",
-   "time": "10-13 20:45",
-   "summary": "A Co-Written Essay with Runway Co-CEO Anastasis Germanidis",
-   "score": 0,
-   "comment": ""
-  },
-  {
-   "group": "财经深度",
-   "source": "Not Boring",
-   "title": "Airbound: As We May Move",
-   "link": "https://www.notboring.co/p/airbound-as-we-may-move",
-   "time": "09-28 21:17",
-   "summary": "A Deep Dive on Airbound and Humanity’s Flying Future",
-   "score": 0,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-   "link": "https://latent.space/p/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team/",
-   "time": "11-10 00:41",
-   "summary": "Our first deep dive with an AI data company. In roughly a year, Handshake built an AI training business doing nearly $1 billion in gross annualized revenue. What are frontier labs buying?",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "time": "11-09 21:31",
-   "summary": "When do you think we'll have robots on the moon?",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Data Engineering Weekly",
-   "title": "Data Engineering Weekly #295",
-   "link": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-295",
-   "time": "11-09 11:19",
-   "summary": "The Weekly Data Engineering Newsletter",
-   "score": 5,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "time": "11-09 05:23",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course.",
-   "score": 6,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] Anthropic IPO: Whither Now?",
-   "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-   "time": "11-07 11:04",
-   "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
-   "score": 3,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 22:30",
-   "summary": "What do LLMs think about vision models?",
-   "score": 2,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Data Engineering Weekly",
-   "title": "Do We Still Need Data Models?",
-   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
-   "time": "10-28 12:22",
-   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
-   "score": 1,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-   "link": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-   "time": "10-26 20:31",
-   "summary": "What is “night” to a machine?",
-   "score": 0,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Data Engineering Weekly",
-   "title": "The Self-Organizing Data Stack",
-   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
-   "time": "10-14 18:41",
-   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
-   "score": 1,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Lil'Log",
-   "title": "Harness Engineering for Self-Improvement",
-   "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-   "time": "07-04 08:00",
-   "summary": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and …",
-   "score": 0,
-   "comment": ""
-  },
-  {
-   "group": "AI与数据",
-   "source": "Lil'Log",
-   "title": "Scaling Laws, Carefully",
-   "link": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
-   "time": "06-24 08:00",
-   "summary": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset siz…",
-   "score": 0,
-   "comment": ""
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?",
-   "link": "https://arxiv.org/abs/2611.08522",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.08522v1 Announce Type: new Abstract: Recent work reports large gains for LLM agents on low-budget molecular optimization. We measure the contributions of online optimization, retrievable task information, and permissive oracle landscapes. On PMO at 50 oracle calls, a GPT-4o mini agent's sum AUC falls from 14.44 to 4.85 after task names and curated reference compounds are hidden. An identity-blinded condition that states only the oracle form (e.g., similarity to a hidden reference) scores 5.39, while a deterministic retrieval-only baseline with no LLM reaches 12.16 (84% of the full agent). A full 23-task 2x2 ablation and a three-seed replication on eight tasks support this interpretation. On a protein-targeted benchmark with an AutoDock Vina composite oracle, a single-edit random walk is a strong lower bound; across three seeds it obtains composite 0.636 +/- 0.008 and docking improvement -1.11 +/- 0.04 kcal/mol. As a positive control, a retrieval-free population agent exceeds REINVENT at a matched 50-call AUC budget, with its strongest result at 100 calls. These results motivate two inexpensive sanity checks: retrieval-safe PMO prompts and a random-walk floor for docking-based optimization.",
-   "score": 12,
-   "comment": ""
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Does Country Matter? Evaluating Geographic Sensitivity of Large Language Models in Zero-Shot Chronic Kidney Disease Screening",
-   "link": "https://arxiv.org/abs/2611.08507",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.08507v1 Announce Type: new Abstract: Large language models (LLMs) show strong zero-shot reasoning capabilities, yet their sensitivity to prompt context raises questions about reliability in deployment. This study investigates whether geographic context embedded in prompts influences LLM-based chronic kidney disease (CKD) screening, independent of any change in patient features. Using a community-based CKD dataset from Bangladesh (284 participants with 112 CKD and 172 non-CKD), we systematically varied the country attribute across 25 global contexts while holding all clinical inputs constant, and evaluated two open-weight LLMs (Qwen3 8B and Mistral 7B). Experiments were conducted on a common-correct subset of 156 participants for whom both models produced correct baseline predictions. Results show that non-CKD predictions were highly stable across geographic contexts, with both models maintaining consistent non-CKD predictions in nearly all settings. In contrast, CKD-positive predictions were considerably more sensitive. For Qwen3, CKD prediction dropped from a baseline of 65 to as low as 50 across country contexts, while Mistral showed smaller but non-negligible variation. Country contexts did not group according to known epidemiological or healthcare similarities; instead, groupings appear to reflect how country tokens are internally represented within each model. These findings demonstrate that geographic tokens can systematically shift clinical screening outcomes despite identical patient inputs, with implications for the deployment of LLM-based decision support in diverse healthcare settings.",
-   "score": 9,
-   "comment": ""
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
-   "link": "https://arxiv.org/abs/2611.08495",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.08495v1 Announce Type: new Abstract: Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples. Existing data selection methods mostly rely on diversity, importance, or a combination of both, without explicitly constraining the distributional consistency between the selected subset and the full data in the embedding space. We propose QMAC, a quality aware multiband characteristic function matching method that formulates data selection as a joint optimization problem of distribution matching and quality filtering. QMAC matches the empirical characteristic functions of the selected subset and the full data across multiple frequency scales, capturing both global semantic coverage and local perturbations, while using task related quality scores to filter noisy and low quality samples. We systematically evaluate QMAC on 4 data types, 8 target models, and 44 benchmarks. Experimental results show that QMAC outperforms existing data selection baselines on standard image-text instruction data, substantially surpasses random selection on standard text instruction, image-text reasoning, and text reasoning data, and exceeds full data training in multiple model and budget combinations. The code will be made publicly available upon acceptance of the paper.",
-   "score": 8,
-   "comment": ""
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Dual-Stream LLM-Guided Reward Design for Reject-Inference-Aware Reinforcement Learning in E-Commerce Payment Fraud Detection",
-   "link": "https://arxiv.org/abs/2611.08706",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.08706v1 Announce Type: new Abstract: Production fraud-detection models learn from a censored slice of their own traffic: transactions a legacy system blocked never receive fraud labels, so models train on a biased, approved-only distribution. We extend LLM-guided reward design, the framework of Qu et al. (2025) in which an LLM evolves the reward of a two-step REINFORCE fraud-blocking policy, to attack this reject-inference problem inside the reward. A single LLM designs a dual-stream reward: stream 1 applies the standard dollar-weighted precision objective to labeled transactions; stream 2 scores legacy-blocked, unlabeled transactions by contrasting the newest gradient-boosted risk signal against the legacy scores that drove the original block. Rather than prescribe which signals matter, we expose a superset of evidence and let the LLM decide for itself which to use, guided by evaluation feedback alone; because it writes the reward as code, that choice is directly auditable. On a held-out four-month out-of-time test, the dual-stream agent beats the prior labeled-only agent at every target recall, by +4.7, +2.4 and +3.0 points of dollar-weighted precision at 80%, 85% and 90% recall, and the production baseline by +6.8 points on average. The resulting policy is architecturally identical to that of Qu et al. (2025) and adds no inference cost.",
-   "score": 8,
-   "comment": ""
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Patching the Blind Spots: Reversible LLM Rule Overlay for Frozen Fraud Detectors",
-   "link": "https://arxiv.org/abs/2611.08714",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.08714v1 Announce Type: new Abstract: In industrial tabular fraud classification, gradient-boosted trees remain state-of-the-art, but even a well-trained model has blind spots, and retraining the deployed model is not always safe. We propose a framework that patches such a model without modifying it: LLMs propose rules anchored on features the model underweights by SHAP, and the resulting noisy pool is screened for empirical support and calibrated into an additive, reversible log-lift overlay that runs at the production cut-off. Single-LLM benefit is high-variance and inverts between datasets, so we pool three diverse backbones by equal-weight logit averaging, trading peak gain for a bounded worst case. On a real-world e-commerce fraud detector trained on selection-biased data, continued training regresses even when carefully tuned, whereas the overlay gains on average +2.26% recall at equal precision ($\\Delta$R@P) and +1.60% precision at equal recall ($\\Delta$P@R) over production cut-offs spanning 30-57% precision and 23-63% recall. On a public benchmark of seven designed bias-shift variants it raises $\\Delta$P@R on every variant and keeps $\\Delta$R@P near neutral. Each amendment is a readable predicate naming the fraud pattern it covers.",
-   "score": 8,
-   "comment": ""
-  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "MongoBench: Do LLMs Know What a MongoDB Query Will Do?",
-   "link": "https://arxiv.org/abs/2611.09065",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.09065v1 Announce Type: cross Abstract: LLM agents increasingly operate databases on their own: they generate queries and run them against live data. Two checks are commonly used to judge such an agent - whether it produces a valid query, and whether it reaches the right final answer - but neither tells us whether the agent knows what its query will actually do before it runs. We argue that this consequence prediction ability must be evaluated in its own right, and we build MongoBench to measure it: given a collection of documents and a MongoDB find() filter, a model must return the exact set of matching _ids, with ground truth from a real mongod server. The 300 items each compose three or four documented matching pitfalls and are proposed symmetrically by three vendors' models, so results stratify by item source. Evaluating four models - frontier systems from three vendors and one open-weight reasoner - accuracy ranges from 70.1% to 92.1%, a 22-point spread. Each proposer mispredicts 10-31% of the items it wrote itself, so producing a query does not imply predicting its effect. A failure-mode analysis shows errors are better predicted by which semantic pitfall a query exercises - range comparisons and null - than by surface measures such as document count or the number of composed rules. Prepending a verified rule sheet helps unevenly; executing the original filter against the engine yields reliable match sets, but delegation must be checked: on 28% of items (averaged over three runs) one model's executed filters never passed a canonical check against the intended query, and it answered about 22 of them wrong, while the other three passed on every item. We release the benchmark, the mongod oracle, and the evaluation code with all prompts at https://github.com/research-repo-bai/MongoBench.",
-   "score": 12,
-   "comment": ""
+   "title": "Logical Scalability in Big Data Architectures: Impact of Data Modeling on the Database Layer",
+   "link": "https://arxiv.org/abs/2611.09346",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.09346v1 Announce Type: new Abstract: In modern Big Data architectures, scalability is often addressed through infrastructural expansion, involving vertical or horizontal scaling to manage growing data volumes. However, this hardware-centric perspective overlooks the logical scalability of the storage layer. A central challenge lies in how data modeling choices affect the storage layer of big data architectures. Specifically, when the data model is misaligned with the underlying query patterns, performance bottlenecks emerge and persist regardless of the available computational resources. This paper investigates the concept of logical scalability by conducting a comparative performance analysis of Document, Graph and Multi-Model database paradigms under varying workloads, queries and dataset scales. Our results demonstrate that performance degradation caused by model misalignment cannot be mitigated by additional computational resources alone. Increasing the number of machines while retaining a structurally inadequate data model yields performance equivalent to or worse than a single-machine configuration, as distributed coordination overhead compounds the inefficiencies of the underlying logical model. We demonstrate that efficiency is maximized when the logical structure of the database aligns with the inherent nature of the data and the intended analysis scope, a condition that proves to be more decisive than any infrastructural scaling strategy.",
+   "comment": "",
+   "score": 70
   },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "MV-IVF: Multi-Vector Retrieval via Multi-Vector Clustering",
    "link": "https://arxiv.org/abs/2611.09040",
-   "time": "11-09 13:00",
+   "time": "11-09 05:00",
    "summary": "arXiv:2611.09040v1 Announce Type: cross Abstract: Multi-vector retrieval represents each query and document as a set of embeddings and scores relevance via fine-grained set-to-set interactions such as MaxSim (Chamfer similarity). This expressiveness improves retrieval quality over single-vector representations, but makes search substantially more expensive. Existing systems address this challenge primarily through proxy representations or filter-and-rerank pipelines that reduce candidate generation to single-vector search. We study the complementary direction of building a native IVF-style index directly over multi-vector data. We introduce MV-IVF, an inverted-file index for multi-vector retrieval built on MV-Lloyd, a new Lloyd-style algorithm for clustering point clouds under a Chamfer objective. Our key observation is that once point clouds are assigned to clusters, the center-update step reduces to standard single-vector clustering over the flattened embeddings in each cluster. This enables efficient construction of a hierarchical IVF tree with center point clouds at internal nodes. At query time, MV-IVF performs best-first beam search over the tree to identify promising leaf clusters, then scores the documents in those leaves. We further accelerate search using low-bit quantization, query compression, and cache-efficient batched search. We implement MV-IVF in MVSIC, an optimized C++ library and unified evaluation framework for multi-vector retrieval that includes several major approaches. Across BEIR and LoTTE text retrieval benchmarks, MV-IVF achieves strong latency--recall tradeoffs, the best batched throughput frontiers, and favorable build-time and index-size profiles. At $90\\%$ Recall-$10$@$10$, MV-IVF achieves up to $8.03\\times$ lower single-query latency and up to $173.5\\times$ higher QPS than the baselines, demonstrating that native IVF-style indexing is practical and effective for scalable multi-vector retrieval.",
-   "score": 9,
-   "comment": ""
+   "comment": "",
+   "score": 68
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Emergent Low-Dimensional Topological Dynamics Dictate Generalization and Escape Mechanics in Billion-Parameter Neural Networks",
+   "link": "https://arxiv.org/abs/2611.08502",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.08502v1 Announce Type: new Abstract: The remarkable generalization of modern over-parameterized neural networks defies classical statistical learning bounds. Here we establish that optimization trajectories in billion-parameter models do not sample the ambient dimension $\\mathbb{R}^N$ homogeneously; instead, they are dynamically constrained to a low-dimensional execution submanifold $\\mathcal{M}_{\\text{exec}}$ (with empirically observed effective dimension $d_{\\text{eff}} \\le 12$). By equipping the parameter space with a regularized Hessian metric $g_{ij} = \\nabla_i \\nabla_j L + \\epsilon \\delta_{ij}$ and analyzing stochastic Langevin diffusion on loss sublevel sets, we derive a rigorous Topological Generalization Bound grounded in projected subspace persistent homology. Furthermore, by linking Morse index transitions to Betti number annihilation ($\\beta_1 \\to 0$), we formulate an exact mathematical mechanism for exponential escape from strict saddles under anisotropic noise. We validate our framework across 80+ architectures (ResNets, Vision Transformers, and 7B LLMs). To bridge theoretical topology with computational feasibility, we resolve the curse of dimensionality by computing projected persistent homology proxies via randomized Lanczos iterations restricted strictly within active Hessian subspaces. Building upon this mathematical foundation, we introduce Topological-Adaptive Optimization (Top-SGD and Top-AdamW)---a family of wrapper algorithms that dynamically modulate learning rates using active curvature signatures. Extensive benchmarks demonstrate a 14.1\\% reduction in total wall-clock training time on ImageNet with all computational and memory overheads fully accounted for. Code is publicly available at https://github.com/imslab-research/Topological-SGD.",
+   "comment": "",
+   "score": 65
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "time": "11-03 05:35",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "comment": "",
+   "score": 62
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "MongoBench: Do LLMs Know What a MongoDB Query Will Do?",
+   "link": "https://arxiv.org/abs/2611.09065",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.09065v1 Announce Type: cross Abstract: LLM agents increasingly operate databases on their own: they generate queries and run them against live data. Two checks are commonly used to judge such an agent - whether it produces a valid query, and whether it reaches the right final answer - but neither tells us whether the agent knows what its query will actually do before it runs. We argue that this consequence prediction ability must be evaluated in its own right, and we build MongoBench to measure it: given a collection of documents and a MongoDB find() filter, a model must return the exact set of matching _ids, with ground truth from a real mongod server. The 300 items each compose three or four documented matching pitfalls and are proposed symmetrically by three vendors' models, so results stratify by item source. Evaluating four models - frontier systems from three vendors and one open-weight reasoner - accuracy ranges from 70.1% to 92.1%, a 22-point spread. Each proposer mispredicts 10-31% of the items it wrote itself, so producing a query does not imply predicting its effect. A failure-mode analysis shows errors are better predicted by which semantic pitfall a query exercises - range comparisons and null - than by surface measures such as document count or the number of composed rules. Prepending a verified rule sheet helps unevenly; executing the original filter against the engine yields reliable match sets, but delegation must be checked: on 28% of items (averaged over three runs) one model's executed filters never passed a canonical check against the intended query, and it answered about 22 of them wrong, while the other three passed on every item. We release the benchmark, the mongod oracle, and the evaluation code with all prompts at https://github.com/research-repo-bai/MongoBench.",
+   "comment": "",
+   "score": 56
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
+   "link": "https://arxiv.org/abs/2501.08686",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2501.08686v2 Announce Type: replace Abstract: Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, domain-specific mappings due to a lack of commonsense and domain-specific knowledge. In parallel, large language models (LLMs) without sufficient background knowledge tend to hallucinate, further complicating schema matching. To overcome these limitations, we introduce KG-RAG4SM, a Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching. This method integrates novel retrieval mechanisms, including LLM-based, vector-based, graph traversal-based, and hybrid techniques with advanced reranking schemes to extract the most relevant subgraphs from large external KGs. Our approach achieves superior results without requiring re-training, as evidenced by improvements of 39.79% in precision and 30.56% in F1 score over LLM-based state-of-the-art (SOTA) methods (e.g., Jellyfish-8B) on the MIMIC dataset, and enhancements of 69.20% in precision and 21.99% in F1 score over pre-trained language model (PLM)-based SOTA methods (e.g., SMAT) on the Synthea dataset. Additionally, KG-RAG4SM scales effectively across KGs from commonsense KGs to domain-specific ones, while its instruction-tuning knowledge exclusion component ensures truthful performance in end-to-end schema matching tasks despite the suboptimal relevance of KG context. Our empirical analysis and case studies from real-world scenarios show that the hallucination problem in LLMs for schema matching is well mitigated by our solution.",
+   "comment": "",
+   "score": 53
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 49
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
+   "link": "https://arxiv.org/abs/2611.08495",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.08495v1 Announce Type: new Abstract: Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples. Existing data selection methods mostly rely on diversity, importance, or a combination of both, without explicitly constraining the distributional consistency between the selected subset and the full data in the embedding space. We propose QMAC, a quality aware multiband characteristic function matching method that formulates data selection as a joint optimization problem of distribution matching and quality filtering. QMAC matches the empirical characteristic functions of the selected subset and the full data across multiple frequency scales, capturing both global semantic coverage and local perturbations, while using task related quality scores to filter noisy and low quality samples. We systematically evaluate QMAC on 4 data types, 8 target models, and 44 benchmarks. Experimental results show that QMAC outperforms existing data selection baselines on standard image-text instruction data, substantially surpasses random selection on standard text instruction, image-text reasoning, and text reasoning data, and exceeds full data training in multiple model and budget combinations. The code will be made publicly available upon acceptance of the paper.",
+   "comment": "",
+   "score": 48
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Adaptive Depth Aggregation in Graph Transformers for Long-Range Graph Reasoning",
+   "link": "https://arxiv.org/abs/2611.08500",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.08500v1 Announce Type: new Abstract: Graph Transformers improve long-range node-to-node communication through global or structure-aware interactions. However, improving cross-node communication does not determine how computations produced at different depths should be combined. Standard residual streams accumulate successive computations with fixed unit coefficients shared across nodes. This fixed aggregation is a residual-interface constraint: once intermediate contributions have been produced, the interface cannot explicitly reweight them by node. We hypothesize that this constraint can create a depth-wise aggregation mismatch when the relative utility of these intermediate contributions varies across nodes and structural contexts. To study this hypothesis, we formalize Graph Transformer residual computation as a causal node-wise history of graph-propagation and feed-forward network (FFN) contributions, making depth aggregation an explicit interface choice. We realize node-adaptive aggregation over this history with Attention Residuals (AttnRes) while preserving the backbone's graph-propagation and auxiliary-state machinery. Block AttnRes reduces the routing cost of long histories relative to Full AttnRes by pooling consecutive contributions. We instantiate the interface in GPS and GRIT and evaluate it on all five ECHO tasks. Both variants achieve lower mean absolute error (MAE) than their independently tuned backbones on every task, and at least one obtains the lowest mean among all compared methods in each task. Routing-only donor-swap interventions support the mismatch hypothesis, while additional ablations examine the key design choices. Together, these results support node-adaptive depth aggregation as a useful complement to cross-node communication in long-range graph reasoning.",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Does Country Matter? Evaluating Geographic Sensitivity of Large Language Models in Zero-Shot Chronic Kidney Disease Screening",
+   "link": "https://arxiv.org/abs/2611.08507",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.08507v1 Announce Type: new Abstract: Large language models (LLMs) show strong zero-shot reasoning capabilities, yet their sensitivity to prompt context raises questions about reliability in deployment. This study investigates whether geographic context embedded in prompts influences LLM-based chronic kidney disease (CKD) screening, independent of any change in patient features. Using a community-based CKD dataset from Bangladesh (284 participants with 112 CKD and 172 non-CKD), we systematically varied the country attribute across 25 global contexts while holding all clinical inputs constant, and evaluated two open-weight LLMs (Qwen3 8B and Mistral 7B). Experiments were conducted on a common-correct subset of 156 participants for whom both models produced correct baseline predictions. Results show that non-CKD predictions were highly stable across geographic contexts, with both models maintaining consistent non-CKD predictions in nearly all settings. In contrast, CKD-positive predictions were considerably more sensitive. For Qwen3, CKD prediction dropped from a baseline of 65 to as low as 50 across country contexts, while Mistral showed smaller but non-negligible variation. Country contexts did not group according to known epidemiological or healthcare similarities; instead, groupings appear to reflect how country tokens are internally represented within each model. These findings demonstrate that geographic tokens can systematically shift clinical screening outcomes despite identical patient inputs, with implications for the deployment of LLM-based decision support in diverse healthcare settings.",
+   "comment": "",
+   "score": 44
   },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Enabling Privacy-Preserving Natural Language Access to Industrial Smart Meter Data",
    "link": "https://arxiv.org/abs/2611.09372",
-   "time": "11-09 13:00",
+   "time": "11-09 05:00",
    "summary": "arXiv:2611.09372v1 Announce Type: cross Abstract: Energy management officers and grid operators increasingly rely on smart meter data for anomaly detection, performance monitoring, and strategic decision-making. However, extracting actionable insights from large-scale, heterogeneous telemetry databases requires advanced SQL and data engineering expertise, creating a critical bottleneck for non-technical personnel. Furthermore, the strict data privacy regulations and security constraints inherent to critical energy infrastructure often prohibit the routing of sensitive consumer data through cloud-based Large Language Models (LLMs). To address these challenges, we present OpenMeter, a schema-agnostic Multi-Agent System (MAS) designed to translate natural language queries into executable code and human-readable insights. This architecture lowers the technical barrier for day-to-day utility operations by empowering non-expert personnel to interact with complex databases through intuitive natural language dialogue, transforming raw telemetry into a highly valuable tool for routine grid workflows and strategic decisions. Multi-scenario ablation studies over this environment demonstrate that full multi-agent orchestration shows its largest observed accuracy gains on resource-constrained local hardware (+6.1 pp EX-R over the strongest single-agent configuration); at frontier scale, individual components retain value but should be enabled selectively, indicating that the cost of full orchestration is justified specifically where privacy demands local execution.",
-   "score": 9,
-   "comment": ""
+   "comment": "",
+   "score": 44
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
   },
   {
    "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "PROBE: Learned Proxy-Based Execution for Highly Selective Multimodal Semantic Queries",
-   "link": "https://arxiv.org/abs/2611.01454",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.01454v2 Announce Type: replace Abstract: Large language models (LLMs) enable semantic queries over unstructured data, but invoking an LLM on every row is prohibitively expensive. Proxy-based execution can reduce this ple with the LLM and training a lightweight proxyto label the remaining rows. Nevertheless, in practical scenarios where semantic queries are highly selective, it remainschallenging to identify representative samples foLM budget and to achieve accurate predictions overthe remaining data using the proxy. We present PROBE, a learned proxy-based execution framework for highly selective multimodal semantic queries. PROBE uses selectivity-adaptive sampling to discover rare polightweight proxy on the acquired labels. It thenrefines proxy predictions through residual correction and homogeneity smoothing over a similarity graph. To address sampling bias, PROBE jointly calibrates refined scores usiarate calibration sample, then selectively routescandidates to the LLM by optimizing the tradeoff between estimated F1 and evaluation cost. On queries from SemBench and LRO-Bench with positive rates as low as 2.17x10^-5 budget yields a geometric-mean F1 of 0.762,compared with 0.797 for exhaustive LLM evaluation, at a geometric-mean speedup of 4.87x and a maximum speedup of 9.3x.",
-   "score": 9,
-   "comment": ""
+   "source": "arXiv cs.LG",
+   "title": "What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?",
+   "link": "https://arxiv.org/abs/2611.08522",
+   "time": "11-09 05:00",
+   "summary": "arXiv:2611.08522v1 Announce Type: new Abstract: Recent work reports large gains for LLM agents on low-budget molecular optimization. We measure the contributions of online optimization, retrievable task information, and permissive oracle landscapes. On PMO at 50 oracle calls, a GPT-4o mini agent's sum AUC falls from 14.44 to 4.85 after task names and curated reference compounds are hidden. An identity-blinded condition that states only the oracle form (e.g., similarity to a hidden reference) scores 5.39, while a deterministic retrieval-only baseline with no LLM reaches 12.16 (84% of the full agent). A full 23-task 2x2 ablation and a three-seed replication on eight tasks support this interpretation. On a protein-targeted benchmark with an AutoDock Vina composite oracle, a single-edit random walk is a strong lower bound; across three seeds it obtains composite 0.636 +/- 0.008 and docking improvement -1.11 +/- 0.04 kcal/mol. As a positive control, a retrieval-free population agent exceeds REINVENT at a matched 50-call AUC budget, with its strongest result at 100 calls. These results motivate two inexpensive sanity checks: retrieval-safe PMO prompts and a random-walk floor for docking-based optimization.",
+   "comment": "",
+   "score": 42
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Logical Scalability in Big Data Architectures: Impact of Data Modeling on the Database Layer",
-   "link": "https://arxiv.org/abs/2611.09346",
-   "time": "11-09 13:00",
-   "summary": "arXiv:2611.09346v1 Announce Type: new Abstract: In modern Big Data architectures, scalability is often addressed through infrastructural expansion, involving vertical or horizontal scaling to manage growing data volumes. However, this hardware-centric perspective overlooks the logical scalability of the storage layer. A central challenge lies in how data modeling choices affect the storage layer of big data architectures. Specifically, when the data model is misaligned with the underlying query patterns, performance bottlenecks emerge and persist regardless of the available computational resources. This paper investigates the concept of logical scalability by conducting a comparative performance analysis of Document, Graph and Multi-Model database paradigms under varying workloads, queries and dataset scales. Our results demonstrate that performance degradation caused by model misalignment cannot be mitigated by additional computational resources alone. Increasing the number of machines while retaining a structurally inadequate data model yields performance equivalent to or worse than a single-machine configuration, as distributed coordination overhead compounds the inefficiencies of the underlying logical model. We demonstrate that efficiency is maximized when the logical structure of the database aligns with the inherent nature of the data and the intended analysis scope, a condition that proves to be more decisive than any infrastructural scaling strategy.",
-   "score": 8,
-   "comment": ""
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "time": "10-27 18:40",
+   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and b",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "沪指缩量涨0.3%，创业板午后转跌，煤炭掀起涨停潮，物理AI爆发，恒科指跌超1%，美团大跌6%",
+   "link": "https://wallstreetcn.com/articles/3785511",
+   "time": "11-09 08:14",
+   "summary": "11月9日，A股早盘集体上涨，三大股指盘初上涨，深成指、创业板涨超1%，盘中冲高回落，午后深成指、创业板纷纷转跌。太空算力、物理AI、电路板等概念股爆发，AI硬件股内部分化，国产芯片拉升，支撑科创50指数。煤炭、燃气、能源设备等板块活跃，其中煤炭掀起涨停潮。 港股全天震荡下跌，恒指、恒科指午后双双下跌，恒科指跌幅超过1%，科网股多数走低，美团大跌超6%，AI硬件、芯片午后亦多数回落，中际旭创跌超4",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 28
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "谷歌推出两款新TPU，挑战英伟达霸主地位！",
+   "link": "https://wallstreetcn.com/articles/3785589",
+   "time": "11-09 12:31",
+   "summary": "谷歌正大举拓展其人工智能芯片产品线，将与英伟达的竞争推向新阶段。这一举措发生在AI芯片市场需求持续旺盛、竞争格局加速转变的关键节点。 Alphabet于周一宣布推出新型张量处理器（TPU）变体芯片——TPU 8tx 和 TPU 8i Max，分别针对机密计算和长上下文窗口应用场景。至此，谷歌 TPU 芯片系列扩展至四款，覆盖更精细的市场需求。谷歌芯片业务负责人 Amin Vahdat 表示，“未来",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
+   "link": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+   "time": "11-02 11:00",
+   "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "优理奇完成5亿元Pre-A轮融资，下游场景伙伴绿地集团参投",
+   "link": "https://wallstreetcn.com/articles/3785586",
+   "time": "11-09 11:28",
+   "summary": "11月9日，通用具身智能机器人企业优理奇机器人（UniX AI，以下简称“优理奇”）宣布完成5亿元Pre-A轮融资。 公司披露，绿地集团以战略投资人身份加入本轮，传感器企业柯力传感（ 603662.SH ）列于投资方名单，投后估值未披露。 本轮投资方还包括华工创投、红鸟启航基金、玉林产投等机构，老股东谢诺投资、涌铧投资继续追加。公司称，募集资金将用于具身智能算法研究、工程化交付体系建设，并围绕物业",
+   "comment": "",
+   "score": 22
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+   "link": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+   "time": "10-29 10:00",
+   "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+   "comment": "",
+   "score": 21
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋丑闻搅动市场，英伟达跌5%，美股三大指数齐涨，半导体指数涨3%，布油跌超3%",
+   "link": "https://wallstreetcn.com/articles/3785518",
+   "time": "11-09 15:11",
+   "summary": "美股在经历标普500指数近一年来最差单周表现后，周一盘前出现企稳迹象。与此同时，英伟达首席执行官黄仁勋承认婚外情并公开致歉，令这家芯片巨头股价再度承压。 英伟达美股开盘跌8.8%，目前跌幅收窄至不足5%。此前CEO黄仁勋公开承认婚外情，公司董事会已启动调查。 标普500指数涨约1.6%，道指涨超1.3%，纳指涨超2%，半导体指数涨超3.4%，银行指数涨3.3%，罗素2000指数涨1.2%。 纳斯达",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋的影响力比英伟达还大——这正是问题所在",
+   "link": "https://wallstreetcn.com/articles/3785561",
+   "time": "11-09 09:06",
+   "summary": "英伟达创始人兼CEO黄仁勋陷入私生活丑闻，正在动摇远超一家公司范畴的市场根基。 英伟达周日宣布 ，将就黄仁勋的婚外情展开内部调查，对象是一名与其存在业务往来的商界女性高管。这一消息引发市场震动，不仅令这家市值4.5万亿美元的全球最大芯片公司治理结构承压，更令整个人工智能产业的融资生态蒙上阴影。英伟达夜盘承压下跌6%。 事件的深远影响在于，黄仁勋绝非普通意义上的企业掌舵人。 他是AI基础设施大规模扩",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋去留“五五开”？伯恩斯坦警告：往轻了说是“严重干扰”，往重了说是给民主党“递刀”！",
+   "link": "https://wallstreetcn.com/articles/3785568",
+   "time": "11-09 09:00",
+   "summary": "英伟达CEO黄仁勋承认婚外情的消息，迅速从一桩个人丑闻演变为一场牵动AI交易走向的市场事件。英伟达董事会宣布启动独立调查，美股盘前跌逾5%，这家全球最重要的AI芯片公司的不确定性骤然上升。 伯恩斯坦在周一的研报中警告，此事\"往好了说是严重干扰，往坏了说是给两党议员递刀\"—— 无论是AI强硬派，还是对黄仁勋与特朗普走近感到不满的民主党人，这一事件都可能成为在国会向英伟达施压的新弹药。伯恩斯坦维持\"跑",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+   "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+   "time": "11-09 11:00",
+   "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "What an Ontology for AI Agents Actually Needs",
+   "link": "https://www.dataengineeringweekly.com/p/an-ontology-for-ai-agents-is-a-system",
+   "time": "08-14 12:38",
+   "summary": "How to think about the semantic system that makes an agent coherent, governable, and useful.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: Drowning Financially",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-drowning-financially/",
+   "time": "11-04 13:00",
+   "summary": "On today's show we discuss reasons to be bearish, the joys of indexing in an AI boom, carnage in name-brand stocks, why the stock market is not down more, how the investing rules have changed, the buy",
+   "comment": "",
+   "score": 16
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: Diversifying the AI Trade",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-diversifying-the-ai-trade/",
+   "time": "11-02 13:00",
+   "summary": "On today's Talk Your Book we speak with Brian Griggs from Nuveen about how they help financial advisors build better portfolios, dealing with AI-related volatility, when to rebalance, the opportunity ",
+   "comment": "",
+   "score": 14
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Earnings & Expectations",
+   "link": "https://awealthofcommonsense.com/2026/10/the-stock-market-earnings-bonanza/",
+   "time": "10-30 20:30",
+   "summary": "Why are earnings up way more than the stock market this year? The post Earnings & Expectations appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 12
   }
  ]
 }
