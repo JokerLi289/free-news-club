@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 03:12",
+ "generated_at": "2026-11-11 04:14",
  "raw_total": 197,
  "items": [
   {
@@ -10,7 +10,7 @@
    "time": "11-10 18:15",
    "summary": "美国10月通胀再度超出市场预期，美债遭遇抛售，收益率全线大幅攀升；美元走强、利率上行预期升温，也令黄金和白银承压。美联储官员接连释放鹰派信号，市场不仅进一步押注12月加息，也开始评估更大幅度加息以及明年进一步收紧货币政策的可能性。 美东时间10日周二，美国CPI公布后，美国国债遭集中抛售，美债价格跳水、收益率加速上行。基准10年期美债收益率在CPI公布后升幅扩大，美联储官员洛根（Lorie Log",
    "comment": "",
-   "score": 78
+   "score": 77
   },
   {
    "group": "学术",
@@ -63,16 +63,6 @@
    "score": 60
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美通胀数据超预期，美债收益率跳升，美股走低，黄金跳水，布油自8月首破90美元",
-   "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 14:59",
-   "summary": "美国10月消费者价格指数（CPI）数据 公布后，市场反应迅速而剧烈。美元指数、美债收益率短线走高，美股承压下挫，市场开始计价下月美联储加息50个基点的可能。 美国国债遭遇抛售，2年期至10年期收益率单日涨幅均超过10个基点，10年期美债报4.97%，美元指数短线拉升约20点，报102.02。现货黄金则短线下挫约30美元，报4049.50美元/盎司。 美股盘初，标普500指数跌0.49%，道琼斯工业",
-   "comment": "",
-   "score": 52
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Toward Verifiable Auto-Research for Data Systems",
@@ -85,10 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
-   "link": "https://wallstreetcn.com/articles/3785664",
-   "time": "11-10 14:37",
-   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
+   "title": "美通胀数据超预期，美债收益率跳升，美股走低，黄金跳水，布油自8月首破90美元",
+   "link": "https://wallstreetcn.com/articles/3785613",
+   "time": "11-10 14:59",
+   "summary": "美国10月消费者价格指数（CPI）数据 公布后，市场反应迅速而剧烈。美元指数、美债收益率短线走高，美股承压下挫，市场开始计价下月美联储加息50个基点的可能。 美国国债遭遇抛售，2年期至10年期收益率单日涨幅均超过10个基点，10年期美债报4.97%，美元指数短线拉升约20点，报102.02。现货黄金则短线下挫约30美元，报4049.50美元/盎司。 美股盘初，标普500指数跌0.49%，道琼斯工业",
    "comment": "",
    "score": 51
   },
@@ -105,10 +95,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板涨近1.5%，AI硬件活跃，机器人爆发、宇树市值重回3000亿，恒科指涨超1%，AI大模型股双雄大涨10%",
-   "link": "https://wallstreetcn.com/articles/3785617",
-   "time": "11-10 08:23",
-   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国和日本股市收涨，韩国股市盘初一度涨至熔断，A股和港股的AI硬件全天活跃。 11月10日，A股全天震荡上涨，三大股指集体上涨，盘中震荡回落，午后基本维持涨势，创业板涨超1%，盘初一度涨超2%，AI短剧、机器人再度爆发，宇树科技涨超6%，市值重回3000亿上方。AI硬件拉升，电路板、光模块、光芯片、光",
+   "title": "美联储再次放鹰！今年票委Logan：至少还需加息两次，步伐或将加快",
+   "link": "https://wallstreetcn.com/articles/3785671",
+   "time": "11-10 19:45",
+   "summary": "美联储官员对通胀的担忧情绪明显升温，鹰派立场趋于强化。 今年FOMC轮值票委，达拉斯联储主席Lorie Logan周二表示， 美联储至少还需再加息两次，且冬季推进节奏或将快于今秋。 同日，美联储理事 Christopher Waller呼吁在12月会议上考虑加息50个基点 。与此同时， 美国10月CPI数据超预期 ，核心通胀环比升0.3%，进一步强化了市场对紧缩政策的预期。 受上述表态及通胀数据共",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
+   "link": "https://wallstreetcn.com/articles/3785664",
+   "time": "11-10 14:37",
+   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
    "comment": "",
    "score": 50
   },
@@ -210,7 +210,7 @@
    "time": "11-08 21:23",
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 36
+   "score": 35
   },
   {
    "group": "AI与数据",
@@ -225,10 +225,10 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-   "link": "https://latent.space/p/elorian/",
-   "time": "10-29 16:00",
-   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "link": "https://latent.space/p/resend/",
+   "time": "11-10 20:05",
+   "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
    "comment": "",
    "score": 30
   },
