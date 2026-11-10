@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10 17:17",
+ "generated_at": "2026-11-10 19:14",
  "raw_total": 197,
  "items": [
   {
@@ -15,12 +15,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美联储12月会加息吗？今晚CPI一锤定音！",
-   "link": "https://wallstreetcn.com/articles/3785630",
-   "time": "11-10 07:10",
-   "summary": "今晚公布的10月CPI数据，将成为美联储年内最后一次加息决策的关键依据。在强劲就业数据已为鹰派打开大门的背景下，通胀数据的走向，将直接决定联储主席Warsh是否在12月9日扣动加息扳机。 市场目前对12月加息的定价已高达约86%。上周五非农就业人数大幅超预期，新增16.5万人，远超市场预估的7万人，失业率回落至4.1%，劳动力市场已为鹰派提供了充分支撑。上次FOMC会议以10比2的投票结果维持利率",
+   "title": "纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”",
+   "link": "https://wallstreetcn.com/articles/3785652",
+   "time": "11-10 09:28",
+   "summary": "美联储理事Christopher Waller（克里斯托弗·沃勒）周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平—",
    "comment": "",
-   "score": 63
+   "score": 67
   },
   {
    "group": "AI与数据",
@@ -45,10 +45,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美联储理事沃勒：支持12月加息，若10月核心CPI环比达到0.3%，将支持加息50基点",
-   "link": "https://wallstreetcn.com/articles/3785652",
-   "time": "11-10 09:00",
-   "summary": "美联储理事Christopher Waller周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平——与此前两个月的读数",
+   "title": "美联储12月会加息吗？今晚CPI一锤定音！",
+   "link": "https://wallstreetcn.com/articles/3785630",
+   "time": "11-10 07:10",
+   "summary": "今晚公布的10月CPI数据，将成为美联储年内最后一次加息决策的关键依据。在强劲就业数据已为鹰派打开大门的背景下，通胀数据的走向，将直接决定联储主席Warsh是否在12月9日扣动加息扳机。 市场目前对12月加息的定价已高达约86%。上周五非农就业人数大幅超预期，新增16.5万人，远超市场预估的7万人，失业率回落至4.1%，劳动力市场已为鹰派提供了充分支撑。上次FOMC会议以10比2的投票结果维持利率",
    "comment": "",
    "score": 60
   },
@@ -60,7 +60,7 @@
    "time": "11-10 08:23",
    "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国和日本股市收涨，韩国股市盘初一度涨至熔断，A股和港股的AI硬件全天活跃。 11月10日，A股全天震荡上涨，三大股指集体上涨，盘中震荡回落，午后基本维持涨势，创业板涨超1%，盘初一度涨超2%，AI短剧、机器人再度爆发，宇树科技涨超6%，市值重回3000亿上方。AI硬件拉升，电路板、光模块、光芯片、光",
    "comment": "",
-   "score": 57
+   "score": 53
   },
   {
    "group": "学术",
@@ -173,16 +173,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
-   "link": "https://wallstreetcn.com/articles/3785604",
-   "time": "11-09 22:19",
-   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Process then Retrieve: Investigating the Origins of the Modality Gap in Vision-Language Models",
@@ -191,16 +181,6 @@
    "summary": "arXiv:2611.09897v1 Announce Type: new Abstract: Understanding the origins of the modality gap in vision language models remains a significant challenge. This work investigates whether differences in information density between modality specific tokens at the embedding layer contribute to this imbalance. We show that text tokens enter the model with much lower semantic density than visual tokens, driving early layers to focus on processing text representations before combining them with vision. Through mechanistic analysis, we demonstrate that replacing vision token positions with their semantically closest text token counterparts elicits increased attention to those positions in early layers. These findings provide a foundation for addressing the modality gap and provide insight to improve multimodal reasoning in VLM architectures.",
    "comment": "",
    "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "全球科技股反弹，欧洲斯托克600创新高，英伟达夜盘涨2%，布油自8月首破90美元",
-   "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 08:53",
-   "summary": "全球股市周二延续反弹势头，有望录得逾三个月来最佳两日涨幅，科技股回暖与油价持续回落共同提振市场情绪。亚洲市场领涨，韩国综指涨幅居前，美股期货小幅走高。 欧洲斯托克600指数上涨0.8%，突破收盘历史最高纪录。MSCI全球股票指数周二上涨0.4%，叠加周一2.2%的涨幅，全球股市正朝着三个月来最强两日表现迈进。在亚洲市场，韩国综合股价指数大涨4.4%，以芯片股为主的权重结构助推其成为当日表现最佳的主",
-   "comment": "",
-   "score": 39
   },
   {
    "group": "AI与数据",
@@ -213,6 +193,16 @@
    "score": 37
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美股期货涨幅收窄，纳指期货转跌，英伟达夜盘涨2%，布油自8月首破90美元，黄金跳水",
+   "link": "https://wallstreetcn.com/articles/3785613",
+   "time": "11-10 08:53",
+   "summary": "全球股市周二延续反弹势头，有望录得逾三个月来最佳两日涨幅，科技股回暖与油价持续回落共同提振市场情绪。亚洲市场领涨，韩国综指涨幅居前，美股期货小幅走高。 欧洲斯托克600指数上涨0.8%，突破收盘历史最高纪录。MSCI全球股票指数周二上涨0.4%，叠加周一2.2%的涨幅，全球股市正朝着三个月来最强两日表现迈进。在亚洲市场，韩国综合股价指数大涨4.4%，以芯片股为主的权重结构助推其成为当日表现最佳的主",
+   "comment": "",
+   "score": 35
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -221,6 +211,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "软银两年来首次季度亏损！AI暴跌重创愿景基金，美国数据中心项目遭巨额减值",
+   "link": "https://wallstreetcn.com/articles/3785648",
+   "time": "11-10 08:09",
+   "summary": "软银集团近两年来首次录得季度净亏损，核心原因是其美国数据中心项目产生了巨额减值，叠加科技股估值普跌拖累投资组合，AI热潮能否持续的疑虑正以实实在在的财务代价呈现。 软银周二公布， 截至9月30日的财年第二季度净亏损达1.12万亿日元（约71亿美元）， 与市场预期盈利1290亿日元形成鲜明反差，去年同期则录得2.5万亿日元的净利润。 亏损主要源于一笔折合约37亿美元（597.25亿日元）的损失——公",
+   "comment": "",
+   "score": 32
   },
   {
    "group": "AI与数据",
@@ -250,27 +250,7 @@
    "time": "11-02 11:00",
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
-   "score": 24
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
-   "link": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
-   "time": "10-29 10:00",
-   "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
-   "comment": "",
-   "score": 21
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
-   "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
-   "time": "11-09 11:00",
-   "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
-   "comment": "",
-   "score": 20
+   "score": 23
   },
   {
    "group": "AI与数据",
@@ -281,6 +261,26 @@
    "summary": "How to think about the semantic system that makes an agent coherent, governable, and useful.",
    "comment": "",
    "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+   "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+   "time": "11-09 11:00",
+   "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "2026.45: Falling Leaves (and Stocks)",
+   "link": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+   "time": "11-06 18:14",
+   "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
+   "comment": "",
+   "score": 18
   },
   {
    "group": "财经深度",
