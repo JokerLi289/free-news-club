@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-10 16:19",
- "raw_total": 140,
+ "generated_at": "2026-11-10 17:17",
+ "raw_total": 197,
  "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Hybrid Product Search Without the Copy: Lexical, Semantic and Filtered Retrieval Served Directly from a Data Lake",
+   "link": "https://arxiv.org/abs/2611.11031",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.11031v1 Announce Type: cross Abstract: E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record. We extend Apache Pinot, a real-time OLAP engine that already serves Iceberg tables in place, with BM25 relevance scoring over its Lucene text index, corpus-wide term statistics so that scores are comparable across files, and reciprocal rank fusion in plain SQL; a real-time table fed by a stream can sit behind the same table, merged by the broker. On the Amazon ESCI benchmark (1.2M US products, 22,458 test queries), hybrid search served from the lake matches exact retrieval (nDCG@10 .361). The lake table is queryable 149 s after its files are registered, and a lake commit is searchable in 3.8 s, close to indexing directly into a search engine. On a brand-sorted lake of 277M products (0.8 TB), one 16-vCPU node answers brand-scoped vector, BM25 and client-fused hybrid searches in 6.5-9 ms (p50), sustains 1,100 vector and 635 BM25 searches per second at under 180 ms p99, and makes a commit searchable in 4.3 s. Search adds only its indexes: no copy of the catalog, no sync pipeline and no second schema, which cuts storage, rebuild time and the operational work of keeping copies consistent.",
+   "comment": "",
+   "score": 70
+  },
   {
    "group": "快讯",
    "source": "华尔街见闻",
@@ -10,7 +20,7 @@
    "time": "11-10 07:10",
    "summary": "今晚公布的10月CPI数据，将成为美联储年内最后一次加息决策的关键依据。在强劲就业数据已为鹰派打开大门的背景下，通胀数据的走向，将直接决定联储主席Warsh是否在12月9日扣动加息扳机。 市场目前对12月加息的定价已高达约86%。上周五非农就业人数大幅超预期，新增16.5万人，远超市场预估的7万人，失业率回落至4.1%，劳动力市场已为鹰派提供了充分支撑。上次FOMC会议以10比2的投票结果维持利率",
    "comment": "",
-   "score": 68
+   "score": 63
   },
   {
    "group": "AI与数据",
@@ -23,6 +33,106 @@
    "score": 61
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Coordinated Mixed-Precision KV Cache Quantization for Efficient LLM-based Multi-agent Systems",
+   "link": "https://arxiv.org/abs/2611.10096",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.10096v1 Announce Type: new Abstract: LLM-based multi-agent systems solve complex tasks through collaboration, but their growing, simultaneously resident key-value (KV) caches create a memory bottleneck. Applying single-model quantization policies independently ignores differences in agents' precision needs, potentially degrading collective reasoning. We introduce Coordinated Mixed-Precision KV Cache Quantization (CoMixKV), which combines online sensitivity estimation with joint agent-layer bit-width allocation under a shared memory budget. To our knowledge, CoMixKV is the first mixed-precision KV-cache quantization framework to jointly allocate precision across simultaneously resident agent caches under such a budget. The estimator derives sensitivity from a local attention-error bound using recent queries, keys, and values, without calibration data, trial quantization, or additional model passes. A shared controller combines these scores with remaining quantizable capacity and byte-level storage costs to minimize total estimated error. Allocations are refreshed as agents start or finish and new observations become available. Selected widths apply only to newly quantized blocks; recent states retain native precision and previously quantized blocks remain unchanged. Across four benchmarks and three LLM backbones at average 2-bit, 3-bit, and 4-bit settings, CoMixKV achieves strong accuracy against the evaluated quantization baselines. At the average 3-bit setting on Gemma-4-31B-it, it achieves 68.35% average accuracy, exceeding the strongest quantized baseline by 0.59%. On Qwen3-32B, it reduces peak KV-cache memory by 32.08% and achieves a 1.38x inference speedup over FullKV.",
+   "comment": "",
+   "score": 61
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储理事沃勒：支持12月加息，若10月核心CPI环比达到0.3%，将支持加息50基点",
+   "link": "https://wallstreetcn.com/articles/3785652",
+   "time": "11-10 09:00",
+   "summary": "美联储理事Christopher Waller周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平——与此前两个月的读数",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板涨近1.5%，AI硬件活跃，机器人爆发、宇树市值重回3000亿，恒科指涨超1%，AI大模型股双雄大涨10%",
+   "link": "https://wallstreetcn.com/articles/3785617",
+   "time": "11-10 08:23",
+   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国和日本股市收涨，韩国股市盘初一度涨至熔断，A股和港股的AI硬件全天活跃。 11月10日，A股全天震荡上涨，三大股指集体上涨，盘中震荡回落，午后基本维持涨势，创业板涨超1%，盘初一度涨超2%，AI短剧、机器人再度爆发，宇树科技涨超6%，市值重回3000亿上方。AI硬件拉升，电路板、光模块、光芯片、光",
+   "comment": "",
+   "score": 57
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Toward Verifiable Auto-Research for Data Systems",
+   "link": "https://arxiv.org/abs/2611.12063",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.12063v1 Announce Type: new Abstract: AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
+   "comment": "",
+   "score": 52
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Transactional Data Change for Real-Time Analytics in Lakehouses",
+   "link": "https://arxiv.org/abs/2611.12169",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.12169v1 Announce Type: new Abstract: Real-time data analytics has become a key demand for lakehouses. It requires propagating data changes from the data source to the lakehouse in real time, while ensuring ACID guarantees and minimizing resource consumption and impact on analytical query performance. This is highly challenging for a data system according to the RUM conjecture, especially given the read-optimized immutable file storage layer in lakehouses. Existing lakehouses offer only git-style catalog version control on a single table, and they trade data freshness, query performance, and/or resource efficiency to achieve a barely acceptable data-change throughput. In this paper, we propose a novel data synchronization framework, Retina, that enables real-time, cost-efficient, query-performant, and fully transactional data changes in lakehouses. We implement and open-source Retina. Evaluations show that Retina delivers 10-millisecond-level data freshness and over 3.2 million row/s linear-scalable data-change throughput with low resource consumption and query-performance overhead, significantly outperforming state-of-the-art lakehouse systems and lake-compatible HTAP databases.",
+   "comment": "",
+   "score": 51
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Semiprime Factorization with Discrete Diffusion and Beam Search: Scaling Laws",
+   "link": "https://arxiv.org/abs/2611.10202",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.10202v1 Announce Type: new Abstract: We demonstrate that transformer architectures trained with discrete denoising diffusion and decoded via guided test-time beam search can learn to recover the prime factors of semiprime integers directly from data. Our approach establishes a new frontier for learning-based semiprime factorization, successfully factoring 68-bit integers-a substantial advance over the prior 56-bit state of the art. While computationally less efficient than classical factoring algorithms, our model requires no domain-specific number-theoretic priors and learns purely from training examples. In practice, the diffusion model acts as a generative prior, identifying promising factor candidates where exact verification or lattice-based post-processing can complete the factorization. Furthermore, we derive empirical scaling laws relating approximation quality to training data volume, model size, and test-time computation. In contrast to language, problem size is the key driver of scaling behavior. Achieving a fixed accuracy on a held-out test set requires compute that scales exponentially with bit length. Consequently, our findings pose no threat to security, as the projected compute cost required to factorize cryptographically relevant integers remains prohibitive.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "FedLoVA: Value-Only Aggregation for Federated LoRA Fine-Tuning of Large Language Models",
+   "link": "https://arxiv.org/abs/2611.10248",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.10248v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) is a popular parameter-efficient fine-tuning (PEFT) method for fine-tuning of large language models (LLMs), especially in federated learning, due to its strong performance and communication efficiency. In practice, LoRA is applied to the query and value projections of transformer layers without considering the distinct roles of these components. In this work, we analyze the impact of these projections in federated fine-tuning of LLMs using LoRA and observe that the value projection converges significantly faster than the query projection. Motivated by this finding, we propose FedLoVA, a federated fine-tuning framework that trains LoRA adapters on both query and value projections locally while sharing only the value projection with the server. This approach reduces communication overhead while improving convergence efficiency. Experiments on natural language understanding, multilingual sentiment analysis, and generation tasks show that FedLoVA reduces the communication cost by up to $7.8\\times$ compared to existing federated LLM fine-tuning baselines while achieving comparable or better performance. The code is available at: https://github.com/EnsiehKhazaei/FedLoVA.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "A Clinical Evaluation of Conformal Prediction for Chest Radiograph Report Generation",
+   "link": "https://arxiv.org/abs/2611.10288",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.10288v1 Announce Type: new Abstract: While multimodal large language models (MLLMs) have improved automated radiology report generation, they remain prone to hallucinations, necessitating clinically meaningful risk-control methods. Conformal prediction (CP) provides statistical guarantees, yet existing CP approaches rely on uncalibrated automated extractors and fail to account for the clinical relevance of errors. We introduce clinical admissibility criteria (CLARITY), a framework for evaluating radiology reports that explicitly distinguishes clinically consequential errors from minor deviations. To eliminate reliance on automatic judges, we collected radiologist annotations of MLLM-generated reports using CLARITY. By benchmarking CP strategies and automatic evaluation metrics against these expert annotations, we demonstrate that commonly used admissibility proxies systematically fail to detect clinically relevant errors. Our findings reveal that automated admissibility judgments are largely decoupled from true clinical admissibility.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search",
+   "link": "https://arxiv.org/abs/2611.12539",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.12539v1 Announce Type: new Abstract: Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems. In practice, objects are often also associated with labels (e.g., attributes or keywords), and retrieval must combine vector similarity with explicit label-based filtering, giving rise to label-filtered ANNS. This task is challenging because label filtering and ANNS favor very different index structures, selective filters fragment the admissible search space, and updates complicate index maintenance. To address these challenges, we propose DYLAN, a dynamic composite index for label-filtered ANNS supporting containment, overlap, and their conjunctions and disjunctions. DYLAN organizes label sets by shared prefixes in a frequency-ordered trie and selectively shares HNSW-style graph indices across trie-induced subsets, so that each trie region has a constant-factor covering index while each object participates in only logarithmically many indices. To mitigate fragmentation, DYLAN performs a cross-region multi-graph search that exploits ancestor-level indices as bridges between otherwise isolated trie regions. To support insertions, it adopts a threshold-based maintenance scheme that rebuilds shared indices only when necessary, yielding low amortized update cost. Extensive experiments with real data show that DYLAN consistently improves query throughput at comparable recall, by up to two orders of magnitude on challenging label-rich datasets, while retaining competitive memory, construction, and update costs.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Flash-Fusion: Fast, Expressive Queries over Sensor Streams with LLMs",
+   "link": "https://arxiv.org/abs/2511.11885",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2511.11885v2 Announce Type: replace-cross Abstract: Pervasive sensor deployments have generated significant interest in IoT data analysis across fields such as healthcare, transportation and urban planning. At the same time, the rise of Large Language Models (LLMs) offer a new tool for exploring IoT data through their expressive, natural language interface. Unfortunately, natural language querying of IoT sensor streams is impractical today: raw telemetry exhausts LLM context windows in fractions of a second at scale, incurs prohibitive per-token costs, and produces hallucinated responses. Existing systems work around these limits with lossy text summarization or unconstrained code synthesis, producing expensive, unverified computations. Multi-step queries compound this problem: logical errors in intermediate operations can derail the final answer. We present Flash-Fusion, an agentic framework for natural-language querying of tabular IoT data. Flash-Fusion identifies which available data fields and supported derivations can answer the user's query, constructs a plan using typed, domain-specific operators, and validates its structure and schema compatibility before executing. Because constructing plans still requires costly LLM reasoning, Flash-Fusion caches validated operator sequences for reuse across compatible queries. A smaller LLM adapts a cached plan's parameters to each query, cutting latency and cost. We evaluate Flash-Fusion across human activity recognition, ECG monitoring, and vehicular telematics, covering direct lookups, multi-step reasoning, predictive tasks, and out-of-scope requests. Flash-Fusion achieves 92.2% query accuracy versus 76.1% for ReAct, the strongest baseline, while completing queries 7x faster and consuming 5x fewer tokens. Flash-Fusion enables users across disciplines to explore IoT data without manually constructing queries.",
+   "comment": "",
+   "score": 50
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -31,16 +141,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 49
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "风险正在转移！高盛：芯片商CDS利差首次超过超大云厂商，AI违约掉期创纪录",
-   "link": "https://wallstreetcn.com/articles/3785628",
-   "time": "11-10 06:08",
-   "summary": "AI产业链的债务风险，正在从大型云计算公司向芯片供应商转移。 据高盛销售与交易部门上周日发布的四份信贷报告， 由博通、AMD、英伟达和英特尔组成的芯片公司信用违约互换篮子（CDS，可理解为市场对企业违约风险的定价）利差，近三个月来首次超过了甲骨文、Meta、亚马逊、Alphabet、微软等超大规模云厂商的CDS篮子。 这意味着，投资者开始更担心芯片公司要承担的风险：一边是高价图形处理器（GPU）更",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "AI与数据",
@@ -65,12 +165,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板半日涨近1.5%，AI硬件反弹、“易中天”拉升，机器人爆发、宇树市值重回3000亿，恒科指一度涨1%",
-   "link": "https://wallstreetcn.com/articles/3785617",
-   "time": "11-10 04:05",
-   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国KOSPI指数盘初大涨，韩国交易所对KOSPI指数启动程序化交易暂停机制，暂停程序化买盘。芯片巨头SK海力士和三星电子亦拉升，A股和港股的AI硬件普遍反弹。 11月10日，A股早盘集体高开，盘中震荡回落，三大股指涨幅均收窄，沪指接近平盘，创业板涨1%，盘初一度涨超2%，AI短剧、机器人再度爆发，宇",
+   "title": "风险正在转移！高盛：芯片商CDS利差首次超过超大云厂商，AI违约掉期创纪录",
+   "link": "https://wallstreetcn.com/articles/3785628",
+   "time": "11-10 06:08",
+   "summary": "AI产业链的债务风险，正在从大型云计算公司向芯片供应商转移。 据高盛销售与交易部门上周日发布的四份信贷报告， 由博通、AMD、英伟达和英特尔组成的芯片公司信用违约互换篮子（CDS，可理解为市场对企业违约风险的定价）利差，近三个月来首次超过了甲骨文、Meta、亚马逊、Alphabet、微软等超大规模云厂商的CDS篮子。 这意味着，投资者开始更担心芯片公司要承担的风险：一边是高价图形处理器（GPU）更",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "快讯",
@@ -83,21 +183,21 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美伊和谈信号重创原油，黄仁勋风波未阻AI交易回暖，纳指涨近3%，英伟达逆市跌超4%",
-   "link": "https://wallstreetcn.com/articles/3785518",
-   "time": "11-09 21:55",
-   "summary": "美伊核谈判取得进展的消息重创原油，油价大跌缓和通胀担忧；与此同时，AI交易延续上周五的回暖势头，并未因英伟达CEO黄仁勋相关风波而重新陷入抛售，推动美股两大主要指数大幅上涨。周一，纳指涨近3%，标普创七个月来最大日涨幅，而英伟达逆势收跌逾4%。 周一美油大幅回落，10年期美债收益率继续上行、价格两连跌，标普两日反弹 AI基础设施和数据中心产业链股票普遍走高，上周遭遇大幅抛售的甲骨文、戴尔、Core",
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Process then Retrieve: Investigating the Origins of the Modality Gap in Vision-Language Models",
+   "link": "https://arxiv.org/abs/2611.09897",
+   "time": "11-10 05:00",
+   "summary": "arXiv:2611.09897v1 Announce Type: new Abstract: Understanding the origins of the modality gap in vision language models remains a significant challenge. This work investigates whether differences in information density between modality specific tokens at the embedding layer contribute to this imbalance. We show that text tokens enter the model with much lower semantic density than visual tokens, driving early layers to focus on processing text representations before combining them with vision. Through mechanistic analysis, we demonstrate that replacing vision token positions with their semantically closest text token counterparts elicits increased attention to those positions in early layers. These findings provide a foundation for addressing the modality gap and provide insight to improve multimodal reasoning in VLM architectures.",
    "comment": "",
    "score": 40
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "全球科技股反弹，欧洲斯托克600创新高，英飞凌涨4.6%，韩股收涨4.4%，油价下跌",
+   "title": "全球科技股反弹，欧洲斯托克600创新高，英伟达夜盘涨2%，布油自8月首破90美元",
    "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 08:06",
+   "time": "11-10 08:53",
    "summary": "全球股市周二延续反弹势头，有望录得逾三个月来最佳两日涨幅，科技股回暖与油价持续回落共同提振市场情绪。亚洲市场领涨，韩国综指涨幅居前，美股期货小幅走高。 欧洲斯托克600指数上涨0.8%，突破收盘历史最高纪录。MSCI全球股票指数周二上涨0.4%，叠加周一2.2%的涨幅，全球股市正朝着三个月来最强两日表现迈进。在亚洲市场，韩国综合股价指数大涨4.4%，以芯片股为主的权重结构助推其成为当日表现最佳的主",
    "comment": "",
    "score": 39
