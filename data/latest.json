@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10 08:34",
+ "generated_at": "2026-11-10 10:20",
  "raw_total": 181,
  "items": [
   {
@@ -63,6 +63,16 @@
    "score": 53
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板盘初涨超2%，AI硬件反弹、“易中天”拉升，机器人爆发、宇树市值重回3000亿，恒科指涨1%",
+   "link": "https://wallstreetcn.com/articles/3785617",
+   "time": "11-10 01:57",
+   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国KOSPI指数盘初大涨，韩国交易所对KOSPI指数启动程序化交易暂停机制，暂停程序化买盘。芯片巨头SK海力士和三星电子亦拉升，A股和港股的AI硬件普遍反弹。 11月10日，A股早盘集体高开，三大股指盘初上涨，创业板涨超2%，AI应用、机器人再度爆发，宇树科技涨超8%。AI硬件拉升，光模块、光芯片、",
+   "comment": "",
+   "score": 50
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -91,16 +101,6 @@
    "summary": "arXiv:2611.08500v1 Announce Type: new Abstract: Graph Transformers improve long-range node-to-node communication through global or structure-aware interactions. However, improving cross-node communication does not determine how computations produced at different depths should be combined. Standard residual streams accumulate successive computations with fixed unit coefficients shared across nodes. This fixed aggregation is a residual-interface constraint: once intermediate contributions have been produced, the interface cannot explicitly reweight them by node. We hypothesize that this constraint can create a depth-wise aggregation mismatch when the relative utility of these intermediate contributions varies across nodes and structural contexts. To study this hypothesis, we formalize Graph Transformer residual computation as a causal node-wise history of graph-propagation and feed-forward network (FFN) contributions, making depth aggregation an explicit interface choice. We realize node-adaptive aggregation over this history with Attention Residuals (AttnRes) while preserving the backbone's graph-propagation and auxiliary-state machinery. Block AttnRes reduces the routing cost of long histories relative to Full AttnRes by pooling consecutive contributions. We instantiate the interface in GPS and GRIT and evaluate it on all five ECHO tasks. Both variants achieve lower mean absolute error (MAE) than their independently tuned backbones on every task, and at least one obtains the lowest mean among all compared methods in each task. Routing-only donor-swap interventions support the mismatch hypothesis, while additional ablations examine the key design choices. Together, these results support node-adaptive depth aggregation as a useful complement to cross-node communication in long-range graph reasoning.",
    "comment": "",
    "score": 46
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
-   "link": "https://wallstreetcn.com/articles/3785604",
-   "time": "11-09 22:19",
-   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "学术",
@@ -133,6 +133,16 @@
    "score": 43
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
+   "link": "https://wallstreetcn.com/articles/3785604",
+   "time": "11-09 22:19",
+   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
+   "comment": "",
+   "score": 42
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "LLM Powered Autonomous Agents",
@@ -160,7 +170,7 @@
    "time": "11-09 21:55",
    "summary": "美伊核谈判取得进展的消息重创原油，油价大跌缓和通胀担忧；与此同时，AI交易延续上周五的回暖势头，并未因英伟达CEO黄仁勋相关风波而重新陷入抛售，推动美股两大主要指数大幅上涨。周一，纳指涨近3%，标普创七个月来最大日涨幅，而英伟达逆势收跌逾4%。 周一美油大幅回落，10年期美债收益率继续上行、价格两连跌，标普两日反弹 AI基础设施和数据中心产业链股票普遍走高，上周遭遇大幅抛售的甲骨文、戴尔、Core",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -173,16 +183,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic逆市推进IPO！最快周二路演，冲刺下周四、五上市，估值或再打“八折”",
-   "link": "https://wallstreetcn.com/articles/3785598",
-   "time": "11-10 00:09",
-   "summary": "尽管AI板块近期遭遇剧烈抛售，Anthropic仍决定顶住市场压力推进IPO，此次大规模上市将直接测试公开市场对前沿AI资产的风险偏好与定价意愿。 据《华尔街日报》最新报道， 一周前，投资者预期Anthropic的估值目标约为1.5万亿美元，但在经历了AI公司股票的暴跌后，一些主要投资者现在希望目标估值更低。 目前，该公司高管一直在与高盛和摩根士丹利的银行家会面，商讨估值区间的最终确定。 据彭博6",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
@@ -193,6 +193,16 @@
    "score": 38
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic逆市推进IPO！最快周二路演，冲刺下周四、五上市，估值或再打“八折”",
+   "link": "https://wallstreetcn.com/articles/3785598",
+   "time": "11-10 00:09",
+   "summary": "尽管AI板块近期遭遇剧烈抛售，Anthropic仍决定顶住市场压力推进IPO，此次大规模上市将直接测试公开市场对前沿AI资产的风险偏好与定价意愿。 据《华尔街日报》最新报道， 一周前，投资者预期Anthropic的估值目标约为1.5万亿美元，但在经历了AI公司股票的暴跌后，一些主要投资者现在希望目标估值更低。 目前，该公司高管一直在与高盛和摩根士丹利的银行家会面，商讨估值区间的最终确定。 据彭博6",
+   "comment": "",
+   "score": 36
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -201,16 +211,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "沪指缩量涨0.3%，创业板午后转跌，煤炭掀起涨停潮，物理AI爆发，恒科指跌超1%，美团大跌6%",
-   "link": "https://wallstreetcn.com/articles/3785511",
-   "time": "11-09 08:14",
-   "summary": "11月9日，A股早盘集体上涨，三大股指盘初上涨，深成指、创业板涨超1%，盘中冲高回落，午后深成指、创业板纷纷转跌。太空算力、物理AI、电路板等概念股爆发，AI硬件股内部分化，国产芯片拉升，支撑科创50指数。煤炭、燃气、能源设备等板块活跃，其中煤炭掀起涨停潮。 港股全天震荡下跌，恒指、恒科指午后双双下跌，恒科指跌幅超过1%，科网股多数走低，美团大跌超6%，AI硬件、芯片午后亦多数回落，中际旭创跌超4",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "AI与数据",
@@ -230,7 +230,7 @@
    "time": "11-09 23:14",
    "summary": "华见早安之声 市场概述 美伊和谈信号重创原油，黄仁勋风波未阻AI交易回暖，标普创七个月最大日涨，和道指均收涨超2%，纳指涨近3%， 芯片指数收涨近7%、两日累计涨11%，AMD涨超10%， 英伟达逆市跌超4% 。SpaceX涨5.5%；AI基础设施股延续上周五反弹，Coherent涨近18%、Bloom Energy和Lumentum涨超10%。 美伊核谈判进展消息后，盘中布油跌近8%，期金涨2%",
    "comment": "",
-   "score": 26
+   "score": 24
   },
   {
    "group": "财经深度",
@@ -250,7 +250,7 @@
    "time": "11-09 22:00",
    "summary": "美国劳工统计局（BLS）将于本周二发布10月消费者价格指数（CPI）报告，但不会公布同比变动数据。 BLS发言人Cody Parkinson表示，2025年政府停摆期间，BLS未能完整采集当月部分价格数据，且事后也无法追溯补全，导致该机构在计算今年10月CPI及核心CPI的12个月同比变动时缺乏必要的基期数据。 与此相关的实际薪资同比增速数据同样不会公布。 通常情况下，同比涨幅是公众理解通胀走势最",
    "comment": "",
-   "score": 23
+   "score": 21
   },
   {
    "group": "财经深度",
