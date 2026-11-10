@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-10 14:23",
+ "generated_at": "2026-11-10 15:16",
  "raw_total": 140,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储12月会加息吗？今晚CPI一锤定音！",
+   "link": "https://wallstreetcn.com/articles/3785630",
+   "time": "11-10 07:10",
+   "summary": "今晚公布的10月CPI数据，将成为美联储年内最后一次加息决策的关键依据。在强劲就业数据已为鹰派打开大门的背景下，通胀数据的走向，将直接决定联储主席Warsh是否在12月9日扣动加息扳机。 市场目前对12月加息的定价已高达约86%。上周五非农就业人数大幅超预期，新增16.5万人，远超市场预估的7万人，失业率回落至4.1%，劳动力市场已为鹰派提供了充分支撑。上次FOMC会议以10比2的投票结果维持利率",
+   "comment": "",
+   "score": 70
+  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -10,17 +20,7 @@
    "time": "11-03 05:35",
    "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
    "comment": "",
-   "score": 62
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "风险正在转移！高盛：芯片商CDS利差首次超过超大云厂商，AI违约掉期创纪录",
-   "link": "https://wallstreetcn.com/articles/3785628",
-   "time": "11-10 06:08",
-   "summary": "AI产业链的债务风险，正在从大型云计算公司向芯片供应商转移。 据高盛销售与交易部门上周日发布的四份信贷报告， 由博通、AMD、英伟达和英特尔组成的芯片公司信用违约互换篮子（CDS，可理解为市场对企业违约风险的定价）利差，近三个月来首次超过了甲骨文、Meta、亚马逊、Alphabet、微软等超大规模云厂商的CDS篮子。 这意味着，投资者开始更担心芯片公司要承担的风险：一边是高价图形处理器（GPU）更",
-   "comment": "",
-   "score": 50
+   "score": 61
   },
   {
    "group": "财经深度",
@@ -35,12 +35,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "风险正在转移！高盛：芯片商CDS利差首次超过超大云厂商，AI违约掉期创纪录",
+   "link": "https://wallstreetcn.com/articles/3785628",
+   "time": "11-10 06:08",
+   "summary": "AI产业链的债务风险，正在从大型云计算公司向芯片供应商转移。 据高盛销售与交易部门上周日发布的四份信贷报告， 由博通、AMD、英伟达和英特尔组成的芯片公司信用违约互换篮子（CDS，可理解为市场对企业违约风险的定价）利差，近三个月来首次超过了甲骨文、Meta、亚马逊、Alphabet、微软等超大规模云厂商的CDS篮子。 这意味着，投资者开始更担心芯片公司要承担的风险：一边是高价图形处理器（GPU）更",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "创业板半日涨近1.5%，AI硬件反弹、“易中天”拉升，机器人爆发、宇树市值重回3000亿，恒科指一度涨1%",
    "link": "https://wallstreetcn.com/articles/3785617",
    "time": "11-10 04:05",
    "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国KOSPI指数盘初大涨，韩国交易所对KOSPI指数启动程序化交易暂停机制，暂停程序化买盘。芯片巨头SK海力士和三星电子亦拉升，A股和港股的AI硬件普遍反弹。 11月10日，A股早盘集体高开，盘中震荡回落，三大股指涨幅均收窄，沪指接近平盘，创业板涨1%，盘初一度涨超2%，AI短剧、机器人再度爆发，宇",
    "comment": "",
-   "score": 47
+   "score": 43
   },
   {
    "group": "AI与数据",
@@ -85,22 +95,12 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-   "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
-   "time": "10-27 18:40",
-   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and b",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
    "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
    "time": "11-08 21:23",
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 38
+   "score": 37
   },
   {
    "group": "AI与数据",
@@ -123,12 +123,12 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic逆市推进IPO！最快周二路演，冲刺下周四、五上市，估值或再打“八折”",
-   "link": "https://wallstreetcn.com/articles/3785598",
-   "time": "11-10 00:09",
-   "summary": "尽管AI板块近期遭遇剧烈抛售，Anthropic仍决定顶住市场压力推进IPO，此次大规模上市将直接测试公开市场对前沿AI资产的风险偏好与定价意愿。 据《华尔街日报》最新报道， 一周前，投资者预期Anthropic的估值目标约为1.5万亿美元，但在经历了AI公司股票的暴跌后，一些主要投资者现在希望目标估值更低。 目前，该公司高管一直在与高盛和摩根士丹利的银行家会面，商讨估值区间的最终确定。 据彭博6",
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+   "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+   "time": "11-10 06:34",
+   "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
    "comment": "",
    "score": 30
   },
