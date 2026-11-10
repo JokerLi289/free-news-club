@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10 10:20",
+ "generated_at": "2026-11-10 11:17",
  "raw_total": 181,
  "items": [
   {
@@ -63,16 +63,6 @@
    "score": 53
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板盘初涨超2%，AI硬件反弹、“易中天”拉升，机器人爆发、宇树市值重回3000亿，恒科指涨1%",
-   "link": "https://wallstreetcn.com/articles/3785617",
-   "time": "11-10 01:57",
-   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国KOSPI指数盘初大涨，韩国交易所对KOSPI指数启动程序化交易暂停机制，暂停程序化买盘。芯片巨头SK海力士和三星电子亦拉升，A股和港股的AI硬件普遍反弹。 11月10日，A股早盘集体高开，三大股指盘初上涨，创业板涨超2%，AI应用、机器人再度爆发，宇树科技涨超8%。AI硬件拉升，光模块、光芯片、",
-   "comment": "",
-   "score": 50
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -101,6 +91,16 @@
    "summary": "arXiv:2611.08500v1 Announce Type: new Abstract: Graph Transformers improve long-range node-to-node communication through global or structure-aware interactions. However, improving cross-node communication does not determine how computations produced at different depths should be combined. Standard residual streams accumulate successive computations with fixed unit coefficients shared across nodes. This fixed aggregation is a residual-interface constraint: once intermediate contributions have been produced, the interface cannot explicitly reweight them by node. We hypothesize that this constraint can create a depth-wise aggregation mismatch when the relative utility of these intermediate contributions varies across nodes and structural contexts. To study this hypothesis, we formalize Graph Transformer residual computation as a causal node-wise history of graph-propagation and feed-forward network (FFN) contributions, making depth aggregation an explicit interface choice. We realize node-adaptive aggregation over this history with Attention Residuals (AttnRes) while preserving the backbone's graph-propagation and auxiliary-state machinery. Block AttnRes reduces the routing cost of long histories relative to Full AttnRes by pooling consecutive contributions. We instantiate the interface in GPS and GRIT and evaluate it on all five ECHO tasks. Both variants achieve lower mean absolute error (MAE) than their independently tuned backbones on every task, and at least one obtains the lowest mean among all compared methods in each task. Routing-only donor-swap interventions support the mismatch hypothesis, while additional ablations examine the key design choices. Together, these results support node-adaptive depth aggregation as a useful complement to cross-node communication in long-range graph reasoning.",
    "comment": "",
    "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板盘初涨超2%，AI硬件反弹、“易中天”拉升，机器人爆发、宇树市值重回3000亿，恒科指涨1%",
+   "link": "https://wallstreetcn.com/articles/3785617",
+   "time": "11-10 01:57",
+   "summary": "隔夜美股科技股大涨，纳斯达克100指数涨3.4%，芯片股指数单日飙升近7%。亚太股市周二跟随上涨，韩国KOSPI指数盘初大涨，韩国交易所对KOSPI指数启动程序化交易暂停机制，暂停程序化买盘。芯片巨头SK海力士和三星电子亦拉升，A股和港股的AI硬件普遍反弹。 11月10日，A股早盘集体高开，三大股指盘初上涨，创业板涨超2%，AI应用、机器人再度爆发，宇树科技涨超8%。AI硬件拉升，光模块、光芯片、",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "学术",
@@ -133,16 +133,6 @@
    "score": 43
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
-   "link": "https://wallstreetcn.com/articles/3785604",
-   "time": "11-09 22:19",
-   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
-   "comment": "",
-   "score": 42
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "LLM Powered Autonomous Agents",
@@ -161,6 +151,16 @@
    "summary": "arXiv:2611.08522v1 Announce Type: new Abstract: Recent work reports large gains for LLM agents on low-budget molecular optimization. We measure the contributions of online optimization, retrievable task information, and permissive oracle landscapes. On PMO at 50 oracle calls, a GPT-4o mini agent's sum AUC falls from 14.44 to 4.85 after task names and curated reference compounds are hidden. An identity-blinded condition that states only the oracle form (e.g., similarity to a hidden reference) scores 5.39, while a deterministic retrieval-only baseline with no LLM reaches 12.16 (84% of the full agent). A full 23-task 2x2 ablation and a three-seed replication on eight tasks support this interpretation. On a protein-targeted benchmark with an AutoDock Vina composite oracle, a single-edit random walk is a strong lower bound; across three seeds it obtains composite 0.636 +/- 0.008 and docking improvement -1.11 +/- 0.04 kcal/mol. As a positive control, a retrieval-free population agent exceeds REINVENT at a matched 50-call AUC budget, with its strongest result at 100 calls. These results motivate two inexpensive sanity checks: retrieval-safe PMO prompts and a random-walk floor for docking-based optimization.",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
+   "link": "https://wallstreetcn.com/articles/3785604",
+   "time": "11-09 22:19",
+   "summary": "两位美联储官员相继发出鹰派信号，强调通胀压力持续，货币政策收紧方向明确，但执行节奏仍需谨慎权衡。 里士满联储主席Tom Barkin周一表示， 强劲需求与居高不下的通胀意味着利率仍需进一步上升，但他同时警示，任何加息行动都需以审慎步伐推进。 这一表态与近期多位联储官员的立场保持一致。 在消费端，Barkin指出，企业盈利表现亮眼，消费者支出依然具有韧性，经济正经历失业率持续处于4.5%或以下的历史",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -195,12 +195,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "Anthropic逆市推进IPO！最快周二路演，冲刺下周四、五上市，估值或再打“八折”",
-   "link": "https://wallstreetcn.com/articles/3785598",
-   "time": "11-10 00:09",
-   "summary": "尽管AI板块近期遭遇剧烈抛售，Anthropic仍决定顶住市场压力推进IPO，此次大规模上市将直接测试公开市场对前沿AI资产的风险偏好与定价意愿。 据《华尔街日报》最新报道， 一周前，投资者预期Anthropic的估值目标约为1.5万亿美元，但在经历了AI公司股票的暴跌后，一些主要投资者现在希望目标估值更低。 目前，该公司高管一直在与高盛和摩根士丹利的银行家会面，商讨估值区间的最终确定。 据彭博6",
+   "title": "AI风暴重头戏：股价接近腰斩，“AI云双雄”CoreWeave和Nebius财报要来了",
+   "link": "https://wallstreetcn.com/articles/3785618",
+   "time": "11-10 02:36",
+   "summary": "在AI基础设施投资热潮遭遇债务成本上升的双重压力下，两家新兴云计算公司CoreWeave和Nebius的股价在短短一个月内双双接近腰斩。 本周，两家公司将相继在11月10日、11月12日发布三季度财报。这一时间节点颇为微妙——市场正在等待一个答案：这场抛售，究竟是过度反应，还是合理定价？ 从基本面数据看，两家公司的营收增长轨迹依然强劲，分析师预期2027年CoreWeave营收将翻倍、Nebius",
    "comment": "",
-   "score": 36
+   "score": 37
   },
   {
    "group": "AI与数据",
@@ -213,6 +213,26 @@
    "score": 35
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic逆市推进IPO！最快周二路演，冲刺下周四、五上市，估值或再打“八折”",
+   "link": "https://wallstreetcn.com/articles/3785598",
+   "time": "11-10 00:09",
+   "summary": "尽管AI板块近期遭遇剧烈抛售，Anthropic仍决定顶住市场压力推进IPO，此次大规模上市将直接测试公开市场对前沿AI资产的风险偏好与定价意愿。 据《华尔街日报》最新报道， 一周前，投资者预期Anthropic的估值目标约为1.5万亿美元，但在经历了AI公司股票的暴跌后，一些主要投资者现在希望目标估值更低。 目前，该公司高管一直在与高盛和摩根士丹利的银行家会面，商讨估值区间的最终确定。 据彭博6",
+   "comment": "",
+   "score": 32
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "能控制机器人拧瓶盖、解魔方和画画！Fable 5.2的具身智能能力实现“惊人跃迁”",
+   "link": "https://wallstreetcn.com/articles/3785622",
+   "time": "11-10 02:57",
+   "summary": "Anthropic最新旗舰模型Claude Fable 5.2在机器人控制领域交出了一份令业界侧目的成绩单——作为一款通用大模型，它在双臂仿真机器人基准测试中的得分较上一代翻了逾两倍，并在真机演示中完成了拧瓶盖、解魔方和画画等操作任务。 11月9日，Anthropic正式发布Claude Fable 5.2。在RoboDojo双臂仿真机器人基准测试中， Fable 5.2平均成功率达64.9%，上",
+   "comment": "",
+   "score": 29
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -223,16 +243,6 @@
    "score": 28
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月10日",
-   "link": "https://wallstreetcn.com/articles/3785609",
-   "time": "11-09 23:14",
-   "summary": "华见早安之声 市场概述 美伊和谈信号重创原油，黄仁勋风波未阻AI交易回暖，标普创七个月最大日涨，和道指均收涨超2%，纳指涨近3%， 芯片指数收涨近7%、两日累计涨11%，AMD涨超10%， 英伟达逆市跌超4% 。SpaceX涨5.5%；AI基础设施股延续上周五反弹，Coherent涨近18%、Bloom Energy和Lumentum涨超10%。 美伊核谈判进展消息后，盘中布油跌近8%，期金涨2%",
-   "comment": "",
-   "score": 24
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
@@ -241,16 +251,6 @@
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
    "score": 24
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "周二美国10月CPI报告将缺失同比数据，系2025年政府停摆所致",
-   "link": "https://wallstreetcn.com/articles/3785607",
-   "time": "11-09 22:00",
-   "summary": "美国劳工统计局（BLS）将于本周二发布10月消费者价格指数（CPI）报告，但不会公布同比变动数据。 BLS发言人Cody Parkinson表示，2025年政府停摆期间，BLS未能完整采集当月部分价格数据，且事后也无法追溯补全，导致该机构在计算今年10月CPI及核心CPI的12个月同比变动时缺乏必要的基期数据。 与此相关的实际薪资同比增速数据同样不会公布。 通常情况下，同比涨幅是公众理解通胀走势最",
-   "comment": "",
-   "score": 21
   },
   {
    "group": "财经深度",
