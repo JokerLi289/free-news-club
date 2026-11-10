@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-10 22:15",
+ "generated_at": "2026-11-11 02:16",
  "raw_total": 197,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CPI暴击美债！2年期收益率盘中飙升逾20基点，金银大跌",
+   "link": "https://wallstreetcn.com/articles/3785669",
+   "time": "11-10 18:15",
+   "summary": "美国10月通胀再度超出市场预期，美债遭遇抛售，收益率全线大幅攀升；美元走强、利率上行预期升温，也令黄金和白银承压。美联储官员接连释放鹰派信号，市场不仅进一步押注12月加息，也开始评估更大幅度加息以及明年进一步收紧货币政策的可能性。 美东时间10日周二，美国CPI公布后，美国国债遭集中抛售，美债价格跳水、收益率加速上行。基准10年期美债收益率在CPI公布后升幅扩大，美联储官员洛根（Lorie Log",
+   "comment": "",
+   "score": 79
+  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
@@ -11,16 +21,6 @@
    "summary": "arXiv:2611.11031v1 Announce Type: cross Abstract: E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record. We extend Apache Pinot, a real-time OLAP engine that already serves Iceberg tables in place, with BM25 relevance scoring over its Lucene text index, corpus-wide term statistics so that scores are comparable across files, and reciprocal rank fusion in plain SQL; a real-time table fed by a stream can sit behind the same table, merged by the broker. On the Amazon ESCI benchmark (1.2M US products, 22,458 test queries), hybrid search served from the lake matches exact retrieval (nDCG@10 .361). The lake table is queryable 149 s after its files are registered, and a lake commit is searchable in 3.8 s, close to indexing directly into a search engine. On a brand-sorted lake of 277M products (0.8 TB), one 16-vCPU node answers brand-scoped vector, BM25 and client-fused hybrid searches in 6.5-9 ms (p50), sustains 1,100 vector and 635 BM25 searches per second at under 180 ms p99, and makes a commit searchable in 4.3 s. Search adds only its indexes: no copy of the catalog, no sync pipeline and no second schema, which cuts storage, rebuild time and the operational work of keeping copies consistent.",
    "comment": "",
    "score": 70
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”",
-   "link": "https://wallstreetcn.com/articles/3785652",
-   "time": "11-10 09:28",
-   "summary": "美联储理事Christopher Waller（克里斯托弗·沃勒）周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平—",
-   "comment": "",
-   "score": 61
   },
   {
    "group": "AI与数据",
@@ -45,10 +45,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美通胀数据超预期，美股期货短线下挫、纳指盘前跌近1%，黄金跳水，布油自8月首破90美元",
-   "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 13:36",
-   "summary": "美国10月消费者价格指数（CPI）数据 公布后，市场反应迅速而剧烈。美元指数短线走高，美股期货承压下挫，市场对美联储最快下月加息的预期进一步升温。 美元指数短线拉升约20点，报102.02；美国10年期国债收益率随即走高，报4.901%；纳斯达克100指数期货跌近1%；现货黄金则短线下挫约30美元，报4049.50美元/盎司。交易员在消费者通胀数据公布后，对12月加息的预期维持在100％不变。 市",
+   "title": "纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”",
+   "link": "https://wallstreetcn.com/articles/3785652",
+   "time": "11-10 09:28",
+   "summary": "美联储理事Christopher Waller（克里斯托弗·沃勒）周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平—",
    "comment": "",
    "score": 60
   },
@@ -61,6 +61,26 @@
    "summary": "今晚公布的10月CPI数据，将成为美联储年内最后一次加息决策的关键依据。在强劲就业数据已为鹰派打开大门的背景下，通胀数据的走向，将直接决定联储主席Warsh是否在12月9日扣动加息扳机。 市场目前对12月加息的定价已高达约86%。上周五非农就业人数大幅超预期，新增16.5万人，远超市场预估的7万人，失业率回落至4.1%，劳动力市场已为鹰派提供了充分支撑。上次FOMC会议以10比2的投票结果维持利率",
    "comment": "",
    "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美通胀数据超预期，美债收益率跳升，美股走低，黄金跳水，布油自8月首破90美元",
+   "link": "https://wallstreetcn.com/articles/3785613",
+   "time": "11-10 14:59",
+   "summary": "美国10月消费者价格指数（CPI）数据 公布后，市场反应迅速而剧烈。美元指数、美债收益率短线走高，美股承压下挫，市场开始计价下月美联储加息50个基点的可能。 美国国债遭遇抛售，2年期至10年期收益率单日涨幅均超过10个基点，10年期美债报4.97%，美元指数短线拉升约20点，报102.02。现货黄金则短线下挫约30美元，报4049.50美元/盎司。 美股盘初，标普500指数跌0.49%，道琼斯工业",
+   "comment": "",
+   "score": 53
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
+   "link": "https://wallstreetcn.com/articles/3785664",
+   "time": "11-10 14:37",
+   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
+   "comment": "",
+   "score": 52
   },
   {
    "group": "学术",
@@ -143,16 +163,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
-   "link": "https://wallstreetcn.com/articles/3785664",
-   "time": "11-10 13:30",
-   "summary": "美国10月通胀数据再度走强，进一步巩固了美联储下月加息的预期。 美国劳工统计局周二公布数据显示， 10月消费者价格指数（CPI）环比上涨0.4%，高于市场预期的0.3% ； 剔除食品和能源的核心CPI环比上涨0.3%，同样超过预期的0.2% 。由于去年10月政府关门期间数据采集中断，劳工统计局未公布同比变动数据。 数据公布后，美股期指集体跳水，黄金短线下挫，市场对12月加息25个基点的概率几近10",
-   "comment": "",
-   "score": 49
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -181,16 +191,6 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "风险正在转移！高盛：芯片商CDS利差首次超过超大云厂商，AI违约掉期创纪录",
-   "link": "https://wallstreetcn.com/articles/3785628",
-   "time": "11-10 06:08",
-   "summary": "AI产业链的债务风险，正在从大型云计算公司向芯片供应商转移。 据高盛销售与交易部门上周日发布的四份信贷报告， 由博通、AMD、英伟达和英特尔组成的芯片公司信用违约互换篮子（CDS，可理解为市场对企业违约风险的定价）利差，近三个月来首次超过了甲骨文、Meta、亚马逊、Alphabet、微软等超大规模云厂商的CDS篮子。 这意味着，投资者开始更担心芯片公司要承担的风险：一边是高价图形处理器（GPU）更",
-   "comment": "",
-   "score": 40
   },
   {
    "group": "学术",
@@ -290,7 +290,7 @@
    "time": "11-04 13:00",
    "summary": "On today's show we discuss reasons to be bearish, the joys of indexing in an AI boom, carnage in name-brand stocks, why the stock market is not down more, how the investing rules have changed, the buy",
    "comment": "",
-   "score": 16
+   "score": 15
   },
   {
    "group": "财经深度",
@@ -300,7 +300,7 @@
    "time": "11-02 13:00",
    "summary": "On today's Talk Your Book we speak with Brian Griggs from Nuveen about how they help financial advisors build better portfolios, dealing with AI-related volatility, when to rebalance, the opportunity ",
    "comment": "",
-   "score": 14
+   "score": 13
   },
   {
    "group": "财经深度",
@@ -310,7 +310,7 @@
    "time": "10-30 20:30",
    "summary": "Why are earnings up way more than the stock market this year? The post Earnings & Expectations appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 12
+   "score": 11
   }
  ]
 }
