@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 02:16",
+ "generated_at": "2026-11-11 03:12",
  "raw_total": 197,
  "items": [
   {
@@ -10,7 +10,7 @@
    "time": "11-10 18:15",
    "summary": "美国10月通胀再度超出市场预期，美债遭遇抛售，收益率全线大幅攀升；美元走强、利率上行预期升温，也令黄金和白银承压。美联储官员接连释放鹰派信号，市场不仅进一步押注12月加息，也开始评估更大幅度加息以及明年进一步收紧货币政策的可能性。 美东时间10日周二，美国CPI公布后，美国国债遭集中抛售，美债价格跳水、收益率加速上行。基准10年期美债收益率在CPI公布后升幅扩大，美联储官员洛根（Lorie Log",
    "comment": "",
-   "score": 79
+   "score": 78
   },
   {
    "group": "学术",
@@ -21,16 +21,6 @@
    "summary": "arXiv:2611.11031v1 Announce Type: cross Abstract: E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record. We extend Apache Pinot, a real-time OLAP engine that already serves Iceberg tables in place, with BM25 relevance scoring over its Lucene text index, corpus-wide term statistics so that scores are comparable across files, and reciprocal rank fusion in plain SQL; a real-time table fed by a stream can sit behind the same table, merged by the broker. On the Amazon ESCI benchmark (1.2M US products, 22,458 test queries), hybrid search served from the lake matches exact retrieval (nDCG@10 .361). The lake table is queryable 149 s after its files are registered, and a lake commit is searchable in 3.8 s, close to indexing directly into a search engine. On a brand-sorted lake of 277M products (0.8 TB), one 16-vCPU node answers brand-scoped vector, BM25 and client-fused hybrid searches in 6.5-9 ms (p50), sustains 1,100 vector and 635 BM25 searches per second at under 180 ms p99, and makes a commit searchable in 4.3 s. Search adds only its indexes: no copy of the catalog, no sync pipeline and no second schema, which cuts storage, rebuild time and the operational work of keeping copies consistent.",
    "comment": "",
    "score": 70
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
-   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
-   "time": "11-03 05:35",
-   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
-   "comment": "",
-   "score": 61
   },
   {
    "group": "学术",
@@ -63,22 +53,22 @@
    "score": 60
   },
   {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "time": "11-03 05:35",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "comment": "",
+   "score": 60
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "美通胀数据超预期，美债收益率跳升，美股走低，黄金跳水，布油自8月首破90美元",
    "link": "https://wallstreetcn.com/articles/3785613",
    "time": "11-10 14:59",
    "summary": "美国10月消费者价格指数（CPI）数据 公布后，市场反应迅速而剧烈。美元指数、美债收益率短线走高，美股承压下挫，市场开始计价下月美联储加息50个基点的可能。 美国国债遭遇抛售，2年期至10年期收益率单日涨幅均超过10个基点，10年期美债报4.97%，美元指数短线拉升约20点，报102.02。现货黄金则短线下挫约30美元，报4049.50美元/盎司。 美股盘初，标普500指数跌0.49%，道琼斯工业",
-   "comment": "",
-   "score": 53
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
-   "link": "https://wallstreetcn.com/articles/3785664",
-   "time": "11-10 14:37",
-   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
    "comment": "",
    "score": 52
   },
@@ -91,6 +81,16 @@
    "summary": "arXiv:2611.12063v1 Announce Type: new Abstract: AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
    "comment": "",
    "score": 52
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
+   "link": "https://wallstreetcn.com/articles/3785664",
+   "time": "11-10 14:37",
+   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
+   "comment": "",
+   "score": 51
   },
   {
    "group": "学术",
@@ -210,7 +210,7 @@
    "time": "11-08 21:23",
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 37
+   "score": 36
   },
   {
    "group": "AI与数据",
@@ -225,10 +225,10 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
-   "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-   "time": "11-10 06:34",
-   "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "link": "https://latent.space/p/elorian/",
+   "time": "10-29 16:00",
+   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
    "comment": "",
    "score": 30
   },
