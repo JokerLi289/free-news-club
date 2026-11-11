@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 08:35",
+ "generated_at": "2026-11-11 09:14",
  "raw_total": 197,
  "items": [
   {
@@ -33,16 +33,6 @@
    "score": 61
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”",
-   "link": "https://wallstreetcn.com/articles/3785652",
-   "time": "11-10 09:28",
-   "summary": "美联储理事Christopher Waller（克里斯托弗·沃勒）周二表示支持12月加息，并警告若通胀压力持续，他将支持加息50个基点，以维护央行抗通胀的公信力。这是迄今为止美联储官员就12月政策行动发出的最强硬表态。 Waller在伦敦发表讲话时表示， 若今晚公布的10月消费者价格指数（CPI）数据出现改善，他倾向于支持加息25个基点。 但 若10月核心CPI环比涨幅维持在约0.3%或更高水平—",
-   "comment": "",
-   "score": 60
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
@@ -60,16 +50,6 @@
    "time": "11-10 23:11",
    "summary": "华见早安之声 要闻精选 中国10月出口 同比增长35.2%，AI硬件热潮为主引擎 ， 进口 同比增长41.6% ； 原油进口量 环比增长13% ，创3月以来最高， 集成电路进口金额 同比大增近70%。 美国10月核心CPI 环比涨0.3%、整体涨0.4%，双双高于预期 ，12月加息50个基点进入讨论范围。 美联储理事沃勒 释放“最鹰信号”： 若通胀居高不下，12月应加息50基点 ，需收回此前“三次",
    "comment": "",
-   "score": 58
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌",
-   "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 22:23",
-   "summary": "超预期的美国通胀数据与多位联储官员的鹰派信号共振，令市场对美联储更激进加息的押注骤然升温，债市首当其冲，科技股大幅回调，美元走强压制避险资产。 美国10月CPI环比涨幅超出预期，联储理事Christopher Waller随即警告若通胀数据偏强，12月会议上可能需要考虑加息50个基点，随后达拉斯联储主席Logan和堪萨斯城联储主席Jeff Schmid相继发表鹰派言论，市场对12月大幅加息的定价大",
-   "comment": "",
    "score": 54
   },
   {
@@ -83,6 +63,16 @@
    "score": 52
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌",
+   "link": "https://wallstreetcn.com/articles/3785613",
+   "time": "11-10 22:23",
+   "summary": "超预期的美国通胀数据与多位联储官员的鹰派信号共振，令市场对美联储更激进加息的押注骤然升温，债市首当其冲，科技股大幅回调，美元走强压制避险资产。 美国10月CPI环比涨幅超出预期，联储理事Christopher Waller随即警告若通胀数据偏强，12月会议上可能需要考虑加息50个基点，随后达拉斯联储主席Logan和堪萨斯城联储主席Jeff Schmid相继发表鹰派言论，市场对12月大幅加息的定价大",
+   "comment": "",
+   "score": 51
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Transactional Data Change for Real-Time Analytics in Lakehouses",
@@ -91,16 +81,6 @@
    "summary": "arXiv:2611.12169v1 Announce Type: new Abstract: Real-time data analytics has become a key demand for lakehouses. It requires propagating data changes from the data source to the lakehouse in real time, while ensuring ACID guarantees and minimizing resource consumption and impact on analytical query performance. This is highly challenging for a data system according to the RUM conjecture, especially given the read-optimized immutable file storage layer in lakehouses. Existing lakehouses offer only git-style catalog version control on a single table, and they trade data freshness, query performance, and/or resource efficiency to achieve a barely acceptable data-change throughput. In this paper, we propose a novel data synchronization framework, Retina, that enables real-time, cost-efficient, query-performant, and fully transactional data changes in lakehouses. We implement and open-source Retina. Evaluations show that Retina delivers 10-millisecond-level data freshness and over 3.2 million row/s linear-scalable data-change throughput with low resource consumption and query-performance overhead, significantly outperforming state-of-the-art lakehouse systems and lake-compatible HTAP databases.",
    "comment": "",
    "score": 51
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
-   "link": "https://wallstreetcn.com/articles/3785690",
-   "time": "11-11 00:29",
-   "summary": "2026年FOMC票委、费城联储主席Anna Paulson周二（11月10日）表态支持渐进式加息路径，但同时发出明确警告：核心通胀持续高于2%目标且未见回落，关税、能源成本上升及数据中心建设热潮均构成持续价格压力。与此同时，多位美联储官员同日发表鹰派言论，就12月会议的加息幅度释放出更强硬信号，美联储内部围绕加息节奏的分歧正在浮出水面。 当日公布的10月通胀数据为这场争论提供了新的注脚。 华尔街",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "快讯",
@@ -171,6 +151,26 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 49
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
+   "link": "https://wallstreetcn.com/articles/3785690",
+   "time": "11-11 00:29",
+   "summary": "2026年FOMC票委、费城联储主席Anna Paulson周二（11月10日）表态支持渐进式加息路径，但同时发出明确警告：核心通胀持续高于2%目标且未见回落，关税、能源成本上升及数据中心建设热潮均构成持续价格压力。与此同时，多位美联储官员同日发表鹰派言论，就12月会议的加息幅度释放出更强硬信号，美联储内部围绕加息节奏的分歧正在浮出水面。 当日公布的10月通胀数据为这场争论提供了新的注脚。 华尔街",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic IPO路演之际，OpenAI也披露财务数据：Q3收入不及，亏损远超",
+   "link": "https://wallstreetcn.com/articles/3785687",
+   "time": "11-11 00:06",
+   "summary": "OpenAI最新财务数据显示，其营收增长势头强劲，但盈利目标依然遥远。 11月10日，据彭博社援引知情人士透露， OpenAI三季度（截至9月末）营收达100亿美元，季环比增长近50%，同比增幅接近三倍 。 调整后运营利润率从-150%则从改善至-109%。 尽管利润率有所提升，但绝对亏损金额仍小幅扩大，从101亿美元升至109亿美元 。 上述财务数据于周二在一场投资者电话会议中披露。 CFO S",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "AI与数据",
