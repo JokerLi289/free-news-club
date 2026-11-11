@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 19:14",
+ "generated_at": "2026-11-11 20:21",
  "raw_total": 181,
  "items": [
   {
@@ -8,9 +8,9 @@
    "title": "AI交易回暖，美股盘前存储、光通信普涨，CoreWeave暴涨17%，英伟达涨4%，油价反弹",
    "link": "https://wallstreetcn.com/articles/3785732",
    "time": "11-11 09:50",
-   "summary": "美国人工智能板块交易情绪显著回升，推动科技股期货走高。新兴云计算公司CoreWeave强劲的季度业绩驱散了市场对该行业的部分疑虑，Anthropic IPO需求旺盛则进一步印证投资者对AI赛道的持续兴趣。 美股盘前，CoreWeave一度暴涨17%，公司三季度营收超预期并上调全年营收指引。 存储芯片股普涨，SK海力士涨约7%，闪迪涨约7%。光通信股股普涨，Coherent涨约9%，Credo涨约8",
+   "summary": "美国人工智能板块交易情绪显著回升，推动科技股期货走高。新兴云计算公司CoreWeave强劲的季度业绩驱散了市场对该行业的部分疑虑，Anthropic IPO需求旺盛则进一步印证投资者对AI赛道的持续兴趣。 美股盘前，CoreWeave一度暴涨17%，公司三季度营收超预期并上调全年营收指引。存储芯片股普涨，SK海力士涨约7%，闪迪涨约7%。光通信股股普涨，Coherent涨约9%，Credo涨约8%",
    "comment": "",
-   "score": 70
+   "score": 67
   },
   {
    "group": "学术",
@@ -31,16 +31,6 @@
    "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
    "comment": "",
    "score": 60
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "通胀连续爆表，沃勒放话“50基点加息”！高盛坚持12月加25基点，但明年3月多加一次",
-   "link": "https://wallstreetcn.com/articles/3785691",
-   "time": "11-11 01:28",
-   "summary": "通胀意外持续走高，迫使华尔街主要机构重新评估美联储政策路径。 据华尔街见闻 ，11月10日，美国公布10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。 追风交易台消息，随后高盛首席美国经济学家David Mericle发表研报， 将美联储加息次数预测上调至三次，并将首次降息时点从2027年9月推迟至12月 。 David Mericle新",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "财经深度",
@@ -123,6 +113,16 @@
    "score": 39
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "央行Q3货政报告专栏：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
+   "link": "https://wallstreetcn.com/articles/3785737",
+   "time": "11-11 10:39",
+   "summary": "11日，央行发布2026年第三季度中国货币政策执行报告，就债券定价的税收还原、债市流动性风险管控及中小企业融资困境等关键议题作出系统阐述。 报告专栏2就债券定价与利率比较的方法论问题提出明确指引。 投资者按照税后的收益对债券进行定价。 国内目前对国债利息收入免征所得税，使纳税投资者愿意接受低于应税债券的收益率，在对相关利率进行分析和比较时需还原税收因素的影响。 存款利率下降可为贷款利率下降创造空间",
+   "comment": "",
+   "score": 38
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SAIL: Self-Adaptive Index Learning with Hybrid Models (Extended Version)",
@@ -193,16 +193,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic路演PPT：“算力”提了49次、“安全”27次，收入一年翻12倍，长期利润率目标35%",
-   "link": "https://wallstreetcn.com/articles/3785694",
-   "time": "11-11 02:24",
-   "summary": "Anthropic于11月10日正式启动IPO路演，同步上线42分钟路演视频与57页路演PPT，价格区间定为每股70至78美元，计划于11月18日定价、11月19日在纳斯达克挂牌，股票代码ANT。 路演视频中，第一个出镜的是CEO Dario Amodei。他在开场约30秒就提到AI可能被用于制造生物武器。他同时把AI称为“人类历史上最有前景的技术”，称其“捕捉到了认知的本质”，并强调安全是公司最",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
@@ -211,16 +201,6 @@
    "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
    "comment": "",
    "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "中国供应商搭上跨国车企的全球新车",
-   "link": "https://wallstreetcn.com/articles/3785733",
-   "time": "11-11 09:32",
-   "summary": "当年雪铁龙到武汉造车，法国零部件公司也跟了过来。法雷奥在武汉的第一个量产项目，就是给神龙富康做前大灯和尾灯。如今，标致和Jeep要从武汉把新车卖到全球，准备跟着它们出海的供应商里，也有了做大模型的中国公司。 11月11日，神龙科技与字节跳动旗下的火山引擎签约，神龙科技接下来的全新新能源车型，会装上火山引擎最新一代的AI座舱系统。i-Cockpit也将更迭为Ai-Cockpit。 华尔街见闻了解到，",
-   "comment": "",
-   "score": 28
   },
   {
    "group": "AI与数据",
@@ -235,12 +215,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "中国供应商搭上跨国车企的全球新车",
+   "link": "https://wallstreetcn.com/articles/3785733",
+   "time": "11-11 09:32",
+   "summary": "当年雪铁龙到武汉造车，法国零部件公司也跟了过来。法雷奥在武汉的第一个量产项目，就是给神龙富康做前大灯和尾灯。如今，标致和Jeep要从武汉把新车卖到全球，准备跟着它们出海的供应商里，也有了做大模型的中国公司。 11月11日，神龙科技与字节跳动旗下的火山引擎签约，神龙科技接下来的全新新能源车型，会装上火山引擎最新一代的AI座舱系统。i-Cockpit也将更迭为Ai-Cockpit。 华尔街见闻了解到，",
+   "comment": "",
+   "score": 25
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "英伟达Rubin Ultra将催生多少CPO需求？伯恩斯坦：单Pod光学价值量翻5倍",
    "link": "https://wallstreetcn.com/articles/3785723",
    "time": "11-11 08:39",
    "summary": "英伟达下一代AI芯片架构所催生的共封装光学（CPO）需求，正推动光学通信行业进入一个规模远超当前预期的新增长周期。 据追风交易台消息，据伯恩斯坦分析师Daniel Zhu在最新研报中测算，基于Coherent披露的每100 Tbps芯片对应1.5万美元内容价值这一数据， 一个8机架Rubin Ultra计算集群（Pod）所产生的光学内容机会约达540万美元，较此前Vera Rubin NVL72架",
    "comment": "",
-   "score": 25
+   "score": 22
   },
   {
    "group": "财经深度",
@@ -251,6 +241,16 @@
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
    "score": 22
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "科技老将：Anthropic IPO将是美股AI行情高点，有条件会“大举做多中国AI”",
+   "link": "https://wallstreetcn.com/articles/3785720",
+   "time": "11-11 08:21",
+   "summary": "在AI热潮推动下，Anthropic正筹备一宗规模高达1000亿美元的IPO，但一位长期看空AI的科技老将发出警告：Anthropic IPO可能成为AI行情高点，禁售期届满后或引发连锁式回调。 创投公司Copper Sky负责人、Peter Thiel家族办公室管理合伙人Jack Selby周三接受彭博电视采访时表示，“如果这家最受期待的AI公司IPO远远低于预期估值，想象一下锁定期到期之后会发",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "财经深度",
