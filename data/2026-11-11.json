@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 14:24",
+ "generated_at": "2026-11-11 15:16",
  "raw_total": 181,
  "items": [
   {
@@ -133,16 +133,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic路演瞄准35%长期经营利润目标，算力效率提高逾4倍，大企业客户1.19万",
-   "link": "https://wallstreetcn.com/articles/3785675",
-   "time": "11-10 21:10",
-   "summary": "在美东时间10日周二公布的IPO路演视频中，Anthropic披露长期盈利目标：公司相信，随着算力效率提升、直接采购和租赁算力的比例增加，以及推理业务占比扩大，长期调整后经营利润率有望达到35%以上，较今年第三季度的15%提高20个百分点以上。 除了这一长期盈利目标，Anthropic此次路演还通过招股书公布了多项此前未集中披露的经营数据：截至第三季度，公司营收达到170亿美元，同比增长超过12倍",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences",
@@ -191,6 +181,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板午后涨3%，算力硬件集体爆发，光模块龙头“易中天”大涨，恒科指跌近1%，权重股科网股回落",
+   "link": "https://wallstreetcn.com/articles/3785695",
+   "time": "11-11 05:52",
+   "summary": "A股和港股的光模块概念股大涨，新易盛、天孚通信、中际旭创等龙头股涨幅居前，有报道称，微软据传正敦促特朗普政府放弃一项涉及特定光学通信元器件进口限制政策。 11月11日，A股午后震荡拉升，创业板涨3%。AI硬件爆发，光模块、光芯片、光通信、光电路交换机、电路板、覆铜板等概念股普遍拉升，剑桥科技涨停，“易中天”大涨。煤炭、海运等板块活跃，白酒、AI短剧、贵金属等陷入调整。 港股低开低走，恒指、恒科指盘",
+   "comment": "",
+   "score": 34
   },
   {
    "group": "AI与数据",
