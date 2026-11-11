@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 10:18",
+ "generated_at": "2026-11-11 12:17",
  "raw_total": 197,
  "items": [
   {
@@ -50,7 +50,7 @@
    "time": "11-11 01:28",
    "summary": "通胀意外持续走高，迫使华尔街主要机构重新评估美联储政策路径。 据华尔街见闻 ，11月10日，美国公布10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。 追风交易台消息，随后高盛首席美国经济学家David Mericle发表研报， 将美联储加息次数预测上调至三次，并将首次降息时点从2027年9月推迟至12月 。 David Mericle新",
    "comment": "",
-   "score": 59
+   "score": 54
   },
   {
    "group": "学术",
@@ -61,16 +61,6 @@
    "summary": "arXiv:2611.12063v1 Announce Type: new Abstract: AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
    "comment": "",
    "score": 52
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月11日",
-   "link": "https://wallstreetcn.com/articles/3785684",
-   "time": "11-10 23:11",
-   "summary": "华见早安之声 要闻精选 中国10月出口 同比增长35.2%，AI硬件热潮为主引擎 ， 进口 同比增长41.6% ； 原油进口量 环比增长13% ，创3月以来最高， 集成电路进口金额 同比大增近70%。 美国10月核心CPI 环比涨0.3%、整体涨0.4%，双双高于预期 ，12月加息50个基点进入讨论范围。 美联储理事沃勒 释放“最鹰信号”： 若通胀居高不下，12月应加息50基点 ，需收回此前“三次",
-   "comment": "",
-   "score": 51
   },
   {
    "group": "学术",
@@ -85,20 +75,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌",
-   "link": "https://wallstreetcn.com/articles/3785613",
-   "time": "11-10 22:23",
-   "summary": "超预期的美国通胀数据与多位联储官员的鹰派信号共振，令市场对美联储更激进加息的押注骤然升温，债市首当其冲，科技股大幅回调，美元走强压制避险资产。 美国10月CPI环比涨幅超出预期，联储理事Christopher Waller随即警告若通胀数据偏强，12月会议上可能需要考虑加息50个基点，随后达拉斯联储主席Logan和堪萨斯城联储主席Jeff Schmid相继发表鹰派言论，市场对12月大幅加息的定价大",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月11日",
+   "link": "https://wallstreetcn.com/articles/3785684",
+   "time": "11-10 23:11",
+   "summary": "华见早安之声 要闻精选 中国10月出口 同比增长35.2%，AI硬件热潮为主引擎 ， 进口 同比增长41.6% ； 原油进口量 环比增长13% ，创3月以来最高， 集成电路进口金额 同比大增近70%。 美国10月核心CPI 环比涨0.3%、整体涨0.4%，双双高于预期 ，12月加息50个基点进入讨论范围。 美联储理事沃勒 释放“最鹰信号”： 若通胀居高不下，12月应加息50基点 ，需收回此前“三次",
    "comment": "",
    "score": 50
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
-   "link": "https://wallstreetcn.com/articles/3785664",
-   "time": "11-10 14:37",
-   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫",
+   "title": "美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌",
+   "link": "https://wallstreetcn.com/articles/3785613",
+   "time": "11-10 22:23",
+   "summary": "超预期的美国通胀数据与多位联储官员的鹰派信号共振，令市场对美联储更激进加息的押注骤然升温，债市首当其冲，科技股大幅回调，美元走强压制避险资产。 美国10月CPI环比涨幅超出预期，联储理事Christopher Waller随即警告若通胀数据偏强，12月会议上可能需要考虑加息50个基点，随后达拉斯联储主席Logan和堪萨斯城联储主席Jeff Schmid相继发表鹰派言论，市场对12月大幅加息的定价大",
    "comment": "",
    "score": 50
   },
@@ -163,16 +153,6 @@
    "score": 49
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
-   "link": "https://wallstreetcn.com/articles/3785690",
-   "time": "11-11 00:29",
-   "summary": "2026年FOMC票委、费城联储主席Anna Paulson周二（11月10日）表态支持渐进式加息路径，但同时发出明确警告：核心通胀持续高于2%目标且未见回落，关税、能源成本上升及数据中心建设热潮均构成持续价格压力。与此同时，多位美联储官员同日发表鹰派言论，就12月会议的加息幅度释放出更强硬信号，美联储内部围绕加息节奏的分歧正在浮出水面。 当日公布的10月通胀数据为这场争论提供了新的注脚。 华尔街",
-   "comment": "",
-   "score": 43
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -191,6 +171,26 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板半日涨1%，算力硬件集体反弹，光模块龙头“易中天”拉升，恒科指跌超1%，权重股科网股回落",
+   "link": "https://wallstreetcn.com/articles/3785695",
+   "time": "11-11 04:09",
+   "summary": "A股和港股的光模块概念股大涨，新易盛、天孚通信、中际旭创等龙头股涨幅居前，有报道称，微软据传正敦促特朗普政府放弃一项涉及特定光学通信元器件进口限制政策。 11月11日，A股早盘低开高走，三大股指盘初集体上涨，盘中震荡分化，沪指小幅下跌，创业板指涨近1%。AI硬件爆发，光模块、光芯片、光通信、光电路交换机、电路板、覆铜板等概念股普遍拉升，剑桥科技涨停，“易中天”涨幅居前。煤炭、海运等板块活跃，白酒、",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
+   "link": "https://wallstreetcn.com/articles/3785690",
+   "time": "11-11 00:29",
+   "summary": "2026年FOMC票委、费城联储主席Anna Paulson周二（11月10日）表态支持渐进式加息路径，但同时发出明确警告：核心通胀持续高于2%目标且未见回落，关税、能源成本上升及数据中心建设热潮均构成持续价格压力。与此同时，多位美联储官员同日发表鹰派言论，就12月会议的加息幅度释放出更强硬信号，美联储内部围绕加息节奏的分歧正在浮出水面。 当日公布的10月通胀数据为这场争论提供了新的注脚。 华尔街",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "学术",
