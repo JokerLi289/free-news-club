@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 20:21",
+ "generated_at": "2026-11-11 21:15",
  "raw_total": 181,
  "items": [
   {
@@ -10,7 +10,7 @@
    "time": "11-11 09:50",
    "summary": "美国人工智能板块交易情绪显著回升，推动科技股期货走高。新兴云计算公司CoreWeave强劲的季度业绩驱散了市场对该行业的部分疑虑，Anthropic IPO需求旺盛则进一步印证投资者对AI赛道的持续兴趣。 美股盘前，CoreWeave一度暴涨17%，公司三季度营收超预期并上调全年营收指引。存储芯片股普涨，SK海力士涨约7%，闪迪涨约7%。光通信股股普涨，Coherent涨约9%，Credo涨约8%",
    "comment": "",
-   "score": 67
+   "score": 66
   },
   {
    "group": "学术",
@@ -113,16 +113,6 @@
    "score": 39
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "央行Q3货政报告专栏：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
-   "link": "https://wallstreetcn.com/articles/3785737",
-   "time": "11-11 10:39",
-   "summary": "11日，央行发布2026年第三季度中国货币政策执行报告，就债券定价的税收还原、债市流动性风险管控及中小企业融资困境等关键议题作出系统阐述。 报告专栏2就债券定价与利率比较的方法论问题提出明确指引。 投资者按照税后的收益对债券进行定价。 国内目前对国债利息收入免征所得税，使纳税投资者愿意接受低于应税债券的收益率，在对相关利率进行分析和比较时需还原税收因素的影响。 存款利率下降可为贷款利率下降创造空间",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SAIL: Self-Adaptive Index Learning with Hybrid Models (Extended Version)",
@@ -131,6 +121,16 @@
    "summary": "arXiv:2611.13856v1 Announce Type: new Abstract: Learned index structures have demonstrated a significant improvement in query performance over traditional index structures. The majority of learned indexes use a uniform node structure throughout their index structures. A few studies show that combining multiple types of node structures can lead to indexes that better adapt to local key-set distributions, hence yielding query efficiency gains. Following this line of work, we propose a learned index structure named SAIL that supports a wide range of different candidate node structures for both leaf and inner nodes, selected via cost models based on data driven approximations. We design an efficient construction algorithm that recursively partitions the key-set to be fitted by the candidate node types. Experiments demonstrate that SAIL achieves 2x improvement over existing learned indexes in query time, with similar memory consumption and index build times.",
    "comment": "",
    "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "央行Q3货政报告专栏：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
+   "link": "https://wallstreetcn.com/articles/3785737",
+   "time": "11-11 10:39",
+   "summary": "11日，央行发布2026年第三季度中国货币政策执行报告，就债券定价的税收还原、债市流动性风险管控及中小企业融资困境等关键议题作出系统阐述。 报告专栏2就债券定价与利率比较的方法论问题提出明确指引。 投资者按照税后的收益对债券进行定价。 国内目前对国债利息收入免征所得税，使纳税投资者愿意接受低于应税债券的收益率，在对相关利率进行分析和比较时需还原税收因素的影响。 存款利率下降可为贷款利率下降创造空间",
+   "comment": "",
+   "score": 37
   },
   {
    "group": "学术",
@@ -220,17 +220,7 @@
    "time": "11-11 09:32",
    "summary": "当年雪铁龙到武汉造车，法国零部件公司也跟了过来。法雷奥在武汉的第一个量产项目，就是给神龙富康做前大灯和尾灯。如今，标致和Jeep要从武汉把新车卖到全球，准备跟着它们出海的供应商里，也有了做大模型的中国公司。 11月11日，神龙科技与字节跳动旗下的火山引擎签约，神龙科技接下来的全新新能源车型，会装上火山引擎最新一代的AI座舱系统。i-Cockpit也将更迭为Ai-Cockpit。 华尔街见闻了解到，",
    "comment": "",
-   "score": 25
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达Rubin Ultra将催生多少CPO需求？伯恩斯坦：单Pod光学价值量翻5倍",
-   "link": "https://wallstreetcn.com/articles/3785723",
-   "time": "11-11 08:39",
-   "summary": "英伟达下一代AI芯片架构所催生的共封装光学（CPO）需求，正推动光学通信行业进入一个规模远超当前预期的新增长周期。 据追风交易台消息，据伯恩斯坦分析师Daniel Zhu在最新研报中测算，基于Coherent披露的每100 Tbps芯片对应1.5万美元内容价值这一数据， 一个8机架Rubin Ultra计算集群（Pod）所产生的光学内容机会约达540万美元，较此前Vera Rubin NVL72架",
-   "comment": "",
-   "score": 22
+   "score": 24
   },
   {
    "group": "财经深度",
@@ -245,10 +235,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "科技老将：Anthropic IPO将是美股AI行情高点，有条件会“大举做多中国AI”",
-   "link": "https://wallstreetcn.com/articles/3785720",
-   "time": "11-11 08:21",
-   "summary": "在AI热潮推动下，Anthropic正筹备一宗规模高达1000亿美元的IPO，但一位长期看空AI的科技老将发出警告：Anthropic IPO可能成为AI行情高点，禁售期届满后或引发连锁式回调。 创投公司Copper Sky负责人、Peter Thiel家族办公室管理合伙人Jack Selby周三接受彭博电视采访时表示，“如果这家最受期待的AI公司IPO远远低于预期估值，想象一下锁定期到期之后会发",
+   "title": "英伟达Rubin Ultra将催生多少CPO需求？伯恩斯坦：单Pod光学价值量翻5倍",
+   "link": "https://wallstreetcn.com/articles/3785723",
+   "time": "11-11 08:39",
+   "summary": "英伟达下一代AI芯片架构所催生的共封装光学（CPO）需求，正推动光学通信行业进入一个规模远超当前预期的新增长周期。 据追风交易台消息，据伯恩斯坦分析师Daniel Zhu在最新研报中测算，基于Coherent披露的每100 Tbps芯片对应1.5万美元内容价值这一数据， 一个8机架Rubin Ultra计算集群（Pod）所产生的光学内容机会约达540万美元，较此前Vera Rubin NVL72架",
+   "comment": "",
+   "score": 21
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "IPO前夕，Anthropic再追加114亿美元算力采购订单",
+   "link": "https://wallstreetcn.com/articles/3785744",
+   "time": "11-11 12:37",
+   "summary": "Anthropic在冲刺美国科技史上最大规模IPO的关键节点，再度大幅扩充云计算采购承诺。 根据Anthropic周二向美国证券交易委员会（SEC）提交的招股文件， 该公司过去一个月内与微软和谷歌新增约114亿美元云服务采购承诺，使其在两家平台上的总支出承诺分别升至492亿美元和1216亿美元。 与此同时，Anthropic披露其与小型云服务商Lambda签订的349亿美元租赁协议存在被取消的风险",
    "comment": "",
    "score": 20
   },
