@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-11 17:16",
+ "generated_at": "2026-11-11 19:14",
  "raw_total": 181,
  "items": [
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "AI交易回暖，美股盘前存储芯片股、光通信股普涨，CoreWeave暴涨17%，油价止跌",
+   "title": "AI交易回暖，美股盘前存储、光通信普涨，CoreWeave暴涨17%，英伟达涨4%，油价反弹",
    "link": "https://wallstreetcn.com/articles/3785732",
-   "time": "11-11 09:04",
+   "time": "11-11 09:50",
    "summary": "美国人工智能板块交易情绪显著回升，推动科技股期货走高。新兴云计算公司CoreWeave强劲的季度业绩驱散了市场对该行业的部分疑虑，Anthropic IPO需求旺盛则进一步印证投资者对AI赛道的持续兴趣。 美股盘前，CoreWeave一度暴涨17%，公司三季度营收超预期并上调全年营收指引。 存储芯片股普涨，SK海力士涨约7%，闪迪涨约7%。光通信股股普涨，Coherent涨约9%，Credo涨约8",
    "comment": "",
-   "score": 69
+   "score": 70
   },
   {
    "group": "学术",
@@ -153,16 +153,6 @@
    "score": 35
   },
   {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "time": "11-08 21:23",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
-   "comment": "",
-   "score": 34
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "BuildGraph: A Synthetic Multi-Archetype Building Knowledge Graph Dataset",
@@ -173,14 +163,14 @@
    "score": 34
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板午后涨超3%，算力硬件集体爆发，光模块龙头“易中天”均大涨超13%，恒科指跌超1%，权重科网股回落",
-   "link": "https://wallstreetcn.com/articles/3785695",
-   "time": "11-11 08:14",
-   "summary": "A股和港股的光模块概念股大涨，新易盛、天孚通信、中际旭创等龙头股涨幅居前，中际旭创、新易盛均创年内最大单日升幅。有报道称，微软据传正敦促特朗普政府放弃一项涉及特定光学通信元器件进口限制政策。 11月11日，A股午后震荡拉升，创业板涨超3%。AI硬件爆发，光模块、光芯片、光通信、光电路交换机、电路板、覆铜板等概念股普遍拉升，剑桥科技涨停，“易中天”均大涨超13%。煤炭、海运等板块活跃，白酒、AI短剧",
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 32
+   "score": 33
   },
   {
    "group": "学术",
@@ -195,20 +185,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "Anthropic路演PPT：“算力”提了49次、“安全”27次，收入一年翻12倍，长期利润率目标35%",
-   "link": "https://wallstreetcn.com/articles/3785694",
-   "time": "11-11 02:24",
-   "summary": "Anthropic于11月10日正式启动IPO路演，同步上线42分钟路演视频与57页路演PPT，价格区间定为每股70至78美元，计划于11月18日定价、11月19日在纳斯达克挂牌，股票代码ANT。 路演视频中，第一个出镜的是CEO Dario Amodei。他在开场约30秒就提到AI可能被用于制造生物武器。他同时把AI称为“人类历史上最有前景的技术”，称其“捕捉到了认知的本质”，并强调安全是公司最",
+   "title": "创业板午后涨超3%，算力硬件集体爆发，光模块龙头“易中天”均大涨超13%，恒科指跌超1%，权重科网股回落",
+   "link": "https://wallstreetcn.com/articles/3785695",
+   "time": "11-11 08:14",
+   "summary": "A股和港股的光模块概念股大涨，新易盛、天孚通信、中际旭创等龙头股涨幅居前，中际旭创、新易盛均创年内最大单日升幅。有报道称，微软据传正敦促特朗普政府放弃一项涉及特定光学通信元器件进口限制政策。 11月11日，A股午后震荡拉升，创业板涨超3%。AI硬件爆发，光模块、光芯片、光通信、光电路交换机、电路板、覆铜板等概念股普遍拉升，剑桥科技涨停，“易中天”均大涨超13%。煤炭、海运等板块活跃，白酒、AI短剧",
    "comment": "",
    "score": 30
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "上周在美债避险的投资者，本周又被打脸了",
-   "link": "https://wallstreetcn.com/articles/3785689",
-   "time": "11-11 00:54",
-   "summary": "周二，一份超预期的CPI数据叠加多位美联储官员的鹰派表态，将美债市场再次打入\"至暗时刻\"。2年期美债收益率单日暴涨20个基点，创下19个月来最大单日涨幅；10年期收益率重新站上5%关口。 这场抛售直接击中了过去一周刚刚涌入美债的多头仓位。美银策略师在11月8日的报告中指出，资产管理机构在过去一周持续在期货市场建立多头仓位，并削减了长端的空头对冲——而这些仓位，如今正承受着损失。 市场情绪的急剧逆转",
+   "title": "Anthropic路演PPT：“算力”提了49次、“安全”27次，收入一年翻12倍，长期利润率目标35%",
+   "link": "https://wallstreetcn.com/articles/3785694",
+   "time": "11-11 02:24",
+   "summary": "Anthropic于11月10日正式启动IPO路演，同步上线42分钟路演视频与57页路演PPT，价格区间定为每股70至78美元，计划于11月18日定价、11月19日在纳斯达克挂牌，股票代码ANT。 路演视频中，第一个出镜的是CEO Dario Amodei。他在开场约30秒就提到AI可能被用于制造生物武器。他同时把AI称为“人类历史上最有前景的技术”，称其“捕捉到了认知的本质”，并强调安全是公司最",
    "comment": "",
    "score": 30
   },
@@ -221,6 +211,16 @@
    "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "中国供应商搭上跨国车企的全球新车",
+   "link": "https://wallstreetcn.com/articles/3785733",
+   "time": "11-11 09:32",
+   "summary": "当年雪铁龙到武汉造车，法国零部件公司也跟了过来。法雷奥在武汉的第一个量产项目，就是给神龙富康做前大灯和尾灯。如今，标致和Jeep要从武汉把新车卖到全球，准备跟着它们出海的供应商里，也有了做大模型的中国公司。 11月11日，神龙科技与字节跳动旗下的火山引擎签约，神龙科技接下来的全新新能源车型，会装上火山引擎最新一代的AI座舱系统。i-Cockpit也将更迭为Ai-Cockpit。 华尔街见闻了解到，",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "AI与数据",
@@ -240,7 +240,7 @@
    "time": "11-11 08:39",
    "summary": "英伟达下一代AI芯片架构所催生的共封装光学（CPO）需求，正推动光学通信行业进入一个规模远超当前预期的新增长周期。 据追风交易台消息，据伯恩斯坦分析师Daniel Zhu在最新研报中测算，基于Coherent披露的每100 Tbps芯片对应1.5万美元内容价值这一数据， 一个8机架Rubin Ultra计算集群（Pod）所产生的光学内容机会约达540万美元，较此前Vera Rubin NVL72架",
    "comment": "",
-   "score": 27
+   "score": 25
   },
   {
    "group": "财经深度",
@@ -250,7 +250,17 @@
    "time": "11-02 11:00",
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
-   "score": 23
+   "score": 22
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+   "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+   "time": "11-11 11:00",
+   "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "AI与数据",
@@ -269,16 +279,6 @@
    "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
    "time": "11-09 11:00",
    "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
-   "comment": "",
-   "score": 19
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "2026.45: Falling Leaves (and Stocks)",
-   "link": "https://stratechery.com/2026/falling-leaves-and-stocks/",
-   "time": "11-06 18:14",
-   "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
    "comment": "",
    "score": 18
   },
