@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11 12:17",
- "raw_total": 197,
+ "generated_at": "2026-11-11 13:15",
+ "raw_total": 181,
  "items": [
   {
    "group": "快讯",
@@ -14,23 +14,13 @@
   },
   {
    "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Hybrid Product Search Without the Copy: Lexical, Semantic and Filtered Retrieval Served Directly from a Data Lake",
-   "link": "https://arxiv.org/abs/2611.11031",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.11031v1 Announce Type: cross Abstract: E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record. We extend Apache Pinot, a real-time OLAP engine that already serves Iceberg tables in place, with BM25 relevance scoring over its Lucene text index, corpus-wide term statistics so that scores are comparable across files, and reciprocal rank fusion in plain SQL; a real-time table fed by a stream can sit behind the same table, merged by the broker. On the Amazon ESCI benchmark (1.2M US products, 22,458 test queries), hybrid search served from the lake matches exact retrieval (nDCG@10 .361). The lake table is queryable 149 s after its files are registered, and a lake commit is searchable in 3.8 s, close to indexing directly into a search engine. On a brand-sorted lake of 277M products (0.8 TB), one 16-vCPU node answers brand-scoped vector, BM25 and client-fused hybrid searches in 6.5-9 ms (p50), sustains 1,100 vector and 635 BM25 searches per second at under 180 ms p99, and makes a commit searchable in 4.3 s. Search adds only its indexes: no copy of the catalog, no sync pipeline and no second schema, which cuts storage, rebuild time and the operational work of keeping copies consistent.",
-   "comment": "",
-   "score": 70
-  },
-  {
-   "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Coordinated Mixed-Precision KV Cache Quantization for Efficient LLM-based Multi-agent Systems",
-   "link": "https://arxiv.org/abs/2611.10096",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.10096v1 Announce Type: new Abstract: LLM-based multi-agent systems solve complex tasks through collaboration, but their growing, simultaneously resident key-value (KV) caches create a memory bottleneck. Applying single-model quantization policies independently ignores differences in agents' precision needs, potentially degrading collective reasoning. We introduce Coordinated Mixed-Precision KV Cache Quantization (CoMixKV), which combines online sensitivity estimation with joint agent-layer bit-width allocation under a shared memory budget. To our knowledge, CoMixKV is the first mixed-precision KV-cache quantization framework to jointly allocate precision across simultaneously resident agent caches under such a budget. The estimator derives sensitivity from a local attention-error bound using recent queries, keys, and values, without calibration data, trial quantization, or additional model passes. A shared controller combines these scores with remaining quantizable capacity and byte-level storage costs to minimize total estimated error. Allocations are refreshed as agents start or finish and new observations become available. Selected widths apply only to newly quantized blocks; recent states retain native precision and previously quantized blocks remain unchanged. Across four benchmarks and three LLM backbones at average 2-bit, 3-bit, and 4-bit settings, CoMixKV achieves strong accuracy against the evaluated quantization baselines. At the average 3-bit setting on Gemma-4-31B-it, it achieves 68.35% average accuracy, exceeding the strongest quantized baseline by 0.59%. On Qwen3-32B, it reduces peak KV-cache memory by 32.08% and achieves a 1.38x inference speedup over FullKV.",
+   "title": "Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers",
+   "link": "https://arxiv.org/abs/2611.12990",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.12990v1 Announce Type: new Abstract: Multimodal attributed graphs (MAGs), in which nodes carry text, images, and other modalities while edges encode relations among entities, underlie e-commerce, social media, content platforms, and creative applications. Learning on MAGs has developed along two complementary lines: graph-centric methods redesign how modalities are fused, propagated, and connected within message passing, while foundation-model-centric methods pretrain transferable multimodal graph encoders or bring graph context into multimodal large language models for prediction and generation. In parallel, several benchmarks have appeared with different datasets and evaluation protocols. This survey takes an algorithm-centric and evaluation-grounded view of the field and makes three contributions. Modeling: we introduce a unified message-passing formulation and organize methods into five integration levels (feature, propagation, topology, learning, and foundation model), covering discriminative and graph-conditioned generative models; within this formulation we derive representative methods as special cases, compare their assumptions, expressiveness, and cost, and identify cross-modal sensitivity as a property that separates otherwise similar architectures. Datasets and evaluation: we review recent benchmarks, summarize their datasets and metrics, define model-independent descriptors (label homophily, average degree, clustering, and edge provenance), and map each evaluation protocol to the baselines it uses. Frontiers: we connect multimodal graph learning to AI agents, covering the multimodal graphs that agents perceive and remember and graph engineering, the practice of organizing agent workflows as explicit graphs; we then discuss open problems, concrete efforts for the community, and research directions, including when graph structure helps in the presence of strong multimodal foundation models.",
    "comment": "",
-   "score": 61
+   "score": 63
   },
   {
    "group": "AI与数据",
@@ -49,26 +39,6 @@
    "link": "https://wallstreetcn.com/articles/3785691",
    "time": "11-11 01:28",
    "summary": "通胀意外持续走高，迫使华尔街主要机构重新评估美联储政策路径。 据华尔街见闻 ，11月10日，美国公布10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。 追风交易台消息，随后高盛首席美国经济学家David Mericle发表研报， 将美联储加息次数预测上调至三次，并将首次降息时点从2027年9月推迟至12月 。 David Mericle新",
-   "comment": "",
-   "score": 54
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Toward Verifiable Auto-Research for Data Systems",
-   "link": "https://arxiv.org/abs/2611.12063",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.12063v1 Announce Type: new Abstract: AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
-   "comment": "",
-   "score": 52
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Transactional Data Change for Real-Time Analytics in Lakehouses",
-   "link": "https://arxiv.org/abs/2611.12169",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.12169v1 Announce Type: new Abstract: Real-time data analytics has become a key demand for lakehouses. It requires propagating data changes from the data source to the lakehouse in real time, while ensuring ACID guarantees and minimizing resource consumption and impact on analytical query performance. This is highly challenging for a data system according to the RUM conjecture, especially given the read-optimized immutable file storage layer in lakehouses. Existing lakehouses offer only git-style catalog version control on a single table, and they trade data freshness, query performance, and/or resource efficiency to achieve a barely acceptable data-change throughput. In this paper, we propose a novel data synchronization framework, Retina, that enables real-time, cost-efficient, query-performant, and fully transactional data changes in lakehouses. We implement and open-source Retina. Evaluations show that Retina delivers 10-millisecond-level data freshness and over 3.2 million row/s linear-scalable data-change throughput with low resource consumption and query-performance overhead, significantly outperforming state-of-the-art lakehouse systems and lake-compatible HTAP databases.",
    "comment": "",
    "score": 51
   },
@@ -93,56 +63,6 @@
    "score": 50
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Semiprime Factorization with Discrete Diffusion and Beam Search: Scaling Laws",
-   "link": "https://arxiv.org/abs/2611.10202",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.10202v1 Announce Type: new Abstract: We demonstrate that transformer architectures trained with discrete denoising diffusion and decoded via guided test-time beam search can learn to recover the prime factors of semiprime integers directly from data. Our approach establishes a new frontier for learning-based semiprime factorization, successfully factoring 68-bit integers-a substantial advance over the prior 56-bit state of the art. While computationally less efficient than classical factoring algorithms, our model requires no domain-specific number-theoretic priors and learns purely from training examples. In practice, the diffusion model acts as a generative prior, identifying promising factor candidates where exact verification or lattice-based post-processing can complete the factorization. Furthermore, we derive empirical scaling laws relating approximation quality to training data volume, model size, and test-time computation. In contrast to language, problem size is the key driver of scaling behavior. Achieving a fixed accuracy on a held-out test set requires compute that scales exponentially with bit length. Consequently, our findings pose no threat to security, as the projected compute cost required to factorize cryptographically relevant integers remains prohibitive.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "FedLoVA: Value-Only Aggregation for Federated LoRA Fine-Tuning of Large Language Models",
-   "link": "https://arxiv.org/abs/2611.10248",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.10248v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) is a popular parameter-efficient fine-tuning (PEFT) method for fine-tuning of large language models (LLMs), especially in federated learning, due to its strong performance and communication efficiency. In practice, LoRA is applied to the query and value projections of transformer layers without considering the distinct roles of these components. In this work, we analyze the impact of these projections in federated fine-tuning of LLMs using LoRA and observe that the value projection converges significantly faster than the query projection. Motivated by this finding, we propose FedLoVA, a federated fine-tuning framework that trains LoRA adapters on both query and value projections locally while sharing only the value projection with the server. This approach reduces communication overhead while improving convergence efficiency. Experiments on natural language understanding, multilingual sentiment analysis, and generation tasks show that FedLoVA reduces the communication cost by up to $7.8\\times$ compared to existing federated LLM fine-tuning baselines while achieving comparable or better performance. The code is available at: https://github.com/EnsiehKhazaei/FedLoVA.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "A Clinical Evaluation of Conformal Prediction for Chest Radiograph Report Generation",
-   "link": "https://arxiv.org/abs/2611.10288",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.10288v1 Announce Type: new Abstract: While multimodal large language models (MLLMs) have improved automated radiology report generation, they remain prone to hallucinations, necessitating clinically meaningful risk-control methods. Conformal prediction (CP) provides statistical guarantees, yet existing CP approaches rely on uncalibrated automated extractors and fail to account for the clinical relevance of errors. We introduce clinical admissibility criteria (CLARITY), a framework for evaluating radiology reports that explicitly distinguishes clinically consequential errors from minor deviations. To eliminate reliance on automatic judges, we collected radiologist annotations of MLLM-generated reports using CLARITY. By benchmarking CP strategies and automatic evaluation metrics against these expert annotations, we demonstrate that commonly used admissibility proxies systematically fail to detect clinically relevant errors. Our findings reveal that automated admissibility judgments are largely decoupled from true clinical admissibility.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search",
-   "link": "https://arxiv.org/abs/2611.12539",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.12539v1 Announce Type: new Abstract: Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems. In practice, objects are often also associated with labels (e.g., attributes or keywords), and retrieval must combine vector similarity with explicit label-based filtering, giving rise to label-filtered ANNS. This task is challenging because label filtering and ANNS favor very different index structures, selective filters fragment the admissible search space, and updates complicate index maintenance. To address these challenges, we propose DYLAN, a dynamic composite index for label-filtered ANNS supporting containment, overlap, and their conjunctions and disjunctions. DYLAN organizes label sets by shared prefixes in a frequency-ordered trie and selectively shares HNSW-style graph indices across trie-induced subsets, so that each trie region has a constant-factor covering index while each object participates in only logarithmically many indices. To mitigate fragmentation, DYLAN performs a cross-region multi-graph search that exploits ancestor-level indices as bridges between otherwise isolated trie regions. To support insertions, it adopts a threshold-based maintenance scheme that rebuilds shared indices only when necessary, yielding low amortized update cost. Extensive experiments with real data show that DYLAN consistently improves query throughput at comparable recall, by up to two orders of magnitude on challenging label-rich datasets, while retaining competitive memory, construction, and update costs.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Flash-Fusion: Fast, Expressive Queries over Sensor Streams with LLMs",
-   "link": "https://arxiv.org/abs/2511.11885",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2511.11885v2 Announce Type: replace-cross Abstract: Pervasive sensor deployments have generated significant interest in IoT data analysis across fields such as healthcare, transportation and urban planning. At the same time, the rise of Large Language Models (LLMs) offer a new tool for exploring IoT data through their expressive, natural language interface. Unfortunately, natural language querying of IoT sensor streams is impractical today: raw telemetry exhausts LLM context windows in fractions of a second at scale, incurs prohibitive per-token costs, and produces hallucinated responses. Existing systems work around these limits with lossy text summarization or unconstrained code synthesis, producing expensive, unverified computations. Multi-step queries compound this problem: logical errors in intermediate operations can derail the final answer. We present Flash-Fusion, an agentic framework for natural-language querying of tabular IoT data. Flash-Fusion identifies which available data fields and supported derivations can answer the user's query, constructs a plan using typed, domain-specific operators, and validates its structure and schema compatibility before executing. Because constructing plans still requires costly LLM reasoning, Flash-Fusion caches validated operator sequences for reuse across compatible queries. A smaller LLM adapts a cached plan's parameters to each query, cutting latency and cost. We evaluate Flash-Fusion across human activity recognition, ECG monitoring, and vehicular telematics, covering direct lookups, multi-step reasoning, predictive tasks, and out-of-scope requests. Flash-Fusion achieves 92.2% query accuracy versus 76.1% for ReAct, the strongest baseline, while completing queries 7x faster and consuming 5x fewer tokens. Flash-Fusion enables users across disciplines to explore IoT data without manually constructing queries.",
-   "comment": "",
-   "score": 50
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -153,12 +73,42 @@
    "score": 49
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "ADIndex: Layer-Adaptive Sparse Attention Indexing via Group-Level Distillation",
+   "link": "https://arxiv.org/abs/2611.12956",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.12956v1 Announce Type: new Abstract: DeepSeek Sparse Attention (DSA) reduces the computational cost of attention through token-level selection. However, its indexer still scores the entire causal prefix for each query, making indexing a dominant source of latency in long-context inference. Notably, the indexer alone can account for more than 50% of total prefill GPU time at long context lengths. To address this bottleneck, we propose ADIndex, an Adaptive and Distillation-driven Indexing method for token-level sparse attention. ADIndex integrates three key components: (i) a layer-wise calibration strategy that adaptively accommodates cross-query retrieval overlap, motivated by our observation of pronounced inter-layer heterogeneity; (ii) a group-level distillation scheme that leverages this heterogeneity to efficiently train adaptive layer-wise group indexers, capturing salient retrieval signals from individual queries; and (iii) a low-latency inference strategy that reduces repeated full-prefix scans through token bank sharing within query groups while retaining query-specific refinement. Experiments on DeepSeek-V3.2 and GLM-5.1 demonstrate that ADIndex preserves near-lossless task performance on LongBench, LongBench v2, and RULER while delivering substantial efficiency gains over standard DSA, including prefill and decoding kernel speedups of up to 6.22x and 3.40x, respectively, at a context length of 256K across the layer-wise reuse configurations, as well as an end-to-end serving speedup of 1.54x at a context length of 128K.",
+   "comment": "",
+   "score": 48
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation",
+   "link": "https://arxiv.org/abs/2605.15790",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2605.15790v2 Announce Type: replace Abstract: Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external knowledge, but the retrieved documents can systematically skew generated answers toward one group. This effect is difficult to analyze and control in top-k settings, where several documents at different context positions jointly shape the output. We present a three-stage framework for fairness-aware retrieval in top-k RAG. First, a probabilistic reranker sets the group composition of the retrieved context at each position, enabling controlled perturbation of retrieval bias without modifying the retriever. Second, we show that output bias is well approximated by a position-weighted linear function of position-wise retrieval bias, revealing model-specific positional sensitivities. Third, we use this model to formulate retrieval as an optimization problem that trades off relevance against predicted output bias, and propose FARO, a scalable solution to that problem which decomposes the globally coupled quadratic objective into independent per-query assignment problems through a Fenchel--Legendre dual reformulation. Experiments with four open LLMs, and political and gender bias as use cases show that the linear model predicts output bias on unseen configurations in 17 of 24 settings. FARO substantially reduces output bias in most settings, while, compared with a linear-programming baseline, FARO achieves similar relevance, remains feasible where the baseline does not, and scales better to larger query sets and candidate pools.",
+   "comment": "",
+   "score": 45
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
    "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
    "time": "10-25 00:00",
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair",
+   "link": "https://arxiv.org/abs/2611.07342",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.07342v2 Announce Type: replace Abstract: Knowledge graphs often contain missing or inconsistent facts that undermine the applications built on them. Schema validation detects such violations but does not identify which of several valid repairs recovers the intended graph. External corpora can supply the evidence needed to identify the intended repair, but retrieving from them is costly and not always successful. We propose a framework for selective retrieval in iterative graph repair. An LLM repair agent explores and edits the graph, while a router controls its access to a researcher agent that retrieves external evidence. We extend a violation-injection framework to generate cases with multiple compatible violations and known reference repairs. The agent's repair outcomes on these cases provide supervision for training the deployment-specific router. On two building-automation datasets, researcher access improves repairs for some violations and degrades them for others, with effects differing across deployments. The router uses fewer repair-time tokens than always enabling access in all six evaluation suites. It achieves higher repair $F_1$ than always disabling access in five of six suites.",
    "comment": "",
    "score": 43
   },
@@ -175,16 +125,6 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板半日涨1%，算力硬件集体反弹，光模块龙头“易中天”拉升，恒科指跌超1%，权重股科网股回落",
-   "link": "https://wallstreetcn.com/articles/3785695",
-   "time": "11-11 04:09",
-   "summary": "A股和港股的光模块概念股大涨，新易盛、天孚通信、中际旭创等龙头股涨幅居前，有报道称，微软据传正敦促特朗普政府放弃一项涉及特定光学通信元器件进口限制政策。 11月11日，A股早盘低开高走，三大股指盘初集体上涨，盘中震荡分化，沪指小幅下跌，创业板指涨近1%。AI硬件爆发，光模块、光芯片、光通信、光电路交换机、电路板、覆铜板等概念股普遍拉升，剑桥科技涨停，“易中天”涨幅居前。煤炭、海运等板块活跃，白酒、",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
    "link": "https://wallstreetcn.com/articles/3785690",
    "time": "11-11 00:29",
@@ -193,24 +133,54 @@
    "score": 40
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Process then Retrieve: Investigating the Origins of the Modality Gap in Vision-Language Models",
-   "link": "https://arxiv.org/abs/2611.09897",
-   "time": "11-10 05:00",
-   "summary": "arXiv:2611.09897v1 Announce Type: new Abstract: Understanding the origins of the modality gap in vision language models remains a significant challenge. This work investigates whether differences in information density between modality specific tokens at the embedding layer contribute to this imbalance. We show that text tokens enter the model with much lower semantic density than visual tokens, driving early layers to focus on processing text representations before combining them with vision. Through mechanistic analysis, we demonstrate that replacing vision token positions with their semantically closest text token counterparts elicits increased attention to those positions in early layers. These findings provide a foundation for addressing the modality gap and provide insight to improve multimodal reasoning in VLM architectures.",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic IPO路演之际，OpenAI也披露财务数据：Q3收入不及，亏损远超",
+   "link": "https://wallstreetcn.com/articles/3785687",
+   "time": "11-11 00:06",
+   "summary": "OpenAI最新财务数据显示，其营收增长势头强劲，但盈利目标依然遥远。 11月10日，据彭博社援引知情人士透露， OpenAI三季度（截至9月末）营收达100亿美元，季环比增长近50%，同比增幅接近三倍 。 调整后运营利润率从-150%则从改善至-109%。 尽管利润率有所提升，但绝对亏损金额仍小幅扩大，从101亿美元升至109亿美元 。 上述财务数据于周二在一场投资者电话会议中披露。 CFO S",
    "comment": "",
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "time": "11-08 21:23",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences",
+   "link": "https://arxiv.org/abs/2611.13069",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.13069v1 Announce Type: new Abstract: Banks now train foundation models on ordered sequences of customer events such as transactions, app sessions, and authorizations. Deployed, such a model predicts forward in time, often for customers and merchants absent from training, yet each is evaluated on private data, so no two can be compared. Public benchmarks for such sequences rarely test a period the model has not seen; recommendation studies usually hold out each user's last events instead. We present INTENT (INTEraction, Novelty, and Transfer evaluation for next-action prediction), a public benchmark that scores a model in seven cells defined by whether the user, the period, and the target item appeared in training. An audit of 59 public dataset families retains five datasets; the most common defect is the lack of a calendar timestamp that orders events. No date lies within the time span of all five datasets, so each is split at its own cutoff, chosen by one rule fixed before any model is evaluated. Summed over the datasets, every cell holds at least 111,769 users. In reference results the cell determines the best model: a transformer leads on seen items after the cutoff but scores zero on new items, a variant that embeds item metadata helps mainly on MicroLens, and repeating the user's last item leads on new items in four of five datasets. This parameter-free control also shows that on three datasets most of the score lost after the cutoff reflects changed behavior rather than the model. The pipeline, the cutoff rule, and the per-cell user counts are publicly available.",
    "comment": "",
-   "score": 35
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "ARoute: Task-Aligned Batch and Streaming Model Routing",
+   "link": "https://arxiv.org/abs/2611.13209",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.13209v1 Announce Type: new Abstract: Language models increasingly power data-intensive applications, from semantic data processing to question answering and agentic workflows. Using frontier models for every request is prohibitively expensive, while relying only on smaller models reduces accuracy. We study model routing under a user-specified cost budget, aiming to maximize accuracy under task-specific correctness criteria. Existing routers fall short in two ways: pretrained routers rely on generic preference signals that may not reflect a task's own correctness criteria or a new model pair, and model cascades run the weaker model first on every request, adding sequential latency. We present ARoute, a task-aligned router that learns cost and accuracy signals to select a model for each request before inference. ARoute has two variants: ARoute-Batch operates on a batch of requests known in advance, routing requests with the greatest expected benefit to the stronger model subject to the budget, whereas ARoute-Stream processes requests online, using a threshold calibrated on a small validation set to satisfy the cost quota and dynamically adjusting it as the budget is consumed. For ARoute-Stream, we provide a finite-sample guarantee on expected normalized spending. We evaluate ARoute on MMLU-Pro, LiveCodeBench, SuperGPQA, and two value-filling tasks built from SWAN semantic query benchmark against other state-of-the-art approaches. At matched cost, ARoute-Batch achieves the highest mean accuracy in all 15 task-cost settings, improving over the strongest baseline by 4.1 percentage points on average and by up to 11.9 points. ARoute also completes a batch up to 2.8x faster than cascades.",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "SAIL: Self-Adaptive Index Learning with Hybrid Models (Extended Version)",
+   "link": "https://arxiv.org/abs/2611.13856",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.13856v1 Announce Type: new Abstract: Learned index structures have demonstrated a significant improvement in query performance over traditional index structures. The majority of learned indexes use a uniform node structure throughout their index structures. A few studies show that combining multiple types of node structures can lead to indexes that better adapt to local key-set distributions, hence yielding query efficiency gains. Following this line of work, we propose a learned index structure named SAIL that supports a wide range of different candidate node structures for both leaf and inner nodes, selected via cost models based on data driven approximations. We design an efficient construction algorithm that recursively partitions the key-set to be fitted by the candidate node types. Experiments demonstrate that SAIL achieves 2x improvement over existing learned indexes in query time, with similar memory consumption and index build times.",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "StatPrompt-LLM: A Lightweight Statistical Refinement for Foundation-Style Time-Series Forecasting",
+   "link": "https://arxiv.org/abs/2611.12974",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.12974v1 Announce Type: new Abstract: Time-series forecasting has recently seen a paradigm shift with the introduction of foundation-style models that adapt large pretrained language architectures to sequential data. However, effectively exposing fundamental temporal structures, such as trend, scale, and temporal dependence, to these models remains an open challenge, particularly when the available observations are limited. In this paper, we conduct an exploratory empirical study across different generations of forecasting architectures and propose StatPrompt-LLM, a lightweight statistical refinement of Time-LLM. StatPrompt-LLM augments the existing Time-LLM prompting mechanism with dataset-level statistical information and introduces a zero-initialised autoregressive bypass as a complementary linear forecasting pathway. We evaluate our framework on electricity and meteorological time-series benchmarks, including ETTh1, ETTh2, and Weather, under full-prefix and reduced-prefix configurations. Under the 10% reduced-prefix configuration, StatPrompt-LLM achieved lower in-sample prediction errors than Time-LLM, with unweighted average relative reductions across datasets of 40.2% in MSE and 21.4% in MAE. Full-prefix results were more dataset-dependent. Ablation analyses revealed relatively modest and dataset-dependent changes when selected additional statistical descriptor groups were masked within the combined architecture. Computational profiling indicated additional model parameters and runtime overhead relative to Time-LLM.",
+   "comment": "",
+   "score": 36
   },
   {
    "group": "AI与数据",
@@ -225,10 +195,40 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "Designing for Agents — Zeno Rocha, Resend",
-   "link": "https://latent.space/p/resend/",
-   "time": "11-10 20:05",
-   "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "BuildGraph: A Synthetic Multi-Archetype Building Knowledge Graph Dataset",
+   "link": "https://arxiv.org/abs/2610.00038",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2610.00038v2 Announce Type: replace Abstract: Semantic querying of building knowledge graphs (KGs) underpins the integration of artificial intelligence into building operations, from natural-language access to cross-building analytics, but such KGs are rarely public owing to proprietary, security, and cost barriers. BuildGraph is a synthetic building KG dataset of 120 buildings in the Brick Schema ontology, grounded in U.S. Department of Energy prototype models and sensor-placement patterns from real buildings. It spans eight commercial building types across three ASHRAE energy-code vintages, with five realizations per archetype varying URI naming, sensor-attachment predicates, and topology. A 75-query SPARQL benchmark confirms structural completeness: BuildGraph reaches 91.5% Query Answerability Rate versus 35.8% for 59 real-world Brick files. Independently, it reproduces real buildings' sensor-type proportions on their shared vocabulary (cosine 0.86-0.94), evidence of realistic instrumentation where measurable. A downstream text-to-SPARQL experiment with Gemma 4 (26B) reaches 27.3% Row-Matching F1 (+17.5 pp over zero-shot) on 12 held-out buildings. BuildGraph gives facility managers and digital-twin developers a testbed for portable analytics and natural-language interfaces, and its dataset, generator, and benchmark are openly available at https://github.com/humanbuildingsynergy/BuildGraph.",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+   "link": "https://arxiv.org/abs/2611.13001",
+   "time": "11-11 05:00",
+   "summary": "arXiv:2611.13001v1 Announce Type: new Abstract: Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (\\ours{}), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction through numerical recovery and dependence preservation, and link generation to both through predictive utility; distributional fidelity follows different, sometimes opposing, rankings. Objective interventions show the largest pooled gains from including the recipient's own objective. Generation has the broadest coverage of positive pooled auxiliary effects, while prediction shows potential to improve imputation and synthetic-data utility, with responses that vary across backbones. Cross-addition effects reveal that objective benefits need not add and depend on the objectives already present. Fixed-model comparisons expose corresponding utility--fidelity trade-offs: some generalists surpass specialist portfolios on utility, while fidelity continues to favor specialization. Frozen foundation models show strong prediction and numerical point imputation, together with promising synthetic-data utility, highlighting their potential across all three tasks. These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling.",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "link": "https://latent.space/p/elorian/",
+   "time": "10-29 16:00",
+   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
    "comment": "",
    "score": 30
   },
