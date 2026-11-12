@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 08:36",
+ "generated_at": "2026-11-12 09:16",
  "raw_total": 181,
  "items": [
   {
@@ -21,6 +21,16 @@
    "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
    "comment": "",
    "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CoreWeave大涨给AI云“喘息之机”，接下来就看Anthropic IPO和英伟达了",
+   "link": "https://wallstreetcn.com/articles/3785774",
+   "time": "11-12 00:43",
+   "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，",
+   "comment": "",
+   "score": 59
   },
   {
    "group": "快讯",
@@ -103,16 +113,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "CoreWeave拟发行至少40亿美元投资级贷款，盘后下挫近6%",
-   "link": "https://wallstreetcn.com/articles/3785770",
-   "time": "11-11 23:39",
-   "summary": "AI算力供应商CoreWeave正寻求通过投资级贷款再度大规模融资。 11月11日，据彭博社援引知情人士透露， 摩根士丹利与三菱日联金融集团（MUFG）正主导该笔至少40亿美元的潜在融资，计划分阶段向投资者进行银团推介，最快可能于下周启动，但方案尚未最终确定。 CoreWeave周二发布财报，将全年营收指引上调至130亿至133亿美元，高于此前预期区间，也超出华尔街平均预期的129亿美元。公司股价",
-   "comment": "",
-   "score": 39
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "ARoute: Task-Aligned Batch and Streaming Model Routing",
@@ -133,6 +133,16 @@
    "score": 38
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CoreWeave拟发行至少40亿美元投资级贷款，盘后下挫近6%",
+   "link": "https://wallstreetcn.com/articles/3785770",
+   "time": "11-11 23:39",
+   "summary": "AI算力供应商CoreWeave正寻求通过投资级贷款再度大规模融资。 11月11日，据彭博社援引知情人士透露， 摩根士丹利与三菱日联金融集团（MUFG）正主导该笔至少40亿美元的潜在融资，计划分阶段向投资者进行银团推介，最快可能于下周启动，但方案尚未最终确定。 CoreWeave周二发布财报，将全年营收指引上调至130亿至133亿美元，高于此前预期区间，也超出华尔街平均预期的129亿美元。公司股价",
+   "comment": "",
+   "score": 36
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "StatPrompt-LLM: A Lightweight Statistical Refinement for Foundation-Style Time-Series Forecasting",
@@ -141,16 +151,6 @@
    "summary": "arXiv:2611.12974v1 Announce Type: new Abstract: Time-series forecasting has recently seen a paradigm shift with the introduction of foundation-style models that adapt large pretrained language architectures to sequential data. However, effectively exposing fundamental temporal structures, such as trend, scale, and temporal dependence, to these models remains an open challenge, particularly when the available observations are limited. In this paper, we conduct an exploratory empirical study across different generations of forecasting architectures and propose StatPrompt-LLM, a lightweight statistical refinement of Time-LLM. StatPrompt-LLM augments the existing Time-LLM prompting mechanism with dataset-level statistical information and introduces a zero-initialised autoregressive bypass as a complementary linear forecasting pathway. We evaluate our framework on electricity and meteorological time-series benchmarks, including ETTh1, ETTh2, and Weather, under full-prefix and reduced-prefix configurations. Under the 10% reduced-prefix configuration, StatPrompt-LLM achieved lower in-sample prediction errors than Time-LLM, with unweighted average relative reductions across datasets of 40.2% in MSE and 21.4% in MAE. Full-prefix results were more dataset-dependent. Ablation analyses revealed relatively modest and dataset-dependent changes when selected additional statistical descriptor groups were masked within the combined architecture. Computational profiling indicated additional model parameters and runtime overhead relative to Time-LLM.",
    "comment": "",
    "score": 36
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
-   "link": "https://wallstreetcn.com/articles/3785732",
-   "time": "11-11 22:18",
-   "summary": "CoreWeave业绩超预期、Anthropic IPO超额认购、OpenAI季度营收首破百亿美元，三重催化剂重振AI交易热情，推动美股科技板块大幅反弹。 美国中期选举后，美股主要指数均转涨 。周三 纳斯达克100指数 上涨2.3%，创5月以来最佳单周表现； 标普500指数 上涨1.3%， 道琼斯工业平均指数 上涨0.5%。 此次反弹有效缓解了市场此前对AI投资主题降温的忧虑。Miller Tab",
-   "comment": "",
-   "score": 34
   },
   {
    "group": "AI与数据",
@@ -173,16 +173,6 @@
    "score": 34
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI交易热潮回归，CoreWeave单日暴涨24%，纳指100势将收复中选后失地",
-   "link": "https://wallstreetcn.com/articles/3785758",
-   "time": "11-11 21:40",
-   "summary": "随着人工智能交易热情重燃，美国科技股周三大幅反弹，纳斯达克100指数盘中一度抹平美国中期选举以来的全部跌幅，AI基础设施建设的长期可持续性顾虑有所缓和。 11月11日周三，纳斯达克100指数涨2.28%，盘中升至11月4日以来最高水平。标普500指数上涨1.3%，道琼斯工业平均指数上涨0.5%。 CoreWeave业绩好于预期、Anthropic IPO需求旺盛，以及OpenAI亮眼的季度表现，共",
-   "comment": "",
-   "score": 33
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
@@ -193,6 +183,16 @@
    "score": 33
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
+   "link": "https://wallstreetcn.com/articles/3785732",
+   "time": "11-11 22:18",
+   "summary": "CoreWeave业绩超预期、Anthropic IPO超额认购、OpenAI季度营收首破百亿美元，三重催化剂重振AI交易热情，推动美股科技板块大幅反弹。 美国中期选举后，美股主要指数均转涨 。周三 纳斯达克100指数 上涨2.3%，创5月以来最佳单周表现； 标普500指数 上涨1.3%， 道琼斯工业平均指数 上涨0.5%。 此次反弹有效缓解了市场此前对AI投资主题降温的忧虑。Miller Tab",
+   "comment": "",
+   "score": 31
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
@@ -201,6 +201,16 @@
    "summary": "arXiv:2611.13001v1 Announce Type: new Abstract: Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (\\ours{}), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction through numerical recovery and dependence preservation, and link generation to both through predictive utility; distributional fidelity follows different, sometimes opposing, rankings. Objective interventions show the largest pooled gains from including the recipient's own objective. Generation has the broadest coverage of positive pooled auxiliary effects, while prediction shows potential to improve imputation and synthetic-data utility, with responses that vary across backbones. Cross-addition effects reveal that objective benefits need not add and depend on the objectives already present. Fixed-model comparisons expose corresponding utility--fidelity trade-offs: some generalists surpass specialist portfolios on utility, while fidelity continues to favor specialization. Frozen foundation models show strong prediction and numerical point imputation, together with promising synthetic-data utility, highlighting their potential across all three tasks. These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易热潮回归，CoreWeave单日暴涨24%，纳指100势将收复中选后失地",
+   "link": "https://wallstreetcn.com/articles/3785758",
+   "time": "11-11 21:40",
+   "summary": "随着人工智能交易热情重燃，美国科技股周三大幅反弹，纳斯达克100指数盘中一度抹平美国中期选举以来的全部跌幅，AI基础设施建设的长期可持续性顾虑有所缓和。 11月11日周三，纳斯达克100指数涨2.28%，盘中升至11月4日以来最高水平。标普500指数上涨1.3%，道琼斯工业平均指数上涨0.5%。 CoreWeave业绩好于预期、Anthropic IPO需求旺盛，以及OpenAI亮眼的季度表现，共",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -221,16 +231,6 @@
    "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
    "comment": "",
    "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
-   "link": "https://wallstreetcn.com/articles/3785764",
-   "time": "11-11 23:15",
-   "summary": "华见早安之声 要闻精选 王毅 同 美国国务卿鲁比奥 通电话。 中国央行 Q3货政报告： 坚持实施好适度宽松的货币政策，保持人民币汇率在合理均衡水平上的基本稳定 ；用好债市非银大额赎回互换便利， 维护股票、债券、外汇等金融市场平稳运行。 国家税务总局 ：离岸信托收益征税过渡期已结束， 累计申报个税超1600亿元， 其中10月入库超1200亿元。 英伟达 盘后跌幅一度扩大至超8%，该公司准备罢免 CE",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "AI与数据",
