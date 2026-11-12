@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 04:15",
+ "generated_at": "2026-11-13 06:13",
  "raw_total": 140,
  "items": [
   {
@@ -13,6 +13,16 @@
    "score": 60
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋突然离任震动AI行业！英伟达大跌、新云与硬件承压、AMD大涨，Anthropic IPO受审视",
+   "link": "https://wallstreetcn.com/articles/3785829",
+   "time": "11-12 20:58",
+   "summary": "英伟达创始人、首席执行官黄仁勋突然离任，全球AI产业迎来重大领导层变局。这家由黄仁勋一手打造、并成为全球AI算力基础设施核心供应商的科技巨头，正式进入后黄仁勋时代。 当地时间11月12日， 英伟达宣布，黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司首席财务官Colette Kress接任临时CEO，董事会将同时考虑内部和外部候选人，启动正式继任者遴选程序。公司还任命长期董事、前Synop",
+   "comment": "",
+   "score": 48
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -21,16 +31,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 48
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储哈马克：需进一步加息以压制通胀",
-   "link": "https://wallstreetcn.com/articles/3785828",
-   "time": "11-12 15:08",
-   "summary": "美联储克利夫兰联储行长Beth Hammack（贝丝·哈马克）再度呼吁采取更具限制性的利率立场，认为当前通胀形势仍未得到有效控制，人工智能投资热潮带来的需求压力进一步加大了政策收紧的迫切性。 Hammack周四在俄亥俄州哥伦布市的一场活动上表示， \"我的判断是，我们需要转向限制性的政策立场，以推动通胀回落至2%的目标——这一目标至关重要。\" 她警告称，若政策行动迟缓，可能引发通胀预期的自我强化。最",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "AI与数据",
@@ -43,16 +43,6 @@
    "score": 43
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Nebius Q3业绩超预期，资本开支升至270亿美元、ARR目标延期，股价盘前跌逾14% | 财报见闻",
-   "link": "https://wallstreetcn.com/articles/3785826",
-   "time": "11-12 13:32",
-   "summary": "AI云计算公司Nebius Group公布第三季度业绩，营收与利润双双超出市场预期，但ARR增长指引下调与资本开支大幅上调的组合，令投资者对其盈利路径产生疑虑，股价盘前一度跌逾14%。 Nebius三季度营收达9.81亿美元，较市场预期的9.19亿美元高出约6.7%；调整后EBITDA为4.66亿美元，亦大幅超出预期的3.57亿美元。 然而，公司将年化经常性收入（ARR）目标从此前承诺的\"2026",
-   "comment": "",
-   "score": 42
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "LLM Powered Autonomous Agents",
@@ -61,6 +51,26 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储哈马克：需进一步加息以压制通胀",
+   "link": "https://wallstreetcn.com/articles/3785828",
+   "time": "11-12 15:08",
+   "summary": "美联储克利夫兰联储主席Beth Hammack（贝丝·哈马克）再度呼吁采取更具限制性的利率立场，认为当前通胀形势仍未得到有效控制，人工智能投资热潮带来的需求压力进一步加大了政策收紧的迫切性。 Hammack周四在俄亥俄州哥伦布市的一场活动上表示， \"我的判断是，我们需要转向限制性的政策立场，以推动通胀回落至2%的目标——这一目标至关重要。\" 她警告称，若政策行动迟缓，可能引发通胀预期的自我强化。最",
+   "comment": "",
+   "score": 41
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Nebius Q3业绩超预期，资本开支升至270亿美元、ARR目标延期，股价盘前跌逾14% | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3785826",
+   "time": "11-12 13:32",
+   "summary": "AI云计算公司Nebius Group公布第三季度业绩，营收与利润双双超出市场预期，但ARR增长指引下调与资本开支大幅上调的组合，令投资者对其盈利路径产生疑虑，股价盘前一度跌逾14%。 Nebius三季度营收达9.81亿美元，较市场预期的9.19亿美元高出约6.7%；调整后EBITDA为4.66亿美元，亦大幅超出预期的3.57亿美元。 然而，公司将年化经常性收入（ARR）目标从此前承诺的\"2026",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -120,7 +130,7 @@
    "time": "11-12 15:40",
    "summary": "美国成屋市场持续承压，10月销售量降至2010年以来最低水平，房贷利率高企与顽固通胀令潜在买家望而却步。 全国房地产经纪人协会（NAR）周四公布数据显示， 10月成屋成交量环比下滑5.5%，折年率降至375万套。西部地区销售跌至1999年有记录以来最低，南部和中西部亦创逾十年新低。 尽管市场需求大幅萎缩，但库存上升与价格松动迹象正逐步浮现，或为疲软的市场带来一丝转机。NAR首席经济学家Lawren",
    "comment": "",
-   "score": 26
+   "score": 23
   },
   {
    "group": "财经深度",
@@ -135,20 +145,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "黄仁勋再次被曝与第二名女员工有染",
-   "link": "https://wallstreetcn.com/articles/3785837",
-   "time": "11-12 19:40",
-   "summary": "据路透社从两位知情人士处获悉，已被罢免的英伟达（Nvidia）首席执行官黄仁勋（Jensen Huang）曾与第二名员工有过亲密关系。 在此消息曝光之前，黄仁勋还曾曝出另外两段婚外情，并因此于周四辞职。 这两名女性分别是爱丽丝·黄（Alice Huang），以及英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。 媒体未公布这名（第二位）员工的姓名，且未能成功联系到她。 在有",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "百度想重构大模型调度的入口",
-   "link": "https://wallstreetcn.com/articles/3785825",
-   "time": "11-12 12:46",
-   "summary": "11月12日的百度世界大会上，李彦宏谈起了大模型市场里的一门常见的生意——中转站的商业痛点。 “这些中转站它们把各种模型提供方聚合起来，提供给开发者来调用，但它们并不对模型的效果、服务的稳定性、响应速度等负责，甚至有时候这个模型的真实性都无从考证，它如果说用一个flash来代替，或者它生成一个Pro版本基本上也不会在中转站遇到什么阻力。” 模型厂商和第三方推理服务商越来越多，同一款模型往往有多个供",
+   "title": "不用Flash命名，谷歌发布Gemini 4 Hydrogen：幻觉减少5倍，速度翻倍",
+   "link": "https://wallstreetcn.com/articles/3785836",
+   "time": "11-12 21:23",
+   "summary": "谷歌以一款面向普通用户和开发者的高效能模型，全面扩大Gemini 4系列的覆盖半径。 继本周推出旗舰模型Carbon之后，谷歌周四发布Gemini 4 Hydrogen，以\"为所有人带来前沿智能\"为核心定位。 该模型主打速度与执行效率，放弃沿用的\"Flash\"品牌命名，以Hydrogen取而代之。 谷歌表示，Hydrogen已面向开发者、企业和消费者全球同步上线，覆盖Gemini API、AI S",
    "comment": "",
    "score": 20
   },
