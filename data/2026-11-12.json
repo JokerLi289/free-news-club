@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 14:24",
+ "generated_at": "2026-11-12 16:19",
  "raw_total": 140,
  "items": [
   {
@@ -19,16 +19,6 @@
    "link": "https://wallstreetcn.com/articles/3785774",
    "time": "11-12 00:43",
    "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街大行集体上调加息预测，美债期货延续跌势，黄金跌超1%破4000",
-   "link": "https://wallstreetcn.com/articles/3785756",
-   "time": "11-11 21:10",
-   "summary": "美国通胀数据持续超预期，美联储加息预期进一步升温，美债市场抛售压力仍在延续，黄金也受到利率预期变化的冲击。 周三，由于美国退伍军人节假期，美债现货市场休市，但国债期货交易仍正常进行。 受10月通胀数据超预期及美联储官员鹰派表态影响，美债期货继续下跌，对应收益率上行约2至4个基点 ，显示美债现货市场周四恢复交易后，10年期美债收益率可能重新逼近周二触及的5.01%以上水平。 与此同时，现货黄金今日下",
    "comment": "",
    "score": 50
   },
@@ -65,12 +55,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "CoreWeave季报史上最强，但伯恩斯坦和汇丰仍坚持\"卖出\"",
-   "link": "https://wallstreetcn.com/articles/3785788",
-   "time": "11-12 06:02",
-   "summary": "云计算公司CoreWeave交出了一份几乎无可挑剔的季报，却未能说服华尔街最坚定的两位空头改变立场。 华尔街见闻文章 写道， CoreWeave周三盘中一度飙升逾27%，创逾一年来最佳单日表现。 此前一天， 公司发布第三季度财报 ：营收36.6亿美元超出预期，利润率双双超预期，全年收入及运营利润指引双双上调，合同积压订单达1325亿美元，首席执行官Michael Intrator将其称为\"突破性季",
+   "title": "AI服务器+iPhone Duo双驱动，鸿海Q3净利润大增34%超预期",
+   "link": "https://wallstreetcn.com/articles/3785799",
+   "time": "11-12 08:14",
+   "summary": "鸿海精密工业第三季度净利润大幅超越市场预期，创下历史新高，AI服务器业务的强劲增长与苹果折叠屏手机iPhone Duo的旺盛需求共同构成双轮驱动。 鸿海周四（11月12日）公布的数据显示， 截至9月的三个月内，净利润同比增长34%至775亿新台币（约24亿美元），高于分析师平均预期的703亿新台币。 此前，公司已披露同期营收季增47%，达到创纪录的3.03万亿新台币。AI服务器组装已成为鸿海增长的",
    "comment": "",
-   "score": 39
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -91,6 +81,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CoreWeave季报史上最强，但伯恩斯坦和汇丰仍坚持\"卖出\"",
+   "link": "https://wallstreetcn.com/articles/3785788",
+   "time": "11-12 06:02",
+   "summary": "云计算公司CoreWeave交出了一份几乎无可挑剔的季报，却未能说服华尔街最坚定的两位空头改变立场。 华尔街见闻文章 写道， CoreWeave周三盘中一度飙升逾27%，创逾一年来最佳单日表现。 此前一天， 公司发布第三季度财报 ：营收36.6亿美元超出预期，利润率双双超预期，全年收入及运营利润指引双双上调，合同积压订单达1325亿美元，首席执行官Michael Intrator将其称为\"突破性季",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
