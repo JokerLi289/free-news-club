@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 13:16",
+ "generated_at": "2026-11-12 14:24",
  "raw_total": 140,
  "items": [
   {
@@ -20,7 +20,7 @@
    "time": "11-12 00:43",
    "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，",
    "comment": "",
-   "score": 52
+   "score": 50
   },
   {
    "group": "快讯",
@@ -63,6 +63,16 @@
    "score": 42
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CoreWeave季报史上最强，但伯恩斯坦和汇丰仍坚持\"卖出\"",
+   "link": "https://wallstreetcn.com/articles/3785788",
+   "time": "11-12 06:02",
+   "summary": "云计算公司CoreWeave交出了一份几乎无可挑剔的季报，却未能说服华尔街最坚定的两位空头改变立场。 华尔街见闻文章 写道， CoreWeave周三盘中一度飙升逾27%，创逾一年来最佳单日表现。 此前一天， 公司发布第三季度财报 ：营收36.6亿美元超出预期，利润率双双超预期，全年收入及运营利润指引双双上调，合同积压订单达1325亿美元，首席执行官Michael Intrator将其称为\"突破性季",
+   "comment": "",
+   "score": 39
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -80,17 +90,7 @@
    "time": "11-08 21:23",
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 32
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "科创50大涨超2%，GPU爆发，寒武纪重返千元、燧原科技创新高，恒科指跌超1%，阿里跌5%",
-   "link": "https://wallstreetcn.com/articles/3785781",
-   "time": "11-12 04:06",
-   "summary": "据媒体报道，英伟达董事会于周三召开内部会议以决定黄仁勋的去留，并已与外部机构合作遴选新任CEO候选人，其中包括考虑任命一位过渡时期首席执行官。寒武纪、燧原科技等国产GPU集体拉升，带动科创50大幅走强。虽然隔夜美股存储板块强力上扬，但英伟达负面不断，叠加韩股存储双雄涨势有限，A股存储器、光通信板块相对克制。 11月12日，A股三大指数低开后冲高回落，创业板一度涨超1%，盘中翻绿，科创50亦冲高回落",
-   "comment": "",
-   "score": 30
+   "score": 31
   },
   {
    "group": "快讯",
@@ -125,10 +125,10 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
-   "link": "https://latent.space/p/jev-revolution/",
-   "time": "11-12 05:08",
-   "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+   "title": "[AINews] D-Day (Decision Models Day)",
+   "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+   "time": "11-12 05:26",
+   "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production custome",
    "comment": "",
    "score": 30
   },
