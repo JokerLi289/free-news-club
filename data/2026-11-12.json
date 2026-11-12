@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 18:16",
+ "generated_at": "2026-11-12 19:15",
  "raw_total": 140,
  "items": [
   {
@@ -53,26 +53,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋丑闻冲击，英伟达美股盘前大跌7%，存储、光通信普跌，黄金再跌破4000关口，油价连续两日反弹",
-   "link": "https://wallstreetcn.com/articles/3785806",
-   "time": "11-12 09:01",
-   "summary": "英伟达的管理层危机把风险从一家公司扩散到整条人工智能供应链，投资者不得不重新为今年最拥挤的交易定价。 周四美股盘前，英伟达跌约7%，黄仁勋被曝光第二件婚外情，董事会正筹划将其解职。 CoreWeave跌约7%，报道称该公司准备出售投资级贷款来募集至少40亿美元。 存储芯片股普跌，SK海力士跌约4%，闪迪跌约4%。光通信股普跌，Coherent跌约4%，Lumentum跌约4%。 避险情绪随即外溢。",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI服务器+iPhone Duo双驱动，鸿海Q3净利润大增34%超预期",
-   "link": "https://wallstreetcn.com/articles/3785799",
-   "time": "11-12 08:14",
-   "summary": "鸿海精密工业第三季度净利润大幅超越市场预期，创下历史新高，AI服务器业务的强劲增长与苹果折叠屏手机iPhone Duo的旺盛需求共同构成双轮驱动。 鸿海周四（11月12日）公布的数据显示， 截至9月的三个月内，净利润同比增长34%至775亿新台币（约24亿美元），高于分析师平均预期的703亿新台币。 此前，公司已披露同期营收季增47%，达到创纪录的3.03万亿新台币。AI服务器组装已成为鸿海增长的",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -81,6 +61,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 34
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋丑闻冲击，英伟达美股盘前大跌7%，存储、光通信普跌，黄金再跌破4000关口，油价连续两日反弹",
+   "link": "https://wallstreetcn.com/articles/3785806",
+   "time": "11-12 09:01",
+   "summary": "英伟达的管理层危机把风险从一家公司扩散到整条人工智能供应链，投资者不得不重新为今年最拥挤的交易定价。 周四美股盘前，英伟达跌约7%，黄仁勋被曝光第二件婚外情，董事会正筹划将其解职。 CoreWeave跌约7%，报道称该公司准备出售投资级贷款来募集至少40亿美元。 存储芯片股普跌，SK海力士跌约4%，闪迪跌约4%。光通信股普跌，Coherent跌约4%，Lumentum跌约4%。 避险情绪随即外溢。",
+   "comment": "",
+   "score": 32
   },
   {
    "group": "AI与数据",
@@ -95,10 +85,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
-   "link": "https://wallstreetcn.com/articles/3785804",
-   "time": "11-12 09:46",
-   "summary": "马斯克与多位商界领袖公开呼吁英伟达董事会不要在调查结束前解雇黄仁勋，并要求把去留决定交给股东。一桩个人私德风波，正在演变为牵动公司治理、股东权利与AI交易走向的市场事件。 当地时间11月11日晚间，《纽约时报》曝出黄仁勋的第二段婚外情——与下属金伯利·鲍威尔的恋爱关系。随后《华尔街日报》报道，英伟达董事会已成立由独立董事主导、外部律师参与的调查委员会，并正在准备解除黄仁勋的职务。部分董事倾向由首席",
+   "title": "AI服务器+iPhone Duo双驱动，鸿海Q3净利润大增34%超预期",
+   "link": "https://wallstreetcn.com/articles/3785799",
+   "time": "11-12 08:14",
+   "summary": "鸿海精密工业第三季度净利润大幅超越市场预期，创下历史新高，AI服务器业务的强劲增长与苹果折叠屏手机iPhone Duo的旺盛需求共同构成双轮驱动。 鸿海周四（11月12日）公布的数据显示， 截至9月的三个月内，净利润同比增长34%至775亿新台币（约24亿美元），高于分析师平均预期的703亿新台币。 此前，公司已披露同期营收季增47%，达到创纪录的3.03万亿新台币。AI服务器组装已成为鸿海增长的",
    "comment": "",
    "score": 30
   },
@@ -113,16 +103,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "CoreWeave拟发行至少40亿美元投资级贷款，盘后下挫近6%",
-   "link": "https://wallstreetcn.com/articles/3785770",
-   "time": "11-11 23:39",
-   "summary": "AI算力供应商CoreWeave正寻求通过投资级贷款再度大规模融资。 11月11日，据彭博社援引知情人士透露， 摩根士丹利与三菱日联金融集团（MUFG）正主导该笔至少40亿美元的潜在融资，计划分阶段向投资者进行银团推介，最快可能于下周启动，但方案尚未最终确定。 CoreWeave周二发布财报，将全年营收指引上调至130亿至133亿美元，高于此前预期区间，也超出华尔街平均预期的129亿美元。公司股价",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] D-Day (Decision Models Day)",
@@ -131,6 +111,16 @@
    "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production custome",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "EnerSys数据中心业务两位数增长，UPS锂电方案获首单",
+   "link": "https://wallstreetcn.com/articles/3785810",
+   "time": "11-12 10:09",
+   "summary": "数据中心需求正在带动EnerSys的基础设施业务增长。 北京时间11月12日凌晨，美国工业电池厂商EnerSys公布2027财年第二季度（2026年7月6日 – 2026年10月4日）业绩。截至10月4日，公司季度净销售额为9.499亿美元，同比下降0.1%，低于此前给出的9.55亿至9.95亿美元指引。公司将营收微降和未达指引归因于汇率折算。 三项业务的表现分化。网络与基础设施解决方案部门录得4",
+   "comment": "",
+   "score": 27
   },
   {
    "group": "AI与数据",
@@ -143,6 +133,16 @@
    "score": 27
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
+   "link": "https://wallstreetcn.com/articles/3785804",
+   "time": "11-12 09:46",
+   "summary": "马斯克与多位商界领袖公开呼吁英伟达董事会不要在调查结束前解雇黄仁勋，并要求把去留决定交给股东。一桩个人私德风波，正在演变为牵动公司治理、股东权利与AI交易走向的市场事件。 当地时间11月11日晚间，《纽约时报》曝出黄仁勋的第二段婚外情——与下属金伯利·鲍威尔的恋爱关系。随后《华尔街日报》报道，英伟达董事会已成立由独立董事主导、外部律师参与的调查委员会，并正在准备解除黄仁勋的职务。部分董事倾向由首席",
+   "comment": "",
+   "score": 24
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
@@ -150,15 +150,15 @@
    "time": "11-02 11:00",
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
-   "score": 22
+   "score": 21
   },
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
-   "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
-   "time": "11-11 11:00",
-   "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+   "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "time": "11-12 11:00",
+   "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
    "comment": "",
    "score": 20
   },
@@ -175,12 +175,12 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
-   "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
-   "time": "11-09 11:00",
-   "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+   "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+   "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+   "time": "11-11 11:00",
+   "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
    "comment": "",
-   "score": 18
+   "score": 19
   },
   {
    "group": "财经深度",
