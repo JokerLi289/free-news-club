@@ -1,27 +1,7 @@
 {
- "generated_at": "2026-11-12 11:17",
- "raw_total": 181,
+ "generated_at": "2026-11-12 13:16",
+ "raw_total": 140,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "A股三大股指齐涨，科创50大涨超3%，算力硬件股继续爆发，机器人调整，恒指、恒科指齐跌超1%",
-   "link": "https://wallstreetcn.com/articles/3785781",
-   "time": "11-12 02:09",
-   "summary": "隔夜，CoreWeave业绩超预期、Anthropic IPO超额认购、OpenAI季度营收首破百亿美元，三重催化剂重振AI交易热情，推动美股科技板块大幅反弹，A股算力硬件再度拉升，推动科创50大涨超3%。 11月12日，A股早盘高开，三大股指盘初集体上涨，科创综指、科创50大涨超2%，半导体板块爆发，半导体设备、GPU、存储芯片、光模块等概念股延续反弹势头，寒武纪涨超9%。贵金属、物理AI、人形",
-   "comment": "",
-   "score": 80
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers",
-   "link": "https://arxiv.org/abs/2611.12990",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.12990v1 Announce Type: new Abstract: Multimodal attributed graphs (MAGs), in which nodes carry text, images, and other modalities while edges encode relations among entities, underlie e-commerce, social media, content platforms, and creative applications. Learning on MAGs has developed along two complementary lines: graph-centric methods redesign how modalities are fused, propagated, and connected within message passing, while foundation-model-centric methods pretrain transferable multimodal graph encoders or bring graph context into multimodal large language models for prediction and generation. In parallel, several benchmarks have appeared with different datasets and evaluation protocols. This survey takes an algorithm-centric and evaluation-grounded view of the field and makes three contributions. Modeling: we introduce a unified message-passing formulation and organize methods into five integration levels (feature, propagation, topology, learning, and foundation model), covering discriminative and graph-conditioned generative models; within this formulation we derive representative methods as special cases, compare their assumptions, expressiveness, and cost, and identify cross-modal sensitivity as a property that separates otherwise similar architectures. Datasets and evaluation: we review recent benchmarks, summarize their datasets and metrics, define model-independent descriptors (label homophily, average degree, clustering, and edge provenance), and map each evaluation protocol to the baselines it uses. Frontiers: we connect multimodal graph learning to AI agents, covering the multimodal graphs that agents perceive and remember and graph engineering, the practice of organizing agent workflows as explicit graphs; we then discuss open problems, concrete efforts for the community, and research directions, including when graph structure helps in the presence of strong multimodal foundation models.",
-   "comment": "",
-   "score": 63
-  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -40,7 +20,7 @@
    "time": "11-12 00:43",
    "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，",
    "comment": "",
-   "score": 56
+   "score": 52
   },
   {
    "group": "快讯",
@@ -63,42 +43,12 @@
    "score": 48
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "ADIndex: Layer-Adaptive Sparse Attention Indexing via Group-Level Distillation",
-   "link": "https://arxiv.org/abs/2611.12956",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.12956v1 Announce Type: new Abstract: DeepSeek Sparse Attention (DSA) reduces the computational cost of attention through token-level selection. However, its indexer still scores the entire causal prefix for each query, making indexing a dominant source of latency in long-context inference. Notably, the indexer alone can account for more than 50% of total prefill GPU time at long context lengths. To address this bottleneck, we propose ADIndex, an Adaptive and Distillation-driven Indexing method for token-level sparse attention. ADIndex integrates three key components: (i) a layer-wise calibration strategy that adaptively accommodates cross-query retrieval overlap, motivated by our observation of pronounced inter-layer heterogeneity; (ii) a group-level distillation scheme that leverages this heterogeneity to efficiently train adaptive layer-wise group indexers, capturing salient retrieval signals from individual queries; and (iii) a low-latency inference strategy that reduces repeated full-prefix scans through token bank sharing within query groups while retaining query-specific refinement. Experiments on DeepSeek-V3.2 and GLM-5.1 demonstrate that ADIndex preserves near-lossless task performance on LongBench, LongBench v2, and RULER while delivering substantial efficiency gains over standard DSA, including prefill and decoding kernel speedups of up to 6.22x and 3.40x, respectively, at a context length of 256K across the layer-wise reuse configurations, as well as an end-to-end serving speedup of 1.54x at a context length of 128K.",
-   "comment": "",
-   "score": 48
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation",
-   "link": "https://arxiv.org/abs/2605.15790",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2605.15790v2 Announce Type: replace Abstract: Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external knowledge, but the retrieved documents can systematically skew generated answers toward one group. This effect is difficult to analyze and control in top-k settings, where several documents at different context positions jointly shape the output. We present a three-stage framework for fairness-aware retrieval in top-k RAG. First, a probabilistic reranker sets the group composition of the retrieved context at each position, enabling controlled perturbation of retrieval bias without modifying the retriever. Second, we show that output bias is well approximated by a position-weighted linear function of position-wise retrieval bias, revealing model-specific positional sensitivities. Third, we use this model to formulate retrieval as an optimization problem that trades off relevance against predicted output bias, and propose FARO, a scalable solution to that problem which decomposes the globally coupled quadratic objective into independent per-query assignment problems through a Fenchel--Legendre dual reformulation. Experiments with four open LLMs, and political and gender bias as use cases show that the linear model predicts output bias on unseen configurations in 17 of 24 settings. FARO substantially reduces output bias in most settings, while, compared with a linear-programming baseline, FARO achieves similar relevance, remains feasible where the baseline does not, and scales better to larger query sets and candidate pools.",
-   "comment": "",
-   "score": 45
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
    "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
    "time": "10-25 00:00",
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
-   "comment": "",
-   "score": 43
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair",
-   "link": "https://arxiv.org/abs/2611.07342",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.07342v2 Announce Type: replace Abstract: Knowledge graphs often contain missing or inconsistent facts that undermine the applications built on them. Schema validation detects such violations but does not identify which of several valid repairs recovers the intended graph. External corpora can supply the evidence needed to identify the intended repair, but retrieving from them is costly and not always successful. We propose a framework for selective retrieval in iterative graph repair. An LLM repair agent explores and edits the graph, while a router controls its access to a researcher agent that retrieves external evidence. We extend a violation-injection framework to generate cases with multiple compatible violations and known reference repairs. The agent's repair outcomes on these cases provide supervision for training the deployment-specific router. On two building-automation datasets, researcher access improves repairs for some violations and degrades them for others, with effects differing across deployments. The router uses fewer repair-time tokens than always enabling access in all six evaluation suites. It achieves higher repair $F_1$ than always disabling access in five of six suites.",
    "comment": "",
    "score": 43
   },
@@ -113,46 +63,6 @@
    "score": 42
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences",
-   "link": "https://arxiv.org/abs/2611.13069",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.13069v1 Announce Type: new Abstract: Banks now train foundation models on ordered sequences of customer events such as transactions, app sessions, and authorizations. Deployed, such a model predicts forward in time, often for customers and merchants absent from training, yet each is evaluated on private data, so no two can be compared. Public benchmarks for such sequences rarely test a period the model has not seen; recommendation studies usually hold out each user's last events instead. We present INTENT (INTEraction, Novelty, and Transfer evaluation for next-action prediction), a public benchmark that scores a model in seven cells defined by whether the user, the period, and the target item appeared in training. An audit of 59 public dataset families retains five datasets; the most common defect is the lack of a calendar timestamp that orders events. No date lies within the time span of all five datasets, so each is split at its own cutoff, chosen by one rule fixed before any model is evaluated. Summed over the datasets, every cell holds at least 111,769 users. In reference results the cell determines the best model: a transformer leads on seen items after the cutoff but scores zero on new items, a variant that embeds item metadata helps mainly on MicroLens, and repeating the user's last item leads on new items in four of five datasets. This parameter-free control also shows that on three datasets most of the score lost after the cutoff reflects changed behavior rather than the model. The pipeline, the cutoff rule, and the per-cell user counts are publicly available.",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "ARoute: Task-Aligned Batch and Streaming Model Routing",
-   "link": "https://arxiv.org/abs/2611.13209",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.13209v1 Announce Type: new Abstract: Language models increasingly power data-intensive applications, from semantic data processing to question answering and agentic workflows. Using frontier models for every request is prohibitively expensive, while relying only on smaller models reduces accuracy. We study model routing under a user-specified cost budget, aiming to maximize accuracy under task-specific correctness criteria. Existing routers fall short in two ways: pretrained routers rely on generic preference signals that may not reflect a task's own correctness criteria or a new model pair, and model cascades run the weaker model first on every request, adding sequential latency. We present ARoute, a task-aligned router that learns cost and accuracy signals to select a model for each request before inference. ARoute has two variants: ARoute-Batch operates on a batch of requests known in advance, routing requests with the greatest expected benefit to the stronger model subject to the budget, whereas ARoute-Stream processes requests online, using a threshold calibrated on a small validation set to satisfy the cost quota and dynamically adjusting it as the budget is consumed. For ARoute-Stream, we provide a finite-sample guarantee on expected normalized spending. We evaluate ARoute on MMLU-Pro, LiveCodeBench, SuperGPQA, and two value-filling tasks built from SWAN semantic query benchmark against other state-of-the-art approaches. At matched cost, ARoute-Batch achieves the highest mean accuracy in all 15 task-cost settings, improving over the strongest baseline by 4.1 percentage points on average and by up to 11.9 points. ARoute also completes a batch up to 2.8x faster than cascades.",
-   "comment": "",
-   "score": 39
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "SAIL: Self-Adaptive Index Learning with Hybrid Models (Extended Version)",
-   "link": "https://arxiv.org/abs/2611.13856",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.13856v1 Announce Type: new Abstract: Learned index structures have demonstrated a significant improvement in query performance over traditional index structures. The majority of learned indexes use a uniform node structure throughout their index structures. A few studies show that combining multiple types of node structures can lead to indexes that better adapt to local key-set distributions, hence yielding query efficiency gains. Following this line of work, we propose a learned index structure named SAIL that supports a wide range of different candidate node structures for both leaf and inner nodes, selected via cost models based on data driven approximations. We design an efficient construction algorithm that recursively partitions the key-set to be fitted by the candidate node types. Experiments demonstrate that SAIL achieves 2x improvement over existing learned indexes in query time, with similar memory consumption and index build times.",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "StatPrompt-LLM: A Lightweight Statistical Refinement for Foundation-Style Time-Series Forecasting",
-   "link": "https://arxiv.org/abs/2611.12974",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.12974v1 Announce Type: new Abstract: Time-series forecasting has recently seen a paradigm shift with the introduction of foundation-style models that adapt large pretrained language architectures to sequential data. However, effectively exposing fundamental temporal structures, such as trend, scale, and temporal dependence, to these models remains an open challenge, particularly when the available observations are limited. In this paper, we conduct an exploratory empirical study across different generations of forecasting architectures and propose StatPrompt-LLM, a lightweight statistical refinement of Time-LLM. StatPrompt-LLM augments the existing Time-LLM prompting mechanism with dataset-level statistical information and introduces a zero-initialised autoregressive bypass as a complementary linear forecasting pathway. We evaluate our framework on electricity and meteorological time-series benchmarks, including ETTh1, ETTh2, and Weather, under full-prefix and reduced-prefix configurations. Under the 10% reduced-prefix configuration, StatPrompt-LLM achieved lower in-sample prediction errors than Time-LLM, with unweighted average relative reductions across datasets of 40.2% in MSE and 21.4% in MAE. Full-prefix results were more dataset-dependent. Ablation analyses revealed relatively modest and dataset-dependent changes when selected additional statistical descriptor groups were masked within the combined architecture. Computational profiling indicated additional model parameters and runtime overhead relative to Time-LLM.",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -163,14 +73,24 @@
    "score": 34
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "BuildGraph: A Synthetic Multi-Archetype Building Knowledge Graph Dataset",
-   "link": "https://arxiv.org/abs/2610.00038",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2610.00038v2 Announce Type: replace Abstract: Semantic querying of building knowledge graphs (KGs) underpins the integration of artificial intelligence into building operations, from natural-language access to cross-building analytics, but such KGs are rarely public owing to proprietary, security, and cost barriers. BuildGraph is a synthetic building KG dataset of 120 buildings in the Brick Schema ontology, grounded in U.S. Department of Energy prototype models and sensor-placement patterns from real buildings. It spans eight commercial building types across three ASHRAE energy-code vintages, with five realizations per archetype varying URI naming, sensor-attachment predicates, and topology. A 75-query SPARQL benchmark confirms structural completeness: BuildGraph reaches 91.5% Query Answerability Rate versus 35.8% for 59 real-world Brick files. Independently, it reproduces real buildings' sensor-type proportions on their shared vocabulary (cosine 0.86-0.94), evidence of realistic instrumentation where measurable. A downstream text-to-SPARQL experiment with Gemma 4 (26B) reaches 27.3% Row-Matching F1 (+17.5 pp over zero-shot) on 12 held-out buildings. BuildGraph gives facility managers and digital-twin developers a testbed for portable analytics and natural-language interfaces, and its dataset, generator, and benchmark are openly available at https://github.com/humanbuildingsynergy/BuildGraph.",
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
-   "score": 34
+   "score": 32
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "科创50大涨超2%，GPU爆发，寒武纪重返千元、燧原科技创新高，恒科指跌超1%，阿里跌5%",
+   "link": "https://wallstreetcn.com/articles/3785781",
+   "time": "11-12 04:06",
+   "summary": "据媒体报道，英伟达董事会于周三召开内部会议以决定黄仁勋的去留，并已与外部机构合作遴选新任CEO候选人，其中包括考虑任命一位过渡时期首席执行官。寒武纪、燧原科技等国产GPU集体拉升，带动科创50大幅走强。虽然隔夜美股存储板块强力上扬，但英伟达负面不断，叠加韩股存储双雄涨势有限，A股存储器、光通信板块相对克制。 11月12日，A股三大指数低开后冲高回落，创业板一度涨超1%，盘中翻绿，科创50亦冲高回落",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -180,27 +100,7 @@
    "time": "11-11 23:39",
    "summary": "AI算力供应商CoreWeave正寻求通过投资级贷款再度大规模融资。 11月11日，据彭博社援引知情人士透露， 摩根士丹利与三菱日联金融集团（MUFG）正主导该笔至少40亿美元的潜在融资，计划分阶段向投资者进行银团推介，最快可能于下周启动，但方案尚未最终确定。 CoreWeave周二发布财报，将全年营收指引上调至130亿至133亿美元，高于此前预期区间，也超出华尔街平均预期的129亿美元。公司股价",
    "comment": "",
-   "score": 33
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "time": "11-08 21:23",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
-   "comment": "",
-   "score": 33
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-   "link": "https://arxiv.org/abs/2611.13001",
-   "time": "11-11 05:00",
-   "summary": "arXiv:2611.13001v1 Announce Type: new Abstract: Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (\\ours{}), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction through numerical recovery and dependence preservation, and link generation to both through predictive utility; distributional fidelity follows different, sometimes opposing, rankings. Objective interventions show the largest pooled gains from including the recipient's own objective. Generation has the broadest coverage of positive pooled auxiliary effects, while prediction shows potential to improve imputation and synthetic-data utility, with responses that vary across backbones. Cross-addition effects reveal that objective benefits need not add and depend on the objectives already present. Fixed-model comparisons expose corresponding utility--fidelity trade-offs: some generalists surpass specialist portfolios on utility, while fidelity continues to favor specialization. Frozen foundation models show strong prediction and numerical point imputation, together with promising synthetic-data utility, highlighting their potential across all three tasks. These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling.",
-   "comment": "",
-   "score": 31
+   "score": 30
   },
   {
    "group": "快讯",
@@ -225,10 +125,10 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-   "link": "https://latent.space/p/elorian/",
-   "time": "10-29 16:00",
-   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+   "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+   "link": "https://latent.space/p/jev-revolution/",
+   "time": "11-12 05:08",
+   "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
    "comment": "",
    "score": 30
   },
