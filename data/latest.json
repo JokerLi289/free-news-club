@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 03:12",
+ "generated_at": "2026-11-13 04:15",
  "raw_total": 140,
  "items": [
   {
@@ -30,17 +30,7 @@
    "time": "11-12 15:08",
    "summary": "美联储克利夫兰联储行长Beth Hammack（贝丝·哈马克）再度呼吁采取更具限制性的利率立场，认为当前通胀形势仍未得到有效控制，人工智能投资热潮带来的需求压力进一步加大了政策收紧的迫切性。 Hammack周四在俄亥俄州哥伦布市的一场活动上表示， \"我的判断是，我们需要转向限制性的政策立场，以推动通胀回落至2%的目标——这一目标至关重要。\" 她警告称，若政策行动迟缓，可能引发通胀预期的自我强化。最",
    "comment": "",
-   "score": 45
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Nebius Q3业绩超预期，资本开支升至270亿美元、ARR目标延期，股价盘前跌逾14% | 财报见闻",
-   "link": "https://wallstreetcn.com/articles/3785826",
-   "time": "11-12 13:32",
-   "summary": "AI云计算公司Nebius Group公布第三季度业绩，营收与利润双双超出市场预期，但ARR增长指引下调与资本开支大幅上调的组合，令投资者对其盈利路径产生疑虑，股价盘前一度跌逾14%。 Nebius三季度营收达9.81亿美元，较市场预期的9.19亿美元高出约6.7%；调整后EBITDA为4.66亿美元，亦大幅超出预期的3.57亿美元。 然而，公司将年化经常性收入（ARR）目标从此前承诺的\"2026",
-   "comment": "",
-   "score": 43
+   "score": 44
   },
   {
    "group": "AI与数据",
@@ -51,6 +41,16 @@
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
    "comment": "",
    "score": 43
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Nebius Q3业绩超预期，资本开支升至270亿美元、ARR目标延期，股价盘前跌逾14% | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3785826",
+   "time": "11-12 13:32",
+   "summary": "AI云计算公司Nebius Group公布第三季度业绩，营收与利润双双超出市场预期，但ARR增长指引下调与资本开支大幅上调的组合，令投资者对其盈利路径产生疑虑，股价盘前一度跌逾14%。 Nebius三季度营收达9.81亿美元，较市场预期的9.19亿美元高出约6.7%；调整后EBITDA为4.66亿美元，亦大幅超出预期的3.57亿美元。 然而，公司将年化经常性收入（ARR）目标从此前承诺的\"2026",
+   "comment": "",
+   "score": 42
   },
   {
    "group": "AI与数据",
@@ -103,16 +103,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国成屋销售跌至16年低点，高利率与通胀持续压制购房需求",
-   "link": "https://wallstreetcn.com/articles/3785831",
-   "time": "11-12 15:40",
-   "summary": "美国成屋市场持续承压，10月销售量降至2010年以来最低水平，房贷利率高企与顽固通胀令潜在买家望而却步。 全国房地产经纪人协会（NAR）周四公布数据显示， 10月成屋成交量环比下滑5.5%，折年率降至375万套。西部地区销售跌至1999年有记录以来最低，南部和中西部亦创逾十年新低。 尽管市场需求大幅萎缩，但库存上升与价格松动迹象正逐步浮现，或为疲软的市场带来一丝转机。NAR首席经济学家Lawren",
-   "comment": "",
-   "score": 27
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -121,6 +111,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 27
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国成屋销售跌至16年低点，高利率与通胀持续压制购房需求",
+   "link": "https://wallstreetcn.com/articles/3785831",
+   "time": "11-12 15:40",
+   "summary": "美国成屋市场持续承压，10月销售量降至2010年以来最低水平，房贷利率高企与顽固通胀令潜在买家望而却步。 全国房地产经纪人协会（NAR）周四公布数据显示， 10月成屋成交量环比下滑5.5%，折年率降至375万套。西部地区销售跌至1999年有记录以来最低，南部和中西部亦创逾十年新低。 尽管市场需求大幅萎缩，但库存上升与价格松动迹象正逐步浮现，或为疲软的市场带来一丝转机。NAR首席经济学家Lawren",
+   "comment": "",
+   "score": 26
   },
   {
    "group": "财经深度",
@@ -135,20 +135,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "百度想重构大模型调度的入口",
-   "link": "https://wallstreetcn.com/articles/3785825",
-   "time": "11-12 12:46",
-   "summary": "11月12日的百度世界大会上，李彦宏谈起了大模型市场里的一门常见的生意——中转站的商业痛点。 “这些中转站它们把各种模型提供方聚合起来，提供给开发者来调用，但它们并不对模型的效果、服务的稳定性、响应速度等负责，甚至有时候这个模型的真实性都无从考证，它如果说用一个flash来代替，或者它生成一个Pro版本基本上也不会在中转站遇到什么阻力。” 模型厂商和第三方推理服务商越来越多，同一款模型往往有多个供",
+   "title": "黄仁勋再次被曝与第二名女员工有染",
+   "link": "https://wallstreetcn.com/articles/3785837",
+   "time": "11-12 19:40",
+   "summary": "据路透社从两位知情人士处获悉，已被罢免的英伟达（Nvidia）首席执行官黄仁勋（Jensen Huang）曾与第二名员工有过亲密关系。 在此消息曝光之前，黄仁勋还曾曝出另外两段婚外情，并因此于周四辞职。 这两名女性分别是爱丽丝·黄（Alice Huang），以及英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。 媒体未公布这名（第二位）员工的姓名，且未能成功联系到她。 在有",
    "comment": "",
    "score": 20
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "EnerSys数据中心业务两位数增长，UPS锂电方案获首单",
-   "link": "https://wallstreetcn.com/articles/3785810",
-   "time": "11-12 10:09",
-   "summary": "数据中心需求正在带动EnerSys的基础设施业务增长。 北京时间11月12日凌晨，美国工业电池厂商EnerSys公布2027财年第二季度（2026年7月6日 – 2026年10月4日）业绩。截至10月4日，公司季度净销售额为9.499亿美元，同比下降0.1%，低于此前给出的9.55亿至9.95亿美元指引。公司将营收微降和未达指引归因于汇率折算。 三项业务的表现分化。网络与基础设施解决方案部门录得4",
+   "title": "百度想重构大模型调度的入口",
+   "link": "https://wallstreetcn.com/articles/3785825",
+   "time": "11-12 12:46",
+   "summary": "11月12日的百度世界大会上，李彦宏谈起了大模型市场里的一门常见的生意——中转站的商业痛点。 “这些中转站它们把各种模型提供方聚合起来，提供给开发者来调用，但它们并不对模型的效果、服务的稳定性、响应速度等负责，甚至有时候这个模型的真实性都无从考证，它如果说用一个flash来代替，或者它生成一个Pro版本基本上也不会在中转站遇到什么阻力。” 模型厂商和第三方推理服务商越来越多，同一款模型往往有多个供",
    "comment": "",
    "score": 20
   },
@@ -190,7 +190,7 @@
    "time": "11-04 13:00",
    "summary": "On today's show we discuss reasons to be bearish, the joys of indexing in an AI boom, carnage in name-brand stocks, why the stock market is not down more, how the investing rules have changed, the buy",
    "comment": "",
-   "score": 14
+   "score": 13
   },
   {
    "group": "财经深度",
@@ -200,15 +200,15 @@
    "time": "11-02 13:00",
    "summary": "On today's Talk Your Book we speak with Brian Griggs from Nuveen about how they help financial advisors build better portfolios, dealing with AI-related volatility, when to rebalance, the opportunity ",
    "comment": "",
-   "score": 12
+   "score": 11
   },
   {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
-   "title": "Animal Spirits: What the Hell Just Happened?!",
-   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-what-the-hell-just-happened/",
-   "time": "11-11 13:00",
-   "summary": "On today’s show we discuss how price sets the narrative, the blue tsunami, data center backlash, Thursday’s stock market wipeout, why everyone is always wrong about the markets, recency bias in politi",
+   "title": "The Bear Markets",
+   "link": "https://awealthofcommonsense.com/2026/11/the-bear-markets/",
+   "time": "11-12 19:58",
+   "summary": "Bull markets vs. bear markets. The post The Bear Markets appeared first on A Wealth of Common Sense. ...",
    "comment": "",
    "score": 10
   }
