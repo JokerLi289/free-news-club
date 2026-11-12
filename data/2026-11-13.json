@@ -1,0 +1,216 @@
+{
+ "generated_at": "2026-11-13 00:17",
+ "raw_total": 140,
+ "items": [
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "time": "11-03 05:35",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储哈马克：需进一步加息以压制通胀",
+   "link": "https://wallstreetcn.com/articles/3785828",
+   "time": "11-12 15:08",
+   "summary": "美联储克利夫兰联储行长Beth Hammack（贝丝·哈马克）再度呼吁采取更具限制性的利率立场，认为当前通胀形势仍未得到有效控制，人工智能投资热潮带来的需求压力进一步加大了政策收紧的迫切性。 Hammack周四在俄亥俄州哥伦布市的一场活动上表示， \"我的判断是，我们需要转向限制性的政策立场，以推动通胀回落至2%的目标——这一目标至关重要。\" 她警告称，若政策行动迟缓，可能引发通胀预期的自我强化。最",
+   "comment": "",
+   "score": 48
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 48
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Nebius Q3业绩超预期，资本开支升至270亿美元、ARR目标延期，股价盘前跌逾14% | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3785826",
+   "time": "11-12 13:32",
+   "summary": "AI云计算公司Nebius Group公布第三季度业绩，营收与利润双双超出市场预期，但ARR增长指引下调与资本开支大幅上调的组合，令投资者对其盈利路径产生疑虑，股价盘前一度跌逾14%。 Nebius三季度营收达9.81亿美元，较市场预期的9.19亿美元高出约6.7%；调整后EBITDA为4.66亿美元，亦大幅超出预期的3.57亿美元。 然而，公司将年化经常性收入（ARR）目标从此前承诺的\"2026",
+   "comment": "",
+   "score": 45
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国成屋销售跌至16年低点，高利率与通胀持续压制购房需求",
+   "link": "https://wallstreetcn.com/articles/3785831",
+   "time": "11-12 15:40",
+   "summary": "美国成屋市场持续承压，10月销售量降至2010年以来最低水平，房贷利率高企与顽固通胀令潜在买家望而却步。 全国房地产经纪人协会（NAR）周四公布数据显示， 10月成屋成交量环比下滑5.5%，折年率降至375万套。西部地区销售跌至1999年有记录以来最低，南部和中西部亦创逾十年新低。 尽管市场需求大幅萎缩，但库存上升与价格松动迹象正逐步浮现，或为疲软的市场带来一丝转机。NAR首席经济学家Lawren",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI服务器+iPhone Duo双驱动，鸿海Q3净利润大增34%超预期",
+   "link": "https://wallstreetcn.com/articles/3785799",
+   "time": "11-12 08:14",
+   "summary": "鸿海精密工业第三季度净利润大幅超越市场预期，创下历史新高，AI服务器业务的强劲增长与苹果折叠屏手机iPhone Duo的旺盛需求共同构成双轮驱动。 鸿海周四（11月12日）公布的数据显示， 截至9月的三个月内，净利润同比增长34%至775亿新台币（约24亿美元），高于分析师平均预期的703亿新台币。 此前，公司已披露同期营收季增47%，达到创纪录的3.03万亿新台币。AI服务器组装已成为鸿海增长的",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] D-Day (Decision Models Day)",
+   "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+   "time": "11-12 05:26",
+   "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production custome",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋辞职，英伟达一度大跌14%，半导体ETF领跌3.74%，油价短线上扬",
+   "link": "https://wallstreetcn.com/articles/3785806",
+   "time": "11-12 14:43",
+   "summary": "英伟达的管理层危机把风险从一家公司扩散到整条人工智能供应链，投资者不得不重新为今年最拥挤的交易定价。 周四，美国盘初，标普500指数跌0.90%，道琼斯工业平均指数跌0.11%，纳斯达克综合指数跌1.47%，纳斯达克100指数跌1.3%。 英伟达重挫约14%，后跌幅收窄至7%，市值跌穿4万亿美元，CoreWeave跌15.4%，Nebius跌22%，闪迪、SK海力士ADR、美光、希捷科技、台积电、",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "百度想重构大模型调度的入口",
+   "link": "https://wallstreetcn.com/articles/3785825",
+   "time": "11-12 12:46",
+   "summary": "11月12日的百度世界大会上，李彦宏谈起了大模型市场里的一门常见的生意——中转站的商业痛点。 “这些中转站它们把各种模型提供方聚合起来，提供给开发者来调用，但它们并不对模型的效果、服务的稳定性、响应速度等负责，甚至有时候这个模型的真实性都无从考证，它如果说用一个flash来代替，或者它生成一个Pro版本基本上也不会在中转站遇到什么阻力。” 模型厂商和第三方推理服务商越来越多，同一款模型往往有多个供",
+   "comment": "",
+   "score": 22
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
+   "link": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+   "time": "11-02 11:00",
+   "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
+   "comment": "",
+   "score": 21
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+   "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "time": "11-12 11:00",
+   "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "What an Ontology for AI Agents Actually Needs",
+   "link": "https://www.dataengineeringweekly.com/p/an-ontology-for-ai-agents-is-a-system",
+   "time": "08-14 12:38",
+   "summary": "How to think about the semantic system that makes an agent coherent, governable, and useful.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+   "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+   "time": "11-11 11:00",
+   "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: Drowning Financially",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-drowning-financially/",
+   "time": "11-04 13:00",
+   "summary": "On today's show we discuss reasons to be bearish, the joys of indexing in an AI boom, carnage in name-brand stocks, why the stock market is not down more, how the investing rules have changed, the buy",
+   "comment": "",
+   "score": 14
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: Diversifying the AI Trade",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-diversifying-the-ai-trade/",
+   "time": "11-02 13:00",
+   "summary": "On today's Talk Your Book we speak with Brian Griggs from Nuveen about how they help financial advisors build better portfolios, dealing with AI-related volatility, when to rebalance, the opportunity ",
+   "comment": "",
+   "score": 12
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: What the Hell Just Happened?!",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-what-the-hell-just-happened/",
+   "time": "11-11 13:00",
+   "summary": "On today’s show we discuss how price sets the narrative, the blue tsunami, data center backlash, Thursday’s stock market wipeout, why everyone is always wrong about the markets, recency bias in politi",
+   "comment": "",
+   "score": 10
+  }
+ ]
+}
