@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 19:15",
+ "generated_at": "2026-11-12 20:21",
  "raw_total": 140,
  "items": [
   {
@@ -11,16 +11,6 @@
    "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
    "comment": "",
    "score": 60
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "CoreWeave大涨给AI云“喘息之机”，接下来就看Anthropic IPO和英伟达了",
-   "link": "https://wallstreetcn.com/articles/3785774",
-   "time": "11-12 00:43",
-   "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "财经深度",
@@ -63,16 +53,6 @@
    "score": 34
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋丑闻冲击，英伟达美股盘前大跌7%，存储、光通信普跌，黄金再跌破4000关口，油价连续两日反弹",
-   "link": "https://wallstreetcn.com/articles/3785806",
-   "time": "11-12 09:01",
-   "summary": "英伟达的管理层危机把风险从一家公司扩散到整条人工智能供应链，投资者不得不重新为今年最拥挤的交易定价。 周四美股盘前，英伟达跌约7%，黄仁勋被曝光第二件婚外情，董事会正筹划将其解职。 CoreWeave跌约7%，报道称该公司准备出售投资级贷款来募集至少40亿美元。 存储芯片股普跌，SK海力士跌约4%，闪迪跌约4%。光通信股普跌，Coherent跌约4%，Lumentum跌约4%。 避险情绪随即外溢。",
-   "comment": "",
-   "score": 32
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
@@ -81,6 +61,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋丑闻冲击，英伟达美股盘前大跌7%，存储、光通信普跌，黄金再跌破4000关口，油价连续两日反弹",
+   "link": "https://wallstreetcn.com/articles/3785806",
+   "time": "11-12 09:01",
+   "summary": "英伟达的管理层危机把风险从一家公司扩散到整条人工智能供应链，投资者不得不重新为今年最拥挤的交易定价。 周四美股盘前，英伟达跌约7%，黄仁勋被曝光第二件婚外情，董事会正筹划将其解职。 CoreWeave跌约7%，报道称该公司准备出售投资级贷款来募集至少40亿美元。 存储芯片股普跌，SK海力士跌约4%，闪迪跌约4%。光通信股普跌，Coherent跌约4%，Lumentum跌约4%。 避险情绪随即外溢。",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -113,16 +103,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "EnerSys数据中心业务两位数增长，UPS锂电方案获首单",
-   "link": "https://wallstreetcn.com/articles/3785810",
-   "time": "11-12 10:09",
-   "summary": "数据中心需求正在带动EnerSys的基础设施业务增长。 北京时间11月12日凌晨，美国工业电池厂商EnerSys公布2027财年第二季度（2026年7月6日 – 2026年10月4日）业绩。截至10月4日，公司季度净销售额为9.499亿美元，同比下降0.1%，低于此前给出的9.55亿至9.95亿美元指引。公司将营收微降和未达指引归因于汇率折算。 三项业务的表现分化。网络与基础设施解决方案部门录得4",
-   "comment": "",
-   "score": 27
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -135,12 +115,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "EnerSys数据中心业务两位数增长，UPS锂电方案获首单",
+   "link": "https://wallstreetcn.com/articles/3785810",
+   "time": "11-12 10:09",
+   "summary": "数据中心需求正在带动EnerSys的基础设施业务增长。 北京时间11月12日凌晨，美国工业电池厂商EnerSys公布2027财年第二季度（2026年7月6日 – 2026年10月4日）业绩。截至10月4日，公司季度净销售额为9.499亿美元，同比下降0.1%，低于此前给出的9.55亿至9.95亿美元指引。公司将营收微降和未达指引归因于汇率折算。 三项业务的表现分化。网络与基础设施解决方案部门录得4",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
    "link": "https://wallstreetcn.com/articles/3785804",
    "time": "11-12 09:46",
    "summary": "马斯克与多位商界领袖公开呼吁英伟达董事会不要在调查结束前解雇黄仁勋，并要求把去留决定交给股东。一桩个人私德风波，正在演变为牵动公司治理、股东权利与AI交易走向的市场事件。 当地时间11月11日晚间，《纽约时报》曝出黄仁勋的第二段婚外情——与下属金伯利·鲍威尔的恋爱关系。随后《华尔街日报》报道，英伟达董事会已成立由独立董事主导、外部律师参与的调查委员会，并正在准备解除黄仁勋的职务。部分董事倾向由首席",
    "comment": "",
-   "score": 24
+   "score": 21
   },
   {
    "group": "财经深度",
@@ -151,6 +141,16 @@
    "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
    "comment": "",
    "score": 21
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "霍华德·马克斯：一个外行对AI的思考，谁能从AI投资中赚到钱？",
+   "link": "https://wallstreetcn.com/articles/3785818",
+   "time": "11-12 11:52",
+   "summary": "橡树资本联合创始人霍华德·马克斯（Howard Marks）在最新备忘录中，以一个\"外行\"的视角系统梳理了围绕人工智能投资的核心问题。他的结论并不乐观： AI投资涉及的关键变量数量异常庞大，预测难度远超以往任何一次技术革命，而真正能从中获利的究竟是谁，目前在很大程度上仍是一个信仰问题。 马克斯在备忘录中援引Anthropic旗下AI模型Claude的评估指出， AI整体的可预测性评分仅为3分（满分",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "财经深度",
