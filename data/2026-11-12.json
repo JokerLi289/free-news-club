@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 07:13",
+ "generated_at": "2026-11-12 08:36",
  "raw_total": 181,
  "items": [
   {
@@ -30,7 +30,7 @@
    "time": "11-11 21:10",
    "summary": "美国通胀数据持续超预期，美联储加息预期进一步升温，美债市场抛售压力仍在延续，黄金也受到利率预期变化的冲击。 周三，由于美国退伍军人节假期，美债现货市场休市，但国债期货交易仍正常进行。 受10月通胀数据超预期及美联储官员鹰派表态影响，美债期货继续下跌，对应收益率上行约2至4个基点 ，显示美债现货市场周四恢复交易后，10年期美债收益率可能重新逼近周二触及的5.01%以上水平。 与此同时，现货黄金今日下",
    "comment": "",
-   "score": 52
+   "score": 50
   },
   {
    "group": "财经深度",
@@ -103,6 +103,16 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "CoreWeave拟发行至少40亿美元投资级贷款，盘后下挫近6%",
+   "link": "https://wallstreetcn.com/articles/3785770",
+   "time": "11-11 23:39",
+   "summary": "AI算力供应商CoreWeave正寻求通过投资级贷款再度大规模融资。 11月11日，据彭博社援引知情人士透露， 摩根士丹利与三菱日联金融集团（MUFG）正主导该笔至少40亿美元的潜在融资，计划分阶段向投资者进行银团推介，最快可能于下周启动，但方案尚未最终确定。 CoreWeave周二发布财报，将全年营收指引上调至130亿至133亿美元，高于此前预期区间，也超出华尔街平均预期的129亿美元。公司股价",
+   "comment": "",
+   "score": 39
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "ARoute: Task-Aligned Batch and Streaming Model Routing",
@@ -123,26 +133,6 @@
    "score": 38
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI交易重燃，CoreWeave飙升24%，英伟达反弹，美元续涨，黄金跌破4000",
-   "link": "https://wallstreetcn.com/articles/3785732",
-   "time": "11-11 22:18",
-   "summary": "CoreWeave业绩超预期、Anthropic IPO超额认购、OpenAI季度营收首破百亿美元，三重催化剂重振AI交易热情，推动美股科技板块大幅反弹。 美国中期选举后，美股主要指数均转涨 。周三 纳斯达克100指数 上涨2.3%，创5月以来最佳单周表现； 标普500指数 上涨1.3%， 道琼斯工业平均指数 上涨0.5%。 此次反弹有效缓解了市场此前对AI投资主题降温的忧虑。Miller Tab",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI交易热潮回归，CoreWeave单日暴涨24%，纳指100势将收复中选后失地",
-   "link": "https://wallstreetcn.com/articles/3785758",
-   "time": "11-11 21:40",
-   "summary": "随着人工智能交易热情重燃，美国科技股周三大幅反弹，纳斯达克100指数盘中一度抹平美国中期选举以来的全部跌幅，AI基础设施建设的长期可持续性顾虑有所缓和。 11月11日周三，纳斯达克100指数涨2.28%，盘中升至11月4日以来最高水平。标普500指数上涨1.3%，道琼斯工业平均指数上涨0.5%。 CoreWeave业绩好于预期、Anthropic IPO需求旺盛，以及OpenAI亮眼的季度表现，共",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "StatPrompt-LLM: A Lightweight Statistical Refinement for Foundation-Style Time-Series Forecasting",
@@ -151,6 +141,16 @@
    "summary": "arXiv:2611.12974v1 Announce Type: new Abstract: Time-series forecasting has recently seen a paradigm shift with the introduction of foundation-style models that adapt large pretrained language architectures to sequential data. However, effectively exposing fundamental temporal structures, such as trend, scale, and temporal dependence, to these models remains an open challenge, particularly when the available observations are limited. In this paper, we conduct an exploratory empirical study across different generations of forecasting architectures and propose StatPrompt-LLM, a lightweight statistical refinement of Time-LLM. StatPrompt-LLM augments the existing Time-LLM prompting mechanism with dataset-level statistical information and introduces a zero-initialised autoregressive bypass as a complementary linear forecasting pathway. We evaluate our framework on electricity and meteorological time-series benchmarks, including ETTh1, ETTh2, and Weather, under full-prefix and reduced-prefix configurations. Under the 10% reduced-prefix configuration, StatPrompt-LLM achieved lower in-sample prediction errors than Time-LLM, with unweighted average relative reductions across datasets of 40.2% in MSE and 21.4% in MAE. Full-prefix results were more dataset-dependent. Ablation analyses revealed relatively modest and dataset-dependent changes when selected additional statistical descriptor groups were masked within the combined architecture. Computational profiling indicated additional model parameters and runtime overhead relative to Time-LLM.",
    "comment": "",
    "score": 36
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
+   "link": "https://wallstreetcn.com/articles/3785732",
+   "time": "11-11 22:18",
+   "summary": "CoreWeave业绩超预期、Anthropic IPO超额认购、OpenAI季度营收首破百亿美元，三重催化剂重振AI交易热情，推动美股科技板块大幅反弹。 美国中期选举后，美股主要指数均转涨 。周三 纳斯达克100指数 上涨2.3%，创5月以来最佳单周表现； 标普500指数 上涨1.3%， 道琼斯工业平均指数 上涨0.5%。 此次反弹有效缓解了市场此前对AI投资主题降温的忧虑。Miller Tab",
+   "comment": "",
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -171,6 +171,16 @@
    "summary": "arXiv:2610.00038v2 Announce Type: replace Abstract: Semantic querying of building knowledge graphs (KGs) underpins the integration of artificial intelligence into building operations, from natural-language access to cross-building analytics, but such KGs are rarely public owing to proprietary, security, and cost barriers. BuildGraph is a synthetic building KG dataset of 120 buildings in the Brick Schema ontology, grounded in U.S. Department of Energy prototype models and sensor-placement patterns from real buildings. It spans eight commercial building types across three ASHRAE energy-code vintages, with five realizations per archetype varying URI naming, sensor-attachment predicates, and topology. A 75-query SPARQL benchmark confirms structural completeness: BuildGraph reaches 91.5% Query Answerability Rate versus 35.8% for 59 real-world Brick files. Independently, it reproduces real buildings' sensor-type proportions on their shared vocabulary (cosine 0.86-0.94), evidence of realistic instrumentation where measurable. A downstream text-to-SPARQL experiment with Gemma 4 (26B) reaches 27.3% Row-Matching F1 (+17.5 pp over zero-shot) on 12 held-out buildings. BuildGraph gives facility managers and digital-twin developers a testbed for portable analytics and natural-language interfaces, and its dataset, generator, and benchmark are openly available at https://github.com/humanbuildingsynergy/BuildGraph.",
    "comment": "",
    "score": 34
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易热潮回归，CoreWeave单日暴涨24%，纳指100势将收复中选后失地",
+   "link": "https://wallstreetcn.com/articles/3785758",
+   "time": "11-11 21:40",
+   "summary": "随着人工智能交易热情重燃，美国科技股周三大幅反弹，纳斯达克100指数盘中一度抹平美国中期选举以来的全部跌幅，AI基础设施建设的长期可持续性顾虑有所缓和。 11月11日周三，纳斯达克100指数涨2.28%，盘中升至11月4日以来最高水平。标普500指数上涨1.3%，道琼斯工业平均指数上涨0.5%。 CoreWeave业绩好于预期、Anthropic IPO需求旺盛，以及OpenAI亮眼的季度表现，共",
+   "comment": "",
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -215,12 +225,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "巴西提出最高108亿美元财政整顿方案，拟削减税收优惠、收紧支出",
-   "link": "https://wallstreetcn.com/articles/3785763",
-   "time": "11-11 22:46",
-   "summary": "巴西政府提出一揽子财政整顿措施，预计明年可改善公共财政最多600亿雷亚尔（约108亿美元），以回应市场对该国债务可持续性的持续担忧。 据路透社报道， 巴西规划部长Bruno Moretti周三在国会听证会上表示，该方案涵盖削减税收减免、限制税收抵扣使用以及约束公共部门薪酬等多项举措，同时寻求授权政府在必要时实施更大力度的支出冻结。 Moretti称， 政府\"绝对确信\"明年能够实现占GDP 0.1%",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
+   "link": "https://wallstreetcn.com/articles/3785764",
+   "time": "11-11 23:15",
+   "summary": "华见早安之声 要闻精选 王毅 同 美国国务卿鲁比奥 通电话。 中国央行 Q3货政报告： 坚持实施好适度宽松的货币政策，保持人民币汇率在合理均衡水平上的基本稳定 ；用好债市非银大额赎回互换便利， 维护股票、债券、外汇等金融市场平稳运行。 国家税务总局 ：离岸信托收益征税过渡期已结束， 累计申报个税超1600亿元， 其中10月入库超1200亿元。 英伟达 盘后跌幅一度扩大至超8%，该公司准备罢免 CE",
    "comment": "",
-   "score": 28
+   "score": 27
   },
   {
    "group": "AI与数据",
@@ -231,16 +241,6 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 27
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI数据中心建设降温也不必担心？美国进口热潮短期难退，真正冲击或到2029年",
-   "link": "https://wallstreetcn.com/articles/3785757",
-   "time": "11-11 21:10",
-   "summary": "美国AI数据中心建设正面临政治阻力，但即使新项目开工放缓，也未必会迅速终结美国的进口热潮。 彭博经济研究指出，数据中心建设周期较长，服务器等核心硬件通常在项目后期才采购，2025年和2026年启动的项目仍将支撑未来两年的进口需求。真正明显的进口冲击，可能要到2029年才会显现。 数据中心商品成为美国进口增长引擎 特朗普第二任期以来，关税政策已将美国平均有效关税税率从2.3%推高至约11%。但数据中",
-   "comment": "",
-   "score": 23
   },
   {
    "group": "财经深度",
