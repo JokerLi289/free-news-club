@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 20:21",
+ "generated_at": "2026-11-13 22:16",
  "raw_total": 200,
  "items": [
   {
@@ -65,10 +65,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "黄仁勋辞职拖累AI交易，美股三大期指集体下跌，英伟达盘前企稳，布油反弹突破96美元",
-   "link": "https://wallstreetcn.com/articles/3785885",
-   "time": "11-13 08:45",
-   "summary": "黄仁勋卸任消息冲击市场情绪，欧美股市走低，投资者将目光转向今晚公布的美国PPI数据。 周五，美股期指下跌，欧洲股市低开，日韩股市涨跌不一。美国国债价格基本持稳，国际油价延续涨势。黄金则在连续三个交易日下跌后反弹。外汇市场方面，日元走势受到密切关注。美元兑日元汇率自9月以来首次跌破160关口，重新引发市场对日本当局可能出手干预汇市的担忧。 AT Global Markets驻悉尼首席市场分析师尼克·",
+   "title": "美国10月PPI同比 6.5%创四年、但低于预期，激进加息预期小幅降温",
+   "link": "https://wallstreetcn.com/articles/3785905",
+   "time": "11-13 13:58",
+   "summary": "美国批发通胀加速态势略低于预期，为本周一系列通胀数据画上注脚。 美国劳工统计局周五公布数据显示， 美国10月生产者价格指数（PPI）同比上涨6.5%，高于9月的6.3%，创2022年11月以来最高水平，略低于市场预期的6.6%。 数据公布后， 交易员小幅下调了对美联储进一步收紧政策的预期 ，美股期货短线走高。 在月度层面，10月PPI环比上涨0.3%，低于市场预期的0.4%。剔除食品和能源的核心P",
    "comment": "",
    "score": 50
   },
@@ -93,6 +93,16 @@
    "score": 50
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美PPI低于预期，美股期指拉升，英伟达盘前企稳，布油反弹突破96美元",
+   "link": "https://wallstreetcn.com/articles/3785885",
+   "time": "11-13 13:49",
+   "summary": "美国10月PPI同比涨幅低于预期，缓解了市场对通胀持续走高及美联储进一步收紧政策的担忧，美股期指短线拉升。 PPI数据公布后，纳斯达克100指数期货涨幅扩大至0.5%，英伟达盘前走高，收复黄仁勋离职消息引发的部分跌幅。美国10年期国债收益率回落至5.144%，美元指数下跌约10点，报103.13，现货黄金短线上涨逾10美元，报3894.95美元/盎司。 数据显示，美国10月PPI同比上涨6.5%，",
+   "comment": "",
+   "score": 48
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -100,7 +110,7 @@
    "time": "10-30 12:58",
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
-   "score": 48
+   "score": 47
   },
   {
    "group": "学术",
@@ -153,16 +163,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达跌出14年最低估值！“大多头”Tom Lee喊抄底，散户越跌越买，华尔街却出现分歧",
-   "link": "https://wallstreetcn.com/articles/3785898",
-   "time": "11-13 11:19",
-   "summary": "英伟达股价遭遇重挫，远期市盈率已降至约12倍，创2012年以来最低水平。但估值跌至历史低位，并未换来华尔街的一致看多。随着创始人兼CEO黄仁勋离职，市场对这家AI芯片巨头的信心正出现明显分化。 周四，英伟达股价早盘一度暴跌超过14%，随后在紧急公关和逢低买盘推动下逐步收复失地，最终收跌4.34%，报166.19美元。相比10月6日创下的阶段高点243.37美元，该股累计跌幅已超过30%。 股价暴跌",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -171,6 +171,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 34
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达跌出14年最低估值！“大多头”Tom Lee喊抄底，散户越跌越买，华尔街却出现分歧",
+   "link": "https://wallstreetcn.com/articles/3785898",
+   "time": "11-13 11:19",
+   "summary": "英伟达股价遭遇重挫，远期市盈率已降至约12倍，创2012年以来最低水平。但估值跌至历史低位，并未换来华尔街的一致看多。随着创始人兼CEO黄仁勋离职，市场对这家AI芯片巨头的信心正出现明显分化。 周四，英伟达股价早盘一度暴跌超过14%，随后在紧急公关和逢低买盘推动下逐步收复失地，最终收跌4.34%，报166.19美元。相比10月6日创下的阶段高点243.37美元，该股累计跌幅已超过30%。 股价暴跌",
+   "comment": "",
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -191,6 +201,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "法国之后，比利时债务危机风险升温，欧元区或面临新一轮财政压力",
+   "link": "https://wallstreetcn.com/articles/3785904",
+   "time": "11-13 13:30",
+   "summary": "比利时正成为继法国之后，欧元区又一个备受关注的主权债务风险点。预算赤字居高不下、政府财政谈判陷入僵局，加上国债收益率持续攀升，正使这个欧盟机构所在地面临越来越大的财政压力。 据报道， 比利时今年预算赤字预计将达到GDP的5.2%，远超欧盟《马斯特里赫特条约》规定的3%上限，公共债务规模也已超过GDP的110%。 总理Bart De Wever推动的财政整顿计划因联合政府内部严重分歧而受阻，并于11",
+   "comment": "",
+   "score": 27
   },
   {
    "group": "AI与数据",
@@ -219,26 +239,6 @@
    "link": "https://wallstreetcn.com/articles/3785874",
    "time": "11-13 06:34",
    "summary": "美联储\"三把手\"、纽约联储主席威廉姆斯（John Williams）发出鹰派信号，明确表示通胀依然过高，货币政策调整仍有工作要做，并强调需要采取进一步行动以确保通胀及时且持续回落至2%目标。 据彭博11月13日报道，威廉姆斯当地时间周四（11月12日）晚间在纽约的一场活动上表示， “通胀水平过高，最新数据依然显示通胀居高不下。” 他进一步指出，“随着时间的推移，我们需要采取行动，确保通胀及时且持续",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达暴跌后，散户抄底、半小时买入逾1亿美元",
-   "link": "https://wallstreetcn.com/articles/3785867",
-   "time": "11-13 05:56",
-   "summary": "英伟达股价因CEO黄仁勋离职消息重挫，但散户投资者迅速入场抄底，在开盘首个半小时内买入逾1.11亿美元，在一定程度上遏制了跌势，显示AI交易热情并未因管理层动荡而消退。 周四（11月12日）英伟达股价盘初一度暴跌14%，延续过去一个月的抛售势头。此前，黄仁勋因被报道与一名向其汇报的公司高管存在婚外情而宣布辞职，英伟达本周市值累计蒸发约5500亿美元。然而，散户的大规模买入推动股价从最低点显著反弹，",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
-   "link": "https://wallstreetcn.com/articles/3785860",
-   "time": "11-13 04:23",
-   "summary": "随着黄仁勋辞任英伟达CEO，华尔街与硅谷也随之陷入对“后黄仁勋时代”的集体焦虑。 11月12日，知名半导体研究机构SemiAnalysis创始人Dylan Patel做客科技商业播客TBPN，与主持人John Coogan、Jordi Hays展开了一场长达半小时的深度复盘。 （ 左 ：Jordi Hays； 中 ：Dylan Patel； 右 ：John Coogan） 就在访谈当天，英伟达联合",
    "comment": "",
    "score": 20
   },
