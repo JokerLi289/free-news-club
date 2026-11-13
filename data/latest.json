@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-13 13:15",
- "raw_total": 160,
+ "generated_at": "2026-11-13 14:23",
+ "raw_total": 140,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Cerebras大涨！Q3营收超预期，云业务激增272%，上调全年指引｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3785843",
-   "time": "11-12 21:20",
-   "summary": "AI推理需求持续升温，AI芯片公司Cerebras第三季度业绩超出市场预期，云业务收入成为增长的核心引擎。公司不仅上调了2026年全年营收指引，还预计2027年营收将达到今年的三倍，显示其对AI推理算力需求的增长前景持乐观态度。 当地时间11月12日， Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元；其中，云及",
-   "comment": "",
-   "score": 60
-  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -30,7 +20,7 @@
    "time": "11-13 02:51",
    "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公",
    "comment": "",
-   "score": 53
+   "score": 50
   },
   {
    "group": "财经深度",
@@ -93,24 +83,14 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板午后跌3%，银行再度逆势拉升，光模块龙头“易中天”大跌，恒科指跌超2%，科网股集体调整",
+   "link": "https://wallstreetcn.com/articles/3785855",
+   "time": "11-13 05:34",
+   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。 11月13日，A股午后加速下跌，三大股指集体走低，创业板跌3%，科创50亦跌超2%，盘中一度涨超2%。算力硬件龙头股再度下跌，“易中天”齐跌，工业富联、源杰科技、联讯仪器等领跌。AI短剧、农业、银行、白酒等板块再度拉升，算力芯片冲高回落，寒武纪",
    "comment": "",
-   "score": 39
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 36
+   "score": 37
   },
   {
    "group": "AI与数据",
@@ -125,20 +105,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
-   "link": "https://wallstreetcn.com/articles/3785860",
-   "time": "11-13 04:23",
-   "summary": "随着黄仁勋辞任英伟达CEO，华尔街与硅谷也随之陷入对“后黄仁勋时代”的集体焦虑。 11月12日，知名半导体研究机构SemiAnalysis创始人Dylan Patel做客科技商业播客TBPN，与主持人John Coogan、Jordi Hays展开了一场长达半小时的深度复盘。 （ 左 ：Jordi Hays； 中 ：Dylan Patel； 右 ：John Coogan） 就在访谈当天，英伟达联合",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "time": "11-09 13:31",
-   "summary": "When do you think we'll have robots on the moon?",
+   "title": "英伟达暴跌后，散户抄底、半小时买入逾1亿美元",
+   "link": "https://wallstreetcn.com/articles/3785867",
+   "time": "11-13 05:56",
+   "summary": "英伟达股价因CEO黄仁勋离职消息重挫，但散户投资者迅速入场抄底，在开盘首个半小时内买入逾1.11亿美元，在一定程度上遏制了跌势，显示AI交易热情并未因管理层动荡而消退。 周四（11月12日）英伟达股价盘初一度暴跌14%，延续过去一个月的抛售势头。此前，黄仁勋因被报道与一名向其汇报的公司高管存在婚外情而宣布辞职，英伟达本周市值累计蒸发约5500亿美元。然而，散户的大规模买入推动股价从最低点显著反弹，",
    "comment": "",
    "score": 30
   },
