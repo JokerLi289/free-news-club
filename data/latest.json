@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 17:17",
+ "generated_at": "2026-11-13 19:14",
  "raw_total": 200,
  "items": [
   {
@@ -43,16 +43,6 @@
    "score": 62
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋辞职拖累AI交易，美股三大期指集体下跌，英伟达盘前企稳，布油反弹突破96美元",
-   "link": "https://wallstreetcn.com/articles/3785885",
-   "time": "11-13 08:45",
-   "summary": "黄仁勋卸任消息冲击市场情绪，欧美股市走低，投资者将目光转向今晚公布的美国PPI数据。 周五，美股期指下跌，欧洲股市低开，日韩股市涨跌不一。美国国债价格基本持稳，国际油价延续涨势。黄金则在连续三个交易日下跌后反弹。外汇市场方面，日元走势受到密切关注。美元兑日元汇率自9月以来首次跌破160关口，重新引发市场对日本当局可能出手干预汇市的担忧。 AT Global Markets驻悉尼首席市场分析师尼克·",
-   "comment": "",
-   "score": 60
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
@@ -75,12 +65,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
-   "link": "https://wallstreetcn.com/articles/3785852",
-   "time": "11-13 02:51",
-   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公",
+   "title": "黄仁勋辞职拖累AI交易，美股三大期指集体下跌，英伟达盘前企稳，布油反弹突破96美元",
+   "link": "https://wallstreetcn.com/articles/3785885",
+   "time": "11-13 08:45",
+   "summary": "黄仁勋卸任消息冲击市场情绪，欧美股市走低，投资者将目光转向今晚公布的美国PPI数据。 周五，美股期指下跌，欧洲股市低开，日韩股市涨跌不一。美国国债价格基本持稳，国际油价延续涨势。黄金则在连续三个交易日下跌后反弹。外汇市场方面，日元走势受到密切关注。美元兑日元汇率自9月以来首次跌破160关口，重新引发市场对日本当局可能出手干预汇市的担忧。 AT Global Markets驻悉尼首席市场分析师尼克·",
    "comment": "",
-   "score": 50
+   "score": 52
   },
   {
    "group": "学术",
@@ -193,16 +183,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板午后跌超3%，银行逆势拉升，光模块龙头“易中天”大跌，恒科指跌超3%，科网股集体调整",
-   "link": "https://wallstreetcn.com/articles/3785855",
-   "time": "11-13 08:17",
-   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。算力芯片相对强势，寒武纪、海光信息、沐曦股份逆势上涨，寒武纪盘中更是一度涨超4%。 11月13日，A股午后加速下跌，三大股指集体走低，深市显著弱于沪市，深成指跌2%，创业板跌超3%，沪指下跌0.59%，上证50逆势涨0.1%，因银行股拉升，多只银",
-   "comment": "",
-   "score": 27
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -211,6 +191,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 27
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板午后跌超3%，银行逆势拉升，光模块龙头“易中天”大跌，恒科指跌超3%，科网股集体调整",
+   "link": "https://wallstreetcn.com/articles/3785855",
+   "time": "11-13 08:17",
+   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。算力芯片相对强势，寒武纪、海光信息、沐曦股份逆势上涨，寒武纪盘中更是一度涨超4%。 11月13日，A股午后加速下跌，三大股指集体走低，深市显著弱于沪市，深成指跌2%，创业板跌超3%，沪指下跌0.59%，上证50逆势涨0.1%，因银行股拉升，多只银",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "快讯",
@@ -271,6 +261,16 @@
    "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
    "comment": "",
    "score": 19
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "从SpaceX到Anthropic，市场对巨头上市有了新的应对策略",
+   "link": "https://wallstreetcn.com/articles/3785894",
+   "time": "11-13 10:27",
+   "summary": "超大型IPO正在催生新的市场交易逻辑：指数纳入带来的被动资金，可能成为巨头上市初期股价的重要推动力量。 据路透近日报道，Anthropic计划以每股70至78美元的价格发行8.25亿股，拟募资最高644亿美元，对应估值最高达1.4万亿美元。 与SpaceX今年6月上市时类似，Anthropic预计将在上市后5至15个交易日内被纳入至少六大主要指数，包括富时美国指数、标普全市场指数及纳斯达克100指",
+   "comment": "",
+   "score": 18
   },
   {
    "group": "财经深度",
