@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13 12:17",
- "raw_total": 140,
+ "generated_at": "2026-11-13 13:15",
+ "raw_total": 160,
  "items": [
   {
    "group": "快讯",
@@ -30,7 +30,7 @@
    "time": "11-13 02:51",
    "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公",
    "comment": "",
-   "score": 55
+   "score": 53
   },
   {
    "group": "财经深度",
@@ -94,6 +94,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -105,10 +125,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板跌1%，文化传媒、银行再度拉升，光模块龙头“易中天”齐跌，恒科指跌近2%，科网股集体调整",
-   "link": "https://wallstreetcn.com/articles/3785855",
-   "time": "11-13 04:12",
-   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌 11月13日，A股三大指数涨跌不一，沪指窄幅震荡，创业板指跌超1%，科创50指数冲高回落，盘中一度涨超2%。算力硬件龙头股再度下跌，“易中天”齐跌，工业富联、源杰科技、联讯仪器等领跌。AI短剧、农业、银行、白酒等板块再度拉升，算力芯片冲高回落，寒",
+   "title": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
+   "link": "https://wallstreetcn.com/articles/3785860",
+   "time": "11-13 04:23",
+   "summary": "随着黄仁勋辞任英伟达CEO，华尔街与硅谷也随之陷入对“后黄仁勋时代”的集体焦虑。 11月12日，知名半导体研究机构SemiAnalysis创始人Dylan Patel做客科技商业播客TBPN，与主持人John Coogan、Jordi Hays展开了一场长达半小时的深度复盘。 （ 左 ：Jordi Hays； 中 ：Dylan Patel； 右 ：John Coogan） 就在访谈当天，英伟达联合",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+   "time": "11-09 13:31",
+   "summary": "When do you think we'll have robots on the moon?",
    "comment": "",
    "score": 30
   },
