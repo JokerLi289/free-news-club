@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 11:17",
+ "generated_at": "2026-11-13 12:17",
  "raw_total": 140,
  "items": [
   {
@@ -30,7 +30,7 @@
    "time": "11-13 02:51",
    "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公",
    "comment": "",
-   "score": 59
+   "score": 55
   },
   {
    "group": "财经深度",
@@ -93,16 +93,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储哈马克：需进一步加息以压制通胀",
-   "link": "https://wallstreetcn.com/articles/3785828",
-   "time": "11-12 15:08",
-   "summary": "美联储克利夫兰联储主席Beth Hammack（贝丝·哈马克）再度呼吁采取更具限制性的利率立场，认为当前通胀形势仍未得到有效控制，人工智能投资热潮带来的需求压力进一步加大了政策收紧的迫切性。 Hammack周四在俄亥俄州哥伦布市的一场活动上表示， \"我的判断是，我们需要转向限制性的政策立场，以推动通胀回落至2%的目标——这一目标至关重要。\" 她警告称，若政策行动迟缓，可能引发通胀预期的自我强化。最",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -113,22 +103,32 @@
    "score": 34
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板跌1%，文化传媒、银行再度拉升，光模块龙头“易中天”齐跌，恒科指跌近2%，科网股集体调整",
+   "link": "https://wallstreetcn.com/articles/3785855",
+   "time": "11-13 04:12",
+   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌 11月13日，A股三大指数涨跌不一，沪指窄幅震荡，创业板指跌超1%，科创50指数冲高回落，盘中一度涨超2%。算力硬件龙头股再度下跌，“易中天”齐跌，工业富联、源杰科技、联讯仪器等领跌。AI短剧、农业、银行、白酒等板块再度拉升，算力芯片冲高回落，寒",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "link": "https://latent.space/p/artcraft/",
+   "time": "11-13 04:17",
+   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "comment": "",
+   "score": 30
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
    "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
    "time": "11-08 21:23",
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
-   "comment": "",
-   "score": 31
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] D-Day (Decision Models Day)",
-   "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
-   "time": "11-12 05:26",
-   "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production custome",
    "comment": "",
    "score": 30
   },
@@ -145,20 +145,10 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
-   "link": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
-   "time": "11-02 11:00",
-   "summary": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
-   "comment": "",
-   "score": 21
-  },
-  {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
-   "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
-   "time": "11-12 11:00",
-   "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
+   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+   "time": "11-13 03:47",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
    "comment": "",
    "score": 20
   },
@@ -175,12 +165,22 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
+   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+   "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "time": "11-12 11:00",
+   "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
    "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
    "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
    "time": "11-11 11:00",
    "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
    "comment": "",
-   "score": 19
+   "score": 18
   },
   {
    "group": "财经深度",
