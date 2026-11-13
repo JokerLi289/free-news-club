@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 16:18",
+ "generated_at": "2026-11-13 17:17",
  "raw_total": 200,
  "items": [
   {
@@ -41,6 +41,16 @@
    "summary": "arXiv:2611.16060v1 Announce Type: new Abstract: Vector databases rely on Hierarchical Navigable Small World (HNSW) indexes for similarity search, but a graph built from data alone can be poorly matched to a skewed or changing query workload. We present REWEAVE (Reward-Guided Rewiring of Vector Graphs), an online index-maintenance method that learns edge utility from query feedback and periodically rewires the bottom layer within the original per-node degree cap. The method supports sparse exact-neighbor feedback combined with self-labels, and standard HNSW serving without learning overhead once adaptation is disabled. Under explicit assumptions we prove value-estimation and graph-stabilization guarantees. Under stationary skew, REWEAVE improves held-out recall by up to 23.3 percentage points over HNSW. In comparisons with query-aware baselines on up to 100M vectors, it achieves up to 3.3x NGFix's query throughput at recall@100 of 0.80. On Amazon-ESCI with query drift, it increases stream recall@100 from 0.745 to 0.979 with 34% fewer search distance computations than frozen HNSW. These results illustrate the potential to improve retrieval quality and reduce search effort within an existing graph-degree budget, while incurring additional work during adaptation.",
    "comment": "",
    "score": 62
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋辞职拖累AI交易，美股三大期指集体下跌，英伟达盘前企稳，布油反弹突破96美元",
+   "link": "https://wallstreetcn.com/articles/3785885",
+   "time": "11-13 08:45",
+   "summary": "黄仁勋卸任消息冲击市场情绪，欧美股市走低，投资者将目光转向今晚公布的美国PPI数据。 周五，美股期指下跌，欧洲股市低开，日韩股市涨跌不一。美国国债价格基本持稳，国际油价延续涨势。黄金则在连续三个交易日下跌后反弹。外汇市场方面，日元走势受到密切关注。美元兑日元汇率自9月以来首次跌破160关口，重新引发市场对日本当局可能出手干预汇市的担忧。 AT Global Markets驻悉尼首席市场分析师尼克·",
+   "comment": "",
+   "score": 60
   },
   {
    "group": "AI与数据",
@@ -153,26 +163,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
-   "link": "https://wallstreetcn.com/articles/3785847",
-   "time": "11-13 00:11",
-   "summary": "美国短期国债收益率在四个交易日内完成了自2022年加息周期以来最大幅度的跳升，市场正在重新定价美联储政策预期——押注利率将更高、更持久。 周四，对美联储政策最为敏感的2年期美债收益率升至4.862%，过去四个交易日（不计周三退伍军人节休市）累计上行38.8个基点，创下自2022年6月15日以来最大四交易日涨幅。 与此同时，10年期美债收益率也突破5.10%，刷新心理关键阈值，对美股构成压力。 此轮",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "思科Q1财季营收创十五年来最快增速，上调全年指引，AI相关收入料将翻倍｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3785840",
-   "time": "11-12 23:34",
-   "summary": "思科系统公司发布强劲季度财报，营收和利润均超市场预期，并大幅上调全年业绩指引，显示AI基础设施建设热潮正为这家网络设备巨头带来持续动能。 11月12日美股盘后，思科发布截至10月24日的2027财年第一财季报告， 营收 同比增长24%至185亿美元，创下逾15年来最强增速， 调整后每股收益 1.40美元，均超出分析师预期。 公司同步将本财年来自超大规模数据中心运营商的 AI相关收入预期 上调至90",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -183,22 +173,12 @@
    "score": 34
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板午后跌超3%，银行逆势拉升，光模块龙头“易中天”大跌，恒科指跌超3%，科网股集体调整",
-   "link": "https://wallstreetcn.com/articles/3785855",
-   "time": "11-13 08:17",
-   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。算力芯片相对强势，寒武纪、海光信息、沐曦股份逆势上涨，寒武纪盘中更是一度涨超4%。 11月13日，A股午后加速下跌，三大股指集体走低，深市显著弱于沪市，深成指跌2%，创业板跌超3%，沪指下跌0.59%，上证50逆势涨0.1%，因银行股拉升，多只银",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
-   "link": "https://latent.space/p/artcraft/",
-   "time": "11-13 04:17",
-   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "time": "11-13 09:04",
+   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
    "score": 30
   },
@@ -211,6 +191,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板午后跌超3%，银行逆势拉升，光模块龙头“易中天”大跌，恒科指跌超3%，科网股集体调整",
+   "link": "https://wallstreetcn.com/articles/3785855",
+   "time": "11-13 08:17",
+   "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。算力芯片相对强势，寒武纪、海光信息、沐曦股份逆势上涨，寒武纪盘中更是一度涨超4%。 11月13日，A股午后加速下跌，三大股指集体走低，深市显著弱于沪市，深成指跌2%，创业板跌超3%，沪指下跌0.59%，上证50逆势涨0.1%，因银行股拉升，多只银",
+   "comment": "",
+   "score": 27
   },
   {
    "group": "AI与数据",
@@ -230,7 +220,7 @@
    "time": "11-13 06:34",
    "summary": "美联储\"三把手\"、纽约联储主席威廉姆斯（John Williams）发出鹰派信号，明确表示通胀依然过高，货币政策调整仍有工作要做，并强调需要采取进一步行动以确保通胀及时且持续回落至2%目标。 据彭博11月13日报道，威廉姆斯当地时间周四（11月12日）晚间在纽约的一场活动上表示， “通胀水平过高，最新数据依然显示通胀居高不下。” 他进一步指出，“随着时间的推移，我们需要采取行动，确保通胀及时且持续",
    "comment": "",
-   "score": 23
+   "score": 20
   },
   {
    "group": "快讯",
@@ -240,7 +230,17 @@
    "time": "11-13 05:56",
    "summary": "英伟达股价因CEO黄仁勋离职消息重挫，但散户投资者迅速入场抄底，在开盘首个半小时内买入逾1.11亿美元，在一定程度上遏制了跌势，显示AI交易热情并未因管理层动荡而消退。 周四（11月12日）英伟达股价盘初一度暴跌14%，延续过去一个月的抛售势头。此前，黄仁勋因被报道与一名向其汇报的公司高管存在婚外情而宣布辞职，英伟达本周市值累计蒸发约5500亿美元。然而，散户的大规模买入推动股价从最低点显著反弹，",
    "comment": "",
-   "score": 22
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
+   "link": "https://wallstreetcn.com/articles/3785860",
+   "time": "11-13 04:23",
+   "summary": "随着黄仁勋辞任英伟达CEO，华尔街与硅谷也随之陷入对“后黄仁勋时代”的集体焦虑。 11月12日，知名半导体研究机构SemiAnalysis创始人Dylan Patel做客科技商业播客TBPN，与主持人John Coogan、Jordi Hays展开了一场长达半小时的深度复盘。 （ 左 ：Jordi Hays； 中 ：Dylan Patel； 右 ：John Coogan） 就在访谈当天，英伟达联合",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "财经深度",
