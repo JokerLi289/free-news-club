@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 19:14",
+ "generated_at": "2026-11-13 20:21",
  "raw_total": 200,
  "items": [
   {
@@ -70,7 +70,7 @@
    "time": "11-13 08:45",
    "summary": "黄仁勋卸任消息冲击市场情绪，欧美股市走低，投资者将目光转向今晚公布的美国PPI数据。 周五，美股期指下跌，欧洲股市低开，日韩股市涨跌不一。美国国债价格基本持稳，国际油价延续涨势。黄金则在连续三个交易日下跌后反弹。外汇市场方面，日元走势受到密切关注。美元兑日元汇率自9月以来首次跌破160关口，重新引发市场对日本当局可能出手干预汇市的担忧。 AT Global Markets驻悉尼首席市场分析师尼克·",
    "comment": "",
-   "score": 52
+   "score": 50
   },
   {
    "group": "学术",
@@ -151,6 +151,16 @@
    "summary": "arXiv:2611.14697v1 Announce Type: new Abstract: Tables are compositional, with content spread across a schema, cell values, rows, and columns. Large-scale operations such as retrieval, overlap estimation, deduplication, and data curation need these local signals composed into one reusable embedding vector per table. Table representation methods, however, are mostly evaluated through row-level prediction or supervised downstream tasks, which do not measure table-level embedding quality directly. We introduce a benchmark that evaluates table-level embeddings through four desiderata: consistency under partial views, discriminability across label granularities, robustness to benign perturbations, and efficiency. Across twelve methods on synthetic and real corpora, lightweight schema- and text-based fingerprints are among the strongest. The sharpest contrast comes from two tabular foundation models, TabPFN and ConTextTab: although both are strong row-level predictors, their states, composed by mean, max, or three further parameter-free pooling rules, trail the strongest fingerprints. We therefore ask whether the gap lies in the encoder or in the compositional rule. Keeping ConTextTab frozen, we learn only the compositional rule over its cell states, using support-conditioned distribution matching (SCDM), a self-supervised loss we propose that matches the distribution of embedding similarities to the distribution of partition overlaps within and across tables. Across all fifteen head configurations, the learned rule raises the Spearman correlation between embedding similarity and partial-view overlap from 0.04 to 0.43-0.50 on synthetic data and improves triplet ranking, clustering, and retrieval, with smaller but systematic gains on real data. A downstream parent-table retrieval task confirms these findings. How local states are composed, and with what objective, substantially affects the quality of table-level embeddings.",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达跌出14年最低估值！“大多头”Tom Lee喊抄底，散户越跌越买，华尔街却出现分歧",
+   "link": "https://wallstreetcn.com/articles/3785898",
+   "time": "11-13 11:19",
+   "summary": "英伟达股价遭遇重挫，远期市盈率已降至约12倍，创2012年以来最低水平。但估值跌至历史低位，并未换来华尔街的一致看多。随着创始人兼CEO黄仁勋离职，市场对这家AI芯片巨头的信心正出现明显分化。 周四，英伟达股价早盘一度暴跌超过14%，随后在紧急公关和逢低买盘推动下逐步收复失地，最终收跌4.34%，报166.19美元。相比10月6日创下的阶段高点243.37美元，该股累计跌幅已超过30%。 股价暴跌",
+   "comment": "",
+   "score": 38
   },
   {
    "group": "AI与数据",
@@ -261,16 +271,6 @@
    "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
    "comment": "",
    "score": 19
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "从SpaceX到Anthropic，市场对巨头上市有了新的应对策略",
-   "link": "https://wallstreetcn.com/articles/3785894",
-   "time": "11-13 10:27",
-   "summary": "超大型IPO正在催生新的市场交易逻辑：指数纳入带来的被动资金，可能成为巨头上市初期股价的重要推动力量。 据路透近日报道，Anthropic计划以每股70至78美元的价格发行8.25亿股，拟募资最高644亿美元，对应估值最高达1.4万亿美元。 与SpaceX今年6月上市时类似，Anthropic预计将在上市后5至15个交易日内被纳入至少六大主要指数，包括富时美国指数、标普全市场指数及纳斯达克100指",
-   "comment": "",
-   "score": 18
   },
   {
    "group": "财经深度",
