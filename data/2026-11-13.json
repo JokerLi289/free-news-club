@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 09:15",
+ "generated_at": "2026-11-13 11:17",
  "raw_total": 140,
  "items": [
   {
@@ -23,6 +23,16 @@
    "score": 60
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
+   "link": "https://wallstreetcn.com/articles/3785852",
+   "time": "11-13 02:51",
+   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公",
+   "comment": "",
+   "score": 59
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -31,26 +41,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 48
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
-   "link": "https://wallstreetcn.com/articles/3785847",
-   "time": "11-13 00:11",
-   "summary": "美国短期国债收益率在四个交易日内完成了自2022年加息周期以来最大幅度的跳升，市场正在重新定价美联储政策预期——押注利率将更高、更持久。 周四，对美联储政策最为敏感的2年期美债收益率升至4.862%，过去四个交易日（不计周三退伍军人节休市）累计上行38.8个基点，创下自2022年6月15日以来最大四交易日涨幅。 与此同时，10年期美债收益率也突破5.10%，刷新心理关键阈值，对美股构成压力。 此轮",
-   "comment": "",
-   "score": 45
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "思科Q1财季营收创十五年来最快增速，上调全年指引，AI相关收入料将翻倍｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3785840",
-   "time": "11-12 23:34",
-   "summary": "思科系统公司发布强劲季度财报，营收和利润均超市场预期，并大幅上调全年业绩指引，显示AI基础设施建设热潮正为这家网络设备巨头带来持续动能。 11月12日美股盘后，思科发布截至10月24日的2027财年第一财季报告， 营收 同比增长24%至185亿美元，创下逾15年来最强增速， 调整后每股收益 1.40美元，均超出分析师预期。 公司同步将本财年来自超大规模数据中心运营商的 AI相关收入预期 上调至90",
-   "comment": "",
-   "score": 43
   },
   {
    "group": "AI与数据",
@@ -71,6 +61,26 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
+   "link": "https://wallstreetcn.com/articles/3785847",
+   "time": "11-13 00:11",
+   "summary": "美国短期国债收益率在四个交易日内完成了自2022年加息周期以来最大幅度的跳升，市场正在重新定价美联储政策预期——押注利率将更高、更持久。 周四，对美联储政策最为敏感的2年期美债收益率升至4.862%，过去四个交易日（不计周三退伍军人节休市）累计上行38.8个基点，创下自2022年6月15日以来最大四交易日涨幅。 与此同时，10年期美债收益率也突破5.10%，刷新心理关键阈值，对美股构成压力。 此轮",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "思科Q1财季营收创十五年来最快增速，上调全年指引，AI相关收入料将翻倍｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3785840",
+   "time": "11-12 23:34",
+   "summary": "思科系统公司发布强劲季度财报，营收和利润均超市场预期，并大幅上调全年业绩指引，显示AI基础设施建设热潮正为这家网络设备巨头带来持续动能。 11月12日美股盘后，思科发布截至10月24日的2027财年第一财季报告， 营收 同比增长24%至185亿美元，创下逾15年来最强增速， 调整后每股收益 1.40美元，均超出分析师预期。 公司同步将本财年来自超大规模数据中心运营商的 AI相关收入预期 上调至90",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -121,16 +131,6 @@
    "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production custome",
    "comment": "",
    "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋出局，英伟达5000亿美元AI融资计划也悬了",
-   "link": "https://wallstreetcn.com/articles/3785848",
-   "time": "11-13 00:24",
-   "summary": "英伟达创始人兼首席执行官黄仁勋的突然离职，令这家芯片巨头一项雄心勃勃的AI融资计划陷入更深的不确定性。这项由黄仁勋亲自主导、联合华尔街六大资产管理巨头打造的5000亿美元AI计算基础设施融资平台，在黄仁勋出局之前便已问题重重，如今前景更加扑朔迷离。 据彭博社11月13日报道，知情人士透露，在过去数月内未能促成任何交易之后，英伟达近一个月来已面临来自部分客户和华尔街合作伙伴的压力， 要求其提高融资兜",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "AI与数据",
