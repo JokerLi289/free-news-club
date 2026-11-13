@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 14:23",
+ "generated_at": "2026-11-13 15:15",
  "raw_total": 140,
  "items": [
   {
@@ -90,7 +90,7 @@
    "time": "11-13 05:34",
    "summary": "科技股的分化表现体现在英伟达黄仁勋正式辞职引发的算力链再定价——\"英伟达链\"的CPO、PCB、光模块集体下挫，而中芯国际三季报超预期支撑国产替代相对抗跌。 11月13日，A股午后加速下跌，三大股指集体走低，创业板跌3%，科创50亦跌超2%，盘中一度涨超2%。算力硬件龙头股再度下跌，“易中天”齐跌，工业富联、源杰科技、联讯仪器等领跌。AI短剧、农业、银行、白酒等板块再度拉升，算力芯片冲高回落，寒武纪",
    "comment": "",
-   "score": 37
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -101,16 +101,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 34
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达暴跌后，散户抄底、半小时买入逾1亿美元",
-   "link": "https://wallstreetcn.com/articles/3785867",
-   "time": "11-13 05:56",
-   "summary": "英伟达股价因CEO黄仁勋离职消息重挫，但散户投资者迅速入场抄底，在开盘首个半小时内买入逾1.11亿美元，在一定程度上遏制了跌势，显示AI交易热情并未因管理层动荡而消退。 周四（11月12日）英伟达股价盘初一度暴跌14%，延续过去一个月的抛售势头。此前，黄仁勋因被报道与一名向其汇报的公司高管存在婚外情而宣布辞职，英伟达本周市值累计蒸发约5500亿美元。然而，散户的大规模买入推动股价从最低点显著反弹，",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "AI与数据",
@@ -131,6 +121,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储三把手“放鹰”：通胀仍过高，需采取行动使通胀及时回到2%",
+   "link": "https://wallstreetcn.com/articles/3785874",
+   "time": "11-13 06:34",
+   "summary": "美联储\"三把手\"、纽约联储主席威廉姆斯（John Williams）发出鹰派信号，明确表示通胀依然过高，货币政策调整仍有工作要做，并强调需要采取进一步行动以确保通胀及时且持续回落至2%目标。 据彭博11月13日报道，威廉姆斯当地时间周四（11月12日）晚间在纽约的一场活动上表示， “通胀水平过高，最新数据依然显示通胀居高不下。” 他进一步指出，“随着时间的推移，我们需要采取行动，确保通胀及时且持续",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "AI与数据",
