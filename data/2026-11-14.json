@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14 01:13",
+ "generated_at": "2026-11-14 02:16",
  "raw_total": 200,
  "items": [
   {
@@ -125,12 +125,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "美联储两官员齐发警告通胀，敦促重建抗通胀公信力，暗示近期需加息",
+   "link": "https://wallstreetcn.com/articles/3785906",
+   "time": "11-13 14:32",
+   "summary": "最新讲话显示，美联储官员对通胀前景的担忧进一步升温。 美东时间11月13日周五，芝加哥联储主席古尔斯比（Austan Goolsbee）警告，美国当前通胀压力具有广泛性，通胀走势正在朝着错误方向发展，未来利率走向将取决于通胀表现，美联储还有控制通胀的工作要做，并需要重新确立抗通胀公信力。 波士顿联储主席科林斯（Susan Collins）则表示，通胀水平仍然过高且正在扩散，近期可能有必要进一步收紧",
+   "comment": "",
+   "score": 44
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "美国10月PPI同比 6.5%创四年新高、但低于预期，激进加息预期小幅降温",
    "link": "https://wallstreetcn.com/articles/3785905",
    "time": "11-13 13:58",
    "summary": "美国批发通胀加速态势略低于预期，为本周一系列通胀数据画上注脚。 美国劳工统计局周五公布数据显示， 美国10月生产者价格指数（PPI）同比上涨6.5%，高于9月的6.3%，创2022年11月以来最高水平，略低于市场预期的6.6%。 数据公布后， 交易员小幅下调了对美联储进一步收紧政策的预期 ，美股期货短线走高。 在月度层面，10月PPI环比上涨0.3%，低于市场预期的0.4%。剔除食品和能源的核心P",
    "comment": "",
-   "score": 44
+   "score": 43
   },
   {
    "group": "AI与数据",
@@ -203,16 +213,6 @@
    "score": 34
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达跌出14年最低估值！“大多头”Tom Lee喊抄底，散户越跌越买，华尔街却出现分歧",
-   "link": "https://wallstreetcn.com/articles/3785898",
-   "time": "11-13 11:19",
-   "summary": "英伟达股价遭遇重挫，远期市盈率已降至约12倍，创2012年以来最低水平。但估值跌至历史低位，并未换来华尔街的一致看多。随着创始人兼CEO黄仁勋离职，市场对这家AI芯片巨头的信心正出现明显分化。 周四，英伟达股价早盘一度暴跌超过14%，随后在紧急公关和逢低买盘推动下逐步收复失地，最终收跌4.34%，报166.19美元。相比10月6日创下的阶段高点243.37美元，该股累计跌幅已超过30%。 股价暴跌",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
@@ -243,16 +243,6 @@
    "score": 27
   },
   {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
-   "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
-   "time": "11-13 03:47",
-   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
-   "comment": "",
-   "score": 20
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "What an Ontology for AI Agents Actually Needs",
@@ -265,12 +255,22 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
+   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+   "time": "11-13 03:47",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
    "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
    "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
    "time": "11-12 11:00",
    "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
    "comment": "",
-   "score": 19
+   "score": 18
   },
   {
    "group": "财经深度",
@@ -280,7 +280,7 @@
    "time": "11-11 11:00",
    "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
    "comment": "",
-   "score": 18
+   "score": 17
   },
   {
    "group": "财经深度",
