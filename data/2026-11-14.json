@@ -1,47 +1,7 @@
 {
- "generated_at": "2026-11-14 11:16",
- "raw_total": 200,
+ "generated_at": "2026-11-14 13:14",
+ "raw_total": 140,
  "items": [
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "VASTRA: Efficient Agentic Top-K Interactive Video Analysis",
-   "link": "https://arxiv.org/abs/2611.14601",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.14601v1 Announce Type: new Abstract: Vision-language models (VLMs) enable natural language video retrieval, bypassing traditional hand-engineered pipelines. Integrating agentic reasoning frameworks (e.g., ReAct) further advances this paradigm by allowing models to dynamically inspect video content rather than relying on a single visual pass. Applying this pattern naively to video retrieval inherits problems that video systems cannot afford: results vary from run to run under identical conditions, and cost and latency scale with every reasoning step the agent takes rather than with the work the query actually requires. We present VASTRA, an agentic video retrieval system whose execution is dictated by query complexity rather than an open-ended reasoning loop: cheap, reliably answerable queries are ranked directly from pre-ingested summaries, while harder queries trigger targeted verification only where relevance is genuinely uncertain. This keeps control flow external to the model rather than latent in a growing chain of thought, establishing deterministic control flow by construction and end-to-end rank reproducibility under greedy serving. Across 40 benchmark queries, VASTRA exposes explicit presets: VASTRA-Fast runs 12.2x faster (4.2 s vs. 51.2 s) and 10.4x cheaper ($0.0044 vs. $0.0458) than best performing ReAct agent at a 5.0-point mAP reduction, while VASTRA-Max matches peak ReAct agent accuracy (0.653 vs. 0.649 mAP) at comparable latency, trading higher spend ($0.1022 vs. $0.0458) for zero run-to-run variance.",
-   "comment": "",
-   "score": 70
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Graph-Based Nearest-Neighbor Search with Recall Guarantees Using Graph Spanners",
-   "link": "https://arxiv.org/abs/2607.02338",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2607.02338v3 Announce Type: replace Abstract: Graph-based indexes such as Hierarchical Navigable Small World (HNSW) graphs make nearest-neighbor retrieval efficient, but a high average recall can hide queries whose results fall below an application's quality requirement. We introduce Certify-then-Rectify (CTR), which returns an initial graph-search result when a calibrated rule accepts it and searches for missing neighbors otherwise. The recovery search reuses the existing graph and the distances already evaluated by the initial search. To determine how far this search should proceed, we relate metric distances to graph-path lengths through graph stretch. We develop Stretch-Bounded Expansion from Query (SBE-Q), together with Metric Bound Verification (MBV) to prune unnecessary work, and estimate its budget from paths to the fraction of true neighbors needed for the requested recall. Finite-sample tolerance bounds support this recall-aligned estimate; paths recorded during proposal recovery offer a conservative alternative to separate shortest-path computations. Independent tests certify initial acceptance and recovery outcomes, giving an end-to-end population recall guarantee even when the estimated stretch does not cover every relevant path. If recovery cannot be certified, rejected queries use exact scan. Experiments on HNSW compare five stretch estimators, assess recovery efficiency, and evaluate compliance and throughput on databases of up to 100 million vectors. CTR is not specific to HNSW, and we also evaluate it on another graph index.",
-   "comment": "",
-   "score": 70
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "VecDBLens: An Evaluatology-Based Framework for Vector Database Diagnosis",
-   "link": "https://arxiv.org/abs/2611.15105",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.15105v1 Announce Type: new Abstract: Vector databases are increasingly deployed as retrieval pipelines in which representation, indexing, and query-time execution jointly determine accuracy, throughput, and cost. Existing vector database evaluations primarily focus on indexing while treating embeddings as fixed inputs and ignoring the role of query-time execution, making it difficult to decide whether a bottleneck should be addressed by changing the embedding model, the index, or the query-processing functions. To address the above limitation, we introduce VecDBLens, an Evaluatology-based framework that treats the function under diagnosis as an evaluated object and all remaining dataset, workload, parameter, and runtime factors as matched evaluation conditions. VecDBLens attributes performance differences to individual evaluated objects through comparisons under matched evaluation conditions, summarizing their performance and stability across multiple datasets and workloads. It further analyzes interactions among objects using analysis of variance (ANOVA), thereby turning vector database benchmarking from leaderboard ranking into a reproducible diagnostic procedure. VecDBLens reveals two key insights. First, retrieval performance is fundamentally upper-bounded by embedding quality, revealing that many apparent indexing failures are therefore representation-side limitations. Second, stronger index parameterization is not always beneficial: overly aggressive configurations can reshape neighborhood topology and cause recall regression. These results challenge the common practice of evaluating vector databases primarily through indexing and show that real-world limitations arise from constraints across retrieval functions rather than any single function alone. VecDBLens provides a principled basis for identifying the true performance drivers of vector databases and for guiding their design in practical applications.",
-   "comment": "",
-   "score": 67
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "REWEAVE: Online Learning for Workload-Adaptive HNSW Indexes",
-   "link": "https://arxiv.org/abs/2611.16060",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.16060v1 Announce Type: new Abstract: Vector databases rely on Hierarchical Navigable Small World (HNSW) indexes for similarity search, but a graph built from data alone can be poorly matched to a skewed or changing query workload. We present REWEAVE (Reward-Guided Rewiring of Vector Graphs), an online index-maintenance method that learns edge utility from query feedback and periodically rewires the bottom layer within the original per-node degree cap. The method supports sparse exact-neighbor feedback combined with self-labels, and standard HNSW serving without learning overhead once adaptation is disabled. Under explicit assumptions we prove value-estimation and graph-stabilization guarantees. Under stationary skew, REWEAVE improves held-out recall by up to 23.3 percentage points over HNSW. In comparisons with query-aware baselines on up to 100M vectors, it achieves up to 3.3x NGFix's query throughput at recall@100 of 0.80. On Amazon-ESCI with query drift, it increases stream recall@100 from 0.745 to 0.979 with 34% fewer search distance computations than frozen HNSW. These results illustrate the potential to improve retrieval quality and reduce search effort within an existing graph-degree budget, while incurring additional work during adaptation.",
-   "comment": "",
-   "score": 62
-  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -53,16 +13,6 @@
    "score": 60
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "QuIVer: Efficient Graph Indexing with Two-Bit Construction and Navigation",
-   "link": "https://arxiv.org/abs/2605.02171",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2605.02171v4 Announce Type: replace Abstract: High-dimensional vector indices must balance construction time, memory, and query throughput. Two-bit comparisons reduce computation and storage, but preserving useful graph connections and search candidates requires scores suited to each stage. We present QuIVer, a graph index that uses a training-free sign-magnitude representation for construction and navigation while reserving original vectors for bounded final reranking. Construction discovers candidates with Hamming scores, orders them with an integer proxy, and defers reverse-edge pruning across parallel insertions. Search uses reconstruction norms and bitwise inner products to order both the frontier and retained candidates, without query calibration or an exact anchor. Experiments cover 21 datasets and compare 30 external baseline modes on three core workloads. QuIVer's validation-selected 95% configurations lie on the measured Pareto frontiers of achieved recall, throughput, index preparation time, and memory, whether memory counts navigation state alone or also the original vectors. On Cohere-5M, QuIVer reaches 95.90% Recall@10 at 3,075 single-thread queries/s, $11.74\\times$ the throughput of Lucene BBQ with FP32 reranking at 95.83% recall. Against SymphonyQG at 95.87%, it retains 81% of single-thread and 97% of 32-thread throughput while reducing index preparation time by 54%, total logical memory by 47%, and navigation storage by 87%. An SSD mode with INT8 reranking serves Cohere-5M at about 5 GiB of steady-state process RSS. Controlled crossovers and candidate-coverage diagnostics connect these results to construction and retention quality. Across 21 datasets, high recall holds for most text and image embeddings, while non-negative descriptors, cross-modal queries, and random data expose the limits of the representation.",
-   "comment": "",
-   "score": 60
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型",
@@ -70,7 +20,7 @@
    "time": "11-14 01:09",
    "summary": "OpenAI解散独立机器人团队，押注通用模型直驱具身智能。 11月13日，据《财富》杂志报道， OpenAI已解散独立运营的机器人团队，将相关研究人员分拨至其他部门 。公司表示，此举的直接导火索是GPT-6 Astra等通用前沿模型的意外突破。 研究人员发现，这些模型可被直接应用于机器人控制任务，无需为机器人单独开发专用模型。 在英伟达的一项测试中，由Astra驱动的智能体在模拟操作基准测试中达到",
    "comment": "",
-   "score": 57
+   "score": 55
   },
   {
    "group": "快讯",
@@ -83,26 +33,6 @@
    "score": 50
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Graph Label Alignment: A Diagnostic Atlas for Graph Classification",
-   "link": "https://arxiv.org/abs/2611.14760",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.14760v1 Announce Type: new Abstract: Graph classification benchmarks vary widely in difficulty: some are solved by simple pooled baselines, while others remain challenging for GNNs and graph transformers. We take a data-centric view and ask whether benchmark success is driven by genuine structure--feature reasoning or by label signal already accessible from restricted marginal views. We introduce graph label alignment, a lightweight diagnostic that measures label accessibility through two supervised probes computed without training a graph encoder: structural label alignment (SLA), based on permutation-invariant topological and spectral summaries, and feature label alignment (FLA), based on pooled node features with edges removed. Across real graph classification benchmarks and multiple pooled backbones, the resulting SLA--FLA plane strongly organizes test accuracy, with low-alignment datasets forming a consistent regime where standard pooled pipelines struggle. To probe what lies beyond marginal accessibility, we introduce controlled interaction-dominated stress tests, including heterophilic ego-graphs and synthetic Twins tasks whose structural and feature marginals are matched across classes but whose role--feature couplings differ. These results show that high alignment explains much of easy benchmark performance, while low alignment reveals regimes where success requires preserving structure--feature correspondence beyond standard pooled representations.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Mask-Pattern Position Augmentation: Training-Free Long-Context Extrapolation for Diffusion LLMs",
-   "link": "https://arxiv.org/abs/2611.15029",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.15029v1 Announce Type: new Abstract: Diffusion large language models (dLLMs) generate by iteratively unmasking tokens with bidirectional attention, but rotary position embeddings (RoPE) still confine them to a fixed pretraining window. Existing training-free extrapolation, notably LongLLaDA, copies NTK-based RoPE scaling from autoregressive (AR) models and applies one static, length-only transform at every position and denoising step. That transplant ignores a signal unique to dLLMs: the evolving mask pattern of the partially decoded sequence. We propose Mask-Pattern Position Augmentation (MPPA). MPPA linearly interpolates indices into the pretrained window, then adds a per-position, per-step offset from cumulative mask density. The offset restores rotary phase resolution that interpolation collapses, and it shrinks as tokens are committed, so late steps see near-clean interpolated geometry. On LLaDA-8B-Instruct at twice its 4096-token window, MPPA reduces perplexity from 19.51 under standard decoding to 3.12 at 8192 tokens, below the in-window figure, with 100% passkey retrieval and unchanged needle-in-a-haystack accuracy. These preliminary $2\\times$ results motivate mask-conditioned position engineering as a diffusion-native path to long-context generation.",
-   "comment": "",
-   "score": 50
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -111,26 +41,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 47
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "KernelMosaic: An Open Dataset and Agentic Framework for CUDA Kernel Generation",
-   "link": "https://arxiv.org/abs/2611.14604",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.14604v1 Announce Type: new Abstract: Training large language models to generate efficient CUDA kernels requires supervision spanning diverse computational requirements and iterative code optimization. Constructing this supervision is challenging because of heterogeneous specifications, and useful implementations emerge through iterative complicated testing and refinement. We introduce KernelMosaic, an open dataset pairing diverse CUDA tasks with verified solutions and trajectories. Human-guided review and diversity-aware selection curate tasks expressed as natural-language descriptions, reference programs, mathematical specifications, and their intersections. To build the solutions and trajectories, our agentic framework guides a strong LLM through implementation, correctness repair, and performance optimization with reusable CUDA guidance and execution feedback. Supervised fine-tuning of a small open-source model on KernelMosaic raises correctness from 4%, 0%, and 0% to 88%, 82%, and 16% on KernelBench L1, L2, and L3, respectively, while increasing the fraction of tasks with kernels faster than PyTorch eager at every level. Further training experiments show that supervision from the curated trajectories substantially outperforms direct responses and promotes sustained testing and revision. These results demonstrate that KernelMosaic enables a general-purpose model to achieve substantial gains in CUDA kernel generation.",
-   "comment": "",
-   "score": 46
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Thompson Sampling using Prior-fitted Diffusion Transformers",
-   "link": "https://arxiv.org/abs/2611.14656",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.14656v1 Announce Type: new Abstract: Thompson sampling is natural randomized strategy for optimizing unknown functions in a black-box manner. In continuous global optimization, Thompson sampling has largely been restricted to Gaussian process priors, as these are essentially the only class for which computing the posterior distribution has been tractable in practice. In this work, we introduce \\emph{prior-fitted diffusion transformers}, which are diffusion models that perform Thompson sampling in-context at inference time, after being pre-trained using the prior-fitted network paradigm. To apply these models, we develop a set of practical non-Gaussian priors for general black-box functions---including those that have characteristics that cannot be achieved under Gaussianity, such as priors over unimodal functions. We also quantify the tradeoff between model size and the number of pre-training iterations, and show that these models follow scaling laws akin to those observed in transformers defined over other modalities. Across a set of global optimization benchmarks, we show that prior-fitted diffusion transformers with non-Gaussian priors can achieve improved performance compared to traditional pipelines built on Gaussian processes.",
-   "comment": "",
-   "score": 45
   },
   {
    "group": "AI与数据",
@@ -149,16 +59,6 @@
    "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
    "time": "06-23 00:00",
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
-   "comment": "",
-   "score": 42
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Beyond Row-Level Prediction: Evaluating and Learning Composition for Reusable Table Representations",
-   "link": "https://arxiv.org/abs/2611.14697",
-   "time": "11-13 05:00",
-   "summary": "arXiv:2611.14697v1 Announce Type: new Abstract: Tables are compositional, with content spread across a schema, cell values, rows, and columns. Large-scale operations such as retrieval, overlap estimation, deduplication, and data curation need these local signals composed into one reusable embedding vector per table. Table representation methods, however, are mostly evaluated through row-level prediction or supervised downstream tasks, which do not measure table-level embedding quality directly. We introduce a benchmark that evaluates table-level embeddings through four desiderata: consistency under partial views, discriminability across label granularities, robustness to benign perturbations, and efficiency. Across twelve methods on synthetic and real corpora, lightweight schema- and text-based fingerprints are among the strongest. The sharpest contrast comes from two tabular foundation models, TabPFN and ConTextTab: although both are strong row-level predictors, their states, composed by mean, max, or three further parameter-free pooling rules, trail the strongest fingerprints. We therefore ask whether the gap lies in the encoder or in the compositional rule. Keeping ConTextTab frozen, we learn only the compositional rule over its cell states, using support-conditioned distribution matching (SCDM), a self-supervised loss we propose that matches the distribution of embedding similarities to the distribution of partition overlaps within and across tables. Across all fifteen head configurations, the learned rule raises the Spearman correlation between embedding similarity and partial-view overlap from 0.04 to 0.43-0.50 on synthetic data and improves triplet ranking, clustering, and retrieval, with smaller but systematic gains on real data. A downstream parent-table retrieval task confirms these findings. How local states are composed, and with what objective, substantially affects the quality of table-level embeddings.",
    "comment": "",
    "score": 42
   },
