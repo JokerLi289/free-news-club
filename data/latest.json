@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14 09:16",
+ "generated_at": "2026-11-14 11:16",
  "raw_total": 200,
  "items": [
   {
@@ -43,16 +43,6 @@
    "score": 62
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型",
-   "link": "https://wallstreetcn.com/articles/3785914",
-   "time": "11-14 01:09",
-   "summary": "OpenAI解散独立机器人团队，押注通用模型直驱具身智能。 11月13日，据《财富》杂志报道， OpenAI已解散独立运营的机器人团队，将相关研究人员分拨至其他部门 。公司表示，此举的直接导火索是GPT-6 Astra等通用前沿模型的意外突破。 研究人员发现，这些模型可被直接应用于机器人控制任务，无需为机器人单独开发专用模型。 在英伟达的一项测试中，由Astra驱动的智能体在模拟操作基准测试中达到",
-   "comment": "",
-   "score": 60
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
@@ -75,12 +65,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型",
+   "link": "https://wallstreetcn.com/articles/3785914",
+   "time": "11-14 01:09",
+   "summary": "OpenAI解散独立机器人团队，押注通用模型直驱具身智能。 11月13日，据《财富》杂志报道， OpenAI已解散独立运营的机器人团队，将相关研究人员分拨至其他部门 。公司表示，此举的直接导火索是GPT-6 Astra等通用前沿模型的意外突破。 研究人员发现，这些模型可被直接应用于机器人控制任务，无需为机器人单独开发专用模型。 在英伟达的一项测试中，由Astra驱动的智能体在模拟操作基准测试中达到",
+   "comment": "",
+   "score": 57
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "纳指跌0.9%、道指逆势收涨，英伟达跌2%，苹果盘中刷新历史高位，比特币跌破7万",
    "link": "https://wallstreetcn.com/articles/3785885",
    "time": "11-13 22:54",
    "summary": "英伟达领导层动荡持续发酵，叠加通胀压力高企与美联储加息预期升温，美股指周五表现分化，标普、纳指收跌，道指则在消费股支撑下收涨。 美国10月生产者价格指数（PPI）同比上涨6.5%，创2022年11月以来最快年增速，尽管数据略低于市场预期，但仍强化了美联储12月继续加息的预期。BMO资本市场分析师Vail Hartman指出，PPI中纳入美联储首选通胀指标的分项数据在10月有所回落。LPL Fina",
    "comment": "",
-   "score": 53
+   "score": 50
   },
   {
    "group": "学术",
@@ -170,7 +170,7 @@
    "time": "11-13 21:54",
    "summary": "美国财政部长与芝加哥联储主席就当前通胀根源公开交锋，折射出华盛顿与美联储之间日益加深的政策分歧，并为美联储12月议息会议蒙上更多不确定性。 美财政部长Scott Bessent（贝森特） 周五接受CNBC采访时呼吁美联储不应因伊朗战争引发的\"能源供应冲击\"而激进加息。 芝加哥联储主席Austan Goolsbee（古尔斯比） 随即在同一节目中予以回应，指出通胀已蔓延至服务业、医疗等与油价关联度低的",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "快讯",
@@ -243,6 +243,16 @@
    "score": 27
   },
   {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Living a Better Life Now",
+   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
+   "time": "11-14 01:09",
+   "summary": "If you read enough personal finance books you’re bound to come across the parable about the businessman and the fisherman. I’ve certainly read the story numerous times. It goes something like this: An",
+   "comment": "",
+   "score": 20
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "What an Ontology for AI Agents Actually Needs",
@@ -290,17 +300,7 @@
    "time": "11-04 13:00",
    "summary": "On today's show we discuss reasons to be bearish, the joys of indexing in an AI boom, carnage in name-brand stocks, why the stock market is not down more, how the investing rules have changed, the buy",
    "comment": "",
-   "score": 13
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Talk Your Book: Diversifying the AI Trade",
-   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-diversifying-the-ai-trade/",
-   "time": "11-02 13:00",
-   "summary": "On today's Talk Your Book we speak with Brian Griggs from Nuveen about how they help financial advisors build better portfolios, dealing with AI-related volatility, when to rebalance, the opportunity ",
-   "comment": "",
-   "score": 11
+   "score": 12
   },
   {
    "group": "财经深度",
@@ -310,7 +310,7 @@
    "time": "11-12 19:58",
    "summary": "Bull markets vs. bear markets. The post The Bear Markets appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 10
+   "score": 9
   }
  ]
 }
