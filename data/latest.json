@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-14 19:12",
- "raw_total": 140,
+ "generated_at": "2026-11-14 20:18",
+ "raw_total": 160,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周",
-   "link": "https://wallstreetcn.com/articles/3785944",
-   "time": "11-14 10:54",
-   "summary": "英伟达CEO离职风波尚未平息，华尔街已将目光投向下周——英伟达季报与Anthropic上市将接连登场，AI交易的信心能否经受住这轮双重压力测试，答案即将揭晓。 英伟达CEO黄仁勋因婚外情丑闻于上周四突然辞职，引发市场对这家AI芯片巨头的深度担忧。尽管如此，英伟达股价本周跌幅约13%，远小于此前市场担忧的20%乃至更大跌幅，标普500指数更录得8月以来最佳单周表现。与此同时，Anthropic宣布其",
-   "comment": "",
-   "score": 60
-  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -21,6 +11,16 @@
    "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
    "comment": "",
    "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周",
+   "link": "https://wallstreetcn.com/articles/3785944",
+   "time": "11-14 10:54",
+   "summary": "英伟达CEO离职风波尚未平息，华尔街已将目光投向下周——英伟达季报与Anthropic上市将接连登场，AI交易的信心能否经受住这轮双重压力测试，答案即将揭晓。 英伟达CEO黄仁勋因婚外情丑闻于上周四突然辞职，引发市场对这家AI芯片巨头的深度担忧。尽管如此，英伟达股价本周跌幅约13%，远小于此前市场担忧的20%乃至更大跌幅，标普500指数更录得8月以来最佳单周表现。与此同时，Anthropic宣布其",
+   "comment": "",
+   "score": 58
   },
   {
    "group": "快讯",
@@ -43,16 +43,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“AI央行”失去掌舵人，华尔街警告：黄仁勋离开将引爆“AI版量化紧缩”！",
-   "link": "https://wallstreetcn.com/articles/3785942",
-   "time": "11-14 09:44",
-   "summary": "英伟达董事长黄仁勋的骤然离场，不仅是一家芯片公司的高管更迭，更是整个AI融资生态系统面临的系统性冲击。在过去三年里，英伟达实际上已演变为AI行业的\"最后贷款人\"，以股权投资、担保承诺和回购协议构建起一台规模逾5000亿美元的循环融资机器。如今，这台机器的操盘手已经离场。 黄仁勋辞职消息宣布后，英伟达股价盘中一度暴跌逾13%，收盘跌约4%。与此同时，高盛、瑞银、William Blair等14家卖方",
-   "comment": "",
-   "score": 48
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -65,12 +55,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "“AI央行”失去掌舵人，华尔街警告：黄仁勋离开将引爆“AI版量化紧缩”！",
+   "link": "https://wallstreetcn.com/articles/3785942",
+   "time": "11-14 09:44",
+   "summary": "英伟达董事长黄仁勋的骤然离场，不仅是一家芯片公司的高管更迭，更是整个AI融资生态系统面临的系统性冲击。在过去三年里，英伟达实际上已演变为AI行业的\"最后贷款人\"，以股权投资、担保承诺和回购协议构建起一台规模逾5000亿美元的循环融资机器。如今，这台机器的操盘手已经离场。 黄仁勋辞职消息宣布后，英伟达股价盘中一度暴跌逾13%，收盘跌约4%。与此同时，高盛、瑞银、William Blair等14家卖方",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "“坏事全部撞在一起\"，美股却逆势反弹：华尔街上演“无票可卖”式逼空！",
    "link": "https://wallstreetcn.com/articles/3785940",
    "time": "11-14 08:34",
    "summary": "一周之内，英伟达创始人丑闻缠身后黯然离任，美国CPI连续第三个月超预期，PPI攀升至四年新高，美联储官员放风12月加息50个基点——所有利空同时引爆，美股却逆势收涨，标普500周涨2%，费城半导体指数创4月以来最佳单周表现。 答案只有一个： 空头已无牌可打。 这是一场典型的\"无票可卖\"式逼空。高盛Prime数据显示，对冲基金在中期选举当周大幅削减杠杆，净多头仓位降至五年最低。进入本周，空头已基本出",
    "comment": "",
-   "score": 46
+   "score": 44
   },
   {
    "group": "AI与数据",
@@ -104,6 +104,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -111,6 +131,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 34
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+   "time": "11-09 13:31",
+   "summary": "When do you think we'll have robots on the moon?",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "AI与数据",
