@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14 07:13",
+ "generated_at": "2026-11-14 09:16",
  "raw_total": 200,
  "items": [
   {
@@ -43,6 +43,16 @@
    "score": 62
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型",
+   "link": "https://wallstreetcn.com/articles/3785914",
+   "time": "11-14 01:09",
+   "summary": "OpenAI解散独立机器人团队，押注通用模型直驱具身智能。 11月13日，据《财富》杂志报道， OpenAI已解散独立运营的机器人团队，将相关研究人员分拨至其他部门 。公司表示，此举的直接导火索是GPT-6 Astra等通用前沿模型的意外突破。 研究人员发现，这些模型可被直接应用于机器人控制任务，无需为机器人单独开发专用模型。 在英伟达的一项测试中，由Astra驱动的智能体在模拟操作基准测试中达到",
+   "comment": "",
+   "score": 60
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
@@ -70,7 +80,7 @@
    "time": "11-13 22:54",
    "summary": "英伟达领导层动荡持续发酵，叠加通胀压力高企与美联储加息预期升温，美股指周五表现分化，标普、纳指收跌，道指则在消费股支撑下收涨。 美国10月生产者价格指数（PPI）同比上涨6.5%，创2022年11月以来最快年增速，尽管数据略低于市场预期，但仍强化了美联储12月继续加息的预期。BMO资本市场分析师Vail Hartman指出，PPI中纳入美联储首选通胀指标的分项数据在10月有所回落。LPL Fina",
    "comment": "",
-   "score": 58
+   "score": 53
   },
   {
    "group": "学术",
@@ -103,16 +113,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "贝森特与美联储高官交锋：通胀源于能源冲击还是需求过热，美联储加息路径争论升温",
-   "link": "https://wallstreetcn.com/articles/3785917",
-   "time": "11-13 21:54",
-   "summary": "美国财政部长与芝加哥联储主席就当前通胀根源公开交锋，折射出华盛顿与美联储之间日益加深的政策分歧，并为美联储12月议息会议蒙上更多不确定性。 美财政部长Scott Bessent（贝森特） 周五接受CNBC采访时呼吁美联储不应因伊朗战争引发的\"能源供应冲击\"而激进加息。 芝加哥联储主席Austan Goolsbee（古尔斯比） 随即在同一节目中予以回应，指出通胀已蔓延至服务业、医疗等与油价关联度低的",
-   "comment": "",
-   "score": 46
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "KernelMosaic: An Open Dataset and Agentic Framework for CUDA Kernel Generation",
@@ -131,16 +131,6 @@
    "summary": "arXiv:2611.14656v1 Announce Type: new Abstract: Thompson sampling is natural randomized strategy for optimizing unknown functions in a black-box manner. In continuous global optimization, Thompson sampling has largely been restricted to Gaussian process priors, as these are essentially the only class for which computing the posterior distribution has been tractable in practice. In this work, we introduce \\emph{prior-fitted diffusion transformers}, which are diffusion models that perform Thompson sampling in-context at inference time, after being pre-trained using the prior-fitted network paradigm. To apply these models, we develop a set of practical non-Gaussian priors for general black-box functions---including those that have characteristics that cannot be achieved under Gaussianity, such as priors over unimodal functions. We also quantify the tradeoff between model size and the number of pre-training iterations, and show that these models follow scaling laws akin to those observed in transformers defined over other modalities. Across a set of global optimization benchmarks, we show that prior-fitted diffusion transformers with non-Gaussian priors can achieve improved performance compared to traditional pipelines built on Gaussian processes.",
    "comment": "",
    "score": 45
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄金或创六月来最大单周跌幅，美联储加息押注升温施压贵金属",
-   "link": "https://wallstreetcn.com/articles/3785918",
-   "time": "11-13 21:54",
-   "summary": "黄金本周遭遇重挫，受通胀顽固与美联储紧缩预期升温双重打压，势将创下自六月以来最大单周跌幅。 周五现货黄金一度小幅收复部分失地，但仍难掩整周颓势。截至纽约时间周五下午4时10分，现货金报每盎司3876美元，持平于周四纽约尾盘价格，本周累计跌幅达4.78%。 此前一日，金价曾跌至13个月低点。美国消费者价格指数连续第三个月超出预期，触发市场对美联储激进加息的重新定价，美元走强、美债收益率攀升，构成黄金",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "AI与数据",
@@ -175,6 +165,26 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "贝森特与美联储高官交锋：通胀源于能源冲击还是需求过热，美联储加息路径争论升温",
+   "link": "https://wallstreetcn.com/articles/3785917",
+   "time": "11-13 21:54",
+   "summary": "美国财政部长与芝加哥联储主席就当前通胀根源公开交锋，折射出华盛顿与美联储之间日益加深的政策分歧，并为美联储12月议息会议蒙上更多不确定性。 美财政部长Scott Bessent（贝森特） 周五接受CNBC采访时呼吁美联储不应因伊朗战争引发的\"能源供应冲击\"而激进加息。 芝加哥联储主席Austan Goolsbee（古尔斯比） 随即在同一节目中予以回应，指出通胀已蔓延至服务业、医疗等与油价关联度低的",
+   "comment": "",
+   "score": 41
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄金或创六月来最大单周跌幅，美联储加息押注升温施压贵金属",
+   "link": "https://wallstreetcn.com/articles/3785918",
+   "time": "11-13 21:54",
+   "summary": "黄金本周遭遇重挫，受通胀顽固与美联储紧缩预期升温双重打压，势将创下自六月以来最大单周跌幅。 周五现货黄金一度小幅收复部分失地，但仍难掩整周颓势。截至纽约时间周五下午4时10分，现货金报每盎司3876美元，持平于周四纽约尾盘价格，本周累计跌幅达4.78%。 此前一日，金价曾跌至13个月低点。美国消费者价格指数连续第三个月超出预期，触发市场对美联储激进加息的重新定价，美元走强、美债收益率攀升，构成黄金",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "贝森特：不应因能源冲击而加息，继续施压伊朗，英伟达能摆脱黄仁勋继续发展",
    "link": "https://wallstreetcn.com/articles/3785907",
    "time": "11-13 15:08",
@@ -189,16 +199,6 @@
    "link": "https://wallstreetcn.com/articles/3785906",
    "time": "11-13 14:32",
    "summary": "最新讲话显示，美联储官员对通胀前景的担忧进一步升温。 美东时间11月13日周五，芝加哥联储主席古尔斯比（Austan Goolsbee）警告，美国当前通胀压力具有广泛性，通胀走势正在朝着错误方向发展，未来利率走向将取决于通胀表现，美联储还有控制通胀的工作要做，并需要重新确立抗通胀公信力。 波士顿联储主席科林斯（Susan Collins）则表示，通胀水平仍然过高且正在扩散，近期可能有必要进一步收紧",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月PPI同比 6.5%创四年新高、但低于预期，激进加息预期小幅降温",
-   "link": "https://wallstreetcn.com/articles/3785905",
-   "time": "11-13 13:58",
-   "summary": "美国批发通胀加速态势略低于预期，为本周一系列通胀数据画上注脚。 美国劳工统计局周五公布数据显示， 美国10月生产者价格指数（PPI）同比上涨6.5%，高于9月的6.3%，创2022年11月以来最高水平，略低于市场预期的6.6%。 数据公布后， 交易员小幅下调了对美联储进一步收紧政策的预期 ，美股期货短线走高。 在月度层面，10月PPI环比上涨0.3%，低于市场预期的0.4%。剔除食品和能源的核心P",
    "comment": "",
    "score": 40
   },
