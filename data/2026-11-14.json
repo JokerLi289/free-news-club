@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14 20:18",
- "raw_total": 160,
+ "generated_at": "2026-11-14 21:13",
+ "raw_total": 140,
  "items": [
   {
    "group": "AI与数据",
@@ -104,26 +104,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 39
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 36
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -131,16 +111,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 34
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "time": "11-09 13:31",
-   "summary": "When do you think we'll have robots on the moon?",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "AI与数据",
