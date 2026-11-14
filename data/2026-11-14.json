@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14 16:17",
- "raw_total": 160,
+ "generated_at": "2026-11-14 17:14",
+ "raw_total": 140,
  "items": [
   {
    "group": "AI与数据",
@@ -20,7 +20,17 @@
    "time": "11-14 01:09",
    "summary": "OpenAI解散独立机器人团队，押注通用模型直驱具身智能。 11月13日，据《财富》杂志报道， OpenAI已解散独立运营的机器人团队，将相关研究人员分拨至其他部门 。公司表示，此举的直接导火索是GPT-6 Astra等通用前沿模型的意外突破。 研究人员发现，这些模型可被直接应用于机器人控制任务，无需为机器人单独开发专用模型。 在英伟达的一项测试中，由Astra驱动的智能体在模拟操作基准测试中达到",
    "comment": "",
-   "score": 53
+   "score": 52
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“坏事全部撞在一起\"，美股却逆势反弹：华尔街上演“无票可卖”式逼空！",
+   "link": "https://wallstreetcn.com/articles/3785940",
+   "time": "11-14 08:34",
+   "summary": "一周之内，英伟达创始人丑闻缠身后黯然离任，美国CPI连续第三个月超预期，PPI攀升至四年新高，美联储官员放风12月加息50个基点——所有利空同时引爆，美股却逆势收涨，标普500周涨2%，费城半导体指数创4月以来最佳单周表现。 答案只有一个： 空头已无牌可打。 这是一场典型的\"无票可卖\"式逼空。高盛Prime数据显示，对冲基金在中期选举当周大幅削减杠杆，净多头仓位降至五年最低。进入本周，空头已基本出",
+   "comment": "",
+   "score": 50
   },
   {
    "group": "快讯",
@@ -93,36 +103,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储两官员齐警告通胀，一敦促重建抗通胀公信力，一暗示近期需加息",
-   "link": "https://wallstreetcn.com/articles/3785906",
-   "time": "11-13 14:32",
-   "summary": "最新讲话显示，美联储官员对通胀前景的担忧进一步升温。 美东时间11月13日周五，芝加哥联储主席古尔斯比（Austan Goolsbee）警告，美国当前通胀压力具有广泛性，通胀走势正在朝着错误方向发展，未来利率走向将取决于通胀表现，美联储还有控制通胀的工作要做，并需要重新确立抗通胀公信力。 波士顿联储主席科林斯（Susan Collins）则表示，通胀水平仍然过高且正在扩散，近期可能有必要进一步收紧",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 39
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -134,11 +114,11 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "time": "11-09 13:31",
-   "summary": "When do you think we'll have robots on the moon?",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 30
   },
@@ -150,17 +130,7 @@
    "time": "11-13 09:04",
    "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "time": "11-08 21:23",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
-   "comment": "",
-   "score": 30
+   "score": 29
   },
   {
    "group": "AI与数据",
