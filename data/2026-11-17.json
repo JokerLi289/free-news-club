@@ -1,0 +1,346 @@
+{
+ "generated_at": "2026-11-17 00:17",
+ "raw_total": 205,
+ "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Samyama: A Unified Graph-Vector Database with In-Database Optimization, Agentic Enrichment, and Hardware Acceleration",
+   "link": "https://arxiv.org/abs/2603.08036",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2603.08036v4 Announce Type: replace Abstract: Modern data architectures fragment across graph databases, vector stores, analytics engines and optimization solvers, forcing ETL between them. We present Samyama, a graph-vector database in Rust that unifies these workloads in one engine: a RocksDB-backed store with MVCC, a vectorized executor, a cost-based planner, a CSR analytics engine, RDF and SPARQL, 22 metaheuristic solvers callable from the query language, HNSW vector indexing, and agentic enrichment that expands a graph via LLMs. It has been run to billion-edge scale: 74.3M nodes and 1.07B edges from four biomedical sources on one machine for $2.50 of spot compute. This version re-measures the system at release v1.8.0 on rented Linux hosts a reader can boot, replacing earlier figures taken on a Mac Mini that nobody could re-run. On a 16-vCPU cloud instance, ingestion reaches 123K-152K nodes/s and PageRank costs 6.7 ms per iteration at ten thousand nodes and 236 ms at a million. The previously reported 8.2x GPU speedup is withdrawn; in its place we measure the CUDA path, which no earlier version measured at all, on a rented NVIDIA A16: parity with the CPU at ten thousand nodes, 1.62x at a hundred thousand and 2.70x at a million, with 1.1-1.35 s of context initialisation on the first call. The earlier Cypher-throughput figure, its claim of near-constant index-driven scaling, and a vector-search figure are withdrawn as unreproducible. openCypher conformance, once estimated at ~90%, is now measured at 99.9% of evaluated TCK scenarios. Against Neo4j 5 and FalkorDB on one host over an identical SF10 extract, 14 of 14 SNB complex reads land within 5x of the best competitor and 7 of 14 are faster.",
+   "comment": "",
+   "score": 84
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Bridge: Database-Grounded Interactive Disambiguation for Text-to-SQL",
+   "link": "https://arxiv.org/abs/2611.17770",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17770v1 Announce Type: new Abstract: Ambiguity remains a persistent challenge in text-to-SQL, where an underspecified natural-language question may admit multiple plausible SQL interpretations. Recent work attempts to recover the user's intended interpretation through iterative clarification, but typically relies heavily on LLM parametric knowledge for ad hoc reasoning, leading to limited ambiguity-resolution effectiveness and high LLM cost. We further observe that many ambiguity errors stem from ambiguous column grounding, which remains poorly handled. Therefore, we propose Bridge, a database-grounded disambiguation framework built on an existing iterative protocol. Bridge supplies the LLM's ambiguity detection with offline-distilled knowledge about potential ambiguity relations among columns in the target database. Offline, Bridge constructs a Column Ambiguity Graph by first identifying potentially ambiguous column pairs using complementary database-grounded signals, followed by LLM-based verification. Online, columns and values mentioned in a previous incorrect SQL prediction are used as anchors to retrieve alternatives from the Column Ambiguity Graph and an offline-constructed value similarity index, respectively. The results are integrated for further pruning and consolidated for subsequent ambiguity detection. Extensive experiments on BIRD-dev without the benchmark-provided evidence show that, at comparable LLM cost, Bridge outperforms the strongest baseline by 11.60% in execution accuracy and improves the recall and precision of column usage in the final SQL by 5.25% and 12.37%, respectively.",
+   "comment": "",
+   "score": 69
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Larch: Learned Query Optimization for Semantic Predicates",
+   "link": "https://arxiv.org/abs/2606.07923",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2606.07923v2 Announce Type: replace Abstract: With the advent of Large Language Models (LLMs), many database systems introduced semantic operators that enabled analytical queries over unstructured data (e.g. text, images, videos). Semantic operators typically incur high inference costs and latencies making semantic (AI) SQL queries challenging to apply on large scale datasets. At the same time, their semantic nature leads database engines to treat them as black boxes, making AISQL queries difficult to optimize. In this paper, we introduce Larch, a framework for optimizing the execution of semantic filters in AI SQL queries. Larch was inspired by two key observations: i) the high latency of semantic operators leaves significant room for computationally-heavy runtime optimization techniques, ii) unstructured data are typically accompanied by semantic information in the form of embeddings allowing for efficient semantic comparisons between AI_FILTER prompts and data values. Based on these two key observations, we present two Larch variants: Larch-A2C and Larch-Sel. Larch-A2C encodes arbitrary semantic filters expression tree using an embedding-augmented Gated Graph Neural Network and formulates the filter evaluation order as a Markov decision process. In contrast, Larch-Sel leverages a supervised learning model to predict filter selectivities, subsequently applying dynamic programming to find a near-optimal evaluation order for each input row. Evaluated across diverse real-world datasets and comprehensive synthetic workloads, both Larch variants always outperform existing semantic filter optimization techniques in terms of token usage on every dataset and workload. Our results demonstrate that Larch is robust across diverse workloads across text and image modalities, 6%--30% lower total token costs and 3x--19x lower token costs overhead than Palimpzest and Quest.",
+   "comment": "",
+   "score": 62
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "GenTUS: Table Union Search via Constrained Generation of Semantic Table Identifiers",
+   "link": "https://arxiv.org/abs/2607.00833",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2607.00833v2 Announce Type: replace Abstract: Modern data lakes contain heterogeneous tables, and the information needed for a task is often scattered across many tables with different schemas, sources, and naming conventions. Table union search (TUS) retrieves tables whose rows are semantically compatible with a query table for union, supporting data discovery, enrichment, and downstream analytics. Existing TUS methods follow an encode-search-refine pipeline: they embed tables or columns, retrieve a candidate pool from a vector index, and refine it by query-candidate matching or reranking. As a result, a unionable table missed by candidate retrieval cannot be recovered later, and searching and refining a pool for every query adds latency and storage costs that grow with the data lake. We propose GenTUS, a generative retrieval framework that reformulates TUS as constrained generation over discrete semantic table identifiers. GenTUS assigns each data-lake table a compact identifier learned under pairwise unionability supervision, which encourages unionable tables to share identifier prefixes, and trains a generator to produce the identifiers of unionable tables directly from the query table. At query time, prefix-constrained beam search guarantees that every generated identifier maps to an existing table, and its output order serves directly as the ranking, with no candidate pool to search or rerank. Experiments on seven public TUS benchmarks show that GenTUS achieves the best overall retrieval quality, with the largest gains on the larger and more diverse benchmarks, while requiring substantially lower online retrieval time and retrieval-artifact storage than prior TUS methods.",
+   "comment": "",
+   "score": 61
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "time": "11-03 05:35",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Federated Vector Retrieval across Heterogeneous VectorDBs",
+   "link": "https://arxiv.org/abs/2611.01514",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.01514v2 Announce Type: replace Abstract: Vector databases are now core infrastructure for AI retrieval systems, yet many real deployments must serve queries over multiple independently constructed vectorDBs built with different embedding models. This creates a systems problem of federated retrieval over heterogeneous vectorDBs: vectors and similarity scores are not directly comparable across embedding spaces, while fully resolving this incompatibility through corpus-wide re-embedding and re-indexing is often operationally prohibitive. Existing methods therefore face a difficult trade-off between retrieval quality, construction cost, and query throughput. We present HVMap, a lightweight compatibility layer for federated retrieval across heterogeneous vectorDBs. Instead of rebuilding databases into a unified space, HVMap learns bidirectional mappings between embedding spaces using a fuzzy contrastive loss, enabling calibrated cross-database scoring without corpus migration or index reconstruction. HVMap is system-agnostic and further scales to multi-vectorDB settings while preserving ranking fidelity through a hub-based architecture. We evaluate HVMap in open-domain, cross-domain, and scale-out settings, and also construct a new benchmark for heterogeneous cross-domain federation. Across these settings, HVMap consistently achieves a better quality--cost--throughput trade-off than baselines, achieving up to 3.59X higher nDCG@10, up to 2.01X higher query throughput, and construction time as low as 0.3% of baseline methods. These results show that HVMap makes heterogeneous vectorDB federation practical at scale.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "逼近3800关口！美加息预期升温，黄金跌至逾一年新低",
+   "link": "https://wallstreetcn.com/articles/3786011",
+   "time": "11-16 08:37",
+   "summary": "美国通胀持续超预期，令市场对美联储明年继续加息的押注骤然升温，黄金承压大跌至2025年10月以来最低水平，逼近每盎司3800美元关口。与此同时，科技股遭抛售引发的连锁反应，也加剧了贵金属的下行压力。 11月16日，金价一度下跌1.3%，至每盎司3830美元附近。截至目前，现货黄金下跌0.6%，报每盎司3856美元。白银跌幅更为显著，下跌2.7%至每盎司47.43美元，创去年11月以来新低；铂金和钯",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+   "link": "https://arxiv.org/abs/2611.17398",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17398v1 Announce Type: new Abstract: The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences or constitutional principles specified at training time and subsequently fixed. In practice, many deployers rely on system prompting to implement contextual norms and guardrails at inference time. Prior work has shown that post-generation reflective reasoning with critique and revision can improve conformance compared to simple system prompting, but such methods are limited to the reasoning abilities inherent in the trained model. We introduce Reflect-Reasoning, a training method that teaches models how to reason about alignment to principles, rather than simply which principles to follow. Across five models, Reflect-Reasoning consistently outperforms both system prompting and explicit prompting strategies for in-context reflective reasoning. These improvements extend and generalize to entirely out-of-distribution domains of medical and financial principles. We additionally demonstrate that Reflect-Reasoning reduces the occurrence of rare but serious principle violations. Finally, we show that Reflect-Reasoning does not erode the safety engineering of a model and is robust against jailbreaking attempts using adversarial constitutions. Overall, our results demonstrate that Reflect-Reasoning is a scalable method for training constitutional alignment as a generalizable reasoning capability, enabling models to adapt to novel principles and produce transparent reasoning traces without additional fine-tuning.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Logically Consistent Accurate Forecasts",
+   "link": "https://arxiv.org/abs/2611.17735",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17735v1 Announce Type: new Abstract: Agentic forecasting systems based on large language models (LLMs) are now competitive with expert human forecasters, but these systems still suffer from a critical limitation: the inability to produce forecasts that are logically consistent. For example, forecasts for related events often fail to satisfy the axioms of probability, which in turn implies that related forecasts cannot simultaneously be correct and undermines their utility for decision makers. Enforcing consistency is not trivial -- naive approaches (e.g., projection onto the set of consistent forecasts) can degrade accuracy. We argue that the key to overcoming the apparent tradeoff between consistency and accuracy lies in the reasoning which supports each forecast. We finetune a supervisory language model that leverages this reasoning to jointly reconcile inconsistencies while improving the accuracy of related forecasts. On ForecastBench, our method improves the Brier score of a retrieval-augmented GPT-5.1 forecaster by 9.3% while reducing measures of structural inconsistency by 82-90%. We interrogate our method via a comprehensive series of baselines and ablations, and find that no alternative method matches our gains in consistency and accuracy simultaneously.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 47
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "百度Q3营收308亿元符合预期，AI云收入暴增94%，现金及投资总额2766亿元，自由现金流持续为负 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786013",
+   "time": "11-16 09:04",
+   "summary": "百度发布2026年第三季度财报，整体营收308亿元人民币，与市场预期基本吻合。 尽管在线营销业务持续承压，AI战略的落地正在重塑百度的收入结构——本季度百度核心AI新业务收入达132亿元，占百度一般性业务收入比例升至53%，首度超过半数，标志着这家公司从搜索引擎向AI公司的转型迈过了一个重要里程碑。 盈利层面超出预期是本季亮点之一。经调整每ADS利润达6.78元，显著高于市场预估的6.02元；经调",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板跌超4%，科创50跌5%，“易中天”再大跌，银行逆势拉升，30年期国债跌0.8%，恒科指午后转跌",
+   "link": "https://wallstreetcn.com/articles/3785986",
+   "time": "11-16 08:25",
+   "summary": "11月16日，A股全天低开低走，午后进一步扩大跌幅，三大指数集体走低，沪指尾盘险守3600点，得益于银行、电力、家电等红利板块的逆势拉升，创业板午后跌超4%，存储、算力集体陷入调整，科创50跌超5%，光模块龙头“易中天”大跌，工业富联一度跌停，物理AI、人形机器人等概念股同样下挫，航天军工、基本金属、半导体板块下跌。银行、白色家电、煤炭、油气等板块逆势走强。 港股全天震荡分化，恒指、恒科指盘初集体",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI抛售持续，英伟达财报前夕，费半大跌5%，黄金、原油双双走低",
+   "link": "https://wallstreetcn.com/articles/3785999",
+   "time": "11-16 14:41",
+   "summary": "科技股抛售情绪从上周延续至新的一周，投资者在英伟达高风险财报和Anthropic预期上市之前普遍规避风险资产，全球股市承压。 美股盘初，标普500指数跌0.63%；道琼斯工业平均指数跌0.15%；纳斯达克综合指数跌1.13%；纳斯达克100跌1.6%，费城半导体指数跌4.7%。 个股方面，英伟达跌2.2%，Nebius跌8.3%，CoreWeave跌8.3%，Lumentum、闪迪、美光科技、SK",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "小牛电动销量增长15%，单车收入下降拖累盈利",
+   "link": "https://wallstreetcn.com/articles/3786035",
+   "time": "11-16 14:08",
+   "summary": "小牛电动卖出了更多车，利润却同比承压。 11月16日，小牛电动发布2026年三季度财报，整车销量53.75万辆，同比增长15.4%，营收17.14亿元，同比增长1.2%。公司当季净亏损3400万元，上年同期为盈利8170万元。销量增幅与收入增幅之间的落差，主要来自单车收入下降。 中国市场的变化尤其明显。三季度，小牛国内销量同比增长8.6%，但单车收入下降11.6%至2902元，国内整车销售收入因此",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 33
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "OpenAI扩大AMD算力布局：与TensorWave签署六年协议，部署逾450MW算力",
+   "link": "https://wallstreetcn.com/articles/3786040",
+   "time": "11-16 15:34",
+   "summary": "AI云服务商TensorWave与OpenAI达成一项重大基础设施协议，进一步推动AMD在前沿AI算力市场的布局。 根据协议，TensorWave将在美国多个数据中心站点为OpenAI提供457MW（兆瓦）的IT算力容量，为期六年，全部搭载AMD Instinct MI455X GPU，预计2027年上半年开始投入使用，2028年初完成全面部署。 这是TensorWave迄今规模最大的单笔部署，也",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Beyond a Single Sign: BiTE for Branch-Preserving Binary Threshold Expansion",
+   "link": "https://arxiv.org/abs/2611.17576",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17576v1 Announce Type: new Abstract: Binary neural networks (BNNs) reduce model storage and replace many arithmetic operations with efficient bitwise computations, but the single-sign activation limits their representational capacity. Each preactivation direction is compared with one threshold and reduced to one of two values, discarding variation within each sign region. We propose \\textbf{BiTE} (Branch-Preserving Binary Threshold Expansion), which evaluates each feature direction against $K$ ordered thresholds and retains the resulting binary responses as separate inputs to the following learned operator. BiTE can distinguish up to $K+1$ ordered activation states while allowing the following operator to learn a separate transformation for each threshold response. It also enables a controllable trade-off between the number of independently constructed feature directions and the number of ordered responses extracted from each direction. On BinaryViT, BiTE improves mean final-epoch Top-1 accuracy from $74.60\\pm0.30\\%$ to $75.83\\pm0.15\\%$ on CIFAR-10 and from $42.80\\pm0.46\\%$ to $44.07\\pm0.32\\%$ on CIFAR-100, with nearly unchanged trainable parameter counts. A matched uniform-collapse control reaches $75.33\\pm0.15\\%$ on CIFAR-10, supporting the value of retaining the threshold responses separately relative to the evaluated scalar collapse. Binary VGG-16 experiments further show a favorable observed parameter--accuracy trade-off, including a configuration that achieves $0.64$ percentage points higher mean accuracy with $21.8\\%$ fewer parameters than conventional width scaling. Overall, these results support branch-preserving threshold expansion as an effective way to improve binary representations and the observed parameter--accuracy trade-off.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Complex Schr\\\"odinger Bridges",
+   "link": "https://arxiv.org/abs/2611.17746",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17746v1 Announce Type: new Abstract: Diffusion bridges have emerged as versatile frameworks for facilitating transformations between arbitrary data distributions. However, these approaches are hindered by an immense optimization space and its underlying high-order structures. This paper explores a variant of diffusion bridges for solving real-world problems in complex vector spaces governed by scaling and rotation laws, such as Hamiltonian structures. To address this, we introduce conformal optimal transport (COT), a complex-valued transportation framework designed for physical systems with geometric and dissipative dynamics under a geometric lifting. Building on this, we propose a new class of dynamical diffusion bridges, called complex Schr\\\"odinger bridges (CSBs), whose derived algorithms can handle diffusion-based tasks using a conformal geometric prior. For scalability, we propose image-to-image CSB (I$^2$CSB), a tractable diffusion-bridge technique with an analytic spiral posterior. Finally, we implement a physics-informed CSB algorithm within simulations of quantum electrodynamics, mimicking the logical behavior of quantum logic gates. Our extensive results validate the underlying theory while highlighting advantages of complex-valued diffusion.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Antidistillation is Cheap: Lightweight Distillation-Resistance via Stylistic Corruption",
+   "link": "https://arxiv.org/abs/2611.17772",
+   "time": "11-16 05:00",
+   "summary": "arXiv:2611.17772v1 Announce Type: new Abstract: Knowledge distillation (KD) is a highly effective paradigm for transferring capabilities from large language models (LLMs) to smaller, more specialized student models. In commercial deployment where frontier models are restricted behind black-box APIs, sequence-level distillation remains a potent vector for competitors to clone proprietary capabilities at a fraction of the development cost. Existing defenses mostly rely on surrogate models to manipulate next-token sampling, which increases computational overhead and real-time inference latency. In this work, we propose a lightweight defense that dynamically injects style-steering vectors into the teacher model's activations upon malicious queries. This framework offers exceptional flexibility, allowing hosts to customize target defensive styles and dynamically blend them to maximize stylistic variance. Crucially, this inference-time intervention preserves semantic utility and fluency during malicious queries, misleading adversaries into believing that they are extracting pristine teacher outputs, while standard consumers continue to receive original, unmodified responses. Our experiments demonstrate that this framework successfully disrupts student learning, achieving substantial anti-distillation performance while incurring negligible overhead and preserving text naturalness. Our code is available at https://anonymous.4open.science/r/distill-resist-38C6/.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "time": "11-13 09:04",
+   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Obituaries",
+   "link": "https://stratechery.com/2026/obituaries/",
+   "time": "11-16 11:02",
+   "summary": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "What an Ontology for AI Agents Actually Needs",
+   "link": "https://www.dataengineeringweekly.com/p/an-ontology-for-ai-agents-is-a-system",
+   "time": "08-14 12:38",
+   "summary": "How to think about the semantic system that makes an agent coherent, governable, and useful.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Nvidia: Now What?",
+   "link": "https://awealthofcommonsense.com/2026/11/nvidia-now-what/",
+   "time": "11-16 04:27",
+   "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+   "time": "11-13 03:47",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 18
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Living a Better Life Now",
+   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
+   "time": "11-14 01:09",
+   "summary": "If you read enough personal finance books you’re bound to come across the parable about the businessman and the fisherman. I’ve certainly read the story numerous times. It goes something like this: An",
+   "comment": "",
+   "score": 18
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+   "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "time": "11-12 11:00",
+   "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
+   "comment": "",
+   "score": 17
+  }
+ ]
+}
