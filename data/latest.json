@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17 05:14",
+ "generated_at": "2026-11-17 06:14",
  "raw_total": 185,
  "items": [
   {
@@ -61,6 +61,16 @@
    "summary": "arXiv:2611.01514v2 Announce Type: replace Abstract: Vector databases are now core infrastructure for AI retrieval systems, yet many real deployments must serve queries over multiple independently constructed vectorDBs built with different embedding models. This creates a systems problem of federated retrieval over heterogeneous vectorDBs: vectors and similarity scores are not directly comparable across embedding spaces, while fully resolving this incompatibility through corpus-wide re-embedding and re-indexing is often operationally prohibitive. Existing methods therefore face a difficult trade-off between retrieval quality, construction cost, and query throughput. We present HVMap, a lightweight compatibility layer for federated retrieval across heterogeneous vectorDBs. Instead of rebuilding databases into a unified space, HVMap learns bidirectional mappings between embedding spaces using a fuzzy contrastive loss, enabling calibrated cross-database scoring without corpus migration or index reconstruction. HVMap is system-agnostic and further scales to multi-vectorDB settings while preserving ranking fidelity through a hub-based architecture. We evaluate HVMap in open-domain, cross-domain, and scale-out settings, and also construct a new benchmark for heterogeneous cross-domain federation. Across these settings, HVMap consistently achieves a better quality--cost--throughput trade-off than baselines, achieving up to 3.59X higher nDCG@10, up to 2.01X higher query throughput, and construction time as low as 0.3% of baseline methods. These results show that HVMap makes heterogeneous vectorDB federation practical at scale.",
    "comment": "",
    "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "芯片股领跌美股，标普、纳指三连跌，英伟达跌4.1%，美元创19个月新高",
+   "link": "https://wallstreetcn.com/articles/3785999",
+   "time": "11-16 22:09",
+   "summary": "黄仁勋离职余震持续发酵，Anthropic本周IPO及英伟达财报两大催化剂悬而未决，市场倾向先降低风险敞口。科技股抛售潮延续，美股周一全线下挫，标普500指数创近三个月最大三日跌幅。 标普500指数 收跌1.9%， 纳指 数重挫2.5%， 道指 下滑1.4%，全球股票基准MSCI世界指数亦跌1.6%。半导体板块首当其冲， 芯片指数 单日下挫5.3%，AI与科技板块的广泛去风险操作令科技巨头也无从幸",
+   "comment": "",
+   "score": 50
   },
   {
    "group": "快讯",
@@ -150,7 +160,7 @@
    "time": "11-16 17:43",
    "summary": "英伟达正将AI基础设施的竞争进一步延伸至科学计算领域。 在11月16日于芝加哥举行的超级计算大会SC26上，英伟达发布专为科学计算、工程仿真和数据分析设计的新一代GPU Rubin HPC，并围绕CUDA-X软件库、光子计算和量子计算等领域公布一系列进展，试图将GPU加速计算、AI智能体与传统高性能计算（HPC）整合到统一平台。 此次发布释放出一个重要信号：随着AI智能体开始参与科研工作，能够自主",
    "comment": "",
-   "score": 34
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -169,16 +179,6 @@
    "link": "https://wallstreetcn.com/articles/3786035",
    "time": "11-16 14:08",
    "summary": "小牛电动卖出了更多车，利润却同比承压。 11月16日，小牛电动发布2026年三季度财报，整车销量53.75万辆，同比增长15.4%，营收17.14亿元，同比增长1.2%。公司当季净亏损3400万元，上年同期为盈利8170万元。销量增幅与收入增幅之间的落差，主要来自单车收入下降。 中国市场的变化尤其明显。三季度，小牛国内销量同比增长8.6%，但单车收入下降11.6%至2902元，国内整车销售收入因此",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员警告：AI自动转账或成银行挤兑新推手",
-   "link": "https://wallstreetcn.com/articles/3786022",
-   "time": "11-16 12:02",
-   "summary": "美联储官员就人工智能对金融稳定的潜在威胁发出警告，将AI自主代理列为未来银行挤兑的新型风险来源。 美联储理事Michael Barr周一在米兰一场会议上发表讲话称，自主AI代理可能通过自动响应市场信号或利率变化、即时转移客户存款，从而加速银行体系的不稳定性。他指出， 主要银行已检测到AI代理试图在零售账户中执行未经授权操作的案例。 Barr警告， AI驱动的资金转移可能在数分钟内引发挤兑，令传统流",
    "comment": "",
    "score": 30
   },
@@ -240,7 +240,7 @@
    "time": "11-13 09:04",
    "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
-   "score": 29
+   "score": 28
   },
   {
    "group": "AI与数据",
