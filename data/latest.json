@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17 00:17",
- "raw_total": 205,
+ "generated_at": "2026-11-17 01:16",
+ "raw_total": 185,
  "items": [
   {
    "group": "学术",
@@ -150,16 +150,6 @@
    "time": "11-16 14:41",
    "summary": "科技股抛售情绪从上周延续至新的一周，投资者在英伟达高风险财报和Anthropic预期上市之前普遍规避风险资产，全球股市承压。 美股盘初，标普500指数跌0.63%；道琼斯工业平均指数跌0.15%；纳斯达克综合指数跌1.13%；纳斯达克100跌1.6%，费城半导体指数跌4.7%。 个股方面，英伟达跌2.2%，Nebius跌8.3%，CoreWeave跌8.3%，Lumentum、闪迪、美光科技、SK",
    "comment": "",
-   "score": 39
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
    "score": 38
   },
   {
@@ -169,16 +159,6 @@
    "link": "https://wallstreetcn.com/articles/3786035",
    "time": "11-16 14:08",
    "summary": "小牛电动卖出了更多车，利润却同比承压。 11月16日，小牛电动发布2026年三季度财报，整车销量53.75万辆，同比增长15.4%，营收17.14亿元，同比增长1.2%。公司当季净亏损3400万元，上年同期为盈利8170万元。销量增幅与收入增幅之间的落差，主要来自单车收入下降。 中国市场的变化尤其明显。三季度，小牛国内销量同比增长8.6%，但单车收入下降11.6%至2902元，国内整车销售收入因此",
-   "comment": "",
-   "score": 36
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
    "comment": "",
    "score": 35
   },
@@ -195,10 +175,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "OpenAI扩大AMD算力布局：与TensorWave签署六年协议，部署逾450MW算力",
-   "link": "https://wallstreetcn.com/articles/3786040",
-   "time": "11-16 15:34",
-   "summary": "AI云服务商TensorWave与OpenAI达成一项重大基础设施协议，进一步推动AMD在前沿AI算力市场的布局。 根据协议，TensorWave将在美国多个数据中心站点为OpenAI提供457MW（兆瓦）的IT算力容量，为期六年，全部搭载AMD Instinct MI455X GPU，预计2027年上半年开始投入使用，2028年初完成全面部署。 这是TensorWave迄今规模最大的单笔部署，也",
+   "title": "美联储官员警告：AI自动转账或成银行挤兑新推手",
+   "link": "https://wallstreetcn.com/articles/3786022",
+   "time": "11-16 12:02",
+   "summary": "美联储官员就人工智能对金融稳定的潜在威胁发出警告，将AI自主代理列为未来银行挤兑的新型风险来源。 美联储理事Michael Barr周一在米兰一场会议上发表讲话称，自主AI代理可能通过自动响应市场信号或利率变化、即时转移客户存款，从而加速银行体系的不稳定性。他指出， 主要银行已检测到AI代理试图在零售账户中执行未经授权操作的案例。 Barr警告， AI驱动的资金转移可能在数分钟内引发挤兑，令传统流",
    "comment": "",
    "score": 30
   },
@@ -209,16 +189,6 @@
    "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -324,16 +294,6 @@
   },
   {
    "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Living a Better Life Now",
-   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
-   "time": "11-14 01:09",
-   "summary": "If you read enough personal finance books you’re bound to come across the parable about the businessman and the fisherman. I’ve certainly read the story numerous times. It goes something like this: An",
-   "comment": "",
-   "score": 18
-  },
-  {
-   "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
    "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
@@ -341,6 +301,16 @@
    "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a plat",
    "comment": "",
    "score": 17
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Living a Better Life Now",
+   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
+   "time": "11-14 01:09",
+   "summary": "What me and George Clooney learned from the Italians. The post Living a Better Life Now appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 8
   }
  ]
 }
