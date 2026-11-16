@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16 14:37",
+ "generated_at": "2026-11-16 16:34",
  "raw_total": 185,
  "items": [
   {
@@ -63,16 +63,6 @@
    "score": 60
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周",
-   "link": "https://wallstreetcn.com/articles/3785944",
-   "time": "11-14 10:54",
-   "summary": "英伟达CEO离职风波尚未平息，华尔街已将目光投向下周——英伟达季报与Anthropic上市将接连登场，AI交易的信心能否经受住这轮双重压力测试，答案即将揭晓。 英伟达CEO黄仁勋因婚外情丑闻于上周四突然辞职，引发市场对这家AI芯片巨头的深度担忧。尽管如此，英伟达股价本周跌幅约13%，远小于此前市场担忧的20%乃至更大跌幅，标普500指数更录得8月以来最佳单周表现。与此同时，Anthropic宣布其",
-   "comment": "",
-   "score": 50
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
@@ -93,16 +83,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板跌3.5%，科创50跌近5%，“易中天”大跌，银行逆势拉升，30年期国债跌0.8%，恒指、恒科指震荡上涨",
-   "link": "https://wallstreetcn.com/articles/3785986",
-   "time": "11-16 05:52",
-   "summary": "11月16日，A股午后扩大跌幅，三大指数集体走低，沪指再度逼近3600点，在银行、电力、家电等红利板块的逆势拉升下，沪指跌幅显著收窄，创业板跌超3%，存储、算力集体陷入调整，科创50跌近5%，光模块龙头“易中天”、工业富联等集体下跌，物理AI、人形机器人等概念股同样下挫，航天军工、基本金属、半导体板块下跌。银行、白色家电、煤炭、油气等板块逆势走强。 港股早盘震荡上涨，恒指、恒科指盘初集体拉升，恒指",
-   "comment": "",
-   "score": 49
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -111,6 +91,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 47
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板跌4%，科创50跌近5%，“易中天”再大跌，银行逆势拉升，30年期国债跌0.8%，恒科指午后转跌",
+   "link": "https://wallstreetcn.com/articles/3785986",
+   "time": "11-16 06:33",
+   "summary": "11月16日，A股午后扩大跌幅，三大指数集体走低，沪指再度跌破3600点，早盘在银行、电力、家电等红利板块的逆势拉升下，沪指跌幅显著收窄，创业板跌超4%，存储、算力集体陷入调整，科创50跌近5%，光模块龙头“易中天”、工业富联等集体下跌，物理AI、人形机器人等概念股同样下挫，航天军工、基本金属、半导体板块下跌。银行、白色家电、煤炭、油气等板块逆势走强。 港股早盘震荡上涨，恒指、恒科指盘初集体拉升，",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "AI与数据",
@@ -133,26 +123,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“AI央行”失去掌舵人，华尔街警告：黄仁勋离开将引爆“AI版量化紧缩”！",
-   "link": "https://wallstreetcn.com/articles/3785942",
-   "time": "11-14 09:44",
-   "summary": "英伟达董事长黄仁勋的骤然离场，不仅是一家芯片公司的高管更迭，更是整个AI融资生态系统面临的系统性冲击。在过去三年里，英伟达实际上已演变为AI行业的\"最后贷款人\"，以股权投资、担保承诺和回购协议构建起一台规模逾5000亿美元的循环融资机器。如今，这台机器的操盘手已经离场。 黄仁勋辞职消息宣布后，英伟达股价盘中一度暴跌逾13%，收盘跌约4%。与此同时，高盛、瑞银、William Blair等14家卖方",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "堪萨斯城联储施密德：通胀过高且方向错误，美联储仍有工作要做",
-   "link": "https://wallstreetcn.com/articles/3785996",
-   "time": "11-16 03:35",
-   "summary": "堪萨斯城联储主席施密德（Jeff Schmid）上周日（11月15日）表示，当前通胀水平令人不安，美联储仍有工作要做，但他并未明确呼吁进一步加息。这是继芝加哥联储古尔斯比、纽约联储威廉姆斯及美联储主席沃什（Kevin Warsh）相继发声后，又一位联储官员就通胀问题公开表态。 据彭博、路透和CNBC报道，施密德在夏威夷一场信贷联盟会议上发表书面讲话称，美联储偏爱的物价指标9月同比上涨 3.6% ，",
-   "comment": "",
-   "score": 34
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -165,10 +135,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "无界进化获Pre-A轮超亿元融资，红杉中国再投AI生命科学",
-   "link": "https://wallstreetcn.com/articles/3786001",
-   "time": "11-16 06:00",
-   "summary": "11月16日，北京无界进化科技有限公司（以下简称“无界进化”）宣布完成超亿元Pre-A轮融资，由星连资本、Prosperity7 Ventures、华盖资本、华控基金及德同资本等机构联合投资，老股东顺为资本、红杉中国和松禾资本继续追加投资。本轮资金将用于基础大模型研发、高通量自动化干湿闭环体系扩容及产业生态建设。 这是无界进化今年第二次融资。6月，公司曾完成数千万元天使轮融资，投资方包括顺为资本、",
+   "title": "堪萨斯城联储施密德：通胀过高且方向错误，美联储仍有工作要做",
+   "link": "https://wallstreetcn.com/articles/3785996",
+   "time": "11-16 03:35",
+   "summary": "堪萨斯城联储主席施密德（Jeff Schmid）上周日（11月15日）表示，当前通胀水平令人不安，美联储仍有工作要做，但他并未明确呼吁进一步加息。这是继芝加哥联储古尔斯比、纽约联储威廉姆斯及美联储主席沃什（Kevin Warsh）相继发声后，又一位联储官员就通胀问题公开表态。 据彭博、路透和CNBC报道，施密德在夏威夷一场信贷联盟会议上发表书面讲话称，美联储偏爱的物价指标9月同比上涨 3.6% ，",
    "comment": "",
    "score": 30
   },
@@ -223,6 +193,16 @@
    "score": 30
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "豆包开放多模型4天后，千问也改回来了",
+   "link": "https://wallstreetcn.com/articles/3786007",
+   "time": "11-16 07:17",
+   "summary": "办公 Agent的多模型阵营，终于等来了阿里。 11月16日，阿里旗下千问办公宣布新增10款大模型，包括最新发布的Qwen4-Max，以及Kimi、GLM、DeepSeek、MiniMax、Step等多家厂商的第三方模型。 此次更新后，千问办公个人版和企业标准版用户均可自主选择模型，根据任务复杂度、响应速度和 Token成本，决定使用哪款模型完成工作。 这距离字节跳动旗下豆包工作向个人用户全面开放",
+   "comment": "",
+   "score": 29
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
@@ -241,6 +221,26 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 26
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "无界进化获Pre-A轮超亿元融资，红杉中国再投AI生命科学",
+   "link": "https://wallstreetcn.com/articles/3786001",
+   "time": "11-16 06:00",
+   "summary": "11月16日，北京无界进化科技有限公司（以下简称“无界进化”）宣布完成超亿元Pre-A轮融资，由星连资本、Prosperity7 Ventures、华盖资本、华控基金及德同资本等机构联合投资，老股东顺为资本、红杉中国和松禾资本继续追加投资。本轮资金将用于基础大模型研发、高通量自动化干湿闭环体系扩容及产业生态建设。 这是无界进化今年第二次融资。6月，公司曾完成数千万元天使轮融资，投资方包括顺为资本、",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋要回归？很难！",
+   "link": "https://wallstreetcn.com/articles/3786008",
+   "time": "11-16 08:03",
+   "summary": "黄仁勋辞职不到一周，硅谷“救黄运动”已迅速升温。 呼吁黄仁勋回归的公开请愿书签名已超过16万，马斯克、Garry Tan等科技大佬公开站台，并计划游说董事会和白宫。 然而，美国财政部长贝森特明确要求引入外部CEO，并限期10天就芯片出口合规问题作出答复；董事会自身则面临调查未完成即复职的法律风险。当下，黄仁勋回归面临白宫施压、董事会独立调查、国会闭门问询三重障碍，且本人仅持有英伟达3.6%股权，无",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "财经深度",
