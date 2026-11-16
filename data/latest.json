@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16 16:34",
+ "generated_at": "2026-11-16 17:23",
  "raw_total": 185,
  "items": [
   {
@@ -63,6 +63,26 @@
    "score": 60
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "逼近3800关口！美加息预期升温，黄金跌至逾一年新低",
+   "link": "https://wallstreetcn.com/articles/3786011",
+   "time": "11-16 08:37",
+   "summary": "美国通胀持续超预期，令市场对美联储明年继续加息的押注骤然升温，黄金承压大跌至2025年10月以来最低水平，逼近每盎司3800美元关口。与此同时，科技股遭抛售引发的连锁反应，也加剧了贵金属的下行压力。 11月16日，金价一度下跌1.3%，至每盎司3830美元附近。截至目前，现货黄金下跌0.6%，报每盎司3856美元。白银跌幅更为显著，下跌2.7%至每盎司47.43美元，创去年11月以来新低；铂金和钯",
+   "comment": "",
+   "score": 58
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "百度Q3营收308亿元符合预期，AI云收入暴增94%，现金及投资总额2766亿元，自由现金流持续为负 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786013",
+   "time": "11-16 09:04",
+   "summary": "百度发布2026年第三季度财报，整体营收308亿元人民币，与市场预期基本吻合。 尽管在线营销业务持续承压，AI战略的落地正在重塑百度的收入结构——本季度百度核心AI新业务收入达132亿元，占百度一般性业务收入比例升至53%，首度超过半数，标志着这家公司从搜索引擎向AI公司的转型迈过了一个重要里程碑。 盈利层面超出预期是本季亮点之一。经调整每ADS利润达6.78元，显著高于市场预估的6.02元；经调",
+   "comment": "",
+   "score": 50
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
@@ -83,6 +103,16 @@
    "score": 50
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板跌超4%，科创50跌5%，“易中天”再大跌，银行逆势拉升，30年期国债跌0.8%，恒科指午后转跌",
+   "link": "https://wallstreetcn.com/articles/3785986",
+   "time": "11-16 08:25",
+   "summary": "11月16日，A股全天低开低走，午后进一步扩大跌幅，三大指数集体走低，沪指尾盘险守3600点，得益于银行、电力、家电等红利板块的逆势拉升，创业板午后跌超4%，存储、算力集体陷入调整，科创50跌超5%，光模块龙头“易中天”大跌，工业富联一度跌停，物理AI、人形机器人等概念股同样下挫，航天军工、基本金属、半导体板块下跌。银行、白色家电、煤炭、油气等板块逆势走强。 港股全天震荡分化，恒指、恒科指盘初集体",
+   "comment": "",
+   "score": 47
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -91,16 +121,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 47
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板跌4%，科创50跌近5%，“易中天”再大跌，银行逆势拉升，30年期国债跌0.8%，恒科指午后转跌",
-   "link": "https://wallstreetcn.com/articles/3785986",
-   "time": "11-16 06:33",
-   "summary": "11月16日，A股午后扩大跌幅，三大指数集体走低，沪指再度跌破3600点，早盘在银行、电力、家电等红利板块的逆势拉升下，沪指跌幅显著收窄，创业板跌超4%，存储、算力集体陷入调整，科创50跌近5%，光模块龙头“易中天”、工业富联等集体下跌，物理AI、人形机器人等概念股同样下挫，航天军工、基本金属、半导体板块下跌。银行、白色家电、煤炭、油气等板块逆势走强。 港股早盘震荡上涨，恒指、恒科指盘初集体拉升，",
-   "comment": "",
-   "score": 45
   },
   {
    "group": "AI与数据",
@@ -121,6 +141,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "华为云发布具身世界模型，回应与机器人公司的竞争",
+   "link": "https://wallstreetcn.com/articles/3786012",
+   "time": "11-16 08:42",
+   "summary": "华为云开始亲自下场训练具身智能的“大脑”。 11月16日，在华为云CloudRobo具身世界模型发布会上，华为云正式发布昇腾原生具身世界模型CloudRobo-WM1.2，并宣布将其开源。 这款模型能够在理解物理环境的基础上预测未来变化，并直接生成机器人动作。按照华为云披露的测试结果，其在RoboTwin 2.0、LIBERO Pro 2.0等具身智能评测基准中取得第一名。 不过，相较于模型本身的",
+   "comment": "",
+   "score": 39
   },
   {
    "group": "AI与数据",
@@ -193,16 +223,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "豆包开放多模型4天后，千问也改回来了",
-   "link": "https://wallstreetcn.com/articles/3786007",
-   "time": "11-16 07:17",
-   "summary": "办公 Agent的多模型阵营，终于等来了阿里。 11月16日，阿里旗下千问办公宣布新增10款大模型，包括最新发布的Qwen4-Max，以及Kimi、GLM、DeepSeek、MiniMax、Step等多家厂商的第三方模型。 此次更新后，千问办公个人版和企业标准版用户均可自主选择模型，根据任务复杂度、响应速度和 Token成本，决定使用哪款模型完成工作。 这距离字节跳动旗下豆包工作向个人用户全面开放",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
@@ -221,26 +241,6 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 26
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "无界进化获Pre-A轮超亿元融资，红杉中国再投AI生命科学",
-   "link": "https://wallstreetcn.com/articles/3786001",
-   "time": "11-16 06:00",
-   "summary": "11月16日，北京无界进化科技有限公司（以下简称“无界进化”）宣布完成超亿元Pre-A轮融资，由星连资本、Prosperity7 Ventures、华盖资本、华控基金及德同资本等机构联合投资，老股东顺为资本、红杉中国和松禾资本继续追加投资。本轮资金将用于基础大模型研发、高通量自动化干湿闭环体系扩容及产业生态建设。 这是无界进化今年第二次融资。6月，公司曾完成数千万元天使轮融资，投资方包括顺为资本、",
-   "comment": "",
-   "score": 24
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋要回归？很难！",
-   "link": "https://wallstreetcn.com/articles/3786008",
-   "time": "11-16 08:03",
-   "summary": "黄仁勋辞职不到一周，硅谷“救黄运动”已迅速升温。 呼吁黄仁勋回归的公开请愿书签名已超过16万，马斯克、Garry Tan等科技大佬公开站台，并计划游说董事会和白宫。 然而，美国财政部长贝森特明确要求引入外部CEO，并限期10天就芯片出口合规问题作出答复；董事会自身则面临调查未完成即复职的法律风险。当下，黄仁勋回归面临白宫施压、董事会独立调查、国会闭门问询三重障碍，且本人仅持有英伟达3.6%股权，无",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "财经深度",
