@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18 00:18",
- "raw_total": 220,
+ "generated_at": "2026-11-18 01:14",
+ "raw_total": 200,
  "items": [
   {
    "group": "学术",
@@ -153,32 +153,12 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "全民抛售AI，市场转折点或已悄然临近",
    "link": "https://wallstreetcn.com/articles/3786109",
    "time": "11-17 12:15",
    "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
-   "comment": "",
-   "score": 35
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
    "comment": "",
    "score": 35
   },
@@ -239,16 +219,6 @@
    "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
