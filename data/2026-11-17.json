@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17 15:17",
- "raw_total": 160,
+ "generated_at": "2026-11-17 16:20",
+ "raw_total": 140,
  "items": [
   {
    "group": "AI与数据",
@@ -15,22 +15,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "声网营收增长19%，但对话式AI尚未形成规模效应拖累毛利率",
+   "link": "https://wallstreetcn.com/articles/3786095",
+   "time": "11-17 07:55",
+   "summary": "声网的AI业务开始贡献更多收入，盈利改善仍需等待规模效应。 北京时间11月17日，声网（NASDAQ：API）发布2026年第三季度财报，营收4210万美元，同比增长19%；净利润约300万美元，同比增长10.4%。 同期，毛利率由上年同期的66%降至63.4%，经营亏损约150万美元，上年同期为160万美元。公司将毛利率下降归因于产品结构变化，其中对话式AI产品仍处于规模化前期。 这家实时音视频",
+   "comment": "",
+   "score": 58
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "避险情绪主导市场，芯片股领跌拖累标普、纳指三连跌，英伟达跌4%，美元创18个月新高",
    "link": "https://wallstreetcn.com/articles/3785999",
    "time": "11-16 22:26",
    "summary": "Anthropic本周IPO及英伟达财报两大催化剂悬而未决，市场倾向先降低风险敞口。科技股抛售潮延续，美股周一全线下挫，标普500指数创近三个月最大三日跌幅。 标普500指数 收跌1.9%， 纳指 数重挫2.5%， 道指 下滑1.4%，全球股票基准MSCI世界指数亦跌1.6%。半导体板块首当其冲， 芯片指数 单日下挫5.3%，AI与科技板块的广泛去风险操作令科技巨头也无从幸免。 与此同时，原油价格",
    "comment": "",
    "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "全球股市四连跌，韩股下挫2%，英伟达盘前维持低位，油价下跌",
-   "link": "https://wallstreetcn.com/articles/3786084",
-   "time": "11-17 05:52",
-   "summary": "全球股市跌势蔓延至第四个交易日，英伟达财报前夕的避险情绪令亚太市场首当其冲。油价同步下挫，市场风险偏好持续受压。 MSCI亚太股票指数盘中最大跌幅达1.5%，逼近4月初以来最低收盘位，韩国股市领跌。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构成近期AI交易方向的两大关键变量。MSCI全球股票指数周二小幅下滑0.2%，连续第四日录得跌幅。 大宗商品市场",
-   "comment": "",
-   "score": 49
   },
   {
    "group": "财经深度",
@@ -41,6 +41,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 47
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "全球股市四连跌，英伟达绩前跌幅加深，韩股收跌2.6%，油价下跌",
+   "link": "https://wallstreetcn.com/articles/3786084",
+   "time": "11-17 07:49",
+   "summary": "全球股市跌势蔓延至第四个交易日，英伟达财报前夕的避险情绪令亚太市场首当其冲。油价同步下挫，市场风险偏好持续受压。 标普500指数期货下跌0.2%，而纳斯达克100指数在连续三天下跌后涨幅不大。MSCI亚太股票指数盘中最大跌幅达1.5%，逼近4月初以来最低收盘位，韩国股市领跌。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构成近期AI交易方向的两大关键变量",
+   "comment": "",
+   "score": 46
   },
   {
    "group": "AI与数据",
@@ -65,30 +75,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板午后回落转跌，半导体产业链活跃，AI短剧调整，30年期国债大涨0.8%，恒指、恒科指齐跌",
+   "title": "创业板冲高回落跌超1%，半导体活跃，四大行集体上涨，“易中天”继续打压AI硬件，30年期国债大涨0.9%，恒指、恒科指均跌超1%",
    "link": "https://wallstreetcn.com/articles/3786073",
-   "time": "11-17 05:42",
-   "summary": "今天，A股半导体产业链国产替代反弹——灵晟超算蝉联世界第一、中芯国际三季报超预期叠加设备紧缺，科创50涨超3%领涨，光刻机、光刻胶掀涨停潮；家电、消费电子延续活跃，AI漫剧重挫领跌。 11月17日，A股三大指数午后震荡回落，沪指一度翻红，创业板午后持续回落，接近跌1%，早盘一度涨1%。科创50涨幅收窄至1%，半导体产业链爆发，光刻机、半导体设备、先进封装、半导体材料等概念股集体反弹，AI短剧、稀土",
+   "time": "11-17 08:14",
+   "summary": "今天，A股半导体产业链盘中活跃——灵晟超算蝉联世界第一、中芯国际三季报超预期叠加设备紧缺，科创50一度涨超3%，光刻机、光刻胶涨幅居前；家电、消费电子延续活跃，AI漫剧、文化传媒重挫领跌。午后，资金重新转入银行板块，工商银行、建设银行、中国银行带领一众银行股继续批量创出新高。 11月17日，A股全天震荡盘整，三大指数午后回落，创业板跌超1%，早盘一度涨1%。科创50涨幅收窄至1%下方，早盘一度涨超",
    "comment": "",
-   "score": 38
+   "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI暴跌前，华尔街大佬分道扬镳：桥水、索罗斯Q3大砍英伟达持仓，“木头姐”、Tepper逆势加码，德鲁肯米勒清仓闪迪、台积电",
+   "link": "https://wallstreetcn.com/articles/3786088",
+   "time": "11-17 07:17",
+   "summary": "随着2026年三季度13F文件集中披露，全球顶级投资机构的持仓调整路径浮出水面——英伟达遭遇机构史上罕见的大分流，桥水转向AI硬件产业链，索罗斯完成\"芯片内部换仓\"，Druckenmiller大举清仓半导体并转向黄金与SpaceX，伯克希尔则继续远离科技追逐，坚守地产与航空。 这批截至9月30日的持仓报告， 恰好卡在一个高度敏感的时间节点： 英伟达CEO黄仁勋于11月12日被董事会解除职务，股价随",
    "comment": "",
    "score": 35
   },
@@ -113,32 +113,12 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达暴跌，空头大赚240亿美元",
-   "link": "https://wallstreetcn.com/articles/3786064",
-   "time": "11-17 00:35",
-   "summary": "英伟达股价持续下挫，做空者从中大获其利。自前首席执行官黄仁勋因丑闻被迫离职以来，这家芯片巨头的股价已从历史高点累计下跌35%，空头账面盈利高达240亿美元。 据S3 Partners数据，英伟达股价周一再跌4.1%，延续上周以来的跌势——上周跌幅为自特朗普2025年4月宣布关税政策以来最大单周跌幅。 黄仁勋因婚外情丑闻被迫卸任英伟达CEO ，这一事件引爆了市场对公司未来走向的深度担忧。 与此同时，",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
    "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -161,16 +141,6 @@
    "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
    "score": 28
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "工行廖林谈银行AI三考题：进入交易、审贷，持续投入",
-   "link": "https://wallstreetcn.com/articles/3786082",
-   "time": "11-17 05:01",
-   "summary": "工商银行的AI应用已经进入金融市场交易、客户服务和信贷审查。 11月17日，在深圳举行的2026年APEC工商领导人峰会上，工行董事长廖林谈到，AI正在改变银行服务客户、员工作业和业务决策的方式。 在客户服务端，银行开始通过对话提供服务。在行内，员工与智能体协同作业，业务决策也更多借助模型分析。 廖林同时提出三个问题：技术能否提高生产力，能否改善风险管理，投入能否持续。 2015年，工行推出互联网",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "AI与数据",
