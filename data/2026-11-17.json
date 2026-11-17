@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17 21:16",
+ "generated_at": "2026-11-17 22:16",
  "raw_total": 200,
  "items": [
   {
@@ -83,16 +83,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
-   "link": "https://wallstreetcn.com/articles/3786116",
-   "time": "11-17 12:32",
-   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
-   "comment": "",
-   "score": 49
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Skill-Latent Rewards: LLM-Guided Reward Formulation for Hierarchical Reinforcement Learning",
@@ -101,6 +91,16 @@
    "summary": "arXiv:2611.18597v1 Announce Type: new Abstract: Long-horizon reinforcement learning under sparse and delayed feedback remains an open challenge. Existing return-decomposition methods redistribute episodic rewards to ease credit assignment, but they operate on raw state--action transitions and disregard the subgoal structure that governs meaningful progress in complex tasks. We propose Skill-LR, a hierarchical reinforcement learning framework in which a vision--language model identifies the agent's active subgoal at each timestep and a large language model generates a matching latent reward formulation through a two-stage prompting process. By conditioning reward signals on the currently active subgoal, Skill-LR produces stage-specific credit that evolves with the hierarchical plan, reducing temporal variance and improving sample efficiency. On multi-stage MiniGrid and BabyAI benchmarks, including DoorKey and Unlock-to-Unlock, Skill-LR converges faster and more reliably than sparse environmental rewards and strong credit-assignment baselines such as RUDDER and LaRe, demonstrating that subgoal-aligned latent rewards offer a principled path toward stable, interpretable credit assignment in long-horizon tasks.",
    "comment": "",
    "score": 48
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+   "link": "https://wallstreetcn.com/articles/3786116",
+   "time": "11-17 12:32",
+   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
+   "comment": "",
+   "score": 47
   },
   {
    "group": "财经深度",
@@ -155,12 +155,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "英伟达财报临近，美股期货盘前延续跌势，纳指期货跌近0.5%，油价日内上涨1%",
+   "link": "https://wallstreetcn.com/articles/3786084",
+   "time": "11-17 13:40",
+   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望，AI相关交易的前景因此蒙上更大阴影。 美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。美股存储板块盘前普涨，美光涨0.13%，闪迪涨0.08%，SK海力士涨0.51%，西部数据涨0.12%，希捷科技涨0.61%。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "全民抛售AI，市场转折点或已悄然临近",
    "link": "https://wallstreetcn.com/articles/3786109",
    "time": "11-17 12:15",
    "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
    "comment": "",
-   "score": 38
+   "score": 36
   },
   {
    "group": "快讯",
@@ -170,17 +180,7 @@
    "time": "11-17 12:02",
    "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
    "comment": "",
-   "score": 37
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达财报临近，美股期货盘前延续跌势，纳指期货跌近0.5%，油价小幅上涨",
-   "link": "https://wallstreetcn.com/articles/3786084",
-   "time": "11-17 10:46",
-   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望，AI相关交易的前景因此蒙上更大阴影。 美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。美股存储板块盘前普涨，美光涨0.13%，闪迪涨0.08%，SK海力士涨0.51%，西部数据涨0.12%，希捷科技涨0.61%。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构",
-   "comment": "",
-   "score": 33
+   "score": 35
   },
   {
    "group": "AI与数据",
@@ -195,10 +195,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "前纽约联储主席Dudley：美联储\"无痛降通胀\"策略注定失败",
-   "link": "https://wallstreetcn.com/articles/3786117",
-   "time": "11-17 13:07",
-   "summary": "美联储主席凯文·沃什在言辞上对2%通胀目标态度强硬，但实际政策行动却远为保守——前纽约联储主席Bill Dudley对这一落差提出了尖锐批评。他认为 ，美联储寄望于通过强硬表态锚定通胀预期、从而实现\"无痛降通胀\"的策略，既缺乏历史依据，也存在内在逻辑缺陷，注定难以奏效。 当地时间周二，Dudley在彭博专栏文章中指出， 通胀已连续近六年高于美联储目标，但货币政策实际上并不具备限制性。 美联储9月仅",
+   "title": "京东三季度净营收3096亿元，归母净利润同比大增44%，新业务大幅减亏，自由现金流扩大至负239亿元 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786098",
+   "time": "11-17 09:45",
+   "summary": "京东的利润修复正在提速。 11月17日，京东集团公布2026年第三季度财报。报告期内，公司实现收入3096亿元，同比增长3.5%，结束此前的增长压力；非美国通用会计准则下归属于普通股股东的净利润达到83亿元，同比增长44%，增速较上一季度进一步加快。 利润改善的背后，是京东对经营效率的重新调整。一方面，京东零售继续发挥利润压舱石作用，在较高基数上保持盈利稳定；另一方面，京东外卖、京喜等新业务持续减",
    "comment": "",
    "score": 30
   },
