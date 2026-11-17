@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17 14:24",
- "raw_total": 140,
+ "generated_at": "2026-11-17 15:17",
+ "raw_total": 160,
  "items": [
   {
    "group": "AI与数据",
@@ -15,22 +15,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "全球股市四连跌，韩股下挫2%，英伟达盘前维持低位，油价下跌",
-   "link": "https://wallstreetcn.com/articles/3786084",
-   "time": "11-17 05:52",
-   "summary": "全球股市跌势蔓延至第四个交易日，英伟达财报前夕的避险情绪令亚太市场首当其冲。油价同步下挫，市场风险偏好持续受压。 MSCI亚太股票指数盘中最大跌幅达1.5%，逼近4月初以来最低收盘位，韩国股市领跌。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构成近期AI交易方向的两大关键变量。MSCI全球股票指数周二小幅下滑0.2%，连续第四日录得跌幅。 大宗商品市场",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "避险情绪主导市场，芯片股领跌拖累标普、纳指三连跌，英伟达跌4%，美元创18个月新高",
    "link": "https://wallstreetcn.com/articles/3785999",
    "time": "11-16 22:26",
    "summary": "Anthropic本周IPO及英伟达财报两大催化剂悬而未决，市场倾向先降低风险敞口。科技股抛售潮延续，美股周一全线下挫，标普500指数创近三个月最大三日跌幅。 标普500指数 收跌1.9%， 纳指 数重挫2.5%， 道指 下滑1.4%，全球股票基准MSCI世界指数亦跌1.6%。半导体板块首当其冲， 芯片指数 单日下挫5.3%，AI与科技板块的广泛去风险操作令科技巨头也无从幸免。 与此同时，原油价格",
    "comment": "",
    "score": 50
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "全球股市四连跌，韩股下挫2%，英伟达盘前维持低位，油价下跌",
+   "link": "https://wallstreetcn.com/articles/3786084",
+   "time": "11-17 05:52",
+   "summary": "全球股市跌势蔓延至第四个交易日，英伟达财报前夕的避险情绪令亚太市场首当其冲。油价同步下挫，市场风险偏好持续受压。 MSCI亚太股票指数盘中最大跌幅达1.5%，逼近4月初以来最低收盘位，韩国股市领跌。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构成近期AI交易方向的两大关键变量。MSCI全球股票指数周二小幅下滑0.2%，连续第四日录得跌幅。 大宗商品市场",
+   "comment": "",
+   "score": 49
   },
   {
    "group": "财经深度",
@@ -70,7 +70,27 @@
    "time": "11-17 05:42",
    "summary": "今天，A股半导体产业链国产替代反弹——灵晟超算蝉联世界第一、中芯国际三季报超预期叠加设备紧缺，科创50涨超3%领涨，光刻机、光刻胶掀涨停潮；家电、消费电子延续活跃，AI漫剧重挫领跌。 11月17日，A股三大指数午后震荡回落，沪指一度翻红，创业板午后持续回落，接近跌1%，早盘一度涨1%。科创50涨幅收窄至1%，半导体产业链爆发，光刻机、半导体设备、先进封装、半导体材料等概念股集体反弹，AI短剧、稀土",
    "comment": "",
-   "score": 39
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
   },
   {
    "group": "AI与数据",
@@ -103,22 +123,22 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达加码科学计算！发布Rubin HPC GPU，押注AI智能体重塑超算",
-   "link": "https://wallstreetcn.com/articles/3786045",
-   "time": "11-16 17:43",
-   "summary": "英伟达正将AI基础设施的竞争进一步延伸至科学计算领域。 在11月16日于芝加哥举行的超级计算大会SC26上，英伟达发布专为科学计算、工程仿真和数据分析设计的新一代GPU Rubin HPC，并围绕CUDA-X软件库、光子计算和量子计算等领域公布一系列进展，试图将GPU加速计算、AI智能体与传统高性能计算（HPC）整合到统一平台。 此次发布释放出一个重要信号：随着AI智能体开始参与科研工作，能够自主",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
    "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -141,6 +161,16 @@
    "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
    "score": 28
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "工行廖林谈银行AI三考题：进入交易、审贷，持续投入",
+   "link": "https://wallstreetcn.com/articles/3786082",
+   "time": "11-17 05:01",
+   "summary": "工商银行的AI应用已经进入金融市场交易、客户服务和信贷审查。 11月17日，在深圳举行的2026年APEC工商领导人峰会上，工行董事长廖林谈到，AI正在改变银行服务客户、员工作业和业务决策的方式。 在客户服务端，银行开始通过对话提供服务。在行内，员工与智能体协同作业，业务决策也更多借助模型分析。 廖林同时提出三个问题：技术能否提高生产力，能否改善风险管理，投入能否持续。 2015年，工行推出互联网",
+   "comment": "",
+   "score": 27
   },
   {
    "group": "AI与数据",
