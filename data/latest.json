@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18 02:18",
- "raw_total": 220,
+ "generated_at": "2026-11-18 03:13",
+ "raw_total": 200,
  "items": [
   {
    "group": "学术",
@@ -110,7 +110,7 @@
    "time": "11-17 12:32",
    "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
    "comment": "",
-   "score": 46
+   "score": 44
   },
   {
    "group": "AI与数据",
@@ -153,16 +153,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "全民抛售AI，市场转折点或已悄然临近",
@@ -170,27 +160,7 @@
    "time": "11-17 12:15",
    "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
    "comment": "",
-   "score": 35
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "名创优品三季度国内外增长分化，IP大店出海能否复制成功？",
-   "link": "https://wallstreetcn.com/articles/3786113",
-   "time": "11-17 12:02",
-   "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
-   "comment": "",
-   "score": 34
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -205,12 +175,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "英伟达财报临近，美股跌势延续，半导体指数涨0.7%，油价日内上涨1%",
-   "link": "https://wallstreetcn.com/articles/3786084",
-   "time": "11-17 14:51",
-   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望。 美股盘初，标普500指数跌0.21%，道琼斯工业平均指数跌0.56%，纳斯达克综合指数跌0.04%，纳斯达克100指数跌0.02%，半导体指数涨0.7%。 个股方面，英伟达涨0.7%，AMD、希捷科技、西部数据、SK海力士ADR、Cerebras系统、Lumentum至多涨3.2%。中概股蔚来涨3.8%，京东跌6.2%。 行业ET",
+   "title": "名创优品三季度国内外增长分化，IP大店出海能否复制成功？",
+   "link": "https://wallstreetcn.com/articles/3786113",
+   "time": "11-17 12:02",
+   "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
    "comment": "",
-   "score": 30
+   "score": 32
   },
   {
    "group": "快讯",
@@ -219,6 +189,16 @@
    "link": "https://wallstreetcn.com/articles/3786098",
    "time": "11-17 09:45",
    "summary": "京东的利润修复正在提速。 11月17日，京东集团公布2026年第三季度财报。报告期内，公司实现收入3096亿元，同比增长3.5%，结束此前的增长压力；非美国通用会计准则下归属于普通股股东的净利润达到83亿元，同比增长44%，增速较上一季度进一步加快。 利润改善的背后，是京东对经营效率的重新调整。一方面，京东零售继续发挥利润压舱石作用，在较高基数上保持盈利稳定；另一方面，京东外卖、京喜等新业务持续减",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板冲高回落跌超1%，半导体活跃，四大行集体上涨，“易中天”继续打压AI硬件，30年期国债大涨0.9%，恒指、恒科指均跌超1%",
+   "link": "https://wallstreetcn.com/articles/3786073",
+   "time": "11-17 08:14",
+   "summary": "今天，A股半导体产业链盘中活跃——灵晟超算蝉联世界第一、中芯国际三季报超预期叠加设备紧缺，科创50一度涨超3%，光刻机、光刻胶涨幅居前；家电、消费电子延续活跃，AI漫剧、文化传媒重挫领跌。午后，资金重新转入银行板块，工商银行、建设银行、中国银行带领一众银行股继续批量创出新高。 11月17日，A股全天震荡盘整，三大指数午后回落，创业板跌超1%，早盘一度涨1%。科创50涨幅收窄至1%下方，早盘一度涨超",
    "comment": "",
    "score": 30
   },
@@ -239,16 +219,6 @@
    "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
