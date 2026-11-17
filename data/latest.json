@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18 03:13",
+ "generated_at": "2026-11-18 05:14",
  "raw_total": 200,
  "items": [
   {
@@ -103,16 +103,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
-   "link": "https://wallstreetcn.com/articles/3786116",
-   "time": "11-17 12:32",
-   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
-   "comment": "",
-   "score": 44
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -143,6 +133,26 @@
    "score": 42
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+   "link": "https://wallstreetcn.com/articles/3786116",
+   "time": "11-17 12:32",
+   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
+   "comment": "",
+   "score": 41
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic IPO前夕，OpenAI推出最强模型GPT-6.2 Astra，称性能超越Fable 5.2",
+   "link": "https://wallstreetcn.com/articles/3786124",
+   "time": "11-17 20:19",
+   "summary": "OpenAI推出旗舰模型最新迭代版本，在性能提升的同时大幅降低使用成本，并在多项基准测试中超越竞争对手Anthropic的顶级模型。 此次发布的GPT-6.2 Astra定位于复杂专业工作场景，涵盖金融建模与科学研究等领域，同步推出的GPT-6.2 Sol则面向日常任务。 OpenAI表示， GPT-6.2 Astra在多步骤专业工作基准测试中的得分较竞品Claude Fable 5.2高出5.5",
+   "comment": "",
+   "score": 40
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Check Token: Real-Time Self-Verification and Precise Truncation in LLM Reasoning",
@@ -151,16 +161,6 @@
    "summary": "arXiv:2611.18564v1 Announce Type: new Abstract: ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and corrects errors on each read. The parity bits carry no data and only safeguard integrity, at ~12.5% overhead. Yet the reasoning chains of large language models lack such built-in self-verification: once an error occurs it propagates along the chain, and existing methods can only verify externally after generation completes. We propose the check token, establishing built-in self-verification for language model generation streams for the first time: a functional marker is added to the vocabulary, and the model triggers self-checking (analysis, localization, truncation, rewriting) by outputting it at any position. The check token carries no reasoning content (discarded after triggering) and only safeguards reasoning correctness, directly corresponding to the role of ECC parity bits, also at only ~13% overhead. Speculative forking further eliminates false-positive latency, and segmented reward makes trigger timing end-to-end learnable. Experiments (Qwen3-32B / Qwen3-Next) show that the check token achieves +10.8 pp improvement on HMMT25 at 1.13x overhead, with token efficiency 88x that of Best-of-8, and the precise truncation advantage monotonically increases with chain length.",
    "comment": "",
    "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "全民抛售AI，市场转折点或已悄然临近",
-   "link": "https://wallstreetcn.com/articles/3786109",
-   "time": "11-17 12:15",
-   "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
-   "comment": "",
-   "score": 33
   },
   {
    "group": "AI与数据",
@@ -175,12 +175,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "全民抛售AI，市场转折点或已悄然临近",
+   "link": "https://wallstreetcn.com/articles/3786109",
+   "time": "11-17 12:15",
+   "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "名创优品三季度国内外增长分化，IP大店出海能否复制成功？",
    "link": "https://wallstreetcn.com/articles/3786113",
    "time": "11-17 12:02",
    "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
    "comment": "",
-   "score": 32
+   "score": 30
   },
   {
    "group": "快讯",
@@ -189,16 +199,6 @@
    "link": "https://wallstreetcn.com/articles/3786098",
    "time": "11-17 09:45",
    "summary": "京东的利润修复正在提速。 11月17日，京东集团公布2026年第三季度财报。报告期内，公司实现收入3096亿元，同比增长3.5%，结束此前的增长压力；非美国通用会计准则下归属于普通股股东的净利润达到83亿元，同比增长44%，增速较上一季度进一步加快。 利润改善的背后，是京东对经营效率的重新调整。一方面，京东零售继续发挥利润压舱石作用，在较高基数上保持盈利稳定；另一方面，京东外卖、京喜等新业务持续减",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板冲高回落跌超1%，半导体活跃，四大行集体上涨，“易中天”继续打压AI硬件，30年期国债大涨0.9%，恒指、恒科指均跌超1%",
-   "link": "https://wallstreetcn.com/articles/3786073",
-   "time": "11-17 08:14",
-   "summary": "今天，A股半导体产业链盘中活跃——灵晟超算蝉联世界第一、中芯国际三季报超预期叠加设备紧缺，科创50一度涨超3%，光刻机、光刻胶涨幅居前；家电、消费电子延续活跃，AI漫剧、文化传媒重挫领跌。午后，资金重新转入银行板块，工商银行、建设银行、中国银行带领一众银行股继续批量创出新高。 11月17日，A股全天震荡盘整，三大指数午后回落，创业板跌超1%，早盘一度涨1%。科创50涨幅收窄至1%下方，早盘一度涨超",
    "comment": "",
    "score": 30
   },
@@ -213,16 +213,6 @@
    "score": 30
   },
   {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Talk Your Book: The Anthropic IPO",
-   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
-   "time": "11-16 13:00",
-   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
@@ -231,6 +221,16 @@
    "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 29
   },
   {
    "group": "AI与数据",
@@ -290,7 +290,7 @@
    "time": "11-16 04:27",
    "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 19
+   "score": 18
   },
   {
    "group": "财经深度",
@@ -305,12 +305,12 @@
   {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
-   "title": "Living a Better Life Now",
-   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
-   "time": "11-14 01:09",
-   "summary": "What me and George Clooney learned from the Italians. The post Living a Better Life Now appeared first on A Wealth of Common Sense. ...",
+   "title": "A Strange Year in the Stock Market",
+   "link": "https://awealthofcommonsense.com/2026/11/a-strange-year-in-the-stock-market/",
+   "time": "11-17 19:42",
+   "summary": "A look at performance of the stock market this year. The post A Strange Year in the Stock Market appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 8
+   "score": 10
   }
  ]
 }
