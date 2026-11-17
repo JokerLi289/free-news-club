@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17 22:16",
- "raw_total": 200,
+ "generated_at": "2026-11-18 00:18",
+ "raw_total": 220,
  "items": [
   {
    "group": "学术",
@@ -93,16 +93,6 @@
    "score": 48
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
-   "link": "https://wallstreetcn.com/articles/3786116",
-   "time": "11-17 12:32",
-   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
-   "comment": "",
-   "score": 47
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -111,6 +101,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 47
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+   "link": "https://wallstreetcn.com/articles/3786116",
+   "time": "11-17 12:32",
+   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
+   "comment": "",
+   "score": 46
   },
   {
    "group": "AI与数据",
@@ -153,14 +153,14 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达财报临近，美股期货盘前延续跌势，纳指期货跌近0.5%，油价日内上涨1%",
-   "link": "https://wallstreetcn.com/articles/3786084",
-   "time": "11-17 13:40",
-   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望，AI相关交易的前景因此蒙上更大阴影。 美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。美股存储板块盘前普涨，美光涨0.13%，闪迪涨0.08%，SK海力士涨0.51%，西部数据涨0.12%，希捷科技涨0.61%。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
    "comment": "",
-   "score": 39
+   "score": 38
   },
   {
    "group": "快讯",
@@ -170,7 +170,17 @@
    "time": "11-17 12:15",
    "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
    "comment": "",
-   "score": 36
+   "score": 35
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
   },
   {
    "group": "快讯",
@@ -180,7 +190,7 @@
    "time": "11-17 12:02",
    "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
    "comment": "",
-   "score": 35
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -191,6 +201,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 33
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达财报临近，美股跌势延续，半导体指数涨0.7%，油价日内上涨1%",
+   "link": "https://wallstreetcn.com/articles/3786084",
+   "time": "11-17 14:51",
+   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望。 美股盘初，标普500指数跌0.21%，道琼斯工业平均指数跌0.56%，纳斯达克综合指数跌0.04%，纳斯达克100指数跌0.02%，半导体指数涨0.7%。 个股方面，英伟达涨0.7%，AMD、希捷科技、西部数据、SK海力士ADR、Cerebras系统、Lumentum至多涨3.2%。中概股蔚来涨3.8%，京东跌6.2%。 行业ET",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -224,6 +244,16 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
    "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
@@ -240,16 +270,6 @@
    "time": "11-13 09:04",
    "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
    "comment": "",
-   "score": 27
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
-   "link": "https://latent.space/p/artcraft/",
-   "time": "11-13 04:17",
-   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
-   "comment": "",
    "score": 26
   },
   {
@@ -261,6 +281,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "link": "https://latent.space/p/artcraft/",
+   "time": "11-13 04:17",
+   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "comment": "",
+   "score": 25
   },
   {
    "group": "AI与数据",

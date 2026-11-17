@@ -1,0 +1,346 @@
+{
+ "generated_at": "2026-11-18 00:18",
+ "raw_total": 220,
+ "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Living Context Graphs: Continual Semantic Learning for Enterprise Data Reasoning",
+   "link": "https://arxiv.org/abs/2611.20976",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.20976v1 Announce Type: cross Abstract: Enterprise AI can now perform analytics, reporting, and data-driven workflows, yet the data foundations it relies on remain hard to operationalize: business meaning, relationships, metric definitions, and reporting conventions are absent from database schemas and scattered across undocumented systems and tribal knowledge. We introduce the Living Context Graph (LCG), a continually learned context layer that makes existing enterprise data operational for AI without requiring a copy or transformation of the underlying warehouse. LCG bootstraps base semantics and relationships from the data itself, builds a concept graph that indexes business context as queries are served, writes durable semantic learnings from verified outcomes, and withdraws or re-earns context when later outcomes contradict prior routes. We evaluate LCG through text-to-SQL, a core data-reasoning task, on a transfer-aware split of three BIRD databases comprising 499 questions: 353 form the learning history and 146 are held out and never used to update the context layer. Bootstrapping alone improves overall accuracy by +4.6 percentage points. Learning only from the history raises accuracy on the untouched held-out transfer set by +22.6 points (95% CI [+14.4, +30.8]), exceeding five-shot retrieval from the same history by +12.3 points. Incremental learning reaches the one-shot endpoint within observed evaluation noise on every database. Ablating the graph changes held-out accuracy by at most one question per database but increases per-query cost 2.3-3.3x and median latency 1.8-3.4x: continually learned semantics drive accuracy, while the graph makes that context efficient to serve.",
+   "comment": "",
+   "score": 80
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "DataTrace: Benchmarking Data Agents for Evidence-Grounded Root-Cause Localization",
+   "link": "https://arxiv.org/abs/2611.18926",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18926v1 Announce Type: new Abstract: Database agents diagnose pipeline failures, but a correct root cause is trustworthy only when it is supported by evidence the agent inspected. Existing benchmarks usually grade the final query or answer but fail to distinguish an evidence-based diagnosis from an unsupported correct answer. We introduce DataTrace, a benchmark for evidence-grounded root-cause localization over typed graphs of database artifacts. DataTrace uses controlled fault injection to derive root causes and evidence paths within 83 runnable environments without human annotations, and scores root-cause correctness and coverage of the supporting path separately. We also introduce CoSE, a generator-solver protocol in which an external verifier admits reproducible faults and checks both the submitted answer and the inspected evidence. Our evaluation shows that seven proprietary models achieve average root-cause accuracy 48%, with a mean per-model conditional unsupported rate of 18%. Fine-grained analysis shows that this gap varies sharply with fault mechanism, dependency distance, and evidence modality. After in-loop training on a matched held-out batch, the share of grounded correct diagnoses rises from 83.7% to 94.6%, while root-cause accuracy rises from 29.2% to 36.7%. These results show that while final-answer accuracy can hide unsupported diagnoses, evidence coverage provides an actionable signal to improve database agents. Code and data are available at https://hkustdial.github.io/datatrace/.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Adaptive-Elbow Graph Traversal for Schema Retrieval in Text-to-SQL",
+   "link": "https://arxiv.org/abs/2611.20979",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.20979v1 Announce Type: new Abstract: LLM-based natural-language interfaces to relational databases are gated by a schema-retrieval step: the generator can only be as good as the slice of schema it is shown. On a database with hundreds of tables, that slice must be selected and the selection is two-sided---omit a needed table and the query becomes unrecoverable, include too many and the irrelevant ones act as noise that degrades the model's output. When an agentic retriever that lets the model inspect the schema can be too costly or too slow, the fallback is an embedder that ranks tables by cosine similarity and keeps a top-k. This fallback has two weaknesses: a fixed budget is suboptimal question by question, and embedding similarity overlooks foreign-key-linked tables that are necessary for joins. We present Adaptive-Elbow Graph Traversal (AEGT, ElbowHop for short), a property-graph table retriever that addresses both: an adaptive elbow cutoff replaces the fixed budget with a per-question one under a single aggressiveness parameter, and bidirectional foreign-key traversal deterministically recovers the bridge tables embedding similarity misses. We evaluate the retriever on 3 corpora of increasing candidate-pool size (BIRD Mini-Dev queried per database, 3--13 tables; its eleven schemas merged, 74; and a merged Spider-train graph, 546) and isolate the two mechanisms under a per-question budget-matched protocol. Across these settings the adaptive elbow emerges as the dominant mechanism---at matched recall it roughly doubles precision over a fixed budget on the larger pools, the margin widening as the pool grows---while the foreign-key traversal pays off on the join-critical bridge tables dense retrieval cannot reach, in the single-hop tight-budget case. We characterize the method as a low-cost, recall-robust first stage for schema retrieval on which a downstream selection or generation step can build.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "jXBW: A Compressed Index Enabling Structure-Aware JSONL Retrieval for Structured RAG",
+   "link": "https://arxiv.org/abs/2508.12536",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2508.12536v5 Announce Type: replace Abstract: Providing structured information to large language models (LLMs) has been shown to improve multi-step reasoning and factual accuracy (e.g., StructRAG, ICLR 2025; RAS, ICLR 2026); recent retrieval-augmented generation (RAG) systems reconstruct structure from retrieved text on every query. When the corpus is already structured, as in JSON Lines (JSONL), used for LLM prompts, chemical compounds, and geospatial objects, this per-query rebuilding can be replaced by direct structural retrieval. Its core operation is substructure search: finding all JSON objects in a collection that contain a given query tree. Existing approaches index each object separately, so index space and query time grow with collection size; XML-based engines add conversion overhead and semantic mismatches. We propose jXBW, a compressed index for fast substructure search over JSONL, combining three innovations: (i) a merged tree representation that consolidates repeated structures across objects, (ii) a succinct tree encoding based on the eXtended Burrows-Wheeler Transform (XBW), and (iii) a three-phase substructure search algorithm on this encoding. Together they achieve query-dependent complexity in compressed space: the search avoids a full scan of the collection, and its cost grows with the numbers of candidate matches and results. Experiments on seven real-world datasets, including PubChem (1 million compounds) and OpenStreetMap (6.6 million objects), show that jXBW outperforms the strongest tree-based baseline by 16x on the smallest dataset and by up to 2,800x on the largest, while the XML-based engine Saxon does not complete the 1,000-query workload on PubChem within 24 hours. jXBW brings substructure search over million-object JSONL collections into the sub-millisecond range.",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "HorizANN: Elastically Scaling Vector Search with Ghost Edges",
+   "link": "https://arxiv.org/abs/2611.19077",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.19077v1 Announce Type: new Abstract: Approximate nearest neighbor search (ANNS) is fundamental to modern data-intensive AI applications such as retrieval-augmented generation, recommendation systems, and semantic search. Among existing indexing methods, graph-based indexes emerge as the state of the art due to their superior recall-throughput tradeoffs. Scaling these indexes to multiple machines requires partitioning the data and building indexes on each. However, when new machines are added or removed, the data must be repartitioned and the indexes reconstructed from scratch, making horizontal scaling costly at billion scale. In this work, we present HorizANN, a distributed graph-based ANNS system that scales horizontally without requiring full index reconstruction. To achieve this, we introduce ghost edges, a mechanism for preserving cross-partition connectivity as partition boundaries change during repartitioning. By reusing the structural information that would otherwise be discarded during repartitioning, HorizANN avoids costly full index reconstruction. As the index grows from 100M vectors on one worker to 1B vectors on ten workers, HorizANN inserts each 100M vectors within 2.5 hours and sustains 3.4--3.5K queries per second at 0.998 Recall@10.",
+   "comment": "",
+   "score": 59
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "声网营收增长19%，但对话式AI尚未形成规模效应拖累毛利率",
+   "link": "https://wallstreetcn.com/articles/3786095",
+   "time": "11-17 07:55",
+   "summary": "声网的AI业务开始贡献更多收入，盈利改善仍需等待规模效应。 北京时间11月17日，声网（NASDAQ：API）发布2026年第三季度财报，营收4210万美元，同比增长19%；净利润约300万美元，同比增长10.4%。 同期，毛利率由上年同期的66%降至63.4%，经营亏损约150万美元，上年同期为160万美元。公司将毛利率下降归因于产品结构变化，其中对话式AI产品仍处于规模化前期。 这家实时音视频",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "HIMX: mixed-format matrix multiplication based on customized HIFLOAT4 representations",
+   "link": "https://arxiv.org/abs/2611.18641",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18641v1 Announce Type: new Abstract: 4-bit weight-activation quantization (W4A4) is an important approach for efficient large language model (LLM) inference. Recent hierarchical formats such as HiFloat4 (HIF4) improve the representational range of 4-bit quantization through multi-level scaling. However, the same local mantissa representation in HIF4 may not be equally suitable for weights and activations, which exhibit distinct distribution characteristics. To address this limitation, we propose HiMX, a mixed-mantissa framework built upon the hierarchical scaling structure of HIF4. Our key observation is that the two HIF4-compatible mantissa representations, S1P2 and E2M1, exhibit complementary quantization behavior: the denser S1P2 format provides higher resolution for concentrated weight distributions, while the wider-spaced E2M1 format provides complementary quantization characteristics for activation tensors. HiMX enables operand-tailored mantissa representations while converting heterogeneous mantissas into fixed-point integer operands with operand-specific widths, allowing different operand formats to share a unified integer multiply-accumulate (MAC) array. Block-level analysis on Qwen3-8B shows that HIF4-S1P2 is better suited for weights while HIF4 E2M1 is better suited for activations, and their mixed-format combination achieves lower output MSE than homogeneous configurations. Across multiple benchmarks, HiMX reduces the average end-to-end accuracy loss from 2.38 to 1.77 points on Qwen3-8B and from 2.23 to 1.85 points on Qwen3-30B-A3B, demonstrating the potential benefit of heterogeneous mantissa representations for W4A4 LLM inference.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "MeltKV: Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs",
+   "link": "https://arxiv.org/abs/2611.18652",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18652v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly rely on long contexts, making Key-Value (KV) caches dominate memory usage and inference latency. Existing vector quantization (VQ) methods effectively compress KV caches to sub-4-bit levels but often overlook inefficiencies in memory alignment and decoding speed. This work introduces MeltKV, a memory-latency co-optimized KV cache quantization framework for long-context LLM serving. MeltKV employs a memory-aligned variable-bit index packing scheme that adaptively assigns bit-widths to grouped key channels and compactly stores indices within standard data-types, eliminating redundant bits. Additionally, head-wise codebook sharing reduces the total codebook size while maintaining accuracy. Experiments demonstrate that MeltKV effectively compresses KV representations to sub-4-bit levels down to 1 bit and, at comparable perplexity, achieves 48.1% lower memory usage and 52.9% lower latency than state-of-the-art VQ methods.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Skill-Latent Rewards: LLM-Guided Reward Formulation for Hierarchical Reinforcement Learning",
+   "link": "https://arxiv.org/abs/2611.18597",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18597v1 Announce Type: new Abstract: Long-horizon reinforcement learning under sparse and delayed feedback remains an open challenge. Existing return-decomposition methods redistribute episodic rewards to ease credit assignment, but they operate on raw state--action transitions and disregard the subgoal structure that governs meaningful progress in complex tasks. We propose Skill-LR, a hierarchical reinforcement learning framework in which a vision--language model identifies the agent's active subgoal at each timestep and a large language model generates a matching latent reward formulation through a two-stage prompting process. By conditioning reward signals on the currently active subgoal, Skill-LR produces stage-specific credit that evolves with the hierarchical plan, reducing temporal variance and improving sample efficiency. On multi-stage MiniGrid and BabyAI benchmarks, including DoorKey and Unlock-to-Unlock, Skill-LR converges faster and more reliably than sparse environmental rewards and strong credit-assignment baselines such as RUDDER and LaRe, demonstrating that subgoal-aligned latent rewards offer a principled path toward stable, interpretable credit assignment in long-horizon tasks.",
+   "comment": "",
+   "score": 48
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 47
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+   "link": "https://wallstreetcn.com/articles/3786116",
+   "time": "11-17 12:32",
+   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
+   "link": "https://arxiv.org/abs/2611.18639",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18639v1 Announce Type: new Abstract: Scaling device-control evaluation requires scaling both the worlds agents interact with and the tasks they must solve. We introduce SynthDCB, a scalable benchmark for environment awareness and device control built through world distillation. World distillation transforms knowledge of device behaviors, interaction constraints, and environmental effects into modular executable components, which are composed into interactive worlds with explicit states, actions, and temporal dynamics. A unified capability representation connects tool discovery, world execution, and task synthesis, allowing new capabilities to enter evaluation through a shared construction pipeline. SynthDCB instantiates Home, Car, and Phone domains with 114 device classes, 1,166 functions, and 95 events, supporting five task families with 32 subtypes. The stateful design enables task validation and agent evaluation through state correctness and tool-call traces. We evaluate seven models on 2,560 test tasks; the best achieves 68.2% Pass@1. Error analysis reveals challenges in answer delivery, feasibility diagnosis, and temporal coordination. Construction experiments demonstrate scalability across domains and token efficiency: world distillation reduces token consumption by 0.9-66.0% and 46.2-92.5% relative to Codex with low and xhigh reasoning effort, respectively, while achieving broader capability coverage. SynthDCB makes executable world construction the basis of scalable device-control benchmarking, connecting an expanding space of capabilities and interactions to verifiable agent evaluation.",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Check Token: Real-Time Self-Verification and Precise Truncation in LLM Reasoning",
+   "link": "https://arxiv.org/abs/2611.18564",
+   "time": "11-17 05:00",
+   "summary": "arXiv:2611.18564v1 Announce Type: new Abstract: ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and corrects errors on each read. The parity bits carry no data and only safeguard integrity, at ~12.5% overhead. Yet the reasoning chains of large language models lack such built-in self-verification: once an error occurs it propagates along the chain, and existing methods can only verify externally after generation completes. We propose the check token, establishing built-in self-verification for language model generation streams for the first time: a functional marker is added to the vocabulary, and the model triggers self-checking (analysis, localization, truncation, rewriting) by outputting it at any position. The check token carries no reasoning content (discarded after triggering) and only safeguards reasoning correctness, directly corresponding to the role of ECC parity bits, also at only ~13% overhead. Speculative forking further eliminates false-positive latency, and segmented reward makes trigger timing end-to-end learnable. Experiments (Qwen3-32B / Qwen3-Next) show that the check token achieves +10.8 pp improvement on HMMT25 at 1.13x overhead, with token efficiency 88x that of Best-of-8, and the precise truncation advantage monotonically increases with chain length.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "全民抛售AI，市场转折点或已悄然临近",
+   "link": "https://wallstreetcn.com/articles/3786109",
+   "time": "11-17 12:15",
+   "summary": "AI交易正面临自热潮兴起以来最严峻的压力测试。 英伟达股价触及关键长期趋势线，纳斯达克100指数在200日均线处遭遇阻力，系统性基金单周抛售规模逾300亿美元。 然而，半导体板块估值已跌至隐含盈利崩溃的水平，空头仓位逼近极值——一场剧烈的轧空行情所需的条件正在悄然成熟。 在技术面承压的同时，AI热潮正深刻重塑全球资本流向。来自亚洲芯片贸易的巨额美元盈余正大规模流入美国股市而非国债，推动美元走强，形",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "名创优品三季度国内外增长分化，IP大店出海能否复制成功？",
+   "link": "https://wallstreetcn.com/articles/3786113",
+   "time": "11-17 12:02",
+   "summary": "国内市场的高速增长，正在成为名创优品调整海外业务的重要参照。 11月17日，名创优品公布2026年第三季度业绩。报告期内，集团营收66.25亿元，同比增长14.3%；毛利率45.3%，同比提升0.6个百分点。 区域表现进一步分化，中国内地收入同比增长29.6%，海外收入23.5亿元，仅同比增长1.7%。 盈利表现同样承压，剔除汇兑损益后的经调整经营利润率为15.1%，同比下降2.6个百分点。 名创",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 33
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达财报临近，美股跌势延续，半导体指数涨0.7%，油价日内上涨1%",
+   "link": "https://wallstreetcn.com/articles/3786084",
+   "time": "11-17 14:51",
+   "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望。 美股盘初，标普500指数跌0.21%，道琼斯工业平均指数跌0.56%，纳斯达克综合指数跌0.04%，纳斯达克100指数跌0.02%，半导体指数涨0.7%。 个股方面，英伟达涨0.7%，AMD、希捷科技、西部数据、SK海力士ADR、Cerebras系统、Lumentum至多涨3.2%。中概股蔚来涨3.8%，京东跌6.2%。 行业ET",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "京东三季度净营收3096亿元，归母净利润同比大增44%，新业务大幅减亏，自由现金流扩大至负239亿元 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786098",
+   "time": "11-17 09:45",
+   "summary": "京东的利润修复正在提速。 11月17日，京东集团公布2026年第三季度财报。报告期内，公司实现收入3096亿元，同比增长3.5%，结束此前的增长压力；非美国通用会计准则下归属于普通股股东的净利润达到83亿元，同比增长44%，增速较上一季度进一步加快。 利润改善的背后，是京东对经营效率的重新调整。一方面，京东零售继续发挥利润压舱石作用，在较高基数上保持盈利稳定；另一方面，京东外卖、京喜等新业务持续减",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+   "link": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+   "time": "11-17 11:00",
+   "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "time": "11-08 21:23",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "time": "11-13 09:04",
+   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "link": "https://latent.space/p/artcraft/",
+   "time": "11-13 04:17",
+   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "comment": "",
+   "score": 25
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "What an Ontology for AI Agents Actually Needs",
+   "link": "https://www.dataengineeringweekly.com/p/an-ontology-for-ai-agents-is-a-system",
+   "time": "08-14 12:38",
+   "summary": "How to think about the semantic system that makes an agent coherent, governable, and useful.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Obituaries",
+   "link": "https://stratechery.com/2026/obituaries/",
+   "time": "11-16 11:02",
+   "summary": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Nvidia: Now What?",
+   "link": "https://awealthofcommonsense.com/2026/11/nvidia-now-what/",
+   "time": "11-16 04:27",
+   "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 19
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+   "time": "11-13 03:47",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 17
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Living a Better Life Now",
+   "link": "https://awealthofcommonsense.com/2026/11/living-a-better-life-now/",
+   "time": "11-14 01:09",
+   "summary": "What me and George Clooney learned from the Italians. The post Living a Better Life Now appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 8
+  }
+ ]
+}
