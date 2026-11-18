@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18 19:14",
+ "generated_at": "2026-11-18 20:20",
  "raw_total": 180,
  "items": [
   {
@@ -40,7 +40,7 @@
    "time": "11-18 10:40",
    "summary": "腾讯第三季度营收保持增长，营销服务和企业服务业务表现较为亮眼，游戏业务也延续增长。与此同时，随着AI技术加速融入产品与业务，腾讯持续加大模型研发和算力基础设施投入，资本开支明显攀升，现金流也受到一定影响。 财报显示，腾讯第三季度实现营收2073.4亿元，同比增长8%，低于市场预估的2105.3亿元。盈利方面，按国际财务报告准则（IFRS）计算，归属于公司权益持有人的净利润为636亿元，同比增长0.",
    "comment": "",
-   "score": 60
+   "score": 55
   },
   {
    "group": "快讯",
@@ -50,7 +50,7 @@
    "time": "11-18 08:26",
    "summary": "英伟达正在重新定义自己在AI生态中扮演的金融角色。 这家芯片巨头的临时CEO Colette Kress在本周财报电话会上明确表示， 公司将对未来的投资、承诺和财务担保进行\"严格评估\"。 这意味着，黄仁勋时代那种对AI生态\"大手笔、广撒网\"的金融支持风格，或将正式画上句号。 受冲击最大的是新兴的Neocloud赛道。CoreWeave的股价已较历史高点暴跌逾70%，美债亦跌至困境级别，行业整体因高",
    "comment": "",
-   "score": 53
+   "score": 50
   },
   {
    "group": "快讯",
@@ -153,16 +153,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
-   "link": "https://wallstreetcn.com/articles/3786160",
-   "time": "11-18 04:03",
-   "summary": "现货黄金跌至逾一年低位，高盛认为美联储加息压制私人投资需求，央行买盘成为支撑金价的唯一力量。 周三，现货黄金下挫1.5%、跌破3800美元，为2025年10月以来最低，较一个月前下跌超300美元。美元持续走强，加之市场预期美联储将于12月再度加息，令金价承压。 正是在此背景下， 高盛 Lina Thomas领衔的高盛大宗商品团队于本周发布2027年贵金属年度展望， 将黄金年底目标价由4800美元下",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation",
@@ -183,16 +173,6 @@
    "score": 36
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄金什么时候对实际利率脱敏？",
-   "link": "https://wallstreetcn.com/articles/3786181",
-   "time": "11-18 08:51",
-   "summary": "2026年，黄金与实际利率的传统负相关关系重新显现。自3月以来，随着10年期美债实际利率持续走高，金价明显回落。而在2024—2025年，这一关系曾一度失效，黄金甚至在实际利率上行期间持续走强。黄金为何会阶段性摆脱实际利率的约束？又在什么条件下，实际利率不再是主导金价的核心因素？ 财通证券在11月15日发布的报告中，复盘了2003年以来黄金与10年期美债实际利率的关系。报告认为， 央行购金和黄金E",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -211,6 +191,26 @@
    "summary": "arXiv:2611.21791v1 Announce Type: new Abstract: Asynchronous reinforcement learning increases training throughput, but data from stale policies and numerical mismatch between training and inference can destabilize learning. To stabilize off-policy learning, score centering (SC) removes the effect of reward baselines on the expected update. Our gradient diagnostics show less extreme gradients with SC than with importance sampling (IS), but SC can still fail when the learner moves far from the behavior policy that generated the data. To limit this policy mismatch, we introduce Regularized Score Centering (RSC), which adds a reverse Kullback-Leibler (KL) penalty to encourage the learner's next-token distribution to stay close to the behavior policy's next-token distribution. RSC works with or without truncated importance sampling (TIS), which caps token importance weights. Our theoretical analysis supports this approach, showing that KL regularization improves convergence guarantees. We evaluate dense and mixture-of-experts models on mathematical reasoning and agentic tasks, including online shopping, tool use, games, and fully asynchronous software engineering. RSC with TIS substantially improves sample efficiency across all agentic benchmarks, attaining higher training rewards with the same number of sampled responses. In final evaluations, it achieves top performance across all six agentic tasks, improving by 14.3% on AppWorld and reaching 9.9 times the strongest baseline's score on BabyAI.",
    "comment": "",
    "score": 32
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄金什么时候对实际利率脱敏？",
+   "link": "https://wallstreetcn.com/articles/3786181",
+   "time": "11-18 08:51",
+   "summary": "2026年，黄金与实际利率的传统负相关关系重新显现。自3月以来，随着10年期美债实际利率持续走高，金价明显回落。而在2024—2025年，这一关系曾一度失效，黄金甚至在实际利率上行期间持续走强。黄金为何会阶段性摆脱实际利率的约束？又在什么条件下，实际利率不再是主导金价的核心因素？ 财通证券在11月15日发布的报告中，复盘了2003年以来黄金与10年期美债实际利率的关系。报告认为， 央行购金和黄金E",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "A股三大股指午后齐涨，科创50涨超2%，算力硬件、算力租赁大反弹，恒指跌1%，京东大跌7%",
+   "link": "https://wallstreetcn.com/articles/3786152",
+   "time": "11-18 08:18",
+   "summary": "11月18日，A股三大股指早盘高开回落，午后探底回升，三大指数最终集体收红。午后A股科技线突然加速，算力租赁、华为算力、PCB、半导体芯片四个方向几乎同时点火，推动科创50指数盘中一度涨超3%。油气、海运、电信等板块走强。贵金属、生物医药、AI短剧等再度陷入调整，其中AI短剧重挫领跌。 临近尾盘，市场再次出现大资金抄底的迹象。部分宽基ETF尾盘放量，创业板ETF易方达、沪深300ETF华泰柏瑞、沪",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "财经深度",
