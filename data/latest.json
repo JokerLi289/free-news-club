@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18 16:19",
+ "generated_at": "2026-11-18 17:16",
  "raw_total": 180,
  "items": [
   {
@@ -31,6 +31,26 @@
    "summary": "arXiv:2611.21766v1 Announce Type: new Abstract: Practitioners choose among LLM alignment methods largely by trial and error. We provide a theoretical foundation: each pairwise method defines a vector field on the probability simplex that governs how the model redistributes mass between preferred and dispreferred completions. Projecting onto a single preferred/dispreferred pair reduces this to a one-dimensional margin ODE with a closed-form solution. These solutions reveal that DPO margins grow without bound (logarithmically as $O(\\log t)$ in the gradient-flow limit) while IPO margins converge to a finite $1/(2\\tau)$; that label noise induces a qualitative phase transition in DPO (unbounded $\\to$ bounded) but affects IPO only quantitatively; and that gradient concentration under asymmetric weighting governs trainability at scale. We confirm all three predictions across five model families spanning four benchmarks. The closed-form solutions also enable principled method design: we prove that adding any label smoothing $\\varepsilon > 0$ to SimPO creates a finite margin attractor at $\\Delta^* = \\beta^{-1}\\log((1-\\varepsilon)/\\varepsilon)$, while $\\varepsilon = 0$ (standard SimPO) has no attractor. We test this across three models (8B-9B) and confirm the prediction: the theory-derived configuration (TPO-S, $\\varepsilon = 0.05$) is competitive with the strongest baselines, attaining the highest mean IFEval score among the compared methods on all three, validating that the predicted finite attractor is a usable operating point rather than proposing a new state-of-the-art loss.",
    "comment": "",
    "score": 64
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "腾讯Q3营收同比增7.5%至2073.4亿元，资本开支814.3亿元大超预期，自由现金流降至-691亿元｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786186",
+   "time": "11-18 08:53",
+   "summary": "腾讯第三季度营收保持增长，但略低于市场预期，营销服务和企业服务业务表现较为亮眼，游戏业务也延续增长。与此同时，随着AI技术加速融入产品与业务，腾讯持续加大模型研发和算力基础设施投入，本季度资本开支显著高于预期。 财报显示， 腾讯第三季度实现营收2073.4亿元，同比增长7.5%，低于市场预估的2105.3亿元；IFRS归母净利润636亿元，同比增长0.8%，非IFRS经营盈利681亿元，同比下降6",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“AI央行”开启量化紧缩！英伟达新CEO收紧投资闸门，Neocloud融资命脉告急",
+   "link": "https://wallstreetcn.com/articles/3786182",
+   "time": "11-18 08:26",
+   "summary": "英伟达正在重新定义自己在AI生态中扮演的金融角色。 这家芯片巨头的临时CEO Colette Kress在本周财报电话会上明确表示， 公司将对未来的投资、承诺和财务担保进行\"严格评估\"。 这意味着，黄仁勋时代那种对AI生态\"大手笔、广撒网\"的金融支持风格，或将正式画上句号。 受冲击最大的是新兴的Neocloud赛道。CoreWeave的股价已较历史高点暴跌逾70%，美债亦跌至困境级别，行业整体因高",
+   "comment": "",
+   "score": 58
   },
   {
    "group": "快讯",
@@ -145,22 +165,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "高盛点评英伟达财报：增长前景依然强劲，但要平衡生态输血与股东回报",
-   "link": "https://wallstreetcn.com/articles/3786176",
-   "time": "11-18 07:16",
-   "summary": "英伟达交出一份超预期季报，并上调全年增长指引，高盛维持买入评级，认为当前股价风险回报比具有吸引力，并指出尽管面临管理层过渡与出口管制等不确定性，该公司 底层业务的增长前景依然强劲 。英伟达正试图在为庞大的AI生态系统提供资金支持与向股东返还资本之间， 寻找精准的平衡点 。 据追风交易台消息，高盛在11月18日研报中称，英伟达第三季度业绩及第四季度指引均超出华尔街预期，强劲的财务表现主要得益于市场对",
+   "title": "黄金什么时候对实际利率脱敏？",
+   "link": "https://wallstreetcn.com/articles/3786181",
+   "time": "11-18 08:51",
+   "summary": "2026年，黄金与实际利率的传统负相关关系重新显现。自3月以来，随着10年期美债实际利率持续走高，金价明显回落。而在2024—2025年，这一关系曾一度失效，黄金甚至在实际利率上行期间持续走强。黄金为何会阶段性摆脱实际利率的约束？又在什么条件下，实际利率不再是主导金价的核心因素？ 财通证券在11月15日发布的报告中，复盘了2003年以来黄金与10年期美债实际利率的关系。报告认为， 央行购金和黄金E",
    "comment": "",
-   "score": 37
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "腾讯Q3业绩前瞻：利润或结束16连增，AI开支与现金流成重估焦点",
-   "link": "https://wallstreetcn.com/articles/3786177",
-   "time": "11-18 07:13",
-   "summary": "腾讯今日下午将公布三季度业绩。若利润落在市场预期附近，连续16个季度的盈利增长将告一段落——这已经是共识。 卖方盯住的是， 二季度逾500亿元的芯片预付款，三季度是否还在延续。 这个答案会决定现金流什么时候见底，以及市场要不要重新给腾讯定价。 今晚要验证的节奏 9月，管理层把节奏说得更具体。汇丰记录的投资者交流里， 腾讯称二季度预付逾500亿元锁定内存芯片， 并把当时的资本开支强度视为新的常态；预",
-   "comment": "",
-   "score": 36
+   "score": 39
   },
   {
    "group": "学术",
@@ -171,16 +181,6 @@
    "summary": "arXiv:2611.21698v1 Announce Type: new Abstract: Acquiring accurate channel state information (CSI) is essential for millimeter-wave (mmWave) multi-input multi-output (MIMO) systems. However, it remains challenging due to high-dimensional channels, limited pilot observations, and measurement noise. To address these challenges, we propose flow-guided angular channel estimation (FACE), a novel channel estimation framework based on flow matching, an emerging generative modeling paradigm that learns continuous transport dynamics between probability distributions. FACE exploits the inherent angular-domain sparsity of mmWave channels and incorporates the learned flow matching model as a generative channel prior. Numerical results show that FACE consistently achieves higher channel estimation accuracy than both conventional estimators and diffusion-based generative estimator across diverse channel and system configurations. Moreover, FACE maintains high estimation accuracy with fewer pilot observations and achieves an average achievable rate close to the perfect-CSI benchmark. Compared with diffusion-based estimation, FACE requires substantially fewer sampling steps while achieving superior or comparable estimation accuracy, reducing inference time and computational cost. Overall, the proposed framework demonstrates the potential of flow matching for accurate, pilot-efficient, and computationally efficient mmWave MIMO channel estimation.",
    "comment": "",
    "score": 36
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋接班人有眉目了？CUDA之父首次亮相英伟达电话会",
-   "link": "https://wallstreetcn.com/articles/3786173",
-   "time": "11-18 07:12",
-   "summary": "英伟达董事会正通过一次财报电话会，向外界发出关键的人事信号。 在周二举行的英伟达第三季度业绩电话会上，一个此前从未在此类场合现身的名字引发广泛关注：公司超大规模计算与高性能计算业务副总裁Ian Buck，受邀与代理CEO Colette Kress共同参与投资者问答环节。Buck是CUDA这一英伟达AI芯片核心软件的主要发明者之一，在公司技术体系中居于举足轻重的地位。 科技行业分析师Dan Ive",
-   "comment": "",
-   "score": 35
   },
   {
    "group": "AI与数据",
