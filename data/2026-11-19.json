@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19 00:16",
- "raw_total": 200,
+ "generated_at": "2026-11-19 01:14",
+ "raw_total": 180,
  "items": [
   {
    "group": "学术",
@@ -31,6 +31,16 @@
    "summary": "arXiv:2611.21766v1 Announce Type: new Abstract: Practitioners choose among LLM alignment methods largely by trial and error. We provide a theoretical foundation: each pairwise method defines a vector field on the probability simplex that governs how the model redistributes mass between preferred and dispreferred completions. Projecting onto a single preferred/dispreferred pair reduces this to a one-dimensional margin ODE with a closed-form solution. These solutions reveal that DPO margins grow without bound (logarithmically as $O(\\log t)$ in the gradient-flow limit) while IPO margins converge to a finite $1/(2\\tau)$; that label noise induces a qualitative phase transition in DPO (unbounded $\\to$ bounded) but affects IPO only quantitatively; and that gradient concentration under asymmetric weighting governs trainability at scale. We confirm all three predictions across five model families spanning four benchmarks. The closed-form solutions also enable principled method design: we prove that adding any label smoothing $\\varepsilon > 0$ to SimPO creates a finite margin attractor at $\\Delta^* = \\beta^{-1}\\log((1-\\varepsilon)/\\varepsilon)$, while $\\varepsilon = 0$ (standard SimPO) has no attractor. We test this across three models (8B-9B) and confirm the prediction: the theory-derived configuration (TPO-S, $\\varepsilon = 0.05$) is competitive with the strongest baselines, attaining the highest mean IFEval score among the compared methods on all three, validating that the predicted finite attractor is a usable operating point rather than proposing a new state-of-the-art loss.",
    "comment": "",
    "score": 64
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英国10月CPI同比升至3.6%创近一年新高，服务通胀低于预期",
+   "link": "https://wallstreetcn.com/articles/3786223",
+   "time": "11-18 17:06",
+   "summary": "英国10月通胀连续第四个月上升，达到近一年来最高水平，但服务业通胀低于预期，显示国内价格压力尚未明显扩大，市场对英国央行12月加息的押注随之降温。 英国国家统计局（ONS）周三公布的数据显示， 10月消费者价格指数（CPI）同比上涨3.6%，高于9月的3.5%，为近一年来最高水平，与路透社调查的经济学家预期一致。油价上涨是推动整体通胀回升的主要因素。 不过，英国央行货币政策委员会（MPC）重点关注",
+   "comment": "",
+   "score": 60
   },
   {
    "group": "快讯",
@@ -140,7 +150,7 @@
    "time": "11-18 13:49",
    "summary": "美联储内部对后续加息力度出现明显分歧，理事克里斯托弗·沃勒主张进一步加大加息幅度，而纽约联储主席约翰·威廉姆斯认为当前没有必要采取激进行动。 11月18日，据彭博报道，沃勒周三接受CNBC采访时表示， 通胀走势仍在朝错误方向发展，美联储需要在加息方面更加积极主动。如果通胀继续加速，他将支持12月一次性加息50个基点，以维护央行的抗通胀信誉。 威廉姆斯则持不同看法。 他周二在纽约出席Axios主办的",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "学术",
@@ -153,26 +163,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "商汤前三季度营收增长30%，生成式AI与算力服务加快落地",
-   "link": "https://wallstreetcn.com/articles/3786206",
-   "time": "11-18 14:40",
-   "summary": "生成式AI正在为商汤带来更明确的收入增长。 11月18日，商汤集团发布截至2026年9月30日止九个月的业务进展公告。前三季度，公司收入37.92亿元，同比增长30.4%；毛利16.47亿元，同比增长45%，毛利率同比提高4.3个百分点至43.4%。其中，第三季度生成式AI业务收入同比增长超过一倍，成为推动业务增长的重要力量。 这次披露的重点，是收入增长与毛利率改善同时出现。对于持续投入模型研发和",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "FACE: Flow-Guided Angular Channel Estimation Framework for mmWave MIMO Systems",
@@ -183,24 +173,14 @@
    "score": 36
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "小马智行营收创季度新高，规模扩张能否加快减亏？",
-   "link": "https://wallstreetcn.com/articles/3786217",
-   "time": "11-18 14:24",
-   "summary": "作者 | 周智宇 小马智行三季度近一半的收入增量，来自产品销售。共建车队模式下的车辆交付，正在成为它扩大Robotaxi生意的重要来源。 11月18日，小马智行公布2026年第三季度财报，营收同比增长75.2%至2.99亿元，创季度新高。Robotaxi业务收入增长165.4%至1.19亿元，营收占比接近四成；Robotruck业务收入增长76.3%至1.20亿元，两项业务共同带动增长。 截至9月",
+   "title": "商汤前三季度营收增长30%，生成式AI与算力服务加快落地",
+   "link": "https://wallstreetcn.com/articles/3786206",
+   "time": "11-18 14:40",
+   "summary": "生成式AI正在为商汤带来更明确的收入增长。 11月18日，商汤集团发布截至2026年9月30日止九个月的业务进展公告。前三季度，公司收入37.92亿元，同比增长30.4%；毛利16.47亿元，同比增长45%，毛利率同比提高4.3个百分点至43.4%。其中，第三季度生成式AI业务收入同比增长超过一倍，成为推动业务增长的重要力量。 这次披露的重点，是收入增长与毛利率改善同时出现。对于持续投入模型研发和",
    "comment": "",
-   "score": 33
+   "score": 35
   },
   {
    "group": "AI与数据",
@@ -213,6 +193,16 @@
    "score": 33
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "小马智行营收创季度新高，规模扩张能否加快减亏？",
+   "link": "https://wallstreetcn.com/articles/3786217",
+   "time": "11-18 14:24",
+   "summary": "作者 | 周智宇 小马智行三季度近一半的收入增量，来自产品销售。共建车队模式下的车辆交付，正在成为它扩大Robotaxi生意的重要来源。 11月18日，小马智行公布2026年第三季度财报，营收同比增长75.2%至2.99亿元，创季度新高。Robotaxi业务收入增长165.4%至1.19亿元，营收占比接近四成；Robotruck业务收入增长76.3%至1.20亿元，两项业务共同带动增长。 截至9月",
+   "comment": "",
+   "score": 32
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Regularized Score Centering",
@@ -223,32 +213,12 @@
    "score": 32
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "高盛、摩根士丹利与AI行情深度绑定，华尔街投行的好日子还能持续多久？",
-   "link": "https://wallstreetcn.com/articles/3786215",
-   "time": "11-18 16:04",
-   "summary": "AI热潮推动华尔街投行今年迎来丰收年，但这场资本盛宴可能难以延续。 11月18日，彭博专栏作家保罗·J·戴维斯撰文指出， 高盛和摩根士丹利等大型投行已与AI驱动的市场繁荣深度绑定，其股价走势与纳斯达克100指数高度同步。一旦科技股出现调整，投行的交易收入和奖金池都可能受到冲击。即便AI股票没有大幅下跌，华尔街也很难在2027年复制今年近乎完美的市场环境。 今年的IPO热潮尤为突出。据彭博数据，An",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
    "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
    "time": "11-18 11:00",
    "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
