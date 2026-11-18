@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19 01:14",
- "raw_total": 180,
+ "generated_at": "2026-11-19 04:16",
+ "raw_total": 200,
  "items": [
   {
    "group": "学术",
@@ -40,7 +40,7 @@
    "time": "11-18 17:06",
    "summary": "英国10月通胀连续第四个月上升，达到近一年来最高水平，但服务业通胀低于预期，显示国内价格压力尚未明显扩大，市场对英国央行12月加息的押注随之降温。 英国国家统计局（ONS）周三公布的数据显示， 10月消费者价格指数（CPI）同比上涨3.6%，高于9月的3.5%，为近一年来最高水平，与路透社调查的经济学家预期一致。油价上涨是推动整体通胀回升的主要因素。 不过，英国央行货币政策委员会（MPC）重点关注",
    "comment": "",
-   "score": 60
+   "score": 57
   },
   {
    "group": "快讯",
@@ -49,16 +49,6 @@
    "link": "https://wallstreetcn.com/articles/3786186",
    "time": "11-18 10:40",
    "summary": "腾讯第三季度营收保持增长，营销服务和企业服务业务表现较为亮眼，游戏业务也延续增长。与此同时，随着AI技术加速融入产品与业务，腾讯持续加大模型研发和算力基础设施投入，资本开支明显攀升，现金流也受到一定影响。 财报显示，腾讯第三季度实现营收2073.4亿元，同比增长8%，低于市场预估的2105.3亿元。盈利方面，按国际财务报告准则（IFRS）计算，归属于公司权益持有人的净利润为636亿元，同比增长0.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“AI央行”开启量化紧缩！英伟达新CEO收紧投资闸门，Neocloud融资命脉告急",
-   "link": "https://wallstreetcn.com/articles/3786182",
-   "time": "11-18 08:26",
-   "summary": "英伟达正在重新定义自己在AI生态中扮演的金融角色。 这家芯片巨头的临时CEO Colette Kress在本周财报电话会上明确表示， 公司将对未来的投资、承诺和财务担保进行\"严格评估\"。 这意味着，黄仁勋时代那种对AI生态\"大手笔、广撒网\"的金融支持风格，或将正式画上句号。 受冲击最大的是新兴的Neocloud赛道。CoreWeave的股价已较历史高点暴跌逾70%，美债亦跌至困境级别，行业整体因高",
    "comment": "",
    "score": 50
   },
@@ -91,6 +81,16 @@
    "summary": "arXiv:2611.21835v1 Announce Type: new Abstract: Modern data-intensive applications often query very large datasets, making index performance critical. Recent index structures exploit the fine-grained access capabilities of emerging storage devices such as DCPMM and CXL. However, existing benchmarks typically evaluate indexes in isolation using saturated, closed-loop workloads that emphasize maximum throughput. Such workloads favor highly concurrent designs while overlooking the application work that follows an index lookup and competes for cache, memory bandwidth, and CPU resources. We present AuxBench - a microbenchmark that evaluates indexes as auxiliary access paths within larger application workloads. Using AuxBench, we evaluate four byte-addressable indexes under controlled post-lookup memory activity, concurrency, and request arrival patterns. Our experiments show that post-lookup memory activity can change the relative performance of competing indexes, that concurrency-oriented designs may lose their advantages when substantial application work is introduced, and that time-varying request arrivals can produce severe tail latency near saturation. These findings demonstrate why index-only benchmarks may not adequately predict performance in larger application workloads",
    "comment": "",
    "score": 49
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "金属崩了！盘中期铜跌近6%、期银跌超5%，加息预期叠加AI交易降温痛击",
+   "link": "https://wallstreetcn.com/articles/3786224",
+   "time": "11-18 19:52",
+   "summary": "11月18日周三，全球金属市场遭遇猛烈抛售，铜等工业金属与贵金属金银集体大跌。盘中纽约期铜和伦铜跌近6%、纽约期金跌超3%、期银跌超5%。 这轮下跌既受到美联储加息预期升温的冲击，也反映出市场对AI基础设施投资前景和全球工业需求的担忧。此前支撑金属价格上涨的多头交易正在松动，美元走强、资金获利了结和技术性抛售则进一步放大跌势。 伦铜收创七个月新低 AI交易降温成为关键导火索 工业金属方面，铜价周三",
+   "comment": "",
+   "score": 48
   },
   {
    "group": "学术",
@@ -163,6 +163,16 @@
    "score": 40
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "FACE: Flow-Guided Angular Channel Estimation Framework for mmWave MIMO Systems",
@@ -173,12 +183,12 @@
    "score": 36
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "商汤前三季度营收增长30%，生成式AI与算力服务加快落地",
-   "link": "https://wallstreetcn.com/articles/3786206",
-   "time": "11-18 14:40",
-   "summary": "生成式AI正在为商汤带来更明确的收入增长。 11月18日，商汤集团发布截至2026年9月30日止九个月的业务进展公告。前三季度，公司收入37.92亿元，同比增长30.4%；毛利16.47亿元，同比增长45%，毛利率同比提高4.3个百分点至43.4%。其中，第三季度生成式AI业务收入同比增长超过一倍，成为推动业务增长的重要力量。 这次披露的重点，是收入增长与毛利率改善同时出现。对于持续投入模型研发和",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
    "comment": "",
    "score": 35
   },
@@ -195,10 +205,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "小马智行营收创季度新高，规模扩张能否加快减亏？",
-   "link": "https://wallstreetcn.com/articles/3786217",
-   "time": "11-18 14:24",
-   "summary": "作者 | 周智宇 小马智行三季度近一半的收入增量，来自产品销售。共建车队模式下的车辆交付，正在成为它扩大Robotaxi生意的重要来源。 11月18日，小马智行公布2026年第三季度财报，营收同比增长75.2%至2.99亿元，创季度新高。Robotaxi业务收入增长165.4%至1.19亿元，营收占比接近四成；Robotruck业务收入增长76.3%至1.20亿元，两项业务共同带动增长。 截至9月",
+   "title": "商汤前三季度营收增长30%，生成式AI与算力服务加快落地",
+   "link": "https://wallstreetcn.com/articles/3786206",
+   "time": "11-18 14:40",
+   "summary": "生成式AI正在为商汤带来更明确的收入增长。 11月18日，商汤集团发布截至2026年9月30日止九个月的业务进展公告。前三季度，公司收入37.92亿元，同比增长30.4%；毛利16.47亿元，同比增长45%，毛利率同比提高4.3个百分点至43.4%。其中，第三季度生成式AI业务收入同比增长超过一倍，成为推动业务增长的重要力量。 这次披露的重点，是收入增长与毛利率改善同时出现。对于持续投入模型研发和",
    "comment": "",
    "score": 32
   },
@@ -213,12 +223,32 @@
    "score": 32
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "小马智行营收创季度新高，规模扩张能否加快减亏？",
+   "link": "https://wallstreetcn.com/articles/3786217",
+   "time": "11-18 14:24",
+   "summary": "作者 | 周智宇 小马智行三季度近一半的收入增量，来自产品销售。共建车队模式下的车辆交付，正在成为它扩大Robotaxi生意的重要来源。 11月18日，小马智行公布2026年第三季度财报，营收同比增长75.2%至2.99亿元，创季度新高。Robotaxi业务收入增长165.4%至1.19亿元，营收占比接近四成；Robotruck业务收入增长76.3%至1.20亿元，两项业务共同带动增长。 截至9月",
+   "comment": "",
+   "score": 30
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
    "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
    "time": "11-18 11:00",
    "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
