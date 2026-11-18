@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18 14:24",
- "raw_total": 200,
+ "generated_at": "2026-11-18 15:16",
+ "raw_total": 180,
  "items": [
   {
    "group": "学术",
@@ -40,7 +40,7 @@
    "time": "11-18 05:33",
    "summary": "美联储官员接连释放鹰派信号，金价承压跌至14个月新低，分析师警告短期下行风险犹存。 圣路易斯联储主席Alberto Musalem表示，美国经济在明年春季前可能需要经历\"数次加息\"；纽约联储主席John Williams亦称，央行在将通胀拉回2%目标的道路上\"仍有工作要做\"。 受此拖累，现货黄金周三盘中最多下跌1.5%，触及3788美元/盎司附近，连续第三个交易日下跌。 金价自今年2月底美伊战争爆",
    "comment": "",
-   "score": 58
+   "score": 53
   },
   {
    "group": "快讯",
@@ -50,7 +50,7 @@
    "time": "11-18 05:01",
    "summary": "今年前三季度，微博的营收几乎原地踏步，净利润却少了七成多。 11月17日，微博披露截至9月30日的三季度业绩：总营收4.102亿美元，同比下降7%。 按去年同期汇率计算，降幅为13%。归属微博的净利润2450万美元，同比降88.9%。 拉长到前三季度，累计营收12.854亿美元，与去年同期12.840亿几乎持平。 按财报数据计算，前两个季度收入同比增长约4%，下滑集中出现在三季度。 前三季度归属净",
    "comment": "",
-   "score": 56
+   "score": 51
   },
   {
    "group": "学术",
@@ -103,16 +103,6 @@
    "score": 46
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
-   "link": "https://wallstreetcn.com/articles/3786160",
-   "time": "11-18 04:03",
-   "summary": "现货黄金跌至逾一年低位，高盛认为美联储加息压制私人投资需求，央行买盘成为支撑金价的唯一力量。 周三，现货黄金下挫1.5%、跌破3800美元，为2025年10月以来最低，较一个月前下跌超300美元。美元持续走强，加之市场预期美联储将于12月再度加息，令金价承压。 正是在此背景下， 高盛 Lina Thomas领衔的高盛大宗商品团队于本周发布2027年贵金属年度展望， 将黄金年底目标价由4800美元下",
-   "comment": "",
-   "score": 45
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -133,6 +123,26 @@
    "score": 42
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋接班人有眉目了？CUDA之父首次亮相英伟达电话会",
+   "link": "https://wallstreetcn.com/articles/3786173",
+   "time": "11-18 07:12",
+   "summary": "英伟达董事会正通过一次财报电话会，向外界发出关键的人事信号。 在周二举行的英伟达第三季度业绩电话会上，一个此前从未在此类场合现身的名字引发广泛关注：公司超大规模计算与高性能计算业务副总裁Ian Buck，受邀与代理CEO Colette Kress共同参与投资者问答环节。Buck是CUDA这一英伟达AI芯片核心软件的主要发明者之一，在公司技术体系中居于举足轻重的地位。 科技行业分析师Dan Ive",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
+   "link": "https://wallstreetcn.com/articles/3786160",
+   "time": "11-18 04:03",
+   "summary": "现货黄金跌至逾一年低位，高盛认为美联储加息压制私人投资需求，央行买盘成为支撑金价的唯一力量。 周三，现货黄金下挫1.5%、跌破3800美元，为2025年10月以来最低，较一个月前下跌超300美元。美元持续走强，加之市场预期美联储将于12月再度加息，令金价承压。 正是在此背景下， 高盛 Lina Thomas领衔的高盛大宗商品团队于本周发布2027年贵金属年度展望， 将黄金年底目标价由4800美元下",
+   "comment": "",
+   "score": 40
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation",
@@ -143,26 +153,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "A股双创指数午后快速拉升，科创50涨超3%，算力租赁大涨，恒指跌1%，京东大跌8%",
-   "link": "https://wallstreetcn.com/articles/3786152",
-   "time": "11-18 05:32",
-   "summary": "英伟达披露第三季度业绩，大幅超出市场预期，盘后股价涨超4%，提振市场信心。亚太股市周三开盘上涨，韩国KOSPI指数涨幅扩大至3%，SK海力士涨超6%，三星电子涨超4%。A股部分AI硬件股跟随反弹走高。算力租赁、华为算力概念逆势大涨，PCB概念股中生益电子涨超15%；半导体盘中冲高回落、午间分化。 11月18日，A股午后一度延续跌势，深成指、创业板均跌超1%，随后快速拉升翻红，创业板涨1%，科创50",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "FACE: Flow-Guided Angular Channel Estimation Framework for mmWave MIMO Systems",
@@ -171,26 +161,6 @@
    "summary": "arXiv:2611.21698v1 Announce Type: new Abstract: Acquiring accurate channel state information (CSI) is essential for millimeter-wave (mmWave) multi-input multi-output (MIMO) systems. However, it remains challenging due to high-dimensional channels, limited pilot observations, and measurement noise. To address these challenges, we propose flow-guided angular channel estimation (FACE), a novel channel estimation framework based on flow matching, an emerging generative modeling paradigm that learns continuous transport dynamics between probability distributions. FACE exploits the inherent angular-domain sparsity of mmWave channels and incorporates the learned flow matching model as a generative channel prior. Numerical results show that FACE consistently achieves higher channel estimation accuracy than both conventional estimators and diffusion-based generative estimator across diverse channel and system configurations. Moreover, FACE maintains high estimation accuracy with fewer pilot observations and achieves an average achievable rate close to the perfect-CSI benchmark. Compared with diffusion-based estimation, FACE requires substantially fewer sampling steps while achieving superior or comparable estimation accuracy, reducing inference time and computational cost. Overall, the proposed framework demonstrates the potential of flow matching for accurate, pilot-efficient, and computationally efficient mmWave MIMO channel estimation.",
    "comment": "",
    "score": 36
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "京东外卖减亏过半，获客回报仍待检验",
-   "link": "https://wallstreetcn.com/articles/3786158",
-   "time": "11-18 02:44",
-   "summary": "外卖亏损大幅收窄，推动京东三季度利润回升。但在补贴投入下降之后，此前吸引来的用户能够留下多少，又能为核心零售贡献多少增量，仍有待验证。 11月17日晚，京东发布2026年第三季度财报，营收3095.93亿元，同比增长3.5%；归属于普通股股东的净利润65.03亿元，同比增长约23.3%；经调整净利润83.27亿元，同比增长43.7%。 利润改善的主要来源是新业务减亏。 三季度，京东集团经营利润由上",
-   "comment": "",
-   "score": 33
   },
   {
    "group": "AI与数据",
@@ -205,10 +175,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "京东港股盘中跌超8%，摩根士丹利维持低配评级",
-   "link": "https://wallstreetcn.com/articles/3786154",
-   "time": "11-18 02:39",
-   "summary": "京东三季度营收重回增长，但每股盈利不及预期，叠加摩根士丹利对消费前景发出警示，导致公司股价周三遭遇大幅抛售。 华尔街见闻提及 ，京东周二发布的财报显示，三季度净营收同比增长3.5%至3096亿元人民币，经营利润扭亏为盈， 但每股盈利0.88美元，较分析师一致预期的0.98美元低约10%，终结了此前连续八个季度超预期的纪录。 摩根士丹利随即发布报告， 消费市场仍然疲软，预计京东第四季度零售收入同比将",
+   "title": "A股双创指数午后快速拉升，科创50涨超3%，算力租赁大涨，恒指跌1%，京东大跌8%",
+   "link": "https://wallstreetcn.com/articles/3786152",
+   "time": "11-18 05:32",
+   "summary": "英伟达披露第三季度业绩，大幅超出市场预期，盘后股价涨超4%，提振市场信心。亚太股市周三开盘上涨，韩国KOSPI指数涨幅扩大至3%，SK海力士涨超6%，三星电子涨超4%。A股部分AI硬件股跟随反弹走高。算力租赁、华为算力概念逆势大涨，PCB概念股中生益电子涨超15%；半导体盘中冲高回落、午间分化。 11月18日，A股午后一度延续跌势，深成指、创业板均跌超1%，随后快速拉升翻红，创业板涨1%，科创50",
    "comment": "",
    "score": 32
   },
@@ -223,22 +193,22 @@
    "score": 32
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "京东外卖减亏过半，获客回报仍待检验",
+   "link": "https://wallstreetcn.com/articles/3786158",
+   "time": "11-18 02:44",
+   "summary": "外卖亏损大幅收窄，推动京东三季度利润回升。但在补贴投入下降之后，此前吸引来的用户能够留下多少，又能为核心零售贡献多少增量，仍有待验证。 11月17日晚，京东发布2026年第三季度财报，营收3095.93亿元，同比增长3.5%；归属于普通股股东的净利润65.03亿元，同比增长约23.3%；经调整净利润83.27亿元，同比增长43.7%。 利润改善的主要来源是新业务减亏。 三季度，京东集团经营利润由上",
+   "comment": "",
+   "score": 30
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
    "link": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
    "time": "11-17 11:00",
    "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
