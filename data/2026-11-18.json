@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18 11:18",
- "raw_total": 200,
+ "generated_at": "2026-11-18 12:17",
+ "raw_total": 220,
  "items": [
   {
    "group": "学术",
@@ -73,6 +73,16 @@
    "score": 50
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
+   "link": "https://wallstreetcn.com/articles/3786160",
+   "time": "11-18 04:03",
+   "summary": "现货黄金跌至逾一年低位，高盛认为美联储加息压制私人投资需求，央行买盘成为支撑金价的唯一力量。 周三，现货黄金下挫1.5%、跌破3800美元，为2025年10月以来最低，较一个月前下跌超300美元。美元持续走强，加之市场预期美联储将于12月再度加息，令金价承压。 正是在此背景下， 高盛 Lina Thomas领衔的高盛大宗商品团队于本周发布2027年贵金属年度展望， 将黄金年底目标价由4800美元下",
+   "comment": "",
+   "score": 49
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Skill-Latent Rewards: LLM-Guided Reward Formulation for Hierarchical Reinforcement Learning",
@@ -125,20 +135,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "京东港股盘中跌超8%，摩根士丹利警示消费疲软压力",
-   "link": "https://wallstreetcn.com/articles/3786154",
-   "time": "11-18 02:39",
-   "summary": "京东三季度营收重回增长，但每股盈利不及预期，叠加摩根士丹利对消费前景发出警示，导致公司股价周三遭遇大幅抛售。 华尔街见闻提及 ，京东周二发布的财报显示，三季度净营收同比增长3.5%至3096亿元人民币，经营利润扭亏为盈， 但每股盈利0.88美元，较分析师一致预期的0.98美元低约10%，终结了此前连续八个季度超预期的纪录。 摩根士丹利随即发布报告， 消费市场仍然疲软，预计京东第四季度零售收入同比将",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
-   "link": "https://wallstreetcn.com/articles/3786116",
-   "time": "11-17 12:32",
-   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资",
+   "title": "A股三大股指早盘集体下跌，算力租赁逆势大涨，恒指、恒科指齐跌超1%，京东大跌8%",
+   "link": "https://wallstreetcn.com/articles/3786152",
+   "time": "11-18 04:05",
+   "summary": "英伟达披露第三季度业绩，大幅超出市场预期，盘后股价涨超4%，提振市场信心。亚太股市周三开盘上涨，韩国KOSPI指数涨幅扩大至3%，SK海力士涨超6%，三星电子涨超4%。A股部分AI硬件股跟随反弹走高。算力租赁、华为算力概念逆势大涨，PCB概念股中生益电子涨超15%；半导体盘中冲高回落、午间分化。 11月18日，A股集体高开后震荡回落，三大股指集体下跌。科创50指数冲高回落，此前一度涨超2%，英伟达",
    "comment": "",
    "score": 40
   },
@@ -151,6 +151,46 @@
    "summary": "arXiv:2611.18564v1 Announce Type: new Abstract: ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and corrects errors on each read. The parity bits carry no data and only safeguard integrity, at ~12.5% overhead. Yet the reasoning chains of large language models lack such built-in self-verification: once an error occurs it propagates along the chain, and existing methods can only verify externally after generation completes. We propose the check token, establishing built-in self-verification for language model generation streams for the first time: a functional marker is added to the vocabulary, and the model triggers self-checking (analysis, localization, truncation, rewriting) by outputting it at any position. The check token carries no reasoning content (discarded after triggering) and only safeguards reasoning correctness, directly corresponding to the role of ECC parity bits, also at only ~13% overhead. Speculative forking further eliminates false-positive latency, and segmented reward makes trigger timing end-to-end learnable. Experiments (Qwen3-32B / Qwen3-Next) show that the check token achieves +10.8 pp improvement on HMMT25 at 1.13x overhead, with token efficiency 88x that of Best-of-8, and the precise truncation advantage monotonically increases with chain length.",
    "comment": "",
    "score": 40
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "京东外卖减亏过半，获客回报仍待检验",
+   "link": "https://wallstreetcn.com/articles/3786158",
+   "time": "11-18 02:44",
+   "summary": "外卖亏损大幅收窄，推动京东三季度利润回升。但在补贴投入下降之后，此前吸引来的用户能够留下多少，又能为核心零售贡献多少增量，仍有待验证。 11月17日晚，京东发布2026年第三季度财报，营收3095.93亿元，同比增长3.5%；归属于普通股股东的净利润65.03亿元，同比增长约23.3%；经调整净利润83.27亿元，同比增长43.7%。 利润改善的主要来源是新业务减亏。 三季度，京东集团经营利润由上",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "京东港股盘中跌超8%，摩根士丹利维持低配评级",
+   "link": "https://wallstreetcn.com/articles/3786154",
+   "time": "11-18 02:39",
+   "summary": "京东三季度营收重回增长，但每股盈利不及预期，叠加摩根士丹利对消费前景发出警示，导致公司股价周三遭遇大幅抛售。 华尔街见闻提及 ，京东周二发布的财报显示，三季度净营收同比增长3.5%至3096亿元人民币，经营利润扭亏为盈， 但每股盈利0.88美元，较分析师一致预期的0.98美元低约10%，终结了此前连续八个季度超预期的纪录。 摩根士丹利随即发布报告， 消费市场仍然疲软，预计京东第四季度零售收入同比将",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
   },
   {
    "group": "AI与数据",
@@ -183,22 +223,22 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic IPO前夕，OpenAI推出最强模型GPT-6.2 Astra，称性能超越Fable 5.2",
-   "link": "https://wallstreetcn.com/articles/3786124",
-   "time": "11-17 20:19",
-   "summary": "OpenAI推出旗舰模型最新迭代版本，在性能提升的同时大幅降低使用成本，并在多项基准测试中超越竞争对手Anthropic的顶级模型。 此次发布的GPT-6.2 Astra定位于复杂专业工作场景，涵盖金融建模与科学研究等领域，同步推出的GPT-6.2 Sol则面向日常任务。 OpenAI表示， GPT-6.2 Astra在多步骤专业工作基准测试中的得分较竞品Claude Fable 5.2高出5.5",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
    "link": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
    "time": "11-17 11:00",
    "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -221,16 +261,6 @@
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
    "score": 29
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "A股三大股指早盘集体转跌，AI硬件侧局部回暖，创新药、贵金属调整，恒指、恒科指齐跌，京东大跌8%",
-   "link": "https://wallstreetcn.com/articles/3786152",
-   "time": "11-18 02:14",
-   "summary": "英伟达披露第三季度业绩，大幅超出市场预期，盘后股价涨超4%，提振市场信心。亚太股市周三开盘上涨，韩国KOSPI指数涨幅扩大至3%，SK海力士涨超6%，三星电子涨超4%。A股AI硬件股跟随反弹走高。 11月18日，A股早盘高开，三大股指盘初集体回落，纷纷转跌，得益于英伟达最新公布的业绩强于预期，AI硬件测反弹，光模块、电路板、覆铜板等概念股集体回暖，工业富联、沪电股份、天孚通信等早盘拉升。白色家电、",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "AI与数据",
