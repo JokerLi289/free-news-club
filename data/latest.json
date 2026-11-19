@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19 11:17",
- "raw_total": 180,
+ "generated_at": "2026-11-19 12:17",
+ "raw_total": 200,
  "items": [
   {
    "group": "学术",
@@ -40,7 +40,7 @@
    "time": "11-19 01:00",
    "summary": "11月18日周三，全球金属市场遭遇猛烈抛售，铜等工业金属与贵金属金银集体大跌。盘中纽约期铜和伦铜跌近6%、纽约期金跌超3%、期银跌超5%。 这轮下跌既受到美联储加息预期升温的冲击，也反映出市场对AI基础设施投资前景和全球工业需求的担忧。此前支撑金属价格上涨的多头交易正在松动，美元走强、资金获利了结和技术性抛售则进一步放大跌势。 与此同时， 市场传言此轮抛售还与Anthropic（ANT）IPO的资",
    "comment": "",
-   "score": 53
+   "score": 50
   },
   {
    "group": "快讯",
@@ -49,16 +49,6 @@
    "link": "https://wallstreetcn.com/articles/3786227",
    "time": "11-18 19:00",
    "summary": "美联储公布的上月货币政策会议纪要释放显著鹰派信号：几乎所有与会官员都认为，美联储未来仍需进一步加息，以确保通胀及时回归目标2%；虽然10月会议以10票支持、2票反对决定维持利率不变，但支持当时就加息的官员人数可能超过投票结果显示的两人。 有“新美联储通讯社”之称的记者Nick Timiraos指出，会议纪要显示，少数支持10月按兵不动的官员也认为，10月利率决议是一次“艰难抉择”（close ca",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英国10月CPI同比升至3.6%创近一年新高，服务通胀低于预期",
-   "link": "https://wallstreetcn.com/articles/3786223",
-   "time": "11-18 17:06",
-   "summary": "英国10月通胀连续第四个月上升，达到近一年来最高水平，但服务业通胀低于预期，显示国内价格压力尚未明显扩大，市场对英国央行12月加息的押注随之降温。 英国国家统计局（ONS）周三公布的数据显示， 10月消费者价格指数（CPI）同比上涨3.6%，高于9月的3.5%，为近一年来最高水平，与路透社调查的经济学家预期一致。油价上涨是推动整体通胀回升的主要因素。 不过，英国央行货币政策委员会（MPC）重点关注",
    "comment": "",
    "score": 50
   },
@@ -91,16 +81,6 @@
    "summary": "arXiv:2611.21835v1 Announce Type: new Abstract: Modern data-intensive applications often query very large datasets, making index performance critical. Recent index structures exploit the fine-grained access capabilities of emerging storage devices such as DCPMM and CXL. However, existing benchmarks typically evaluate indexes in isolation using saturated, closed-loop workloads that emphasize maximum throughput. Such workloads favor highly concurrent designs while overlooking the application work that follows an index lookup and competes for cache, memory bandwidth, and CPU resources. We present AuxBench - a microbenchmark that evaluates indexes as auxiliary access paths within larger application workloads. Using AuxBench, we evaluate four byte-addressable indexes under controlled post-lookup memory activity, concurrency, and request arrival patterns. Our experiments show that post-lookup memory activity can change the relative performance of competing indexes, that concurrency-oriented designs may lose their advantages when substantial application work is introduced, and that time-varying request arrivals can produce severe tail latency near saturation. These findings demonstrate why index-only benchmarks may not adequately predict performance in larger application workloads",
    "comment": "",
    "score": 49
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板跌超1%，AI算力调整，电力逆势活跃，恒科指跌逾2%，腾讯大跌6%，阿里跌超5%",
-   "link": "https://wallstreetcn.com/articles/3786248",
-   "time": "11-19 02:25",
-   "summary": "腾讯周四股价跌至2025年2月以来新低，此前 最新财报 显示，WorkBuddy日活突破1000万，最近七天年化收入超5亿美元，三季度收入是二季度的5倍以上；云业务收入增速从21%加快至35%，模型即服务收入环比增长超三倍。与此同时，算力约束正影响混元下一代模型训练进度。 11月19日，A股早盘集体低开，三大股指盘初纷纷下跌，科创50指数跌超1%，盘初一度跌超2%，AI算力、GPU、服务器、光电路",
-   "comment": "",
-   "score": 48
   },
   {
    "group": "学术",
@@ -155,6 +135,16 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "A股三大股指齐跌，科创50逆势涨1%，华虹、中芯国际大涨，恒科指跌2%，腾讯大跌近7%",
+   "link": "https://wallstreetcn.com/articles/3786248",
+   "time": "11-19 04:07",
+   "summary": "腾讯周四股价跌至2025年2月以来新低，此前 最新财报 显示，WorkBuddy日活突破1000万，最近七天年化收入超5亿美元，三季度收入是二季度的5倍以上；云业务收入增速从21%加快至35%，模型即服务收入环比增长超三倍。与此同时，算力约束正影响混元下一代模型训练进度。与此同时，Q3自由现金流为负691亿元。 11月19日，A股低开低走后小幅回升，三大股指午盘均小幅下跌，科创50逆势翻红，盘初一",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "英伟达拖累美股，标普五连跌，纳指逆势微涨，网络安全股票大涨，黄金重挫创十四个月新低",
    "link": "https://wallstreetcn.com/articles/3786169",
    "time": "11-18 22:59",
@@ -173,14 +163,14 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "德鲁肯米勒访谈全文：做空铜，“离开”股市，“不敢做多也不敢做空”，现在目标是保本",
-   "link": "https://wallstreetcn.com/articles/3786247",
-   "time": "11-19 02:43",
-   "summary": "传奇投资人德鲁肯米勒（Stan Druckenmiller）公开表示，他目前几乎清空了权益仓位，进入“资本保全模式”——这是他50年投资生涯中罕见的主动退场。 2025年11月18日，德鲁肯米勒在德克萨斯州奥斯汀举行的TomorrowX峰会上，与摩根士丹利全球衍生品业务负责人Iliana Bouzali对谈。他直言，今天的宏观环境与今年1月相比“完全翻转”：美联储从降息转向加息、大宗商品由涨转跌、",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
    "comment": "",
-   "score": 39
+   "score": 38
   },
   {
    "group": "学术",
@@ -191,6 +181,26 @@
    "summary": "arXiv:2611.21698v1 Announce Type: new Abstract: Acquiring accurate channel state information (CSI) is essential for millimeter-wave (mmWave) multi-input multi-output (MIMO) systems. However, it remains challenging due to high-dimensional channels, limited pilot observations, and measurement noise. To address these challenges, we propose flow-guided angular channel estimation (FACE), a novel channel estimation framework based on flow matching, an emerging generative modeling paradigm that learns continuous transport dynamics between probability distributions. FACE exploits the inherent angular-domain sparsity of mmWave channels and incorporates the learned flow matching model as a generative channel prior. Numerical results show that FACE consistently achieves higher channel estimation accuracy than both conventional estimators and diffusion-based generative estimator across diverse channel and system configurations. Moreover, FACE maintains high estimation accuracy with fewer pilot observations and achieves an average achievable rate close to the perfect-CSI benchmark. Compared with diffusion-based estimation, FACE requires substantially fewer sampling steps while achieving superior or comparable estimation accuracy, reducing inference time and computational cost. Overall, the proposed framework demonstrates the potential of flow matching for accurate, pilot-efficient, and computationally efficient mmWave MIMO channel estimation.",
    "comment": "",
    "score": 36
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "德鲁肯米勒访谈全文：做空铜，“离开”股市，“不敢做多也不敢做空”，现在目标是保本",
+   "link": "https://wallstreetcn.com/articles/3786247",
+   "time": "11-19 02:43",
+   "summary": "传奇投资人德鲁肯米勒（Stan Druckenmiller）公开表示，他目前几乎清空了权益仓位，进入“资本保全模式”——这是他50年投资生涯中罕见的主动退场。 2026年11月18日，德鲁肯米勒在德克萨斯州奥斯汀举行的TomorrowX峰会上，与摩根士丹利全球衍生品业务负责人Iliana Bouzali对谈。他直言，今天的宏观环境与今年1月相比“完全翻转”：美联储从降息转向加息、大宗商品由涨转跌、",
+   "comment": "",
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -213,12 +223,32 @@
    "score": 32
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "史上最大IPO周四上市！Anthropic定价83美元，募资超1070亿美元、估值1.5万亿",
+   "link": "https://wallstreetcn.com/articles/3786222",
+   "time": "11-19 00:43",
+   "summary": "人工智能公司Anthropic完成史上规模最大IPO，以高于发行区间的价格定价，募资总额远超此前所有纪录，标志着资本市场对AI领域的押注正式从芯片基础设施延伸至前沿模型平台。 周三， Anthropic将其A类普通股IPO定价为每股83美元，高出发行区间上限78美元约6.4%，同时将发行规模从8.25亿股扩大至9.8亿股，扩大约19% 。 分析认为，定价策略是为了让股价像往常一样在IPO后上涨20",
+   "comment": "",
+   "score": 30
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
    "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
    "time": "11-18 11:00",
    "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
