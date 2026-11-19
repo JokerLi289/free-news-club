@@ -1,37 +1,7 @@
 {
- "generated_at": "2026-11-19 12:17",
- "raw_total": 200,
+ "generated_at": "2026-11-19 13:15",
+ "raw_total": 180,
  "items": [
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "SIMQ: A Single Graph-based Index for Multi-Vector Query",
-   "link": "https://arxiv.org/abs/2611.22079",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.22079v1 Announce Type: cross Abstract: Multi-vector retrieval models such as ColBERT achieve state-of-the-art effectiveness by representing documents as sets of token-level vectors and scoring via MaxSim, but their high computational cost limits scalability to large corpora. Existing approximate methods face fundamental bottlenecks: centroid interaction matrix approaches require computing a full matrix at every query and rely on GPU-accelerated clustering, while data-oblivious compression methods yield unstable recall that requires repeated compensation. We propose SIMQ (Single graph Index for Multi-vector Query), a framework that bridges single-vector graph indices and multi-vector retrieval through data-aware sampling-based clustering and per-token graph navigation, simultaneously bypassing all aforementioned bottlenecks. SIMQ organizes all token vectors into fine-grained clusters via data-aware sampling, builds a single graph index over cluster centroids independently of PLAID's residual representation, and approximates the MaxSim score through per-token graph search without materializing any interaction matrix or relying on GPU acceleration. We provide theoretical analysis showing that, under a manifold assumption and successful cell retrieval, data-aware partitioning has a smaller expected approximation error than a data-oblivious partition. Building on this foundation, SIMQ+ further introduces count-based scoring and a dynamic candidate set to improve robustness across varying query conditions. Experiments on five benchmarks compare recall, throughput, and construction time against several baselines, primarily on CPU; large-scale PLAID k-means centroids are built on a separate GPU machine. SIMQ has been integrated into VSAG, an Ant Group's open-source vector search library.",
-   "comment": "",
-   "score": 74
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "MoL-SQL: A Controlled Benchmark for Mixture-of-Language Text-to-SQL",
-   "link": "https://arxiv.org/abs/2611.22333",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.22333v1 Announce Type: new Abstract: Text-to-SQL systems are usually built and evaluated under a monolingual assumption, yet in international applications users often query databases stored in a different language. Existing multilingual benchmarks mostly translate only the question without aligning schema and value entities, so they can neither locate the source of an accuracy drop nor rule out translation errors. Hence, we introduce MoL-SQL, a benchmark for mixture-of-language Text-to-SQL that switches the languages of the question, schema, and stored values independently while keeping each task fixed, and grades every cross-lingual entity mapping into four difficulty levels. We migrate five Text-to-SQL benchmarks of different domains and source languages through a unified alignment pipeline that builds a shared cross-lingual entity map, migrates each database with its constraints, rewrites the gold SQL under execution-equivalence checks, and regenerates the question from the verified SQL, keeping all language versions of a task aligned in entities, intent, and execution result. MoL-SQL provides two splits: MoL-Full (16,892 samples) for overall evaluation and MoL-Cube (3,840 samples) covering every language combination to isolate question, schema, and value effects. Experiments with eight LLMs and four families of Text-to-SQL methods show that schema and value languages have distinct effects, with stored values costing up to 23 points, and that these effects mainly stem from cross-lingual entity mapping. Neither question translation nor additional reasoning narrows the value gap, whereas access to target-database values substantially reduces it, indicating that mixture-of-language Text-to-SQL benefits most from language-aware context grounding.",
-   "comment": "",
-   "score": 67
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Margin Dynamics for Large Language Model Alignment",
-   "link": "https://arxiv.org/abs/2611.21766",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21766v1 Announce Type: new Abstract: Practitioners choose among LLM alignment methods largely by trial and error. We provide a theoretical foundation: each pairwise method defines a vector field on the probability simplex that governs how the model redistributes mass between preferred and dispreferred completions. Projecting onto a single preferred/dispreferred pair reduces this to a one-dimensional margin ODE with a closed-form solution. These solutions reveal that DPO margins grow without bound (logarithmically as $O(\\log t)$ in the gradient-flow limit) while IPO margins converge to a finite $1/(2\\tau)$; that label noise induces a qualitative phase transition in DPO (unbounded $\\to$ bounded) but affects IPO only quantitatively; and that gradient concentration under asymmetric weighting governs trainability at scale. We confirm all three predictions across five model families spanning four benchmarks. The closed-form solutions also enable principled method design: we prove that adding any label smoothing $\\varepsilon > 0$ to SimPO creates a finite margin attractor at $\\Delta^* = \\beta^{-1}\\log((1-\\varepsilon)/\\varepsilon)$, while $\\varepsilon = 0$ (standard SimPO) has no attractor. We test this across three models (8B-9B) and confirm the prediction: the theory-derived configuration (TPO-S, $\\varepsilon = 0.05$) is competitive with the strongest baselines, attaining the highest mean IFEval score among the compared methods on all three, validating that the predicted finite attractor is a usable operating point rather than proposing a new state-of-the-art loss.",
-   "comment": "",
-   "score": 64
-  },
   {
    "group": "快讯",
    "source": "华尔街见闻",
@@ -64,31 +34,11 @@
   },
   {
    "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery",
-   "link": "https://arxiv.org/abs/2611.21847",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21847v1 Announce Type: new Abstract: Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. However, increasing the number of agents or iterations does not automatically translate to producing more diverse or feasible ideas. Agents may converge on similar candidates, propagate unsupported claims through shared memory components and repeatedly apply search strategies that no longer yield any improvements. We introduce Inventa, a framework for automated scientific discovery that employs autonomous research units and verified shared knowledge. Each unit creates a lineage of candidate ideas using a mutator agent. A local orchestrator agent periodically adapts the mutator's harness. When progress stalls, the orchestrator agent replaces its model or restarts the idea evolution process. Verifiers evaluate each candidate idea and record verified improvements, useful components and constraint violations in a shared knowledge, the only channel between units. We evaluate Inventa on five benchmarks spanning the research cycle, covering retrieval (ScholarCatalyst), ideation (IdeaBench), proposal writing (IdeaScientist), and scientific law discovery (EurekaBench, SciLaws-Bench). It leads all five, achieving 73.6% on EurekaBench versus 56.2% for CORAL. On IdeaBench, it discovers 26.0 novel ideas per paper, compared with 18.6 for ResearchAgent, with 82% fewer model calls.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Revisiting Index Performance under High Cache-Miss Penalties",
-   "link": "https://arxiv.org/abs/2611.21835",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21835v1 Announce Type: new Abstract: Modern data-intensive applications often query very large datasets, making index performance critical. Recent index structures exploit the fine-grained access capabilities of emerging storage devices such as DCPMM and CXL. However, existing benchmarks typically evaluate indexes in isolation using saturated, closed-loop workloads that emphasize maximum throughput. Such workloads favor highly concurrent designs while overlooking the application work that follows an index lookup and competes for cache, memory bandwidth, and CPU resources. We present AuxBench - a microbenchmark that evaluates indexes as auxiliary access paths within larger application workloads. Using AuxBench, we evaluate four byte-addressable indexes under controlled post-lookup memory activity, concurrency, and request arrival patterns. Our experiments show that post-lookup memory activity can change the relative performance of competing indexes, that concurrency-oriented designs may lose their advantages when substantial application work is introduced, and that time-varying request arrivals can produce severe tail latency near saturation. These findings demonstrate why index-only benchmarks may not adequately predict performance in larger application workloads",
-   "comment": "",
-   "score": 49
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Pelorus: Warped-Product Graph Indexing for Hyperbolic Vector Search",
-   "link": "https://arxiv.org/abs/2611.22159",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.22159v1 Announce Type: new Abstract: Hyperbolic embeddings capture hierarchical relations, but million-scale approximate nearest neighbor search must reconcile geodesic fidelity with memory efficiency. Flat inner-product indices distort order across radial shells, while native hyperbolic graphs repeatedly access full-precision vectors or quantize coordinates with singular conformal scales. We present Pelorus, a warped-product proximity-graph index for hyperbolic vector search. Pelorus separates unquantized FP32 radial and conformal scalars from scale-invariant 2-bit spherical directional codes and defers full-vector FP64 evaluation to a compact reranking tail. A conformal distortion analysis motivates orthogonal-projection debiasing, purity-gated tangent-cone residuals, and Conformal Jacobian gating. QuadriPrune allocates edges across geodesic fibers, same-shell rings, and radial elevators, with spanning-tree chord swaps restoring entry reachability. A single-page record layout and carry-save AVX2 kernel accelerate traversal. Across eight real and synthetic benchmarks on AMD EPYC 9654, Pelorus builds Cohere-1M indices 5.44x faster than full-precision polar graphs on 32 threads, reducing hot navigation memory to 517.0 MB. At 99% Recall@10, it improves Cohere-1M throughput by 4.30x on one thread and 6.31x on 24 threads, and delivers 53,483 QPS on MERU-1M. On clustered narrow shells, tangent-cone residuals raise recall from 34.22% to 99.385%, while isotropic narrow-shell stress tests expose remaining recall limits.",
+   "title": "Cascadeability and the Realization Gap: An Empirical Study of LLM-Powered Semantic Filtering",
+   "link": "https://arxiv.org/abs/2611.23898",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23898v1 Announce Type: new Abstract: Semantic filters enable natural language predicates over unstructured documents, but evaluating every document with a large language model (LLM) oracle is expensive. Proxy cascades reduce oracle invocations using cheaper surrogates, but oracle reduction alone cannot distinguish proxy limitations from calibration bottlenecks and establish practical efficiency. We present a unified benchmark of four representative systems, which formulate query processing as a three-stage workflow comprising proxy construction, threshold calibration, and cascade inference, using a two-threshold acceptance rule. We introduce cascadeability: the maximum empirical oracle reduction attainable from fixed proxy scores at a specified accuracy target, computed retrospectively using complete oracle labels. We investigate 8 research questions, spanning proxy quality, end-to-end performance, workload sensitivities, and component ablations, and reveal our key findings accordingly. Comparing cascadeability with achieved oracle reduction yields a realization gap that, interpreted alongside accuracy, exposes distinct proxy and calibration bottlenecks. The benchmark and diagnostics support evaluation beyond oracle reduction and motivate joint proxy-calibration design, class-sensitive quality assessment, and end-to-end cost optimization. We release a dataset-query benchmark, containing 10 real-world workloads across various domains and difficulties, with annotations of two LLM families.",
    "comment": "",
    "score": 48
   },
@@ -105,12 +55,22 @@
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Errpedia: Is Your Exact $k$-NN Vector Search Really Exact?",
-   "link": "https://arxiv.org/abs/2611.22474",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.22474v1 Announce Type: new Abstract: Exact $k$-nearest-neighbor ($k$-NN) vector search is a common feature of vector libraries and database systems. It serves applications that require exact results and provides the ground truth for evaluating approximate search. However, floating-point rounding and overflow can cause an exact search to return mathematically incorrect top-$k$ result sets. These errors can go unnoticed and affect downstream tasks that rely on exact results. We present Errpedia, a purpose-built dataset for testing the numerical correctness of exact vector search. Errpedia contains 1,616 queries across 21 error categories, with ground truth independently verified using exact rational arithmetic. We evaluate 20 widely used library and database configurations and find that every tested configuration returns mathematically incorrect top-10 result sets on at least 1 applicable query. Failures include misranking nearly equidistant vectors and returning incomplete results: 1 library omits all 10 exact matches to a query, and several systems return fewer than $k$ neighbors. We release Errpedia as a reproducible benchmark for developers and researchers to test their implementations. The dataset is publicly available at https://github.com/dynos01/errpedia.",
+   "title": "Towards Online Adaptive LLM-based Semantic Filtering",
+   "link": "https://arxiv.org/abs/2611.24518",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.24518v1 Announce Type: new Abstract: Large language models (LLMs) enable semantic filtering over unstructured documents using natural language predicates, but invoking an oracle LLM on every document incurs prohibitive monetary cost and online latency. Existing model-cascade approaches reduce this cost by using a lightweight proxy model to score each document and forwarding only uncertain documents to the oracle. However, their proxy models have limited generalization capability, and they typically adopt fixed sampling budgets for proxy training and threshold calibration, which insufficiently adapts to diverse online queries. To address this, we present OASIS, an online adaptive framework for LLM-based semantic filtering. OASIS combines a query-agnostic document similarity prior with query-adaptive online learning and sampling. In the offline phase, OASIS utilizes query-agnostic document similarity as a prior and constructs a document navigating spread-out graph (NSG) over document embeddings. For each online query, OASIS trains a query-conditioned graph attention network over the document NSG to obtain proxy scores through semi-supervised node classification. To allocate labels effectively, OASIS adopts density-aware active learning to explore uncertain score regions, selectively annotate informative documents, retrain the proxy, and stop early when additional labels are unlikely to improve the cascade. During threshold calibration, OASIS progressively samples an adaptively sized calibration set, adapting calibration cost to the query's score distribution. Extensive experiments demonstrate that OASIS achieves a 1.75x-5.42x reduction in online latency and reduces the number of LLM-processed documents by 35%-75% relative to the state-of-the-art methods at an achieved accuracy of 0.9.",
    "comment": "",
-   "score": 46
+   "score": 47
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Exploring Agentic Visual Analytics: A Co-Evolutionary Framework of Roles and Workflows",
+   "link": "https://arxiv.org/abs/2604.15813",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2604.15813v2 Announce Type: replace Abstract: Agentic visual analytics (VA) represents an emerging class of systems in which large language model (LLM)-driven agents autonomously plan, execute, evaluate, and iterate across the full visual analytics pipeline. By shifting users from low-level tool operations to high-level analytical goals expressed through natural language, these systems are fundamentally transforming how humans interact with data. However, the rapid proliferation of such systems in recent years has outpaced our understanding of their design landscape. Two intertwined problems remain open: how do autonomous agents reshape the traditional VA pipeline, and how must human involvement adapt as agent autonomy increases? To address these questions, this paper presents a comprehensive survey of 55 primary agentic VA systems and introduces a co-evolutionary framework. This framework is essential because it jointly analyzes the progression of agent autonomy alongside the necessary shift in human roles from manual operators to strategic supervisors. Within this framework, we define a role-workflow taxonomy that aligns four key agentic roles (PLANNER, CREATOR, REVIEWER, and CONTEXT MANAGER) and maps them onto established VA pipeline stages. Our analysis uncovers recurring trade-offs along three foundational axes: autonomy levels, agentic roles, and the VA workflow. We consolidate these findings into actionable design guidelines and outline future research directions for agentic visual analytics. A web-based interactive browser of our co-evolutionary framework, including the corpus and design guidelines, is available at agenticva.github.io/AgenticVA/.",
+   "comment": "",
+   "score": 44
   },
   {
    "group": "AI与数据",
@@ -155,40 +115,30 @@
   {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation",
-   "link": "https://arxiv.org/abs/2611.21964",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21964v1 Announce Type: new Abstract: Simulators based on partial differential equations (PDEs) are widely used to model physical systems, but generating and interpreting PDE solver code with large language models (LLMs) remains challenging. Scientific simulation code is a useful testbed for LLM scientific reasoning because (1) one system can be represented by code, equations, natural language, and numerical trajectories and (2) code can execute successfully while implementing invalid physics. We introduce Solver2System, a dataset of PDE solvers with multiple representations, controlled corruptions, and lexical perturbations, to evaluate whether LLMs can recover the underlying physical system through (1) cross-representation consistency and (2) static and agentic detection of physical invalidity. Across eight open-weight models, LLMs systematically favor some representations when evidence conflicts, and lexical perturbations to code alter interpretation of other unchanged representations. Execution improves physical-validity judgments, but weaker agents can judge correctly without identifying the causal defect. Thus, LLMs may reach correct judgments despite inconsistent representation reconciliation or causal misdiagnosis.",
+   "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+   "link": "https://arxiv.org/abs/2611.23388",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23388v1 Announce Type: new Abstract: Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes tens of GPU-hours, and combining methods from different codebases means porting each to the new architecture by hand. We present QDA, a system in which an agent designs the recipe for each model and precision. To make evaluation fast, QDA scores each candidate in minutes by its output KL divergence from the original model on reasoning traces that the agent never sees, and checks promising ones with long generations to catch failures such as repetition loops. To make building fast, QDA provides a library of public PTQ methods that are compatible with one another and with new model architectures. Across four reasoning models, QDA improves accuracy over the strongest public recipe by 0.9, 1.4 and 2.2 percentage points on average at W4A16, W4A8 and W3A16, using 64 GPU-hours per search. On the 320B-parameter MoE model GLM-5.3-Flash at NVFP4 W4A4, it recovers 98.3% of the FP8 model's accuracy, against 96.9% for the best vendor checkpoint. Every QDA checkpoint also runs on existing serving kernels with no inference overhead. We will release the library, the evaluator and the harness.",
    "comment": "",
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "The Value Semantics Layer: Enabling Machine-Understandable Databases for Agentic AI",
+   "link": "https://arxiv.org/abs/2611.23629",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
    "comment": "",
-   "score": 38
+   "score": 40
   },
   {
    "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "FACE: Flow-Guided Angular Channel Estimation Framework for mmWave MIMO Systems",
-   "link": "https://arxiv.org/abs/2611.21698",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21698v1 Announce Type: new Abstract: Acquiring accurate channel state information (CSI) is essential for millimeter-wave (mmWave) multi-input multi-output (MIMO) systems. However, it remains challenging due to high-dimensional channels, limited pilot observations, and measurement noise. To address these challenges, we propose flow-guided angular channel estimation (FACE), a novel channel estimation framework based on flow matching, an emerging generative modeling paradigm that learns continuous transport dynamics between probability distributions. FACE exploits the inherent angular-domain sparsity of mmWave channels and incorporates the learned flow matching model as a generative channel prior. Numerical results show that FACE consistently achieves higher channel estimation accuracy than both conventional estimators and diffusion-based generative estimator across diverse channel and system configurations. Moreover, FACE maintains high estimation accuracy with fewer pilot observations and achieves an average achievable rate close to the perfect-CSI benchmark. Compared with diffusion-based estimation, FACE requires substantially fewer sampling steps while achieving superior or comparable estimation accuracy, reducing inference time and computational cost. Overall, the proposed framework demonstrates the potential of flow matching for accurate, pilot-efficient, and computationally efficient mmWave MIMO channel estimation.",
-   "comment": "",
-   "score": 36
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
+   "source": "arXiv cs.DB",
+   "title": "ProvCards: Artifact-Oriented Provenance for Heterogeneous Scientific Workflows",
+   "link": "https://arxiv.org/abs/2611.24894",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.24894v1 Announce Type: new Abstract: Reproducibility in scientific workflows is hindered by heterogeneous components and execution environments, as well as fragmented provenance capture. Although existing approaches offer established semantics and workflow-specific solutions, provenance remains difficult to capture, exchange, and compose across workflow boundaries. We present ProvCards, an artifact-oriented approach that treats provenance as a first-class artifact grounded in the W3C PROV Data Model. Individual workflow components can generate cards that are stored, exchanged, reused, and composed independently of any workflow system or centralized execution context. ProvDecks group related cards into portable scopes while preserving their identities. ProvGraphs provide derived views for provenance reconstruction, querying, visualization, and analysis. Together, these representations support coherent, task-specific provenance views across heterogeneous components, facilitating traceability, reuse, and reproducibility. We implement ProvCards using a graph-based infrastructure and evaluate them in a scientific data-processing workflow. The results demonstrate independent provenance capture at the component level, composition across component boundaries, and reconstruction for querying and analysis. ProvCards provide a portable, composable, and incrementally extensible foundation for provenance management in heterogeneous scientific workflows.",
    "comment": "",
    "score": 35
   },
@@ -215,12 +165,12 @@
   {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Regularized Score Centering",
-   "link": "https://arxiv.org/abs/2611.21791",
-   "time": "11-18 05:00",
-   "summary": "arXiv:2611.21791v1 Announce Type: new Abstract: Asynchronous reinforcement learning increases training throughput, but data from stale policies and numerical mismatch between training and inference can destabilize learning. To stabilize off-policy learning, score centering (SC) removes the effect of reward baselines on the expected update. Our gradient diagnostics show less extreme gradients with SC than with importance sampling (IS), but SC can still fail when the learner moves far from the behavior policy that generated the data. To limit this policy mismatch, we introduce Regularized Score Centering (RSC), which adds a reverse Kullback-Leibler (KL) penalty to encourage the learner's next-token distribution to stay close to the behavior policy's next-token distribution. RSC works with or without truncated importance sampling (TIS), which caps token importance weights. Our theoretical analysis supports this approach, showing that KL regularization improves convergence guarantees. We evaluate dense and mixture-of-experts models on mathematical reasoning and agentic tasks, including online shopping, tool use, games, and fully asynchronous software engineering. RSC with TIS substantially improves sample efficiency across all agentic benchmarks, attaining higher training rewards with the same number of sampled responses. In final evaluations, it achieves top performance across all six agentic tasks, improving by 14.3% on AppWorld and reaching 9.9 times the strongest baseline's score on BabyAI.",
+   "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
+   "link": "https://arxiv.org/abs/2611.23342",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23342v1 Announce Type: new Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain knowledge with graph-structured learning. Data quality is formulated as a continuous confidence estimation problem rather than a binary anomaly identification task, enabling sample-level assessment and historical-reference-based batch comparison. A nine-dimensional feature-quality prior and duplicate-aware sample initialization are calibrated using materials domain rules and statistical evidence. Confidence is further refined through sample-feature bipartite graph propagation and weakly supervised graph attention, while a Memory-GAT module provides historical reference scoring. Experiments on 23 ODDS benchmark datasets show that the generic module achieves an average AUC-ROC of 0.866. In five repeated mixed-contamination experiments on mp\\_20, rule calibration improves HistGradientBoostingRegressor test $R^2$ from $0.538\\pm0.008$ to $0.616\\pm0.014$. Graph refinement increases average precision from $0.943\\pm0.004$ to 0.953\\pm0.004$, while the rule-calibrated configuration has the highest mean test $R^2$ among the evaluated screening configurations. Five repeated MACE subset experiments further show an increase in $R^2$ from $0.590\\pm0.053$ to $0.880\\pm0.027$ after rule-based screening.",
    "comment": "",
-   "score": 32
+   "score": 31
   },
   {
    "group": "快讯",
@@ -244,16 +194,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
    "source": "Latent Space",
    "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
    "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
@@ -269,6 +209,36 @@
    "link": "https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering",
    "time": "11-18 21:59",
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Implementing Binary Transformers with Approximate Memories with Permutation Invariance Enabled Selective (PIES) Protection",
+   "link": "https://arxiv.org/abs/2611.23358",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23358v1 Announce Type: new Abstract: Quantization is an effective technique to reduce memory storage, computation complexity and power for Transformers, and the binarization of the weights is important for meeting these requirements. Approximate memory can further reduce the power for memory, but it also introduces errors. Current research for binary Transformers focuses on task performance, but the model dependable operation against errors on the memory has not been well studied. In this paper, we first evaluate the dependability of binary Transformers with the Bidirectional Encoder Representations from Transformers (BERT) as a case study. A large accuracy loss occurs only at high Bit Error Rates (e.g. BER = 5% or 10%). Then we propose a novel Permutation Invariance Enabled Selective (PIES) scheme to protect the binary weights at very low overhead. This scheme exploits the invariance of Transformers to permutations in the rows and columns to group the critical weights and perform selective protection on those weights. Simulation results show that PIES can recover most of the performance loss caused by bit errors at BERs as high as 10%, at an overhead significantly lower than traditional error correction schemes. These results confirm the feasibility of running binary Transformers using approximate memory with aggressive voltage scaling on resource-limited low power edge devices. The code for PIES is released on github (https://github.com/YangZhutian/binary-transformer-prefix-repair).",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "TRACE-MAS: Diagnosing and Repairing Collaboration Failures in Multi-Agent Systems",
+   "link": "https://arxiv.org/abs/2611.23362",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23362v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) rely on not only individual agent behaviors but also the interactions that connect agents, including message exchanges and task dependencies. Existing MAS safeguards mainly perform agent-level anomaly detection, which becomes insufficient when failures originate from agent interactions and detected anomalies do not necessarily reveal their true sources. To address this limitation, we propose \\textbf{TRACE-MAS}, a finer-grained framework for diagnosing and repairing MAS failures. TRACE-MAS learns normal collaborative execution patterns from benign trajectories and detects deviations in agent state changes, message transitions, and task dependency evolutions. It further identifies responsible execution elements through source-aware attribution and selects minimal interventions to restore collaboration while preserving task-critical capabilities. Experiments on five MAS benchmarks demonstrate that TRACE-MAS significantly improves root-cause localization accuracy by \\textbf{60.2}\\% and achieves consistent gains in task recovery over strong MAS safeguards.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Stability Does Not Mirror Plasticity: A Module-Level View of Declarative and Procedural Learning in Transformers",
+   "link": "https://arxiv.org/abs/2611.23427",
+   "time": "11-19 05:00",
+   "summary": "arXiv:2611.23427v1 Announce Type: new Abstract: Plasticity and stability in continual learning are typically studied at the entire-model level and in a task-agnostic manner, yet prior work has reported divergent conclusions across settings. Inspired by cognitive distinctions between declarative and procedural memory, we instead study how plasticity and stability vary across transformer modules and task types. In a controlled synthetic environment with clean measurement, we show a double dissociation: query-key (QK) and value-output (VO) projections are the most plastic on procedural tasks, whereas MLPs are the most plastic on declarative memorization. Stability, however, does not simply mirror plasticity: when learning a new procedure, updating QK retains over half of the stored declarative memory, while updating MLPs retains far less and updating VO loses roughly four-fifths. Targeted module reset-and-recovery experiments explain this asymmetry: plasticity tracks which module is best suited to a task's primary computation or storage, whereas stability depends on all ways the existing capability relies on that module, including access to information stored in other modules. Experiments on a realistic model and tasks broadly echo these asymmetric dynamics. Overall, our work shows that plasticity and stability depend on different aspects of a module's functional role, offering a task-dependent, module-level perspective on continual learning.",
    "comment": "",
    "score": 30
   },
