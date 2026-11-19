@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19 19:14",
+ "generated_at": "2026-11-19 20:20",
  "raw_total": 180,
  "items": [
   {
@@ -43,16 +43,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "网易Q3营收同比下降1.8%，毛利率升至68.3%，游戏业务盈利能力改善｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786281",
-   "time": "11-19 09:40",
-   "summary": "网易第三季度业绩呈现出收入小幅回落、盈利能力改善的特点。尽管游戏业务受到产品周期波动影响，整体收入略有承压，但公司通过优化成本结构、控制经营费用，推动毛利率进一步提升，利润端展现出较强韧性。 周四公布的财报显示， 网易第三季度实现净收入279亿元，同比下降1.8%；毛利润190亿元，同比增长4.8%，毛利率由去年同期的约64.1%提升至68.3%。 归属于公司股东的净利润为84亿元，非GAAP净利",
-   "comment": "",
-   "score": 45
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Exploring Agentic Visual Analytics: A Co-Evolutionary Framework of Roles and Workflows",
@@ -61,16 +51,6 @@
    "summary": "arXiv:2604.15813v2 Announce Type: replace Abstract: Agentic visual analytics (VA) represents an emerging class of systems in which large language model (LLM)-driven agents autonomously plan, execute, evaluate, and iterate across the full visual analytics pipeline. By shifting users from low-level tool operations to high-level analytical goals expressed through natural language, these systems are fundamentally transforming how humans interact with data. However, the rapid proliferation of such systems in recent years has outpaced our understanding of their design landscape. Two intertwined problems remain open: how do autonomous agents reshape the traditional VA pipeline, and how must human involvement adapt as agent autonomy increases? To address these questions, this paper presents a comprehensive survey of 55 primary agentic VA systems and introduces a co-evolutionary framework. This framework is essential because it jointly analyzes the progression of agent autonomy alongside the necessary shift in human roles from manual operators to strategic supervisors. Within this framework, we define a role-workflow taxonomy that aligns four key agentic roles (PLANNER, CREATOR, REVIEWER, and CONTEXT MANAGER) and maps them onto established VA pipeline stages. Our analysis uncovers recurring trade-offs along three foundational axes: autonomy levels, agentic roles, and the VA workflow. We consolidate these findings into actionable design guidelines and outline future research directions for agentic visual analytics. A web-based interactive browser of our co-evolutionary framework, including the corpus and design guidelines, is available at agenticva.github.io/AgenticVA/.",
    "comment": "",
    "score": 44
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "快手Q3经调整净利润下降84%，AI平台万擎收入环比增长90%，AI持续投入或影响四季度盈利｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786276",
-   "time": "11-19 09:00",
-   "summary": "快手第三季度营收和利润同比回落，AI相关投入则进一步增加，短期盈利面临压力。 公司当季实现收入316亿元，同比下降11.1%；经调整净利润为7.9亿元，同比下降84.2%，但高于市场预期的7.088亿元。 前三季度，快手累计实现收入1008亿元，同比下降2.3%；经调整净利润80.77亿元，同比下降46.8%。收入和利润均较去年同期有所回落，反映出核心业务增长承压，以及AI相关投入对短期盈利的影响",
-   "comment": "",
-   "score": 43
   },
   {
    "group": "AI与数据",
@@ -83,16 +63,6 @@
    "score": 43
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "A股三大股指齐跌，科创50逆势涨近2%，华虹、中芯国际双双大涨，恒科指跌超2%，腾讯跌超6%",
-   "link": "https://wallstreetcn.com/articles/3786248",
-   "time": "11-19 08:34",
-   "summary": "腾讯周四大跌超6%，此前 最新财报 显示，WorkBuddy日活突破1000万，最近七天年化收入超5亿美元，三季度收入是二季度的5倍以上；云业务收入增速从21%加快至35%，模型即服务收入环比增长超三倍。与此同时，资本开支激增至814亿元、自由现金流净流出691亿元。联想午后一度大跌超10%，最新财报显示，营收超预期，二季度净亏损6.40亿美元，上年同期收益3.403亿美元，预估亏损3800万美元",
-   "comment": "",
-   "score": 42
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "LLM Powered Autonomous Agents",
@@ -101,6 +71,46 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "拼多多Q3营收1083亿元不及预期，经营利润同比增长25%，盘前涨超8%｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786292",
+   "time": "11-19 11:53",
+   "summary": "拼多多第三季度营收基本持平且低于市场预期，但调整后每ADS收益超预期。尽管收入增长放缓，费用支出收缩仍推动公司经营利润实现两位数增长，但净利润基本持平。 11月19日，拼多多公布截至2026年9月30日的第三季度未经审计财务业绩。 公司当季实现营收1083.41亿元人民币，同比增长约0.1%，低于市场预估的1152.1亿元；Non-GAAP摊薄每ADS收益为21.04元，高于市场预估的18.54元",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "网易Q3营收同比下降1.8%，毛利率升至68.3%，游戏业务盈利能力改善｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786281",
+   "time": "11-19 09:40",
+   "summary": "网易第三季度业绩呈现出收入小幅回落、盈利能力改善的特点。尽管游戏业务受到产品周期波动影响，整体收入略有承压，但公司通过优化成本结构、控制经营费用，推动毛利率进一步提升，利润端展现出较强韧性。 周四公布的财报显示， 网易第三季度实现净收入279亿元，同比下降1.8%；毛利润190亿元，同比增长4.8%，毛利率由去年同期的约64.1%提升至68.3%。 归属于公司股东的净利润为84亿元，非GAAP净利",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "快手Q3经调整净利润下降84%，AI平台万擎收入环比增长90%，AI持续投入或影响四季度盈利｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786276",
+   "time": "11-19 09:00",
+   "summary": "快手第三季度营收和利润同比回落，AI相关投入则进一步增加，短期盈利面临压力。 公司当季实现收入316亿元，同比下降11.1%；经调整净利润为7.9亿元，同比下降84.2%，但高于市场预期的7.088亿元。 前三季度，快手累计实现收入1008亿元，同比下降2.3%；经调整净利润80.77亿元，同比下降46.8%。收入和利润均较去年同期有所回落，反映出核心业务增长承压，以及AI相关投入对短期盈利的影响",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "A股三大股指齐跌，科创50逆势涨近2%，华虹、中芯国际双双大涨，恒科指跌超2%，腾讯跌超6%",
+   "link": "https://wallstreetcn.com/articles/3786248",
+   "time": "11-19 08:34",
+   "summary": "腾讯周四大跌超6%，此前 最新财报 显示，WorkBuddy日活突破1000万，最近七天年化收入超5亿美元，三季度收入是二季度的5倍以上；云业务收入增速从21%加快至35%，模型即服务收入环比增长超三倍。与此同时，资本开支激增至814亿元、自由现金流净流出691亿元。联想午后一度大跌超10%，最新财报显示，营收超预期，二季度净亏损6.40亿美元，上年同期收益3.403亿美元，预估亏损3800万美元",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -141,16 +151,6 @@
    "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
    "comment": "",
    "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "阿里Q3净利润同比大增213%，云业务收入增长53%，AI投入推动资本开支增60%、负现金流扩大｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786285",
-   "time": "11-19 10:15",
-   "summary": "阿里巴巴AI商业化进程持续提速，云业务增长与电商盈利改善成为本季度业绩的两大亮点。2027财年第二季度（对应2026年第三自然季度），公司云业务AI相关产品收入连续第十三个季度实现三位数增长，外部客户经常性收入增速升至67%；与此同时，即时零售业务亏损显著收窄，推动电商板块盈利能力大幅提升。 财报显示， 截至2026年9月30日的季度，阿里巴巴实现收入2715.19亿元人民币，同比增长10%；调整",
-   "comment": "",
-   "score": 37
   },
   {
    "group": "学术",
