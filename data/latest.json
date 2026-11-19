@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-20 00:16",
+ "generated_at": "2026-11-20 03:11",
  "raw_total": 180,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储副主席杰斐逊：目前AI热潮正推高通胀，未来生产率提升或推动物价下降",
-   "link": "https://wallstreetcn.com/articles/3786305",
-   "time": "11-19 15:32",
-   "summary": "美联储副主席菲利普·杰斐逊（Philip Jefferson）周四表示，快速推进的人工智能（AI）基础设施建设正通过拉动需求对美国通胀施加上行压力，而有助于缓解价格压力的潜在生产率提升则要到“未来”才会出现。 杰斐逊在向巴西央行一场会议提交的预先准备好的演讲稿中表示，AI热潮可能同时影响需求和供给、但冲击发生时间点不同。 杰斐逊说： “在需求端，对该技术的乐观情绪一直在推高企业在数据中心、先进计算",
-   "comment": "",
-   "score": 49
-  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -51,6 +41,16 @@
    "summary": "arXiv:2611.24518v1 Announce Type: new Abstract: Large language models (LLMs) enable semantic filtering over unstructured documents using natural language predicates, but invoking an oracle LLM on every document incurs prohibitive monetary cost and online latency. Existing model-cascade approaches reduce this cost by using a lightweight proxy model to score each document and forwarding only uncertain documents to the oracle. However, their proxy models have limited generalization capability, and they typically adopt fixed sampling budgets for proxy training and threshold calibration, which insufficiently adapts to diverse online queries. To address this, we present OASIS, an online adaptive framework for LLM-based semantic filtering. OASIS combines a query-agnostic document similarity prior with query-adaptive online learning and sampling. In the offline phase, OASIS utilizes query-agnostic document similarity as a prior and constructs a document navigating spread-out graph (NSG) over document embeddings. For each online query, OASIS trains a query-conditioned graph attention network over the document NSG to obtain proxy scores through semi-supervised node classification. To allocate labels effectively, OASIS adopts density-aware active learning to explore uncertain score regions, selectively annotate informative documents, retrain the proxy, and stop early when additional labels are unlikely to improve the cascade. During threshold calibration, OASIS progressively samples an adaptively sized calibration set, adapting calibration cost to the query's score distribution. Extensive experiments demonstrate that OASIS achieves a 1.75x-5.42x reduction in online latency and reduces the number of LLM-processed documents by 35%-75% relative to the state-of-the-art methods at an achieved accuracy of 0.9.",
    "comment": "",
    "score": 47
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储副主席杰斐逊：目前AI热潮正推高通胀，未来生产率提升或推动物价下降",
+   "link": "https://wallstreetcn.com/articles/3786305",
+   "time": "11-19 15:32",
+   "summary": "美联储副主席菲利普·杰斐逊（Philip Jefferson）周四表示，快速推进的人工智能（AI）基础设施建设正通过拉动需求对美国通胀施加上行压力，而有助于缓解价格压力的潜在生产率提升则要到“未来”才会出现。 杰斐逊在向巴西央行一场会议提交的预先准备好的演讲稿中表示，AI热潮可能同时影响需求和供给、但冲击发生时间点不同。 杰斐逊说： “在需求端，对该技术的乐观情绪一直在推高企业在数据中心、先进计算",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "学术",
@@ -123,16 +123,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
-   "link": "https://wallstreetcn.com/articles/3786262",
-   "time": "11-19 06:57",
-   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
@@ -151,6 +141,16 @@
    "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
    "comment": "",
    "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "史上最大IPO落地！Anthropic首秀开盘涨34%、市值突破2万亿",
+   "link": "https://wallstreetcn.com/articles/3786269",
+   "time": "11-19 17:53",
+   "summary": "AI独角兽又一次创造历史。Anthropic刷新了SpaceX五个月前才创下的上市募资纪录，正式登陆美股，开盘大涨幅度超过此前暗盘预计的最高涨幅，一度将公司市值推升至2万亿美元以上、超过SpaceX首秀时，不过随着股价盘中回吐涨幅，市值回落到1.5万亿美元以内。 美东时间11月19日周四，Anthropic以ANT为股票代码正式在纳斯达克挂牌交易，开盘报111.50美元，较IPO发行价涨约34.3",
+   "comment": "",
+   "score": 38
   },
   {
    "group": "学术",
@@ -270,7 +270,7 @@
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
-   "score": 28
+   "score": 27
   },
   {
    "group": "AI与数据",
@@ -300,7 +300,7 @@
    "time": "11-18 13:00",
    "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
    "comment": "",
-   "score": 20
+   "score": 19
   },
   {
    "group": "财经深度",
@@ -310,7 +310,7 @@
    "time": "11-16 04:27",
    "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 17
+   "score": 16
   }
  ]
 }
