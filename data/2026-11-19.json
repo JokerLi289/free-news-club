@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19 07:13",
+ "generated_at": "2026-11-19 09:15",
  "raw_total": 180,
  "items": [
   {
@@ -31,6 +31,16 @@
    "summary": "arXiv:2611.21766v1 Announce Type: new Abstract: Practitioners choose among LLM alignment methods largely by trial and error. We provide a theoretical foundation: each pairwise method defines a vector field on the probability simplex that governs how the model redistributes mass between preferred and dispreferred completions. Projecting onto a single preferred/dispreferred pair reduces this to a one-dimensional margin ODE with a closed-form solution. These solutions reveal that DPO margins grow without bound (logarithmically as $O(\\log t)$ in the gradient-flow limit) while IPO margins converge to a finite $1/(2\\tau)$; that label noise induces a qualitative phase transition in DPO (unbounded $\\to$ bounded) but affects IPO only quantitatively; and that gradient concentration under asymmetric weighting governs trainability at scale. We confirm all three predictions across five model families spanning four benchmarks. The closed-form solutions also enable principled method design: we prove that adding any label smoothing $\\varepsilon > 0$ to SimPO creates a finite margin attractor at $\\Delta^* = \\beta^{-1}\\log((1-\\varepsilon)/\\varepsilon)$, while $\\varepsilon = 0$ (standard SimPO) has no attractor. We test this across three models (8B-9B) and confirm the prediction: the theory-derived configuration (TPO-S, $\\varepsilon = 0.05$) is competitive with the strongest baselines, attaining the highest mean IFEval score among the compared methods on all three, validating that the predicted finite attractor is a usable operating point rather than proposing a new state-of-the-art loss.",
    "comment": "",
    "score": 64
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "金属崩了！金银铜齐跌",
+   "link": "https://wallstreetcn.com/articles/3786224",
+   "time": "11-19 01:00",
+   "summary": "11月18日周三，全球金属市场遭遇猛烈抛售，铜等工业金属与贵金属金银集体大跌。盘中纽约期铜和伦铜跌近6%、纽约期金跌超3%、期银跌超5%。 这轮下跌既受到美联储加息预期升温的冲击，也反映出市场对AI基础设施投资前景和全球工业需求的担忧。此前支撑金属价格上涨的多头交易正在松动，美元走强、资金获利了结和技术性抛售则进一步放大跌势。 与此同时， 市场传言此轮抛售还与Anthropic（ANT）IPO的资",
+   "comment": "",
+   "score": 58
   },
   {
    "group": "快讯",
@@ -71,16 +81,6 @@
    "summary": "arXiv:2611.21847v1 Announce Type: new Abstract: Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. However, increasing the number of agents or iterations does not automatically translate to producing more diverse or feasible ideas. Agents may converge on similar candidates, propagate unsupported claims through shared memory components and repeatedly apply search strategies that no longer yield any improvements. We introduce Inventa, a framework for automated scientific discovery that employs autonomous research units and verified shared knowledge. Each unit creates a lineage of candidate ideas using a mutator agent. A local orchestrator agent periodically adapts the mutator's harness. When progress stalls, the orchestrator agent replaces its model or restarts the idea evolution process. Verifiers evaluate each candidate idea and record verified improvements, useful components and constraint violations in a shared knowledge, the only channel between units. We evaluate Inventa on five benchmarks spanning the research cycle, covering retrieval (ScholarCatalyst), ideation (IdeaBench), proposal writing (IdeaScientist), and scientific law discovery (EurekaBench, SciLaws-Bench). It leads all five, achieving 73.6% on EurekaBench versus 56.2% for CORAL. On IdeaBench, it discovers 26.0 novel ideas per paper, compared with 18.6 for ResearchAgent, with 82% fewer model calls.",
    "comment": "",
    "score": 50
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达拖累美股，标普五连跌，纳指逆势微涨，网络安全股票大涨，黄金重挫创十四个月新低",
-   "link": "https://wallstreetcn.com/articles/3786169",
-   "time": "11-18 22:59",
-   "summary": "英伟达财报后涨势骤然逆转，叠加美联储会议纪要释放鹰派信号，美股周三承压走低，标普500指数连续第五个交易日下跌。能源、医疗板块跌幅居前，纳指靠亚马逊等少数权重收涨。 道指 收跌1.1%， 标普500指数 下跌0.2%、未能重新站上200日均线， 纳指 逆势收涨0.4%。 英伟达股价单日下跌约3%，抹去了财报公布后的盘中涨幅。 尽管公司季度业绩超出分析师预期，并上调了营收指引，但联合创始人黄仁勋离职",
-   "comment": "",
-   "score": 49
   },
   {
    "group": "学术",
@@ -145,12 +145,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "金属崩了！盘中期铜跌近6%、期银跌超5%，加息预期叠加AI交易降温痛击",
-   "link": "https://wallstreetcn.com/articles/3786224",
-   "time": "11-18 19:52",
-   "summary": "11月18日周三，全球金属市场遭遇猛烈抛售，铜等工业金属与贵金属金银集体大跌。盘中纽约期铜和伦铜跌近6%、纽约期金跌超3%、期银跌超5%。 这轮下跌既受到美联储加息预期升温的冲击，也反映出市场对AI基础设施投资前景和全球工业需求的担忧。此前支撑金属价格上涨的多头交易正在松动，美元走强、资金获利了结和技术性抛售则进一步放大跌势。 伦铜收创七个月新低 AI交易降温成为关键导火索 工业金属方面，铜价周三",
+   "title": "英伟达拖累美股，标普五连跌，纳指逆势微涨，网络安全股票大涨，黄金重挫创十四个月新低",
+   "link": "https://wallstreetcn.com/articles/3786169",
+   "time": "11-18 22:59",
+   "summary": "英伟达财报后涨势骤然逆转，叠加美联储会议纪要释放鹰派信号，美股周三承压走低，标普500指数连续第五个交易日下跌。能源、医疗板块跌幅居前，纳指靠亚马逊等少数权重收涨。 道指 收跌1.1%， 标普500指数 下跌0.2%、未能重新站上200日均线， 纳指 逆势收涨0.4%。 英伟达股价单日下跌约3%，抹去了财报公布后的盘中涨幅。 尽管公司季度业绩超出分析师预期，并上调了营收指引，但联合创始人黄仁勋离职",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "快讯",
@@ -173,6 +173,16 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "史上最大IPO周四上市！Anthropic定价83美元，募资超1070亿美元、估值1.5万亿",
+   "link": "https://wallstreetcn.com/articles/3786222",
+   "time": "11-19 00:43",
+   "summary": "人工智能公司Anthropic完成史上规模最大IPO，以高于发行区间的价格定价，募资总额远超此前所有纪录，标志着资本市场对AI领域的押注正式从芯片基础设施延伸至前沿模型平台。 周三， Anthropic将其A类普通股IPO定价为每股83美元，高出发行区间上限78美元约6.4%，同时将发行规模从8.25亿股扩大至9.8亿股，扩大约19% 。 分析认为，定价策略是为了让股价像往常一样在IPO后上涨20",
+   "comment": "",
+   "score": 37
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "FACE: Flow-Guided Angular Channel Estimation Framework for mmWave MIMO Systems",
@@ -181,16 +191,6 @@
    "summary": "arXiv:2611.21698v1 Announce Type: new Abstract: Acquiring accurate channel state information (CSI) is essential for millimeter-wave (mmWave) multi-input multi-output (MIMO) systems. However, it remains challenging due to high-dimensional channels, limited pilot observations, and measurement noise. To address these challenges, we propose flow-guided angular channel estimation (FACE), a novel channel estimation framework based on flow matching, an emerging generative modeling paradigm that learns continuous transport dynamics between probability distributions. FACE exploits the inherent angular-domain sparsity of mmWave channels and incorporates the learned flow matching model as a generative channel prior. Numerical results show that FACE consistently achieves higher channel estimation accuracy than both conventional estimators and diffusion-based generative estimator across diverse channel and system configurations. Moreover, FACE maintains high estimation accuracy with fewer pilot observations and achieves an average achievable rate close to the perfect-CSI benchmark. Compared with diffusion-based estimation, FACE requires substantially fewer sampling steps while achieving superior or comparable estimation accuracy, reducing inference time and computational cost. Overall, the proposed framework demonstrates the potential of flow matching for accurate, pilot-efficient, and computationally efficient mmWave MIMO channel estimation.",
    "comment": "",
    "score": 36
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "塔吉特Q3营收与利润双双超预期，同店销售增长5.6%，年内第三次上调全年指引｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786228",
-   "time": "11-18 20:48",
-   "summary": "塔吉特（Target Corp.）的复苏势头正在加速，今年股价已经累涨近80%。 11月18日周三美股盘前，大型零售商塔吉特公布截至10月31日的第三财季业绩， 同店可比销售额增长5.6%，营收和每股收益均超出分析师预期，并第三次上调全年业绩指引。 TD Cowen分析师Max Rakhlenko在周三的报告中写道， 塔吉特整体业绩\"相当稳健，各部门表现持续改善，为后续进一步调整奠定了基础\"。 财",
-   "comment": "",
-   "score": 34
   },
   {
    "group": "AI与数据",
