@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-19 16:20",
+ "generated_at": "2026-11-19 17:16",
  "raw_total": 180,
  "items": [
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "2027“超级美元”？",
-   "link": "https://wallstreetcn.com/articles/3786270",
-   "time": "11-19 08:10",
-   "summary": "人工智能热潮重塑全球资金流向，美元高位徘徊，但脆弱的支撑结构令超级美元前景充满变数。 据追风交易台消息， 德意志银行在最新外汇展望报告中大幅上调2027年美元预测，承认此前对美元走弱的判断落空。 AI热潮推高美国实际利率、吸引海量股权资金流入、重燃通胀压力并促使美联储转向鹰派，共同铸就了当前的\"AI美元\"格局。美元已较过去四年均值高出逾20%，依据三项基本面估值指标均居G10最贵货币之列。 德意志",
+   "title": "A股三大股指齐跌，科创50逆势涨近2%，华虹、中芯国际双双大涨，恒科指跌超2%，腾讯跌超6%",
+   "link": "https://wallstreetcn.com/articles/3786248",
+   "time": "11-19 08:34",
+   "summary": "腾讯周四大跌超6%，此前 最新财报 显示，WorkBuddy日活突破1000万，最近七天年化收入超5亿美元，三季度收入是二季度的5倍以上；云业务收入增速从21%加快至35%，模型即服务收入环比增长超三倍。与此同时，资本开支激增至814亿元、自由现金流净流出691亿元。联想午后一度大跌超10%，最新财报显示，营收超预期，二季度净亏损6.40亿美元，上年同期收益3.403亿美元，预估亏损3800万美元",
    "comment": "",
    "score": 50
   },
@@ -33,6 +33,16 @@
    "score": 49
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "2027“超级美元”？",
+   "link": "https://wallstreetcn.com/articles/3786270",
+   "time": "11-19 08:10",
+   "summary": "人工智能热潮重塑全球资金流向，美元高位徘徊，但脆弱的支撑结构令超级美元前景充满变数。 据追风交易台消息， 德意志银行在最新外汇展望报告中大幅上调2027年美元预测，承认此前对美元走弱的判断落空。 AI热潮推高美国实际利率、吸引海量股权资金流入、重燃通胀压力并促使美联储转向鹰派，共同铸就了当前的\"AI美元\"格局。美元已较过去四年均值高出逾20%，依据三项基本面估值指标均居G10最贵货币之列。 德意志",
+   "comment": "",
+   "score": 48
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Cascadeability and the Realization Gap: An Empirical Study of LLM-Powered Semantic Filtering",
@@ -41,16 +51,6 @@
    "summary": "arXiv:2611.23898v1 Announce Type: new Abstract: Semantic filters enable natural language predicates over unstructured documents, but evaluating every document with a large language model (LLM) oracle is expensive. Proxy cascades reduce oracle invocations using cheaper surrogates, but oracle reduction alone cannot distinguish proxy limitations from calibration bottlenecks and establish practical efficiency. We present a unified benchmark of four representative systems, which formulate query processing as a three-stage workflow comprising proxy construction, threshold calibration, and cascade inference, using a two-threshold acceptance rule. We introduce cascadeability: the maximum empirical oracle reduction attainable from fixed proxy scores at a specified accuracy target, computed retrospectively using complete oracle labels. We investigate 8 research questions, spanning proxy quality, end-to-end performance, workload sensitivities, and component ablations, and reveal our key findings accordingly. Comparing cascadeability with achieved oracle reduction yields a realization gap that, interpreted alongside accuracy, exposes distinct proxy and calibration bottlenecks. The benchmark and diagnostics support evaluation beyond oracle reduction and motivate joint proxy-calibration design, class-sensitive quality assessment, and end-to-end cost optimization. We release a dataset-query benchmark, containing 10 real-world workloads across various domains and difficulties, with annotations of two LLM families.",
    "comment": "",
    "score": 48
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
-   "link": "https://wallstreetcn.com/articles/3786262",
-   "time": "11-19 06:57",
-   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
-   "comment": "",
-   "score": 47
   },
   {
    "group": "财经深度",
@@ -83,6 +83,16 @@
    "score": 44
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
+   "link": "https://wallstreetcn.com/articles/3786262",
+   "time": "11-19 06:57",
+   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
+   "comment": "",
+   "score": 43
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -103,16 +113,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达拖累美股，标普五连跌，纳指逆势微涨，网络安全股票大涨，黄金重挫创十四个月新低",
-   "link": "https://wallstreetcn.com/articles/3786169",
-   "time": "11-18 22:59",
-   "summary": "英伟达财报后涨势骤然逆转，叠加美联储会议纪要释放鹰派信号，美股周三承压走低，标普500指数连续第五个交易日下跌。能源、医疗板块跌幅居前，纳指靠亚马逊等少数权重收涨。 道指 收跌1.1%， 标普500指数 下跌0.2%、未能重新站上200日均线， 纳指 逆势收涨0.4%。 英伟达股价单日下跌约3%，抹去了财报公布后的盘中涨幅。 尽管公司季度业绩超出分析师预期，并上调了营收指引，但联合创始人黄仁勋离职",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
@@ -131,6 +131,16 @@
    "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
    "comment": "",
    "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "版权、流量与AI：在线音乐平台迎来新战事",
+   "link": "https://wallstreetcn.com/articles/3786271",
+   "time": "11-19 07:45",
+   "summary": "音乐平台从未像今天这样不缺新歌，但下一个能够持续创造商业价值的音乐明星，依然难寻。 11月17日，腾讯音乐公布2026年第三季度财报，营收89.41亿元，同比增长5.6%，低于市场一致预期。 依靠高阶会员、演唱会和艺人周边，这家在线音乐巨头正进一步挖掘成熟IP的商业价值，但主力产品的用户活跃度仍然承压。 存量IP的生意越做越深，新音乐的竞争规则也在发生变化。 今年8月，腾讯音乐曲库版权高级总监李玲",
+   "comment": "",
+   "score": 36
   },
   {
    "group": "学术",
@@ -169,16 +179,6 @@
    "link": "https://wallstreetcn.com/articles/3786247",
    "time": "11-19 02:43",
    "summary": "传奇投资人德鲁肯米勒（Stan Druckenmiller）公开表示，他目前几乎清空了权益仓位，进入“资本保全模式”——这是他50年投资生涯中罕见的主动退场。 2026年11月18日，德鲁肯米勒在德克萨斯州奥斯汀举行的TomorrowX峰会上，与摩根士丹利全球衍生品业务负责人Iliana Bouzali对谈。他直言，今天的宏观环境与今年1月相比“完全翻转”：美联储从降息转向加息、大宗商品由涨转跌、",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "史上最大IPO周四上市！Anthropic定价83美元，募资超1070亿美元、估值1.5万亿",
-   "link": "https://wallstreetcn.com/articles/3786222",
-   "time": "11-19 00:43",
-   "summary": "人工智能公司Anthropic完成史上规模最大IPO，以高于发行区间的价格定价，募资总额远超此前所有纪录，标志着资本市场对AI领域的押注正式从芯片基础设施延伸至前沿模型平台。 周三， Anthropic将其A类普通股IPO定价为每股83美元，高出发行区间上限78美元约6.4%，同时将发行规模从8.25亿股扩大至9.8亿股，扩大约19% 。 分析认为，定价策略是为了让股价像往常一样在IPO后上涨20",
    "comment": "",
    "score": 30
   },
