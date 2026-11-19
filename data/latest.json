@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-19 22:16",
+ "generated_at": "2026-11-20 00:16",
  "raw_total": 180,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储副主席杰斐逊：目前AI热潮正推高通胀，未来生产率提升或推动物价下降",
+   "link": "https://wallstreetcn.com/articles/3786305",
+   "time": "11-19 15:32",
+   "summary": "美联储副主席菲利普·杰斐逊（Philip Jefferson）周四表示，快速推进的人工智能（AI）基础设施建设正通过拉动需求对美国通胀施加上行压力，而有助于缓解价格压力的潜在生产率提升则要到“未来”才会出现。 杰斐逊在向巴西央行一场会议提交的预先准备好的演讲稿中表示，AI热潮可能同时影响需求和供给、但冲击发生时间点不同。 杰斐逊说： “在需求端，对该技术的乐观情绪一直在推高企业在数据中心、先进计算",
+   "comment": "",
+   "score": 49
+  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -141,16 +151,6 @@
    "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
    "comment": "",
    "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美股多头迎来新麻烦：通胀、加息与盈利增长放缓同时来袭",
-   "link": "https://wallstreetcn.com/articles/3786300",
-   "time": "11-19 13:25",
-   "summary": "美股多头正面临日益棘手的局面：美联储政策立场可能进一步转鹰，而企业盈利增长动能却在减弱。货币政策收紧与盈利预期下修的双重压力，正在动摇部分机构投资者对美股的信心。 研究机构TS Lombard已将美股配置比例下调350个基点，同时将现金仓位提高10.3个百分点至14%，并将资金转向欧洲和印度市场。其12个月组合贝塔值也从1.07降至0.92，显示整体风险敞口明显收缩。 TS Lombard担忧的并",
-   "comment": "",
-   "score": 38
   },
   {
    "group": "学术",
