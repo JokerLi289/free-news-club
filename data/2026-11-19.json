@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-19 15:16",
+ "generated_at": "2026-11-19 16:20",
  "raw_total": 180,
  "items": [
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
-   "link": "https://wallstreetcn.com/articles/3786262",
-   "time": "11-19 06:57",
-   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
+   "title": "2027“超级美元”？",
+   "link": "https://wallstreetcn.com/articles/3786270",
+   "time": "11-19 08:10",
+   "summary": "人工智能热潮重塑全球资金流向，美元高位徘徊，但脆弱的支撑结构令超级美元前景充满变数。 据追风交易台消息， 德意志银行在最新外汇展望报告中大幅上调2027年美元预测，承认此前对美元走弱的判断落空。 AI热潮推高美国实际利率、吸引海量股权资金流入、重燃通胀压力并促使美联储转向鹰派，共同铸就了当前的\"AI美元\"格局。美元已较过去四年均值高出逾20%，依据三项基本面估值指标均居G10最贵货币之列。 德意志",
    "comment": "",
    "score": 50
   },
@@ -41,6 +41,16 @@
    "summary": "arXiv:2611.23898v1 Announce Type: new Abstract: Semantic filters enable natural language predicates over unstructured documents, but evaluating every document with a large language model (LLM) oracle is expensive. Proxy cascades reduce oracle invocations using cheaper surrogates, but oracle reduction alone cannot distinguish proxy limitations from calibration bottlenecks and establish practical efficiency. We present a unified benchmark of four representative systems, which formulate query processing as a three-stage workflow comprising proxy construction, threshold calibration, and cascade inference, using a two-threshold acceptance rule. We introduce cascadeability: the maximum empirical oracle reduction attainable from fixed proxy scores at a specified accuracy target, computed retrospectively using complete oracle labels. We investigate 8 research questions, spanning proxy quality, end-to-end performance, workload sensitivities, and component ablations, and reveal our key findings accordingly. Comparing cascadeability with achieved oracle reduction yields a realization gap that, interpreted alongside accuracy, exposes distinct proxy and calibration bottlenecks. The benchmark and diagnostics support evaluation beyond oracle reduction and motivate joint proxy-calibration design, class-sensitive quality assessment, and end-to-end cost optimization. We release a dataset-query benchmark, containing 10 real-world workloads across various domains and difficulties, with annotations of two LLM families.",
    "comment": "",
    "score": 48
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
+   "link": "https://wallstreetcn.com/articles/3786262",
+   "time": "11-19 06:57",
+   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
+   "comment": "",
+   "score": 47
   },
   {
    "group": "财经深度",
@@ -231,16 +241,6 @@
    "summary": "arXiv:2611.23427v1 Announce Type: new Abstract: Plasticity and stability in continual learning are typically studied at the entire-model level and in a task-agnostic manner, yet prior work has reported divergent conclusions across settings. Inspired by cognitive distinctions between declarative and procedural memory, we instead study how plasticity and stability vary across transformer modules and task types. In a controlled synthetic environment with clean measurement, we show a double dissociation: query-key (QK) and value-output (VO) projections are the most plastic on procedural tasks, whereas MLPs are the most plastic on declarative memorization. Stability, however, does not simply mirror plasticity: when learning a new procedure, updating QK retains over half of the stored declarative memory, while updating MLPs retains far less and updating VO loses roughly four-fifths. Targeted module reset-and-recovery experiments explain this asymmetry: plasticity tracks which module is best suited to a task's primary computation or storage, whereas stability depends on all ways the existing capability relies on that module, including access to information stored in other modules. Experiments on a realistic model and tasks broadly echo these asymmetric dynamics. Overall, our work shows that plasticity and stability depend on different aspects of a module's functional role, offering a task-dependent, module-level perspective on continual learning.",
    "comment": "",
    "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
-   "link": "https://wallstreetcn.com/articles/3786264",
-   "time": "11-19 06:01",
-   "summary": "美联储10月FOMC会议纪要释放矛盾信号：一边为上次会议的暂停加息提供了五花八门的理由，一边又以罕见的力度向市场预告，12月会议大概率将至少加息25个基点。 11月18日，据追风交易台消息， 摩根大通将这份纪要形容为\"主啊，让我转鹰吧，但再等等\"（Lord, make me hawkish, but not yet）。 纪要在前瞻指引上措辞清晰、毫不回避。\"几乎所有与会者\"认为，在基线预期情景下，",
-   "comment": "",
-   "score": 29
   },
   {
    "group": "财经深度",
