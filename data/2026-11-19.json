@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-19 14:25",
+ "generated_at": "2026-11-19 15:16",
  "raw_total": 180,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "加息恐惧引爆金属市场“无差别抛售”！德银警告：金、铜空头仍有加仓空间",
+   "link": "https://wallstreetcn.com/articles/3786262",
+   "time": "11-19 06:57",
+   "summary": "美联储过度紧缩的恐惧正主导全球大宗商品市场，金属板块陷入无差别抛售。 德意志银行金属研究主管Daniel Ghali在11月18日发布的最新报告中警告， 铜、黄金等金属市场的抛售已演变为一种新的市场机制——资金不再区分基本面强弱，而是对整个板块无差别清仓。 铜市场在历史性逼仓行情中价格暴跌，黄金则在强劲实物需求背景下跌破前期支撑，均与供需现实严重背离。 德银认为，驱动这一机制转变的核心在于：通胀预",
+   "comment": "",
+   "score": 50
+  },
   {
    "group": "快讯",
    "source": "华尔街见闻",
@@ -20,7 +30,7 @@
    "time": "11-18 10:19",
    "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
    "comment": "",
-   "score": 50
+   "score": 49
   },
   {
    "group": "学术",
@@ -133,16 +143,6 @@
    "score": 32
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "德鲁肯米勒访谈全文：做空铜，“离开”股市，“不敢做多也不敢做空”，现在目标是保本",
-   "link": "https://wallstreetcn.com/articles/3786247",
-   "time": "11-19 02:43",
-   "summary": "传奇投资人德鲁肯米勒（Stan Druckenmiller）公开表示，他目前几乎清空了权益仓位，进入“资本保全模式”——这是他50年投资生涯中罕见的主动退场。 2026年11月18日，德鲁肯米勒在德克萨斯州奥斯汀举行的TomorrowX峰会上，与摩根士丹利全球衍生品业务负责人Iliana Bouzali对谈。他直言，今天的宏观环境与今年1月相比“完全翻转”：美联储从降息转向加息、大宗商品由涨转跌、",
-   "comment": "",
-   "score": 31
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
@@ -155,10 +155,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
-   "link": "https://wallstreetcn.com/articles/3786264",
-   "time": "11-19 06:01",
-   "summary": "美联储10月FOMC会议纪要释放矛盾信号：一边为上次会议的暂停加息提供了五花八门的理由，一边又以罕见的力度向市场预告，12月会议大概率将至少加息25个基点。 11月18日，据追风交易台消息， 摩根大通将这份纪要形容为\"主啊，让我转鹰吧，但再等等\"（Lord, make me hawkish, but not yet）。 纪要在前瞻指引上措辞清晰、毫不回避。\"几乎所有与会者\"认为，在基线预期情景下，",
+   "title": "德鲁肯米勒访谈全文：做空铜，“离开”股市，“不敢做多也不敢做空”，现在目标是保本",
+   "link": "https://wallstreetcn.com/articles/3786247",
+   "time": "11-19 02:43",
+   "summary": "传奇投资人德鲁肯米勒（Stan Druckenmiller）公开表示，他目前几乎清空了权益仓位，进入“资本保全模式”——这是他50年投资生涯中罕见的主动退场。 2026年11月18日，德鲁肯米勒在德克萨斯州奥斯汀举行的TomorrowX峰会上，与摩根士丹利全球衍生品业务负责人Iliana Bouzali对谈。他直言，今天的宏观环境与今年1月相比“完全翻转”：美联储从降息转向加息、大宗商品由涨转跌、",
    "comment": "",
    "score": 30
   },
@@ -169,16 +169,6 @@
    "link": "https://wallstreetcn.com/articles/3786222",
    "time": "11-19 00:43",
    "summary": "人工智能公司Anthropic完成史上规模最大IPO，以高于发行区间的价格定价，募资总额远超此前所有纪录，标志着资本市场对AI领域的押注正式从芯片基础设施延伸至前沿模型平台。 周三， Anthropic将其A类普通股IPO定价为每股83美元，高出发行区间上限78美元约6.4%，同时将发行规模从8.25亿股扩大至9.8亿股，扩大约19% 。 分析认为，定价策略是为了让股价像往常一样在IPO后上涨20",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "塔吉特Q3营收与利润双双超预期，同店销售增长5.6%，年内第三次上调全年指引｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786228",
-   "time": "11-18 20:48",
-   "summary": "塔吉特（Target Corp.）的复苏势头正在加速，今年股价已经累涨近80%。 11月18日周三美股盘前，大型零售商塔吉特公布截至10月31日的第三财季业绩， 同店可比销售额增长5.6%，营收和每股收益均超出分析师预期，并第三次上调全年业绩指引。 TD Cowen分析师Max Rakhlenko在周三的报告中写道， 塔吉特整体业绩\"相当稳健，各部门表现持续改善，为后续进一步调整奠定了基础\"。 财",
    "comment": "",
    "score": 30
   },
@@ -243,6 +233,16 @@
    "score": 30
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
+   "link": "https://wallstreetcn.com/articles/3786264",
+   "time": "11-19 06:01",
+   "summary": "美联储10月FOMC会议纪要释放矛盾信号：一边为上次会议的暂停加息提供了五花八门的理由，一边又以罕见的力度向市场预告，12月会议大概率将至少加息25个基点。 11月18日，据追风交易台消息， 摩根大通将这份纪要形容为\"主啊，让我转鹰吧，但再等等\"（Lord, make me hawkish, but not yet）。 纪要在前瞻指引上措辞清晰、毫不回避。\"几乎所有与会者\"认为，在基线预期情景下，",
+   "comment": "",
+   "score": 29
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
@@ -264,16 +264,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-   "time": "11-13 09:04",
-   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
-   "comment": "",
-   "score": 25
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
    "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
@@ -281,6 +271,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 25
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "time": "11-13 09:04",
+   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+   "comment": "",
+   "score": 24
   },
   {
    "group": "财经深度",
