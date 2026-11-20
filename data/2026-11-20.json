@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-20 12:18",
- "raw_total": 180,
+ "generated_at": "2026-11-20 13:15",
+ "raw_total": 204,
  "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "From Industrial Product Documentation to Automated Digital Product Passport Generation: An Experimental Study of Large Language Models",
+   "link": "https://arxiv.org/abs/2611.24998",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.24998v1 Announce Type: cross Abstract: Manufacturing companies that are planning to sell certain products in the European Union (EU) will be required to provide mandatory digital product passports (DPPs). The use of DPPs is to provide standardized product information throughout multiple product life cycles in a circular economy. Required passport information, such as technical specifications, material composition, and environmental product footprint, is available in manufacturers' data sources but is scattered across different heterogeneous systems, documents, and data formats. The given paper investigates using large language models (LLMs) to automate the generation of DPPs based on the asset administration shell (AAS). A retrieval-augmented generation (RAG) approach is used to extract product information from industrial documentation and generate populated AAS instances. Product documentation is processed and divided into text chunks. The text chunks are then stored in a persistent ChromaDB vector database using vector embeddings. The retrieval process combines semantic and lexical search to identify relevant information based on standardized AAS submodel template requirements. The retrieved information is provided to five LLMs to generate structured AAS instances. The experiments cover different industrial products and AAS submodels. Four levels of prompt guidance are investigated to assess their influence on generation quality. The generated passports are evaluated against a ground truth. The experimental evaluation includes 4,560 executions across 76 product-submodel combinations. Of the generated passport outputs, 97.4% are valid JSON, while 44.9% pass the full AAS validation procedure. Under deterministic scoring, mean completeness, conditional accuracy, and overall field correctness are 49.6%, 58.3%, and 30.8%, respectively. An LLM-as-a-judge yields better scores of 66.5%, 88.9%, and 60.4% for the same outputs.",
+   "comment": "",
+   "score": 55
+  },
   {
    "group": "快讯",
    "source": "华尔街见闻",
@@ -25,10 +35,10 @@
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Cascadeability and the Realization Gap: An Empirical Study of LLM-Powered Semantic Filtering",
-   "link": "https://arxiv.org/abs/2611.23898",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23898v1 Announce Type: new Abstract: Semantic filters enable natural language predicates over unstructured documents, but evaluating every document with a large language model (LLM) oracle is expensive. Proxy cascades reduce oracle invocations using cheaper surrogates, but oracle reduction alone cannot distinguish proxy limitations from calibration bottlenecks and establish practical efficiency. We present a unified benchmark of four representative systems, which formulate query processing as a three-stage workflow comprising proxy construction, threshold calibration, and cascade inference, using a two-threshold acceptance rule. We introduce cascadeability: the maximum empirical oracle reduction attainable from fixed proxy scores at a specified accuracy target, computed retrospectively using complete oracle labels. We investigate 8 research questions, spanning proxy quality, end-to-end performance, workload sensitivities, and component ablations, and reveal our key findings accordingly. Comparing cascadeability with achieved oracle reduction yields a realization gap that, interpreted alongside accuracy, exposes distinct proxy and calibration bottlenecks. The benchmark and diagnostics support evaluation beyond oracle reduction and motivate joint proxy-calibration design, class-sensitive quality assessment, and end-to-end cost optimization. We release a dataset-query benchmark, containing 10 real-world workloads across various domains and difficulties, with annotations of two LLM families.",
+   "title": "Standardized Tolerance for Adaptive Reuse and Repair: A Method for HNSW Migration Under Embedding Model Change Scenarios",
+   "link": "https://arxiv.org/abs/2611.25416",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25416v1 Announce Type: new Abstract: When an embedding model changes, the same collection is re-encoded, and its vector index must be adapted to the new embedding space. Because the source and target vectors represent the same objects, suitable connections in the source index can be reused. We propose STARR (Standardized Tolerance for Adaptive Reuse and Repair) to migrate HNSW indexes after an embedding model change. STARR compares standardized edge lengths over the same source neighbor lists in both embedding spaces and uses the correlation between their distance profiles to set the allowable increase in standardized edge length. It reconnects affected vertices by searching the partially migrated graph and shares the resulting candidates with their neighbors. We bound edge rejection under local distance distortion, characterize migration work, and prove that a final repair pass makes every vertex reachable from the entry point at the base layer while respecting degree limits. Single-threaded experiments on MS MARCO, Wikipedia, and CC3M, each with one million objects, show that STARR achieves 5.25--44.54$\\times$ construction speedups over Fresh and migrates faster than both DGM variants on all 15 selected transitions. Recall@10 remains within one percentage point of Fresh in 10 cases, and query throughput exceeds DGM-Local in 14 cases. Parameter sweeps on three transitions further demonstrate favorable migration-time--recall tradeoffs beyond the default settings. Across all 240 directed transitions among 16 MS MARCO models, STARR achieves a median construction speedup of 16.71$\\times$ with a median recall loss of 1.0 percentage point.",
    "comment": "",
    "score": 48
   },
@@ -45,10 +55,10 @@
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Towards Online Adaptive LLM-based Semantic Filtering",
-   "link": "https://arxiv.org/abs/2611.24518",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.24518v1 Announce Type: new Abstract: Large language models (LLMs) enable semantic filtering over unstructured documents using natural language predicates, but invoking an oracle LLM on every document incurs prohibitive monetary cost and online latency. Existing model-cascade approaches reduce this cost by using a lightweight proxy model to score each document and forwarding only uncertain documents to the oracle. However, their proxy models have limited generalization capability, and they typically adopt fixed sampling budgets for proxy training and threshold calibration, which insufficiently adapts to diverse online queries. To address this, we present OASIS, an online adaptive framework for LLM-based semantic filtering. OASIS combines a query-agnostic document similarity prior with query-adaptive online learning and sampling. In the offline phase, OASIS utilizes query-agnostic document similarity as a prior and constructs a document navigating spread-out graph (NSG) over document embeddings. For each online query, OASIS trains a query-conditioned graph attention network over the document NSG to obtain proxy scores through semi-supervised node classification. To allocate labels effectively, OASIS adopts density-aware active learning to explore uncertain score regions, selectively annotate informative documents, retrain the proxy, and stop early when additional labels are unlikely to improve the cascade. During threshold calibration, OASIS progressively samples an adaptively sized calibration set, adapting calibration cost to the query's score distribution. Extensive experiments demonstrate that OASIS achieves a 1.75x-5.42x reduction in online latency and reduces the number of LLM-processed documents by 35%-75% relative to the state-of-the-art methods at an achieved accuracy of 0.9.",
+   "title": "GenSPARQL: A Generative Extension of SPARQL for Incomplete Knowledge Graphs",
+   "link": "https://arxiv.org/abs/2611.26062",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.26062v1 Announce Type: new Abstract: Knowledge graphs on the Web are incomplete, and SPARQL answers a query only from the stored triples. Large language models (LLMs) can predict missing facts, but an LLM returns names instead of IRIs and requires one call per binding of a query variable. We present GenSPARQL, a generative extension of SPARQL 1.1 with an operator GENOP that binds values generated by an LLM to query variables during query evaluation. A similarity join maps generated names to entities of the graph, and the query planner invokes the LLM only for the bindings selected by the other graph patterns and filters. In a web workbench, attendees query two graphs built from Wikidata and inspect generated values, mapped entities and LLM calls. In our evaluation with three open-weight LLMs, the embedding similarity maps 83% of the entities named by the LLMs and yields only one incorrect match.",
    "comment": "",
    "score": 47
   },
@@ -61,16 +71,6 @@
    "summary": "阿里巴巴和腾讯在各自最新季度财报电话会上，都给出了相似的资本开支路径：AI基础设施资本开支的高峰期正在临近，2028年将成为关键拐点。与此同时，两家公司均强调，推理负载已可在国内芯片上高效运行，国产算力正成为支撑云收入增长的一大核心引擎。 阿里CFO徐宏在电话会上表示，本季度资本开支为505亿元人民币（约合75亿美元），环比上季度的677亿元人民币（约合100亿美元）有所下降。他进一步解释了未来的",
    "comment": "",
    "score": 45
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "Exploring Agentic Visual Analytics: A Co-Evolutionary Framework of Roles and Workflows",
-   "link": "https://arxiv.org/abs/2604.15813",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2604.15813v2 Announce Type: replace Abstract: Agentic visual analytics (VA) represents an emerging class of systems in which large language model (LLM)-driven agents autonomously plan, execute, evaluate, and iterate across the full visual analytics pipeline. By shifting users from low-level tool operations to high-level analytical goals expressed through natural language, these systems are fundamentally transforming how humans interact with data. However, the rapid proliferation of such systems in recent years has outpaced our understanding of their design landscape. Two intertwined problems remain open: how do autonomous agents reshape the traditional VA pipeline, and how must human involvement adapt as agent autonomy increases? To address these questions, this paper presents a comprehensive survey of 55 primary agentic VA systems and introduces a co-evolutionary framework. This framework is essential because it jointly analyzes the progression of agent autonomy alongside the necessary shift in human roles from manual operators to strategic supervisors. Within this framework, we define a role-workflow taxonomy that aligns four key agentic roles (PLANNER, CREATOR, REVIEWER, and CONTEXT MANAGER) and maps them onto established VA pipeline stages. Our analysis uncovers recurring trade-offs along three foundational axes: autonomy levels, agentic roles, and the VA workflow. We consolidate these findings into actionable design guidelines and outline future research directions for agentic visual analytics. A web-based interactive browser of our co-evolutionary framework, including the corpus and design guidelines, is available at agenticva.github.io/AgenticVA/.",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "AI与数据",
@@ -93,6 +93,16 @@
    "score": 42
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Learned Adaptive Indexing with Updatable Learned Index",
+   "link": "https://arxiv.org/abs/2508.03471",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2508.03471v3 Announce Type: replace Abstract: Indexes can significantly improve search performance in databases. However, if the query workload changes frequently or new data updates occur continuously, it may not be worthwhile to build a conventional index upfront for query processing. Building a conventional fine-grained index, like B+-tree on the entire dataset can be very expensive since it may involve processing terabytes to petabytes of data. Moreover, with a traditional indexing, data ingestion tends to slow down in case of heavy updates as the index also needs to be updated. In these cases, adaptive indexing is a viable solution instead of traditional indexing. Adaptive indexing is a technique in which an index gets built on the fly as a byproduct of query processing. In recent years, research has taken on a new direction where machine learning models are employed for the purpose of indexing. These indexes, known as learned indexes, are more efficient compared to traditional indexes in terms of memory footprints and query performance. To the best of our knowledge, no learned indexes exist yet for adaptive indexing. We propose a novel learned approach, called FLAIRS, for adaptive indexing. It is built on the fly as queries are submitted. We also introduce an updatable learned index TULSI that is utilized by FLAIRS for indexing data. FLAIRS can employ a query workload prediction technique that makes future workload projection based on past workload data. We have evaluated FLAIRS against existing adaptive indexes for various query workloads. Our results show that our approach performs better than others in most cases, offering significant improvement in query performance.",
+   "comment": "",
+   "score": 42
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "拼多多大涨！Q3营收1083亿元不及预期，经营利润同比增长25%｜财报见闻",
@@ -105,32 +115,72 @@
   {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
-   "link": "https://arxiv.org/abs/2611.23388",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23388v1 Announce Type: new Abstract: Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes tens of GPU-hours, and combining methods from different codebases means porting each to the new architecture by hand. We present QDA, a system in which an agent designs the recipe for each model and precision. To make evaluation fast, QDA scores each candidate in minutes by its output KL divergence from the original model on reasoning traces that the agent never sees, and checks promising ones with long generations to catch failures such as repetition loops. To make building fast, QDA provides a library of public PTQ methods that are compatible with one another and with new model architectures. Across four reasoning models, QDA improves accuracy over the strongest public recipe by 0.9, 1.4 and 2.2 percentage points on average at W4A16, W4A8 and W3A16, using 64 GPU-hours per search. On the 320B-parameter MoE model GLM-5.3-Flash at NVFP4 W4A4, it recovers 98.3% of the FP8 model's accuracy, against 96.9% for the best vendor checkpoint. Every QDA checkpoint also runs on existing serving kernels with no inference overhead. We will release the library, the evaluator and the harness.",
+   "title": "Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters",
+   "link": "https://arxiv.org/abs/2611.25235",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25235v1 Announce Type: new Abstract: Parametric memory allows Large Language Models to internalize knowledge directly into their weights, offering a potentially powerful alternative to retrieval-based memory (RAG). However, existing approaches to parametric memory are difficult to deploy as they largely mirror the Continual Learning (CL) objective of retaining information indefinitely. This is neither sustainable nor sufficient for a memory system, which must govern knowledge across its lifecycle by retaining stable facts, reinforcing recurring observations, updating changed beliefs, and allowing transient information to fade. We propose a system for parametric memory management consisting of a memory substrate (handling information storage and forgetting) and a learned policy (what to remember, how deeply, and for how long). Our substrate is a fixed-capacity LoRA adapter that consists of k-hot rank combinations which store facts without catastrophic interference and maintain an independently controlled temporal decay, enabling outdated information to fade while long-term facts persist. On this substrate, we train a lightweight controller that governs each incoming user event to ensure the memory system reflects the user's true, updated belief state. To evaluate how memory systems manage user memory, we introduce a controlled dataset of long-horizon user trajectories with varying persistence of facts based on changing belief states and user-behavioral shifts, and probe queries that test recall while information is valid and abstention after it expires. Our policy learns to effectively manage user memory over its entire lifecycle, balancing recall and abstention to achieve 86% of oracle performance, unlike CL and RAG baselines that primarily default to one of the two behaviors. By providing the first system to manage memory directly in model weights, this work establishes a foundation for long-horizon parametric memory.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+   "link": "https://arxiv.org/abs/2611.25252",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25252v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours to deliver an executable predictor, then run on the hidden units. First, frontier agents outperform AutoML, which reaches less than half the best agent's score, and faithful implementations of published methods on four datasets, of which only 6 of 30 beat the strongest agent's own design; published accuracies, where reproducible, rest on the papers' own conventions, and a single convention, capping the remaining life of test engines, can halve the reported error. Second, the agents' advantage is a design made on each machine's data; once made, a plain-text plan of a few hundred words carries most of the gap between two frontier agents, and given a weaker agent's plan, the strongest agent falls to that agent's level, often to identical predictions. Before touching the data, however, it matters little whose plan an agent carries out, and domain toolkits appear to help neither: what sets the strongest apart is how much it learns from the data. Third, such designs reach only implementers that can execute them: given the strongest agent's designs, a locally deployable open-weight model delivers half as often, even when they are lightened, and scores no higher than without them. Generality, we argue, is not disappearing but moving, from the model to the modeler.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Cross-Question Reliable Reinforcement Learning",
+   "link": "https://arxiv.org/abs/2611.25292",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25292v1 Announce Type: new Abstract: AI systems operating near the limits of their capabilities can maximize utility while minimizing the risk of error by abstaining or deferring questions they are not confident about to a human or a stronger model. Recently, large language models (LLMs) have been post-trained to estimate confidence in their own answers. To achieve this, methods reinforce confidence scores based on the correctness signal to each question-answer pair individually, with rewards that encourage assigning confidence 1 to correct answers and 0 to incorrect answers. However, estimating confidence scores is useful in that it enables selecting only the most confident answers, to maximize the share of solved questions while accommodating the user's risk tolerance. Assigning confidence 1 to correct answers and 0 to incorrect ones is theoretically optimal, but unattainable in practice and detrimental for selective prediction with a non-zero risk tolerance: confidences pushed to 0 and 1 carry no information about how answers compare to one another. We therefore introduce CARE (Cross-question Abstention Reward Estimation), which computes rewards over a set of question-answer pairs: At each of several risk tolerances, the confidences across the set induce an abstention threshold, and each confidence is rewarded for lying on the correct side of it. Since the threshold itself comes from the set, every verbalized confidence is reinforced relative to other questions' confidence, not against its own binary correctness label. On math, CARE increases the coverage at 5% risk (C@5) across MATH-500, GSM8K, and Big-Math-Digits from 0.8% to 42.4%, compared to existing pointwise correctness-matching rewards. When trained on multi-hop Wikipedia QA from HotpotQA, CARE improves C@5 in out-of-distribution general-knowledge, reasoning, and math benchmarks (including CommonsenseQA, GPQA, SimpleQA, and TriviaQA) from 12.3% to 23.6%.",
    "comment": "",
    "score": 40
   },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "The Value Semantics Layer: Enabling Machine-Understandable Databases for Agentic AI",
-   "link": "https://arxiv.org/abs/2611.23629",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23629v1 Announce Type: new Abstract: As data systems increasingly support autonomous LLM-powered agents alongside human analysts, they require richer semantic infrastructure bridging analytical concepts and analytical operations. Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics. We propose the Value Semantics Layer (VSL), an architectural abstraction that externalizes value semantics as persistent, planner-visible infrastructure. VSL introduces Value Semantic Types (VSTs), reusable operational semantic assertions capturing distributional, relational, process, quantitative, and policy-grounded semantics. Unlike descriptive metadata, VSTs enable planners to validate analytical operations, select appropriate operators, and guide analytical workflows. We present the motivation, formalization, architecture, and prototype realizations of VSL, and outline a research agenda toward AI-native semantic infrastructure for analytical systems.",
+   "title": "CRAFT: Constrained Route planning with Adaptive Framework and Template-based code generation",
+   "link": "https://arxiv.org/abs/2611.25128",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25128v1 Announce Type: new Abstract: Everyday routing requests are rarely a point-to-point shortest path. A driver may need to visit stops, sometimes in a fixed order, under time budgets or distance limits, and perhaps recharge their EV car along the way. Each combination is a distinct routing problem that classically requires its own algorithm, so no fixed solver covers the space of queries users may ask. This paper presents CRAFT, which takes a constrained routing query as free text and returns a route that satisfies the user's requirements on a real road network. An LLM parses the query and generates four search functions, which a generic graph-search engine executes on the road network. We formalize the underlying problem as State-Expanded RCSP (SE-RCSP), which extends resource-constrained shortest paths (RCSP) with non-additive state such as node-dependent resets and discrete progress tracking. We evaluate CRAFT on 2,600 natural-language queries over California road networks against two baselines, analyzing correctness, constraint violations, long-distance scalability, and semantic POI filtering.",
    "comment": "",
    "score": 40
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "ProvCards: Artifact-Oriented Provenance for Heterogeneous Scientific Workflows",
-   "link": "https://arxiv.org/abs/2611.24894",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.24894v1 Announce Type: new Abstract: Reproducibility in scientific workflows is hindered by heterogeneous components and execution environments, as well as fragmented provenance capture. Although existing approaches offer established semantics and workflow-specific solutions, provenance remains difficult to capture, exchange, and compose across workflow boundaries. We present ProvCards, an artifact-oriented approach that treats provenance as a first-class artifact grounded in the W3C PROV Data Model. Individual workflow components can generate cards that are stored, exchanged, reused, and composed independently of any workflow system or centralized execution context. ProvDecks group related cards into portable scopes while preserving their identities. ProvGraphs provide derived views for provenance reconstruction, querying, visualization, and analysis. Together, these representations support coherent, task-specific provenance views across heterogeneous components, facilitating traceability, reuse, and reproducibility. We implement ProvCards using a graph-based infrastructure and evaluate them in a scientific data-processing workflow. The results demonstrate independent provenance capture at the component level, composition across component boundaries, and reconstruction for querying and analysis. ProvCards provide a portable, composable, and incrementally extensible foundation for provenance management in heterogeneous scientific workflows.",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
    "comment": "",
    "score": 35
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
+   "link": "https://arxiv.org/abs/2611.25100",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.25100v1 Announce Type: new Abstract: Bayesian Optimization (BO) can be substantially more sample-efficient when informed by prior knowledge about the problem. In practice, however, such knowledge is often available only in natural language, e.g., expert intuitions or documentation, rather than as the explicit probability distribution landscape that prior-guided BO methods may require. Leveraging it effectively demands both an expressive mapping from language to priors and robustness to information that may be misleading. We propose HapBO (Harnessed $\\alpha$-$\\pi$ Bayesian Optimization), which elicits beliefs once from a human expert, a large language model (LLM), or both, and deterministically compiles a structured specification into a reusable belief function ($\\pi: \\mathcal{X} \\to[0,1]$), with a rich representation not restricted to a Gaussian family. Building on $\\alpha$-$\\pi$BO, HapBO applies this belief function through a bounded positive multiplier on any nonnegative acquisition, preserving positive acquisition support and requiring no LLM calls during optimization. We prove that, for the Expected Improvement acquisition function (EI), HapBO preserves the standard simple-regret rate up to a bounded factor, even under adversarial beliefs. We evaluate HapBO on 40 HPOBench tasks, a synthetic suite in 6-15 dimensions and two real-world applications: cortical neurostimulation and constrained solar design. HapBO achieves the lowest aggregate HPOBench regret and strong real-world task performance, with zero in-loop token cost. In real-world applications it improves the optimization outcome even at budgets of 12-20 queries, and at a small fraction of the wall-clock and token costs of other LLM-based methods.",
+   "comment": "",
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -141,16 +191,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 32
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
-   "link": "https://arxiv.org/abs/2611.23342",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23342v1 Announce Type: new Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain knowledge with graph-structured learning. Data quality is formulated as a continuous confidence estimation problem rather than a binary anomaly identification task, enabling sample-level assessment and historical-reference-based batch comparison. A nine-dimensional feature-quality prior and duplicate-aware sample initialization are calibrated using materials domain rules and statistical evidence. Confidence is further refined through sample-feature bipartite graph propagation and weakly supervised graph attention, while a Memory-GAT module provides historical reference scoring. Experiments on 23 ODDS benchmark datasets show that the generic module achieves an average AUC-ROC of 0.866. In five repeated mixed-contamination experiments on mp\\_20, rule calibration improves HistGradientBoostingRegressor test $R^2$ from $0.538\\pm0.008$ to $0.616\\pm0.014$. Graph refinement increases average precision from $0.943\\pm0.004$ to 0.953\\pm0.004$, while the rule-calibrated configuration has the highest mean test $R^2$ among the evaluated screening configurations. Five repeated MACE subset experiments further show an increase in $R^2$ from $0.590\\pm0.053$ to $0.880\\pm0.027$ after rule-based screening.",
-   "comment": "",
-   "score": 31
   },
   {
    "group": "快讯",
@@ -194,6 +234,16 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
    "source": "Latent Space",
    "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
    "link": "https://latent.space/p/linear-scaling/",
@@ -225,30 +275,10 @@
   {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Implementing Binary Transformers with Approximate Memories with Permutation Invariance Enabled Selective (PIES) Protection",
-   "link": "https://arxiv.org/abs/2611.23358",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23358v1 Announce Type: new Abstract: Quantization is an effective technique to reduce memory storage, computation complexity and power for Transformers, and the binarization of the weights is important for meeting these requirements. Approximate memory can further reduce the power for memory, but it also introduces errors. Current research for binary Transformers focuses on task performance, but the model dependable operation against errors on the memory has not been well studied. In this paper, we first evaluate the dependability of binary Transformers with the Bidirectional Encoder Representations from Transformers (BERT) as a case study. A large accuracy loss occurs only at high Bit Error Rates (e.g. BER = 5% or 10%). Then we propose a novel Permutation Invariance Enabled Selective (PIES) scheme to protect the binary weights at very low overhead. This scheme exploits the invariance of Transformers to permutations in the rows and columns to group the critical weights and perform selective protection on those weights. Simulation results show that PIES can recover most of the performance loss caused by bit errors at BERs as high as 10%, at an overhead significantly lower than traditional error correction schemes. These results confirm the feasibility of running binary Transformers using approximate memory with aggressive voltage scaling on resource-limited low power edge devices. The code for PIES is released on github (https://github.com/YangZhutian/binary-transformer-prefix-repair).",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "TRACE-MAS: Diagnosing and Repairing Collaboration Failures in Multi-Agent Systems",
-   "link": "https://arxiv.org/abs/2611.23362",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23362v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) rely on not only individual agent behaviors but also the interactions that connect agents, including message exchanges and task dependencies. Existing MAS safeguards mainly perform agent-level anomaly detection, which becomes insufficient when failures originate from agent interactions and detected anomalies do not necessarily reveal their true sources. To address this limitation, we propose \\textbf{TRACE-MAS}, a finer-grained framework for diagnosing and repairing MAS failures. TRACE-MAS learns normal collaborative execution patterns from benign trajectories and detects deviations in agent state changes, message transitions, and task dependency evolutions. It further identifies responsible execution elements through source-aware attribution and selects minimal interventions to restore collaboration while preserving task-critical capabilities. Experiments on five MAS benchmarks demonstrate that TRACE-MAS significantly improves root-cause localization accuracy by \\textbf{60.2}\\% and achieves consistent gains in task recovery over strong MAS safeguards.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Stability Does Not Mirror Plasticity: A Module-Level View of Declarative and Procedural Learning in Transformers",
-   "link": "https://arxiv.org/abs/2611.23427",
-   "time": "11-19 05:00",
-   "summary": "arXiv:2611.23427v1 Announce Type: new Abstract: Plasticity and stability in continual learning are typically studied at the entire-model level and in a task-agnostic manner, yet prior work has reported divergent conclusions across settings. Inspired by cognitive distinctions between declarative and procedural memory, we instead study how plasticity and stability vary across transformer modules and task types. In a controlled synthetic environment with clean measurement, we show a double dissociation: query-key (QK) and value-output (VO) projections are the most plastic on procedural tasks, whereas MLPs are the most plastic on declarative memorization. Stability, however, does not simply mirror plasticity: when learning a new procedure, updating QK retains over half of the stored declarative memory, while updating MLPs retains far less and updating VO loses roughly four-fifths. Targeted module reset-and-recovery experiments explain this asymmetry: plasticity tracks which module is best suited to a task's primary computation or storage, whereas stability depends on all ways the existing capability relies on that module, including access to information stored in other modules. Experiments on a realistic model and tasks broadly echo these asymmetric dynamics. Overall, our work shows that plasticity and stability depend on different aspects of a module's functional role, offering a task-dependent, module-level perspective on continual learning.",
+   "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+   "link": "https://arxiv.org/abs/2611.24999",
+   "time": "11-20 05:00",
+   "summary": "arXiv:2611.24999v1 Announce Type: new Abstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition-informed representations for behavioral prediction. During training, a posterior encoder quantizes realized transitions, while a prior predicts the resulting codes from the psychometric profile and pre-transition context. The prior code and predicted next state then condition macro-level behavior and simulator-grounded execution. Thus, the world model provides structured transition supervision instead of treating personality as a direct action descriptor. We evaluate the framework in VEET, a controlled behavioral simulator with human trajectories, and in AgentSociety as a structurally different synthetic environment. A participant-disjoint split of 240 training, 25 validation, and 48 test participants evaluates generalization to unseen people. On VEET, the model reaches 0.904 Top-1 accuracy (95\\% CI: [0.895, 0.913]) and 0.0033 Macro KL. Ablations associate continuous next-state modeling with most of the Top-1 gain, while discrete codes and prior alignment mainly improve Top-3 and distributional alignment. These results establish transition-informed world-model supervision as useful for subject-generalized behavior prediction, without implying causal psychological mechanisms or calibrated long-horizon state dynamics.",
    "comment": "",
    "score": 30
   },
