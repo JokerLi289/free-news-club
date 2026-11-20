@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20 10:19",
- "raw_total": 180,
+ "generated_at": "2026-11-20 11:17",
+ "raw_total": 200,
  "items": [
   {
    "group": "快讯",
@@ -10,7 +10,7 @@
    "time": "11-20 01:22",
    "summary": "Anthropic上市未能提振AI板块信心，受人工智能交易前景悲观情绪的影响，亚太市场周五开盘遭遇重挫，科技股首当其冲，全球股指正迈向近三年来最长连跌纪录。 MSCI亚太股票指数下跌1.7%，连续第七个交易日收跌，逼近4月以来最低收盘位，同步拖累MSCI全球指数走向2023年9月以来最长跌势。韩国综合股价指数下挫4.7%，日本日经225指数跌幅扩大至4.6%，日本最新通胀数据引发市场对央行加息的担",
    "comment": "",
-   "score": 58
+   "score": 57
   },
   {
    "group": "快讯",
@@ -20,7 +20,7 @@
    "time": "11-20 01:29",
    "summary": "阿里巴巴和腾讯在各自最新季度财报电话会上，都给出了相似的资本开支路径：AI基础设施资本开支的高峰期正在临近，2028年将成为关键拐点。与此同时，两家公司均强调，推理负载已可在国内芯片上高效运行，国产算力正成为支撑云收入增长的一大核心引擎。 阿里CFO徐宏在电话会上表示，本季度资本开支为505亿元人民币（约合75亿美元），环比上季度的677亿元人民币（约合100亿美元）有所下降。他进一步解释了未来的",
    "comment": "",
-   "score": 49
+   "score": 48
   },
   {
    "group": "AI与数据",
@@ -95,9 +95,9 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "A股三大股指早盘下跌，创业板跌近3%，银行、煤炭逆势走强，恒科指跌超3%，权重科网股普遍下跌",
+   "title": "A股三大股指早盘下跌，创业板跌近3%，银行、煤炭逆势走强，恒科指跌超4%，权重科网股普遍下跌",
    "link": "https://wallstreetcn.com/articles/3786333",
-   "time": "11-20 01:53",
+   "time": "11-20 02:26",
    "summary": "11月20日，A股早盘集体低开，三大股指盘初延续跌势，深成指、创业板均跌超2%，算力硬件再度调整，光模块、光通信、光电路交换机等领跌，“易中天”均跌5%。覆铜板、电路板等逆势活跃。AI短剧、贵金属等板块大幅下挫，生物医药、航天军工等板块亦下跌。资金涌入红利资产，银行、煤炭等走强。 港股大幅低开低走，恒指、恒科指双双下挫，恒科指早盘跌超3%，权重科网股多数下跌，快手大跌超10%，网易暴跌18%，光模",
    "comment": "",
    "score": 40
@@ -143,6 +143,26 @@
    "score": 40
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "ProvCards: Artifact-Oriented Provenance for Heterogeneous Scientific Workflows",
@@ -163,16 +183,6 @@
    "score": 32
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
-   "link": "https://wallstreetcn.com/articles/3786324",
-   "time": "11-19 23:58",
-   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
-   "comment": "",
-   "score": 31
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
@@ -183,12 +193,32 @@
    "score": 31
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
+   "link": "https://wallstreetcn.com/articles/3786324",
+   "time": "11-19 23:58",
+   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
+   "comment": "",
+   "score": 30
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
