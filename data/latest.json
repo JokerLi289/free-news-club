@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20 23:15",
+ "generated_at": "2026-11-21 01:12",
  "raw_total": 184,
  "items": [
   {
@@ -63,16 +63,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "三季度热销31万辆，零跑为何只赚4000万元？",
-   "link": "https://wallstreetcn.com/articles/3786393",
-   "time": "11-20 14:16",
-   "summary": "作者 | 周智宇 11月20日晚，零跑汽车交出了季度销量超过31万辆的成绩单，归母净利润却只有约4000万元。去年同期，这个数字是1.5亿元，刚刚过去的二季度则是6亿元。 三季度零跑交付量同比增长78.3%，营收增长63%至317亿元，毛利率却从二季度的12.6%降至10.9%。按财报披露的收入和销售成本计算，零跑一个季度多做了44.1亿元收入，毛利只增加约3000万元，至34.6亿元。 当晚的业",
-   "comment": "",
-   "score": 46
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -85,10 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
-   "link": "https://wallstreetcn.com/articles/3786389",
-   "time": "11-20 13:29",
-   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
+   "title": "三季度热销31万辆，零跑为何只赚4000万元？",
+   "link": "https://wallstreetcn.com/articles/3786393",
+   "time": "11-20 14:16",
+   "summary": "作者 | 周智宇 11月20日晚，零跑汽车交出了季度销量超过31万辆的成绩单，归母净利润却只有约4000万元。去年同期，这个数字是1.5亿元，刚刚过去的二季度则是6亿元。 三季度零跑交付量同比增长78.3%，营收增长63%至317亿元，毛利率却从二季度的12.6%降至10.9%。按财报披露的收入和销售成本计算，零跑一个季度多做了44.1亿元收入，毛利只增加约3000万元，至34.6亿元。 当晚的业",
    "comment": "",
    "score": 43
   },
@@ -121,6 +111,16 @@
    "summary": "arXiv:2508.03471v3 Announce Type: replace Abstract: Indexes can significantly improve search performance in databases. However, if the query workload changes frequently or new data updates occur continuously, it may not be worthwhile to build a conventional index upfront for query processing. Building a conventional fine-grained index, like B+-tree on the entire dataset can be very expensive since it may involve processing terabytes to petabytes of data. Moreover, with a traditional indexing, data ingestion tends to slow down in case of heavy updates as the index also needs to be updated. In these cases, adaptive indexing is a viable solution instead of traditional indexing. Adaptive indexing is a technique in which an index gets built on the fly as a byproduct of query processing. In recent years, research has taken on a new direction where machine learning models are employed for the purpose of indexing. These indexes, known as learned indexes, are more efficient compared to traditional indexes in terms of memory footprints and query performance. To the best of our knowledge, no learned indexes exist yet for adaptive indexing. We propose a novel learned approach, called FLAIRS, for adaptive indexing. It is built on the fly as queries are submitted. We also introduce an updatable learned index TULSI that is utilized by FLAIRS for indexing data. FLAIRS can employ a query workload prediction technique that makes future workload projection based on past workload data. We have evaluated FLAIRS against existing adaptive indexes for various query workloads. Our results show that our approach performs better than others in most cases, offering significant improvement in query performance.",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
+   "link": "https://wallstreetcn.com/articles/3786389",
+   "time": "11-20 13:29",
+   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "学术",
@@ -165,12 +165,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "Anthropic上市次日暴跌，几乎回吐首日涨幅，AI交易“买方罢工”",
+   "link": "https://wallstreetcn.com/articles/3786401",
+   "time": "11-20 16:32",
+   "summary": "史上最大IPO的光环正在消退。Anthropic上市第二日股价急剧下滑，几乎抹去首日涨幅，映射出更广泛AI与科技板块的抛售情绪，同时也为竞争对手OpenAI的未来上市之路埋下变数。 Anthropic股价周五盘中一度跌至87.26美元，距83美元的发行价仅剩5.1%的涨幅，而该股在上市首日曾短暂将公司市值推升至高于亚马逊。 与此同时，承销银行行使超额配售权（绿鞋机制），进一步扩大股票供给，使Ant",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "中国开源模型的「最大甲方」有了",
    "link": "https://wallstreetcn.com/articles/3786396",
    "time": "11-20 14:17",
    "summary": "互联网大厂们正在成为开源大模型的新甲方。 腾讯总裁刘炽平在三季度业绩电话会上透露，WorkBuddy已成为中国几乎所有开放权重模型的最大客户。 这可能只是一个开始。 近期，国内头部办公Agent密集调整产品策略。继腾讯WorkBuddy率先采用多模型路线后，字节跳动旗下豆包工作接连扩大第三方模型接入范围，阿里千问办公也重新向外部模型敞开大门。 从腾讯到字节、阿里，几家互联网大厂的办公Agent正在",
    "comment": "",
-   "score": 38
+   "score": 35
   },
   {
    "group": "学术",
@@ -191,16 +201,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 32
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“机器人+星链” ？大摩描绘SpaceX下一个万亿级增长故事",
-   "link": "https://wallstreetcn.com/articles/3786361",
-   "time": "11-20 08:39",
-   "summary": "特斯拉自动驾驶出租车Cybercab与SpaceX星链（Starlink）的整合正从概念走向现实。随着Cybercab开始搭载星链终端，马斯克旗下两家公司的业务协同有望从卫星互联网延伸至自动驾驶和机器人领域。 据追风交易台，摩根士丹利分析师Adam Jonas在最新研究报告中指出， 市场尚未充分认识到星链为搭载自主AI推理计算的机器人提供高带宽连接的潜在价值。他预计，随着机器人应用规模扩大，机器人",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "财经深度",
