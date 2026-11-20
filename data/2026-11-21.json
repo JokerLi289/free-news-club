@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21 06:13",
- "raw_total": 204,
+ "generated_at": "2026-11-21 07:13",
+ "raw_total": 184,
  "items": [
   {
    "group": "快讯",
@@ -13,6 +13,16 @@
    "score": 60
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
+   "link": "https://wallstreetcn.com/articles/3786417",
+   "time": "11-20 22:56",
+   "summary": "美联储理事Lisa Cook（莉萨·库克）为其在10月议息会议上的异见投票公开作出解释，称当前利率水平不足以有效遏制通胀蔓延，落后于曲线的风险正在上升。与此同时，Cook还面临特朗普政府试图将其解雇的政治压力。 Cook周五在智利圣地亚哥出席一场政策会议时表示， 美联储10月决定暂停加息的举措有可能使央行在抗通胀斗争中落入被动。 她指出，当前3.75%至4%的联邦基金利率目标区间对于抑制通胀仍显不",
+   "comment": "",
+   "score": 59
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "From Industrial Product Documentation to Automated Digital Product Passport Generation: An Experimental Study of Large Language Models",
@@ -21,6 +31,16 @@
    "summary": "arXiv:2611.24998v1 Announce Type: cross Abstract: Manufacturing companies that are planning to sell certain products in the European Union (EU) will be required to provide mandatory digital product passports (DPPs). The use of DPPs is to provide standardized product information throughout multiple product life cycles in a circular economy. Required passport information, such as technical specifications, material composition, and environmental product footprint, is available in manufacturers' data sources but is scattered across different heterogeneous systems, documents, and data formats. The given paper investigates using large language models (LLMs) to automate the generation of DPPs based on the asset administration shell (AAS). A retrieval-augmented generation (RAG) approach is used to extract product information from industrial documentation and generate populated AAS instances. Product documentation is processed and divided into text chunks. The text chunks are then stored in a persistent ChromaDB vector database using vector embeddings. The retrieval process combines semantic and lexical search to identify relevant information based on standardized AAS submodel template requirements. The retrieved information is provided to five LLMs to generate structured AAS instances. The experiments cover different industrial products and AAS submodels. Four levels of prompt guidance are investigated to assess their influence on generation quality. The generated passports are evaluated against a ground truth. The experimental evaluation includes 4,560 executions across 76 product-submodel combinations. Of the generated passport outputs, 97.4% are valid JSON, while 44.9% pass the full AAS validation procedure. Under deterministic scoring, mean completeness, conditional accuracy, and overall field correctness are 49.6%, 58.3%, and 30.8%, respectively. An LLM-as-a-judge yields better scores of 66.5%, 88.9%, and 60.4% for the same outputs.",
    "comment": "",
    "score": 55
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黑色星期五！美股和金属全线重挫，英伟达暴跌14%，VIX涨破35，美债五连涨",
+   "link": "https://wallstreetcn.com/articles/3786330",
+   "time": "11-20 22:58",
+   "summary": "投资者对AI浪潮的担忧在周五最终演变成一场全面的抛售，美股指数大跌，投资者纷纷涌向债券和避险货币寻求安全保障。 科技巨头层面的负面催化剂成为市场暴跌的核心驱动力。据路透报道，美国监管机构正对英伟达的会计操作展开调查，该股周五大跌14%，创下2008年10月以来的最差单周表现。 同时，创纪录的Anthropic首次公开募股（IPO）在周五下挫，此前周四上市导致庞大的吸金效应加剧了市场的流动性压力。 ",
+   "comment": "",
+   "score": 50
   },
   {
    "group": "快讯",
@@ -55,10 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "Anthropic上市次日暴跌，距离破发仅差5美分，AI交易“买方罢工”",
+   "title": "Anthropic上市次日暴跌，盘中一度离破发仅差5美分，AI交易“买方罢工”",
    "link": "https://wallstreetcn.com/articles/3786401",
-   "time": "11-20 19:28",
-   "summary": "史上最大IPO的光环正在消退。Anthropic上市第二日股价急剧下滑，几乎抹去首日涨幅，映射出更广泛AI与科技板块的抛售情绪，同时也为竞争对手OpenAI的未来上市之路埋下变数。 Anthropic股价周五盘中一度大跌15%至83.05美元，距83美元的发行价仅剩5美分，随后小幅反弹，截至发稿下跌9.8%。该股在上市首日曾短暂将公司市值推升至高于亚马逊。 与此同时，承销银行行使超额配售权（绿鞋机",
+   "time": "11-20 21:18",
+   "summary": "史上最大IPO的光环正在消退。Anthropic上市第二日股价急剧下滑，几乎抹去首日涨幅，映射出更广泛AI与科技板块的抛售情绪，同时也为竞争对手OpenAI的未来上市之路埋下变数。 Anthropic股价周五盘中一度大跌15%至83.05美元，距83美元的发行价仅剩5美分，随后小幅反弹，最终收跌8.5%。该股在上市首日曾短暂将公司市值推升至高于亚马逊。 与此同时，承销银行行使超额配售权（绿鞋机制）",
    "comment": "",
    "score": 46
   },
@@ -123,16 +143,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
-   "link": "https://wallstreetcn.com/articles/3786389",
-   "time": "11-20 13:29",
-   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters",
@@ -173,26 +183,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -211,26 +201,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 32
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "中国开源模型的「最大甲方」有了",
-   "link": "https://wallstreetcn.com/articles/3786396",
-   "time": "11-20 14:17",
-   "summary": "互联网大厂们正在成为开源大模型的新甲方。 腾讯总裁刘炽平在三季度业绩电话会上透露，WorkBuddy已成为中国几乎所有开放权重模型的最大客户。 这可能只是一个开始。 近期，国内头部办公Agent密集调整产品策略。继腾讯WorkBuddy率先采用多模型路线后，字节跳动旗下豆包工作接连扩大第三方模型接入范围，阿里千问办公也重新向外部模型敞开大门。 从腾讯到字节、阿里，几家互联网大厂的办公Agent正在",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "AI与数据",
@@ -300,7 +270,7 @@
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
-   "score": 27
+   "score": 26
   },
   {
    "group": "AI与数据",
@@ -330,7 +300,7 @@
    "time": "11-18 13:00",
    "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
    "comment": "",
-   "score": 19
+   "score": 18
   },
   {
    "group": "财经深度",
@@ -340,7 +310,7 @@
    "time": "11-16 04:27",
    "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 16
+   "score": 15
   }
  ]
 }
