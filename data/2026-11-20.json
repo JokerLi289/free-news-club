@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20 22:16",
+ "generated_at": "2026-11-20 23:15",
  "raw_total": 184,
  "items": [
   {
@@ -10,7 +10,7 @@
    "time": "11-20 11:43",
    "summary": "全球债市正与油价走势脱钩，通胀黏性与央行鹰派立场重新成为左右国债收益率的关键因素。 11月20日，据英国《金融时报》报道，尽管国际原油价格近期大幅回落，美国、英国等主要经济体的国债收益率却依然居高不下。 曾主导今年全球债券市场的油价与国债收益率高度联动关系正在瓦解，市场焦点已从能源价格冲击转向各大央行如何应对持续的通胀压力。 美国方面，美联储9月以来重启加息，市场预计下月将再次加息。上周，美国国债",
    "comment": "",
-   "score": 61
+   "score": 60
   },
   {
    "group": "学术",
@@ -30,17 +30,7 @@
    "time": "11-20 12:15",
    "summary": "自动驾驶业务商业化进程加快，文远知行第三季度营收超出市场预期，亏损也好于预期。 11月20日，文远知行公布的2026年第三季度实现营收人民币3.215亿元，同比增长88%，高于彭博综合预期的2.688亿元；净亏损3.1亿元，低于市场预期的3.997亿元。海外市场成为收入增长的重要动力，单季收入达1.469亿元，同比增长171.5%，占总营收的45.7%。 与此同时，公司毛利率升至43.0%，较去年",
    "comment": "",
-   "score": 53
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
-   "link": "https://wallstreetcn.com/articles/3786389",
-   "time": "11-20 13:29",
-   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
-   "comment": "",
-   "score": 49
+   "score": 50
   },
   {
    "group": "学术",
@@ -73,6 +63,16 @@
    "score": 47
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "三季度热销31万辆，零跑为何只赚4000万元？",
+   "link": "https://wallstreetcn.com/articles/3786393",
+   "time": "11-20 14:16",
+   "summary": "作者 | 周智宇 11月20日晚，零跑汽车交出了季度销量超过31万辆的成绩单，归母净利润却只有约4000万元。去年同期，这个数字是1.5亿元，刚刚过去的二季度则是6亿元。 三季度零跑交付量同比增长78.3%，营收增长63%至317亿元，毛利率却从二季度的12.6%降至10.9%。按财报披露的收入和销售成本计算，零跑一个季度多做了44.1亿元收入，毛利只增加约3000万元，至34.6亿元。 当晚的业",
+   "comment": "",
+   "score": 46
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -81,6 +81,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
+   "link": "https://wallstreetcn.com/articles/3786389",
+   "time": "11-20 13:29",
+   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
+   "comment": "",
+   "score": 43
   },
   {
    "group": "AI与数据",
@@ -153,6 +163,16 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "中国开源模型的「最大甲方」有了",
+   "link": "https://wallstreetcn.com/articles/3786396",
+   "time": "11-20 14:17",
+   "summary": "互联网大厂们正在成为开源大模型的新甲方。 腾讯总裁刘炽平在三季度业绩电话会上透露，WorkBuddy已成为中国几乎所有开放权重模型的最大客户。 这可能只是一个开始。 近期，国内头部办公Agent密集调整产品策略。继腾讯WorkBuddy率先采用多模型路线后，字节跳动旗下豆包工作接连扩大第三方模型接入范围，阿里千问办公也重新向外部模型敞开大门。 从腾讯到字节、阿里，几家互联网大厂的办公Agent正在",
+   "comment": "",
+   "score": 38
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -179,16 +199,6 @@
    "link": "https://wallstreetcn.com/articles/3786361",
    "time": "11-20 08:39",
    "summary": "特斯拉自动驾驶出租车Cybercab与SpaceX星链（Starlink）的整合正从概念走向现实。随着Cybercab开始搭载星链终端，马斯克旗下两家公司的业务协同有望从卫星互联网延伸至自动驾驶和机器人领域。 据追风交易台，摩根士丹利分析师Adam Jonas在最新研究报告中指出， 市场尚未充分认识到星链为搭载自主AI推理计算的机器人提供高带宽连接的潜在价值。他预计，随着机器人应用规模扩大，机器人",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
-   "link": "https://wallstreetcn.com/articles/3786353",
-   "time": "11-20 08:17",
-   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模",
    "comment": "",
    "score": 30
   },
@@ -261,16 +271,6 @@
    "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
    "comment": "",
    "score": 28
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic世纪IPO，创始人套现了130亿！",
-   "link": "https://wallstreetcn.com/articles/3786385",
-   "time": "11-20 13:02",
-   "summary": "Anthropic以一场史无前例的IPO正式登陆公开市场，刷新科技公司上市融资纪录，同时也揭示出这家AI巨头未来面临的天文数字级资本需求。 本次IPO定价每股83美元，高于此前74美元的区间中值，Anthropic通过发行A类普通股及特殊N类股合计募资约1048亿美元，若承销商行使全部超额配售权，总额可达约1170亿美元。这一规模远超Facebook 2012年IPO时创下的160亿美元纪录。 七",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "财经深度",
