@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20 15:16",
- "raw_total": 204,
+ "generated_at": "2026-11-20 16:19",
+ "raw_total": 184,
  "items": [
   {
    "group": "学术",
@@ -11,16 +11,6 @@
    "summary": "arXiv:2611.24998v1 Announce Type: cross Abstract: Manufacturing companies that are planning to sell certain products in the European Union (EU) will be required to provide mandatory digital product passports (DPPs). The use of DPPs is to provide standardized product information throughout multiple product life cycles in a circular economy. Required passport information, such as technical specifications, material composition, and environmental product footprint, is available in manufacturers' data sources but is scattered across different heterogeneous systems, documents, and data formats. The given paper investigates using large language models (LLMs) to automate the generation of DPPs based on the asset administration shell (AAS). A retrieval-augmented generation (RAG) approach is used to extract product information from industrial documentation and generate populated AAS instances. Product documentation is processed and divided into text chunks. The text chunks are then stored in a persistent ChromaDB vector database using vector embeddings. The retrieval process combines semantic and lexical search to identify relevant information based on standardized AAS submodel template requirements. The retrieved information is provided to five LLMs to generate structured AAS instances. The experiments cover different industrial products and AAS submodels. Four levels of prompt guidance are investigated to assess their influence on generation quality. The generated passports are evaluated against a ground truth. The experimental evaluation includes 4,560 executions across 76 product-submodel combinations. Of the generated passport outputs, 97.4% are valid JSON, while 44.9% pass the full AAS validation procedure. Under deterministic scoring, mean completeness, conditional accuracy, and overall field correctness are 49.6%, 58.3%, and 30.8%, respectively. An LLM-as-a-judge yields better scores of 66.5%, 88.9%, and 60.4% for the same outputs.",
    "comment": "",
    "score": 55
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黑色星期五！日韩股指跌近5%，软银大跌15%，SK海力士跌超7%，黄金跌破3600",
-   "link": "https://wallstreetcn.com/articles/3786330",
-   "time": "11-20 01:22",
-   "summary": "Anthropic上市未能提振AI板块信心，受人工智能交易前景悲观情绪的影响，亚太市场周五开盘遭遇重挫，科技股首当其冲，全球股指正迈向近三年来最长连跌纪录。 MSCI亚太股票指数下跌1.7%，连续第七个交易日收跌，逼近4月以来最低收盘位，同步拖累MSCI全球指数走向2023年9月以来最长跌势。韩国综合股价指数下挫4.7%，日本日经225指数跌幅扩大至4.6%，日本最新通胀数据引发市场对央行加息的担",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "学术",
@@ -63,16 +53,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "日本10月核心CPI加速升至2.2%，加息再添砝码",
-   "link": "https://wallstreetcn.com/articles/3786346",
-   "time": "11-20 05:34",
-   "summary": "日本最新通胀数据显示物价涨势加速，进一步巩固了日本央行（BOJ）下月升息的理由。 日本总务省周五（11月20日）公布的数据显示， 10月剔除生鲜食品的核心CPI同比上涨2.2% ，连续第二个月加速，为今年以来最快升幅，但略低于经济学家预期中值2.3%。与此同时， 整体CPI同比上涨2.3% 。数据公布后，掉期合约隐含日本央行 12月18日加息概率约为86% 。 Sompo Institute Pl",
-   "comment": "",
-   "score": 44
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -101,6 +81,16 @@
    "summary": "arXiv:2508.03471v3 Announce Type: replace Abstract: Indexes can significantly improve search performance in databases. However, if the query workload changes frequently or new data updates occur continuously, it may not be worthwhile to build a conventional index upfront for query processing. Building a conventional fine-grained index, like B+-tree on the entire dataset can be very expensive since it may involve processing terabytes to petabytes of data. Moreover, with a traditional indexing, data ingestion tends to slow down in case of heavy updates as the index also needs to be updated. In these cases, adaptive indexing is a viable solution instead of traditional indexing. Adaptive indexing is a technique in which an index gets built on the fly as a byproduct of query processing. In recent years, research has taken on a new direction where machine learning models are employed for the purpose of indexing. These indexes, known as learned indexes, are more efficient compared to traditional indexes in terms of memory footprints and query performance. To the best of our knowledge, no learned indexes exist yet for adaptive indexing. We propose a novel learned approach, called FLAIRS, for adaptive indexing. It is built on the fly as queries are submitted. We also introduce an updatable learned index TULSI that is utilized by FLAIRS for indexing data. FLAIRS can employ a query workload prediction technique that makes future workload projection based on past workload data. We have evaluated FLAIRS against existing adaptive indexes for various query workloads. Our results show that our approach performs better than others in most cases, offering significant improvement in query performance.",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本10月核心CPI加速升至2.2%，加息再添砝码",
+   "link": "https://wallstreetcn.com/articles/3786346",
+   "time": "11-20 05:34",
+   "summary": "日本最新通胀数据显示物价涨势加速，进一步巩固了日本央行（BOJ）下月升息的理由。 日本总务省周五（11月20日）公布的数据显示， 10月剔除生鲜食品的核心CPI同比上涨2.2% ，连续第二个月加速，为今年以来最快升幅，但略低于经济学家预期中值2.3%。与此同时， 整体CPI同比上涨2.3% 。数据公布后，掉期合约隐含日本央行 12月18日加息概率约为86% 。 Sompo Institute Pl",
+   "comment": "",
+   "score": 41
   },
   {
    "group": "快讯",
@@ -153,36 +143,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "DeepSeek前成员张博开源Linger项目，主打零token费",
-   "link": "https://wallstreetcn.com/articles/3786352",
-   "time": "11-20 05:58",
-   "summary": "11月19日，前DeepSeek-VL项目负责人张博在X宣布开源个人Agent Linger，开发主体是张博创办的SIMPLEX AI TECHNOLOGIES PTE. LTD.（以下简称“Simplex AI”），代码已上传GitHub。 按项目文档，Linger读取本地邮件、日历和文件，操作用户已登录的浏览器；连接外部应用的读取直接执行，发邮件等写入操作才弹出确认卡，用户可随时接管。 权限边",
-   "comment": "",
-   "score": 36
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -193,6 +153,16 @@
    "score": 34
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "DeepSeek前成员张博开源Linger项目，主打零token费",
+   "link": "https://wallstreetcn.com/articles/3786352",
+   "time": "11-20 05:58",
+   "summary": "11月19日，前DeepSeek-VL项目负责人张博在X宣布开源个人Agent Linger，开发主体是张博创办的SIMPLEX AI TECHNOLOGIES PTE. LTD.（以下简称“Simplex AI”），代码已上传GitHub。 按项目文档，Linger读取本地邮件、日历和文件，操作用户已登录的浏览器；连接外部应用的读取直接执行，发邮件等写入操作才弹出确认卡，用户可随时接管。 权限边",
+   "comment": "",
+   "score": 33
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -201,6 +171,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 32
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "被OpenAI伤透了心的数学家们，现在正从零开始构建自己的AI模型",
+   "link": "https://wallstreetcn.com/articles/3786359",
+   "time": "11-20 07:58",
+   "summary": "数学学术界与大型AI公司的矛盾正在升级。OpenAI宣布利用AI攻克多道数学难题后，非但没有获得学界广泛认可，反而引发关于研究成果归属、数据使用权限和AI解题价值的激烈争论。 部分数学家认为，商业公司正在将数学研究成果转化为产品和营销素材，却没有充分尊重学术界的贡献与权益。 在此背景下，越来越多数学家开始尝试绕开商业AI公司，自主开发开源模型和研究工具。据报道，加州理工学院教授Sergei Guk",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -229,16 +209,6 @@
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
