@@ -1,7 +1,27 @@
 {
- "generated_at": "2026-11-20 09:15",
+ "generated_at": "2026-11-20 10:19",
  "raw_total": 180,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黑色星期五！日韩股指跌近5%，软银大跌15%，SK海力士跌超7%，黄金跌破3600",
+   "link": "https://wallstreetcn.com/articles/3786330",
+   "time": "11-20 01:22",
+   "summary": "Anthropic上市未能提振AI板块信心，受人工智能交易前景悲观情绪的影响，亚太市场周五开盘遭遇重挫，科技股首当其冲，全球股指正迈向近三年来最长连跌纪录。 MSCI亚太股票指数下跌1.7%，连续第七个交易日收跌，逼近4月以来最低收盘位，同步拖累MSCI全球指数走向2023年9月以来最长跌势。韩国综合股价指数下挫4.7%，日本日经225指数跌幅扩大至4.6%，日本最新通胀数据引发市场对央行加息的担",
+   "comment": "",
+   "score": 58
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "阿里、腾讯释放同一个信号：资本开支在2028年后下降，国产算力驱动推理",
+   "link": "https://wallstreetcn.com/articles/3786331",
+   "time": "11-20 01:29",
+   "summary": "阿里巴巴和腾讯在各自最新季度财报电话会上，都给出了相似的资本开支路径：AI基础设施资本开支的高峰期正在临近，2028年将成为关键拐点。与此同时，两家公司均强调，推理负载已可在国内芯片上高效运行，国产算力正成为支撑云收入增长的一大核心引擎。 阿里CFO徐宏在电话会上表示，本季度资本开支为505亿元人民币（约合75亿美元），环比上季度的677亿元人民币（约合100亿美元）有所下降。他进一步解释了未来的",
+   "comment": "",
+   "score": 49
+  },
   {
    "group": "AI与数据",
    "source": "Latent Space",
@@ -75,6 +95,16 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "A股三大股指早盘下跌，创业板跌近3%，银行、煤炭逆势走强，恒科指跌超3%，权重科网股普遍下跌",
+   "link": "https://wallstreetcn.com/articles/3786333",
+   "time": "11-20 01:53",
+   "summary": "11月20日，A股早盘集体低开，三大股指盘初延续跌势，深成指、创业板均跌超2%，算力硬件再度调整，光模块、光通信、光电路交换机等领跌，“易中天”均跌5%。覆铜板、电路板等逆势活跃。AI短剧、贵金属等板块大幅下挫，生物医药、航天军工等板块亦下跌。资金涌入红利资产，银行、煤炭等走强。 港股大幅低开低走，恒指、恒科指双双下挫，恒科指早盘跌超3%，权重科网股多数下跌，快手大跌超10%，网易暴跌18%，光模",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "拼多多大涨！Q3营收1083亿元不及预期，经营利润同比增长25%｜财报见闻",
    "link": "https://wallstreetcn.com/articles/3786292",
    "time": "11-19 22:05",
@@ -113,16 +143,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
-   "link": "https://wallstreetcn.com/articles/3786324",
-   "time": "11-19 23:58",
-   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "ProvCards: Artifact-Oriented Provenance for Heterogeneous Scientific Workflows",
@@ -131,16 +151,6 @@
    "summary": "arXiv:2611.24894v1 Announce Type: new Abstract: Reproducibility in scientific workflows is hindered by heterogeneous components and execution environments, as well as fragmented provenance capture. Although existing approaches offer established semantics and workflow-specific solutions, provenance remains difficult to capture, exchange, and compose across workflow boundaries. We present ProvCards, an artifact-oriented approach that treats provenance as a first-class artifact grounded in the W3C PROV Data Model. Individual workflow components can generate cards that are stored, exchanged, reused, and composed independently of any workflow system or centralized execution context. ProvDecks group related cards into portable scopes while preserving their identities. ProvGraphs provide derived views for provenance reconstruction, querying, visualization, and analysis. Together, these representations support coherent, task-specific provenance views across heterogeneous components, facilitating traceability, reuse, and reproducibility. We implement ProvCards using a graph-based infrastructure and evaluate them in a scientific data-processing workflow. The results demonstrate independent provenance capture at the component level, composition across component boundaries, and reconstruction for querying and analysis. ProvCards provide a portable, composable, and incrementally extensible foundation for provenance management in heterogeneous scientific workflows.",
    "comment": "",
    "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
-   "link": "https://wallstreetcn.com/articles/3786319",
-   "time": "11-19 23:10",
-   "summary": "华见早安之声 要闻精选 中国 习近平 主持中俄美元首会晤。中俄美元首和平宣言。 习近平 就大国如何正确相处提出4点看法。 阿里 Q3净利润同比大增213%，云业务收入增长53%， AI投入推动资本开支增60%、负现金流扩大 。 电话会 ：20GW数据中心目标和资本开支计划可能降低，国产算力2028年放量，阿里云将恢复高速增长，现金流转正。 拼多多 Q3营收1083亿元不及预期， 经营利润同比增长2",
-   "comment": "",
-   "score": 32
   },
   {
    "group": "AI与数据",
@@ -153,6 +163,16 @@
    "score": 32
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
+   "link": "https://wallstreetcn.com/articles/3786324",
+   "time": "11-19 23:58",
+   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
+   "comment": "",
+   "score": 31
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
@@ -161,26 +181,6 @@
    "summary": "arXiv:2611.23342v1 Announce Type: new Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain knowledge with graph-structured learning. Data quality is formulated as a continuous confidence estimation problem rather than a binary anomaly identification task, enabling sample-level assessment and historical-reference-based batch comparison. A nine-dimensional feature-quality prior and duplicate-aware sample initialization are calibrated using materials domain rules and statistical evidence. Confidence is further refined through sample-feature bipartite graph propagation and weakly supervised graph attention, while a Memory-GAT module provides historical reference scoring. Experiments on 23 ODDS benchmark datasets show that the generic module achieves an average AUC-ROC of 0.866. In five repeated mixed-contamination experiments on mp\\_20, rule calibration improves HistGradientBoostingRegressor test $R^2$ from $0.538\\pm0.008$ to $0.616\\pm0.014$. Graph refinement increases average precision from $0.943\\pm0.004$ to 0.953\\pm0.004$, while the rule-calibrated configuration has the highest mean test $R^2$ among the evaluated screening configurations. Five repeated MACE subset experiments further show an increase in $R^2$ from $0.590\\pm0.053$ to $0.880\\pm0.027$ after rule-based screening.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "首度突破1万亿美元！AI加持，韩国出口创下新纪录",
-   "link": "https://wallstreetcn.com/articles/3786327",
-   "time": "11-20 00:56",
-   "summary": "韩国年度商品出口额首次突破万亿美元，AI驱动的半导体出口热潮是这一历史性突破的核心引擎。 11月19日周四，据韩国产业通商资源部公布的初步数据， 韩国年度货物出口累计额正式越过万亿美元关口。 这一成就距韩国年出口额首次突破7000亿美元仅一年之隔，使韩国成为继美国、中国和德国之后，全球第四个实现这一目标的经济体。 出口激增也为韩国宏观经济提供了支撑。 韩国三季度GDP环比增长1%，超出市场预期。 ",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储官员再放鹰，Goolsbee：通胀居高不下，不排除单次加息超常规可能",
-   "link": "https://wallstreetcn.com/articles/3786318",
-   "time": "11-19 22:19",
-   "summary": "通胀持续超预期，美联储政策路径再度收紧。 芝加哥联储主席Austan Goolsbee周四表示， 在美联储下月议息会议上，所有政策选项均在考量之中，并未排除单次加息幅度超出常规的可能性。 这是近期多位联储官员就加快加息节奏发出的最新表态，显示决策层内部对通胀形势的担忧正在升温。 在此之前，美联储理事Christopher Waller周三重申，联储或需在12月会议上考虑加息50个基点。根据同日公布",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "财经深度",
