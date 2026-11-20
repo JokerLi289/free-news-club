@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20 07:12",
+ "generated_at": "2026-11-20 08:33",
  "raw_total": 180,
  "items": [
   {
@@ -10,7 +10,7 @@
    "time": "11-18 10:19",
    "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
    "comment": "",
-   "score": 49
+   "score": 48
   },
   {
    "group": "学术",
@@ -41,16 +41,6 @@
    "summary": "arXiv:2611.24518v1 Announce Type: new Abstract: Large language models (LLMs) enable semantic filtering over unstructured documents using natural language predicates, but invoking an oracle LLM on every document incurs prohibitive monetary cost and online latency. Existing model-cascade approaches reduce this cost by using a lightweight proxy model to score each document and forwarding only uncertain documents to the oracle. However, their proxy models have limited generalization capability, and they typically adopt fixed sampling budgets for proxy training and threshold calibration, which insufficiently adapts to diverse online queries. To address this, we present OASIS, an online adaptive framework for LLM-based semantic filtering. OASIS combines a query-agnostic document similarity prior with query-adaptive online learning and sampling. In the offline phase, OASIS utilizes query-agnostic document similarity as a prior and constructs a document navigating spread-out graph (NSG) over document embeddings. For each online query, OASIS trains a query-conditioned graph attention network over the document NSG to obtain proxy scores through semi-supervised node classification. To allocate labels effectively, OASIS adopts density-aware active learning to explore uncertain score regions, selectively annotate informative documents, retrain the proxy, and stop early when additional labels are unlikely to improve the cascade. During threshold calibration, OASIS progressively samples an adaptively sized calibration set, adapting calibration cost to the query's score distribution. Extensive experiments demonstrate that OASIS achieves a 1.75x-5.42x reduction in online latency and reduces the number of LLM-processed documents by 35%-75% relative to the state-of-the-art methods at an achieved accuracy of 0.9.",
    "comment": "",
    "score": 47
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "拼多多大涨！Q3营收1083亿元不及预期，经营利润同比增长25%｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786292",
-   "time": "11-19 22:05",
-   "summary": "拼多多第三季度营收基本持平且低于市场预期，但调整后每ADS收益超预期。尽管收入增长放缓，费用支出收缩仍推动公司经营利润实现两位数增长，但净利润基本持平。 11月19日，拼多多公布截至2026年9月30日的第三季度未经审计财务业绩。 公司当季实现营收1083.41亿元人民币，同比增长约0.1%，低于市场预估的1152.1亿元；Non-GAAP摊薄每ADS收益为21.04元，高于市场预估的18.54元",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "学术",
@@ -85,10 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
-   "link": "https://wallstreetcn.com/articles/3786319",
-   "time": "11-19 23:10",
-   "summary": "华见早安之声 要闻精选 中国 习近平主持中俄美元首会晤。中俄美元首和平宣言。习近平就大国如何正确相处提出4点看法。 阿里Q3净利润同比大增213%，云业务收入增长53%，AI投入推动资本开支增60%、负现金流扩大。电话会：20GW数据中心目标和资本开支计划可能降低，国产算力2028年放量，阿里云将恢复高速增长，现金流转正。 拼多多Q3营收1083亿元不及预期，经营利润同比增长25%，股价收涨11%",
+   "title": "拼多多大涨！Q3营收1083亿元不及预期，经营利润同比增长25%｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786292",
+   "time": "11-19 22:05",
+   "summary": "拼多多第三季度营收基本持平且低于市场预期，但调整后每ADS收益超预期。尽管收入增长放缓，费用支出收缩仍推动公司经营利润实现两位数增长，但净利润基本持平。 11月19日，拼多多公布截至2026年9月30日的第三季度未经审计财务业绩。 公司当季实现营收1083.41亿元人民币，同比增长约0.1%，低于市场预估的1152.1亿元；Non-GAAP摊薄每ADS收益为21.04元，高于市场预估的18.54元",
    "comment": "",
    "score": 40
   },
@@ -125,20 +115,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美联储官员再放鹰，Goolsbee：通胀居高不下，不排除单次加息超常规可能",
-   "link": "https://wallstreetcn.com/articles/3786318",
-   "time": "11-19 22:19",
-   "summary": "通胀持续超预期，美联储政策路径再度收紧。 芝加哥联储主席Austan Goolsbee周四表示， 在美联储下月议息会议上，所有政策选项均在考量之中，并未排除单次加息幅度超出常规的可能性。 这是近期多位联储官员就加快加息节奏发出的最新表态，显示决策层内部对通胀形势的担忧正在升温。 在此之前，美联储理事Christopher Waller周三重申，联储或需在12月会议上考虑加息50个基点。根据同日公布",
+   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
+   "link": "https://wallstreetcn.com/articles/3786324",
+   "time": "11-19 23:58",
+   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
    "comment": "",
-   "score": 37
+   "score": 39
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "史上最大IPO开盘狂热不足一小时，Anthropic首秀涨34%后回吐半数涨幅，市值一度突破2万亿",
-   "link": "https://wallstreetcn.com/articles/3786269",
-   "time": "11-19 22:14",
-   "summary": "AI独角兽Anthropic刷新了SpaceX五个月前才创下的上市募资纪录，登陆美股开盘大涨幅度超过暗盘预计最高水平、将公司市值推升至2万亿美元以上，但狂热很快“退烧”。股价开盘后半小时内较开盘价回落13%、创2008年以来大型美股IPO的最差半小时开局。 美东时间11月19日周四，Anthropic以ANT为股票代码正式在纳斯达克挂牌交易，开盘报111.50美元，较IPO发行价涨约34.3%，盘",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
+   "link": "https://wallstreetcn.com/articles/3786319",
+   "time": "11-19 23:10",
+   "summary": "华见早安之声 要闻精选 中国 习近平 主持中俄美元首会晤。中俄美元首和平宣言。 习近平 就大国如何正确相处提出4点看法。 阿里 Q3净利润同比大增213%，云业务收入增长53%， AI投入推动资本开支增60%、负现金流扩大 。 电话会 ：20GW数据中心目标和资本开支计划可能降低，国产算力2028年放量，阿里云将恢复高速增长，现金流转正。 拼多多 Q3营收1083亿元不及预期， 经营利润同比增长2",
    "comment": "",
    "score": 36
   },
@@ -151,6 +141,26 @@
    "summary": "arXiv:2611.24894v1 Announce Type: new Abstract: Reproducibility in scientific workflows is hindered by heterogeneous components and execution environments, as well as fragmented provenance capture. Although existing approaches offer established semantics and workflow-specific solutions, provenance remains difficult to capture, exchange, and compose across workflow boundaries. We present ProvCards, an artifact-oriented approach that treats provenance as a first-class artifact grounded in the W3C PROV Data Model. Individual workflow components can generate cards that are stored, exchanged, reused, and composed independently of any workflow system or centralized execution context. ProvDecks group related cards into portable scopes while preserving their identities. ProvGraphs provide derived views for provenance reconstruction, querying, visualization, and analysis. Together, these representations support coherent, task-specific provenance views across heterogeneous components, facilitating traceability, reuse, and reproducibility. We implement ProvCards using a graph-based infrastructure and evaluate them in a scientific data-processing workflow. The results demonstrate independent provenance capture at the component level, composition across component boundaries, and reconstruction for querying and analysis. ProvCards provide a portable, composable, and incrementally extensible foundation for provenance management in heterogeneous scientific workflows.",
    "comment": "",
    "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储官员再放鹰，Goolsbee：通胀居高不下，不排除单次加息超常规可能",
+   "link": "https://wallstreetcn.com/articles/3786318",
+   "time": "11-19 22:19",
+   "summary": "通胀持续超预期，美联储政策路径再度收紧。 芝加哥联储主席Austan Goolsbee周四表示， 在美联储下月议息会议上，所有政策选项均在考量之中，并未排除单次加息幅度超出常规的可能性。 这是近期多位联储官员就加快加息节奏发出的最新表态，显示决策层内部对通胀形势的担忧正在升温。 在此之前，美联储理事Christopher Waller周三重申，联储或需在12月会议上考虑加息50个基点。根据同日公布",
+   "comment": "",
+   "score": 33
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "史上最大IPO开盘狂热不足一小时，Anthropic首秀涨34%后回吐半数涨幅，市值一度突破2万亿",
+   "link": "https://wallstreetcn.com/articles/3786269",
+   "time": "11-19 22:14",
+   "summary": "AI独角兽Anthropic刷新了SpaceX五个月前才创下的上市募资纪录，登陆美股开盘大涨幅度超过暗盘预计最高水平、将公司市值推升至2万亿美元以上，但狂热很快“退烧”。股价开盘后半小时内较开盘价回落13%、创2008年以来大型美股IPO的最差半小时开局。 美东时间11月19日周四，Anthropic以ANT为股票代码正式在纳斯达克挂牌交易，开盘报111.50美元，较IPO发行价涨约34.3%，盘",
+   "comment": "",
+   "score": 32
   },
   {
    "group": "AI与数据",
@@ -173,22 +183,22 @@
    "score": 31
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美股多头迎来新麻烦：通胀、加息与盈利增长放缓同时来袭",
-   "link": "https://wallstreetcn.com/articles/3786300",
-   "time": "11-19 13:25",
-   "summary": "美股多头正面临日益棘手的局面：美联储政策立场可能进一步转鹰，而企业盈利增长动能却在减弱。货币政策收紧与盈利预期下修的双重压力，正在动摇部分机构投资者对美股的信心。 研究机构TS Lombard已将美股配置比例下调350个基点，同时将现金仓位提高10.3个百分点至14%，并将资金转向欧洲和印度市场。其12个月组合贝塔值也从1.07降至0.92，显示整体风险敞口明显收缩。 TS Lombard担忧的并",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "link": "https://latent.space/p/linear-scaling/",
+   "time": "11-19 23:58",
+   "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
    "comment": "",
    "score": 30
   },
@@ -281,16 +291,6 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 25
-  },
-  {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-   "time": "11-13 09:04",
-   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
-   "comment": "",
-   "score": 24
   },
   {
    "group": "财经深度",
