@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20 13:15",
- "raw_total": 204,
+ "generated_at": "2026-11-20 14:24",
+ "raw_total": 184,
  "items": [
   {
    "group": "学术",
@@ -20,7 +20,17 @@
    "time": "11-20 01:22",
    "summary": "Anthropic上市未能提振AI板块信心，受人工智能交易前景悲观情绪的影响，亚太市场周五开盘遭遇重挫，科技股首当其冲，全球股指正迈向近三年来最长连跌纪录。 MSCI亚太股票指数下跌1.7%，连续第七个交易日收跌，逼近4月以来最低收盘位，同步拖累MSCI全球指数走向2023年9月以来最长跌势。韩国综合股价指数下挫4.7%，日本日经225指数跌幅扩大至4.6%，日本最新通胀数据引发市场对央行加息的担",
    "comment": "",
-   "score": 54
+   "score": 51
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本10月核心CPI加速升至2.2%，加息再添砝码",
+   "link": "https://wallstreetcn.com/articles/3786346",
+   "time": "11-20 05:34",
+   "summary": "日本最新通胀数据显示物价涨势加速，进一步巩固了日本央行（BOJ）下月升息的理由。 日本总务省周五（11月20日）公布的数据显示， 10月剔除生鲜食品的核心CPI同比上涨2.2% ，连续第二个月加速，为今年以来最快升幅，但略低于经济学家预期中值2.3%。与此同时， 整体CPI同比上涨2.3% 。数据公布后，掉期合约隐含日本央行 12月18日加息概率约为86% 。 Sompo Institute Pl",
+   "comment": "",
+   "score": 49
   },
   {
    "group": "AI与数据",
@@ -63,16 +73,6 @@
    "score": 47
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "阿里、腾讯释放同一个信号：资本开支在2028年后下降，国产算力驱动推理",
-   "link": "https://wallstreetcn.com/articles/3786331",
-   "time": "11-20 01:29",
-   "summary": "阿里巴巴和腾讯在各自最新季度财报电话会上，都给出了相似的资本开支路径：AI基础设施资本开支的高峰期正在临近，2028年将成为关键拐点。与此同时，两家公司均强调，推理负载已可在国内芯片上高效运行，国产算力正成为支撑云收入增长的一大核心引擎。 阿里CFO徐宏在电话会上表示，本季度资本开支为505亿元人民币（约合75亿美元），环比上季度的677亿元人民币（约合100亿美元）有所下降。他进一步解释了未来的",
-   "comment": "",
-   "score": 45
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -81,6 +81,16 @@
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
    "comment": "",
    "score": 43
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "阿里、腾讯释放同一个信号：资本开支在2028年后下降，国产算力驱动推理",
+   "link": "https://wallstreetcn.com/articles/3786331",
+   "time": "11-20 01:29",
+   "summary": "阿里巴巴和腾讯在各自最新季度财报电话会上，都给出了相似的资本开支路径：AI基础设施资本开支的高峰期正在临近，2028年将成为关键拐点。与此同时，两家公司均强调，推理负载已可在国内芯片上高效运行，国产算力正成为支撑云收入增长的一大核心引擎。 阿里CFO徐宏在电话会上表示，本季度资本开支为505亿元人民币（约合75亿美元），环比上季度的677亿元人民币（约合100亿美元）有所下降。他进一步解释了未来的",
+   "comment": "",
+   "score": 42
   },
   {
    "group": "AI与数据",
@@ -153,26 +163,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -195,10 +185,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "A股三大股指齐跌，创业板跌2%，PCB逆势走强，恒科指跌超3%，快手大跌10%",
-   "link": "https://wallstreetcn.com/articles/3786333",
-   "time": "11-20 04:08",
-   "summary": "11月20日，A股早盘集体低开，三大指数大幅低开后低位震荡，沪指盘中跌超2%逼近3500点，临近午盘小幅回升，深成指、创业板跌2%。算力硬件再度调整，光模块、光通信、光电路交换机等领跌，覆铜板、电路板等逆势活跃。农业、AI短剧反弹，贵金属、生物医药、航天军工等板块下跌。资金涌入红利资产，银行活跃。 港股大幅低开低走，恒指、恒科指双双下挫，恒指一度跌超2%，自1月29日高点以来的累计跌幅达到20%。",
+   "title": "报道：数据中心运营商DayOne暂停美国IPO计划，因数据中心和市场担忧",
+   "link": "https://wallstreetcn.com/articles/3786350",
+   "time": "11-20 05:56",
+   "summary": "数据中心运营商DayOne搁置了原定规模达数十亿美元的美国IPO计划，市场对支撑人工智能热潮的数字基础设施估值能否持续的疑虑，正给该行业的资本运作带来切实压力。 据彭博11月20日报道，知情人士透露，DayOne此前计划最快于今年第四季度赴美募资最多50亿美元，但随着数据中心及AI股票波动加剧，公司已开始重新评估方案，包括推迟上市或缩减融资规模。上述知情人士称，若市场形势和情绪改善，DayOne可",
    "comment": "",
    "score": 30
   },
@@ -213,32 +203,12 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
-   "link": "https://wallstreetcn.com/articles/3786319",
-   "time": "11-19 23:10",
-   "summary": "华见早安之声 要闻精选 中国 习近平 主持中俄美元首会晤。中俄美元首和平宣言。 习近平 就大国如何正确相处提出4点看法。 阿里 Q3净利润同比大增213%，云业务收入增长53%， AI投入推动资本开支增60%、负现金流扩大 。 电话会 ：20GW数据中心目标和资本开支计划可能降低，国产算力2028年放量，阿里云将恢复高速增长，现金流转正。 拼多多 Q3营收1083亿元不及预期， 经营利润同比增长2",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
