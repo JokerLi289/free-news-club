@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20 17:16",
+ "generated_at": "2026-11-20 19:14",
  "raw_total": 184,
  "items": [
   {
@@ -143,36 +143,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黑色星期五！全球股市创三年最长连跌，Anthropic上市次日盘前大跌6%，黄金跌破3600，美债上涨、油价下跌",
-   "link": "https://wallstreetcn.com/articles/3786330",
-   "time": "11-20 08:47",
-   "summary": "全球股市承压已逾一周，人工智能交易的信心瓦解成为核心导火索。MSCI全球指数连续第七个交易日下跌， 创下2023年9月以来最长连跌纪录， 亚太及新兴市场首当其冲，投资者加速转向避险货币寻求庇护。 Anthropic上市首日涨幅虽达17%，但这家全球有史以来规模最大的IPO公司随即在第二个交易日跌破首日盘中低点，周五美股盘前大跌6%。这一走势印证了市场的核心疑虑——投资者正在质疑，人工智能繁荣所消耗",
-   "comment": "",
-   "score": 39
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“机器人+星链” ？大摩描绘SpaceX下一个万亿级增长故事",
-   "link": "https://wallstreetcn.com/articles/3786361",
-   "time": "11-20 08:39",
-   "summary": "特斯拉自动驾驶出租车Cybercab与SpaceX星链（Starlink）的整合正从概念走向现实。随着Cybercab开始搭载星链终端，马斯克旗下两家公司的业务协同有望从卫星互联网延伸至自动驾驶和机器人领域。 据追风交易台，摩根士丹利分析师Adam Jonas在最新研究报告中指出， 市场尚未充分认识到星链为搭载自主AI推理计算的机器人提供高带宽连接的潜在价值。他预计，随着机器人应用规模扩大，机器人",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
-   "link": "https://wallstreetcn.com/articles/3786353",
-   "time": "11-20 08:17",
-   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模",
-   "comment": "",
-   "score": 36
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -195,6 +165,36 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "黑色星期五！全球股市创三年最长连跌，Anthropic上市次日盘前大跌6%，黄金跌破3600，美债上涨、油价下跌",
+   "link": "https://wallstreetcn.com/articles/3786330",
+   "time": "11-20 08:47",
+   "summary": "全球股市承压已逾一周，人工智能交易的信心瓦解成为核心导火索。MSCI全球指数连续第七个交易日下跌， 创下2023年9月以来最长连跌纪录， 亚太及新兴市场首当其冲，投资者加速转向避险货币寻求庇护。 Anthropic上市首日涨幅虽达17%，但这家全球有史以来规模最大的IPO公司随即在第二个交易日跌破首日盘中低点，周五美股盘前大跌6%。这一走势印证了市场的核心疑虑——投资者正在质疑，人工智能繁荣所消耗",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“机器人+星链” ？大摩描绘SpaceX下一个万亿级增长故事",
+   "link": "https://wallstreetcn.com/articles/3786361",
+   "time": "11-20 08:39",
+   "summary": "特斯拉自动驾驶出租车Cybercab与SpaceX星链（Starlink）的整合正从概念走向现实。随着Cybercab开始搭载星链终端，马斯克旗下两家公司的业务协同有望从卫星互联网延伸至自动驾驶和机器人领域。 据追风交易台，摩根士丹利分析师Adam Jonas在最新研究报告中指出， 市场尚未充分认识到星链为搭载自主AI推理计算的机器人提供高带宽连接的潜在价值。他预计，随着机器人应用规模扩大，机器人",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
+   "link": "https://wallstreetcn.com/articles/3786353",
+   "time": "11-20 08:17",
+   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "DeepSeek前成员张博开源Linger项目，主打零token费",
    "link": "https://wallstreetcn.com/articles/3786352",
    "time": "11-20 05:58",
@@ -205,10 +205,10 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "An Interview With Eric Seufert About Agentic Commerce",
-   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
-   "time": "11-19 11:00",
-   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
    "comment": "",
    "score": 30
   },
@@ -245,10 +245,10 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
-   "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
-   "time": "11-18 11:00",
-   "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+   "title": "An Interview With Eric Seufert About Agentic Commerce",
+   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "time": "11-19 11:00",
+   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
    "comment": "",
    "score": 29
   },
@@ -265,10 +265,10 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
-   "link": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
-   "time": "11-17 11:00",
-   "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+   "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+   "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+   "time": "11-18 11:00",
+   "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
    "comment": "",
    "score": 28
   },
