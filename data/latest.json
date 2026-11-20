@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20 16:19",
+ "generated_at": "2026-11-20 17:16",
  "raw_total": 184,
  "items": [
   {
@@ -90,7 +90,7 @@
    "time": "11-20 05:34",
    "summary": "日本最新通胀数据显示物价涨势加速，进一步巩固了日本央行（BOJ）下月升息的理由。 日本总务省周五（11月20日）公布的数据显示， 10月剔除生鲜食品的核心CPI同比上涨2.2% ，连续第二个月加速，为今年以来最快升幅，但略低于经济学家预期中值2.3%。与此同时， 整体CPI同比上涨2.3% 。数据公布后，掉期合约隐含日本央行 12月18日加息概率约为86% 。 Sompo Institute Pl",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "快讯",
@@ -143,6 +143,36 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黑色星期五！全球股市创三年最长连跌，Anthropic上市次日盘前大跌6%，黄金跌破3600，美债上涨、油价下跌",
+   "link": "https://wallstreetcn.com/articles/3786330",
+   "time": "11-20 08:47",
+   "summary": "全球股市承压已逾一周，人工智能交易的信心瓦解成为核心导火索。MSCI全球指数连续第七个交易日下跌， 创下2023年9月以来最长连跌纪录， 亚太及新兴市场首当其冲，投资者加速转向避险货币寻求庇护。 Anthropic上市首日涨幅虽达17%，但这家全球有史以来规模最大的IPO公司随即在第二个交易日跌破首日盘中低点，周五美股盘前大跌6%。这一走势印证了市场的核心疑虑——投资者正在质疑，人工智能繁荣所消耗",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“机器人+星链” ？大摩描绘SpaceX下一个万亿级增长故事",
+   "link": "https://wallstreetcn.com/articles/3786361",
+   "time": "11-20 08:39",
+   "summary": "特斯拉自动驾驶出租车Cybercab与SpaceX星链（Starlink）的整合正从概念走向现实。随着Cybercab开始搭载星链终端，马斯克旗下两家公司的业务协同有望从卫星互联网延伸至自动驾驶和机器人领域。 据追风交易台，摩根士丹利分析师Adam Jonas在最新研究报告中指出， 市场尚未充分认识到星链为搭载自主AI推理计算的机器人提供高带宽连接的潜在价值。他预计，随着机器人应用规模扩大，机器人",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
+   "link": "https://wallstreetcn.com/articles/3786353",
+   "time": "11-20 08:17",
+   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模",
+   "comment": "",
+   "score": 36
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
@@ -151,16 +181,6 @@
    "summary": "arXiv:2611.25100v1 Announce Type: new Abstract: Bayesian Optimization (BO) can be substantially more sample-efficient when informed by prior knowledge about the problem. In practice, however, such knowledge is often available only in natural language, e.g., expert intuitions or documentation, rather than as the explicit probability distribution landscape that prior-guided BO methods may require. Leveraging it effectively demands both an expressive mapping from language to priors and robustness to information that may be misleading. We propose HapBO (Harnessed $\\alpha$-$\\pi$ Bayesian Optimization), which elicits beliefs once from a human expert, a large language model (LLM), or both, and deterministically compiles a structured specification into a reusable belief function ($\\pi: \\mathcal{X} \\to[0,1]$), with a rich representation not restricted to a Gaussian family. Building on $\\alpha$-$\\pi$BO, HapBO applies this belief function through a bounded positive multiplier on any nonnegative acquisition, preserving positive acquisition support and requiring no LLM calls during optimization. We prove that, for the Expected Improvement acquisition function (EI), HapBO preserves the standard simple-regret rate up to a bounded factor, even under adversarial beliefs. We evaluate HapBO on 40 HPOBench tasks, a synthetic suite in 6-15 dimensions and two real-world applications: cortical neurostimulation and constrained solar design. HapBO achieves the lowest aggregate HPOBench regret and strong real-world task performance, with zero in-loop token cost. In real-world applications it improves the optimization outcome even at budgets of 12-20 queries, and at a small fraction of the wall-clock and token costs of other LLM-based methods.",
    "comment": "",
    "score": 34
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "DeepSeek前成员张博开源Linger项目，主打零token费",
-   "link": "https://wallstreetcn.com/articles/3786352",
-   "time": "11-20 05:58",
-   "summary": "11月19日，前DeepSeek-VL项目负责人张博在X宣布开源个人Agent Linger，开发主体是张博创办的SIMPLEX AI TECHNOLOGIES PTE. LTD.（以下简称“Simplex AI”），代码已上传GitHub。 按项目文档，Linger读取本地邮件、日历和文件，操作用户已登录的浏览器；连接外部应用的读取直接执行，发邮件等写入操作才弹出确认卡，用户可随时接管。 权限边",
-   "comment": "",
-   "score": 33
   },
   {
    "group": "AI与数据",
@@ -175,30 +195,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "被OpenAI伤透了心的数学家们，现在正从零开始构建自己的AI模型",
-   "link": "https://wallstreetcn.com/articles/3786359",
-   "time": "11-20 07:58",
-   "summary": "数学学术界与大型AI公司的矛盾正在升级。OpenAI宣布利用AI攻克多道数学难题后，非但没有获得学界广泛认可，反而引发关于研究成果归属、数据使用权限和AI解题价值的激烈争论。 部分数学家认为，商业公司正在将数学研究成果转化为产品和营销素材，却没有充分尊重学术界的贡献与权益。 在此背景下，越来越多数学家开始尝试绕开商业AI公司，自主开发开源模型和研究工具。据报道，加州理工学院教授Sergei Guk",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国财政部发行“9天期票据”，上一次是在2008年7月",
-   "link": "https://wallstreetcn.com/articles/3786324",
-   "time": "11-19 23:58",
-   "summary": "美国财政部正以越来越短的时间窗口管理其现金需求，一个尘封近17年的融资工具悄然重出江湖，令市场对美联储储备充裕程度的判断再添疑虑。 11月19日， 美国财政部以3.910%的利率售出150亿美元、期限仅9天的现金管理短期国库券（CMB），这是自2008年7月以来首次发行此类超短期工具，彼时IndyMac刚刚被接管，雷曼兄弟距离破产仅剩两个月。 此次“9天期票据”发行日期为11月24日，到期日为12",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
-   "link": "https://wallstreetcn.com/articles/3786319",
-   "time": "11-19 23:10",
-   "summary": "华见早安之声 要闻精选 中国 习近平 主持中俄美元首会晤。中俄美元首和平宣言。 习近平 就大国如何正确相处提出4点看法。 阿里 Q3净利润同比大增213%，云业务收入增长53%， AI投入推动资本开支增60%、负现金流扩大 。 电话会 ：20GW数据中心目标和资本开支计划可能降低，国产算力2028年放量，阿里云将恢复高速增长，现金流转正。 拼多多 Q3营收1083亿元不及预期， 经营利润同比增长2",
+   "title": "DeepSeek前成员张博开源Linger项目，主打零token费",
+   "link": "https://wallstreetcn.com/articles/3786352",
+   "time": "11-20 05:58",
+   "summary": "11月19日，前DeepSeek-VL项目负责人张博在X宣布开源个人Agent Linger，开发主体是张博创办的SIMPLEX AI TECHNOLOGIES PTE. LTD.（以下简称“Simplex AI”），代码已上传GitHub。 按项目文档，Linger读取本地邮件、日历和文件，操作用户已登录的浏览器；连接外部应用的读取直接执行，发邮件等写入操作才弹出确认卡，用户可随时接管。 权限边",
    "comment": "",
    "score": 30
   },
