@@ -1,27 +1,7 @@
 {
- "generated_at": "2026-11-21 08:35",
+ "generated_at": "2026-11-21 09:15",
  "raw_total": 184,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "发生了什么？AI交易雪崩！纳指跌超5%，AnthropicIPO次日险些破发，英伟达跌超10%",
-   "link": "https://wallstreetcn.com/articles/3786414",
-   "time": "11-20 23:16",
-   "summary": "AI交易遭遇新一轮集中抛售。 创纪录的Anthropic IPO未能提振市场情绪，反而在上市第二天便跌至接近发行价；英伟达遭遇业绩、管理层变动和监管调查等多重压力，AMD等芯片股也持续重挫。市场担忧正在从AI股票估值过高，扩展至巨额资本开支能否兑现回报、融资模式是否可持续，以及高利率环境下投资者是否还愿意为远期增长支付溢价。 20日周五，三大美股指集体大跌：纳指收跌约5.3%，标普500收跌3.7",
-   "comment": "",
-   "score": 58
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
-   "link": "https://wallstreetcn.com/articles/3786417",
-   "time": "11-20 22:56",
-   "summary": "美联储理事Lisa Cook（莉萨·库克）为其在10月议息会议上的异见投票公开作出解释，称当前利率水平不足以有效遏制通胀蔓延，落后于曲线的风险正在上升。与此同时，Cook还面临特朗普政府试图将其解雇的政治压力。 Cook周五在智利圣地亚哥出席一场政策会议时表示， 美联储10月决定暂停加息的举措有可能使央行在抗通胀斗争中落入被动。 她指出，当前3.75%至4%的联邦基金利率目标区间对于抑制通胀仍显不",
-   "comment": "",
-   "score": 56
-  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
@@ -35,12 +15,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "文远知行Q3营收同比增88%，AI基础设施收入近翻倍，Robotaxi单季收入首次突破1亿元｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786382",
-   "time": "11-20 12:15",
-   "summary": "自动驾驶业务商业化进程加快，文远知行第三季度营收超出市场预期，亏损也好于预期。 11月20日，文远知行公布的2026年第三季度实现营收人民币3.215亿元，同比增长88%，高于彭博综合预期的2.688亿元；净亏损3.1亿元，低于市场预期的3.997亿元。海外市场成为收入增长的重要动力，单季收入达1.469亿元，同比增长171.5%，占总营收的45.7%。 与此同时，公司毛利率升至43.0%，较去年",
+   "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
+   "link": "https://wallstreetcn.com/articles/3786417",
+   "time": "11-20 22:56",
+   "summary": "美联储理事Lisa Cook（莉萨·库克）为其在10月议息会议上的异见投票公开作出解释，称当前利率水平不足以有效遏制通胀蔓延，落后于曲线的风险正在上升。与此同时，Cook还面临特朗普政府试图将其解雇的政治压力。 Cook周五在智利圣地亚哥出席一场政策会议时表示， 美联储10月决定暂停加息的举措有可能使央行在抗通胀斗争中落入被动。 她指出，当前3.75%至4%的联邦基金利率目标区间对于抑制通胀仍显不",
    "comment": "",
-   "score": 50
+   "score": 54
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "费城联储主席Paulson：不排除连续加息，但强调“有节奏”",
+   "link": "https://wallstreetcn.com/articles/3786418",
+   "time": "11-21 00:52",
+   "summary": "费城联储主席Anna Paulson表示，愿意考虑在即将举行的政策会议上连续加息以遏制通胀，但强调美联储应以\"审慎\"步伐推进，给家庭、企业和银行留出调整时间。 11月20日周五，Paulson在接受彭博新闻采访时明确表态， 利率走向\"非常清晰\"，\"需要继续走高\"。 她表示对连续加息\"持开放态度\"，认为这是\"完全合理的选项\"，但同时拒绝承诺具体节奏，称\"我既不承诺隔次会议加息，也不承诺每次会议加息\"",
+   "comment": "",
+   "score": 49
   },
   {
    "group": "学术",
@@ -51,16 +41,6 @@
    "summary": "arXiv:2611.25416v1 Announce Type: new Abstract: When an embedding model changes, the same collection is re-encoded, and its vector index must be adapted to the new embedding space. Because the source and target vectors represent the same objects, suitable connections in the source index can be reused. We propose STARR (Standardized Tolerance for Adaptive Reuse and Repair) to migrate HNSW indexes after an embedding model change. STARR compares standardized edge lengths over the same source neighbor lists in both embedding spaces and uses the correlation between their distance profiles to set the allowable increase in standardized edge length. It reconnects affected vertices by searching the partially migrated graph and shares the resulting candidates with their neighbors. We bound edge rejection under local distance distortion, characterize migration work, and prove that a final repair pass makes every vertex reachable from the entry point at the base layer while respecting degree limits. Single-threaded experiments on MS MARCO, Wikipedia, and CC3M, each with one million objects, show that STARR achieves 5.25--44.54$\\times$ construction speedups over Fresh and migrates faster than both DGM variants on all 15 selected transitions. Recall@10 remains within one percentage point of Fresh in 10 cases, and query throughput exceeds DGM-Local in 14 cases. Parameter sweeps on three transitions further demonstrate favorable migration-time--recall tradeoffs beyond the default settings. Across all 240 directed transitions among 16 MS MARCO models, STARR achieves a median construction speedup of 16.71$\\times$ with a median recall loss of 1.0 percentage point.",
    "comment": "",
    "score": 48
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黑色星期五！美股和金属全线重挫，英伟达暴跌14%，VIX涨破35，美债五连涨",
-   "link": "https://wallstreetcn.com/articles/3786330",
-   "time": "11-20 22:58",
-   "summary": "投资者对AI浪潮的担忧在周五最终演变成一场全面的抛售，美股指数大跌，投资者纷纷涌向债券和避险货币寻求安全保障。 科技巨头层面的负面催化剂成为市场暴跌的核心驱动力。据路透报道，美国监管机构正对英伟达的会计操作展开调查，该股周五大跌14%，创下2008年10月以来的最差单周表现。 同时，创纪录的Anthropic首次公开募股（IPO）在周五下挫，此前周四上市导致庞大的吸金效应加剧了市场的流动性压力。 ",
-   "comment": "",
-   "score": 47
   },
   {
    "group": "学术",
@@ -93,6 +73,16 @@
    "score": 46
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黑色星期五！美股和金属全线重挫，英伟达暴跌14%，VIX涨破35，美债五连涨",
+   "link": "https://wallstreetcn.com/articles/3786330",
+   "time": "11-20 22:58",
+   "summary": "投资者对AI浪潮的担忧在周五最终演变成一场全面的抛售，美股指数大跌，投资者纷纷涌向债券和避险货币寻求安全保障。 科技巨头层面的负面催化剂成为市场暴跌的核心驱动力。据路透报道，美国监管机构正对英伟达的会计操作展开调查，该股周五大跌14%，创下2008年10月以来的最差单周表现。 同时，创纪录的Anthropic首次公开募股（IPO）在周五下挫，此前周四上市导致庞大的吸金效应加剧了市场的流动性压力。 ",
+   "comment": "",
+   "score": 45
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -101,16 +91,6 @@
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
    "comment": "",
    "score": 43
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic上市次日暴跌，盘中一度离破发仅差5美分，AI交易“买方罢工”",
-   "link": "https://wallstreetcn.com/articles/3786401",
-   "time": "11-20 21:18",
-   "summary": "史上最大IPO的光环正在消退。Anthropic上市第二日股价急剧下滑，几乎抹去首日涨幅，映射出更广泛AI与科技板块的抛售情绪，同时也为竞争对手OpenAI的未来上市之路埋下变数。 Anthropic股价周五盘中一度大跌15%至83.05美元，距83美元的发行价仅剩5美分，随后小幅反弹，最终收跌8.5%。该股在上市首日曾短暂将公司市值推升至高于亚马逊。 与此同时，承销银行行使超额配售权（绿鞋机制）",
-   "comment": "",
-   "score": 42
   },
   {
    "group": "AI与数据",
@@ -135,10 +115,30 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "Anthropic上市次日暴跌，盘中一度离破发仅差5美分，AI交易“买方罢工”",
+   "link": "https://wallstreetcn.com/articles/3786401",
+   "time": "11-20 21:18",
+   "summary": "史上最大IPO的光环正在消退。Anthropic上市第二日股价急剧下滑，几乎抹去首日涨幅，映射出更广泛AI与科技板块的抛售情绪，同时也为竞争对手OpenAI的未来上市之路埋下变数。 Anthropic股价周五盘中一度大跌15%至83.05美元，距83美元的发行价仅剩5美分，随后小幅反弹，最终收跌8.5%。该股在上市首日曾短暂将公司市值推升至高于亚马逊。 与此同时，承销银行行使超额配售权（绿鞋机制）",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "三季度热销31万辆，零跑为何只赚4000万元？",
    "link": "https://wallstreetcn.com/articles/3786393",
    "time": "11-20 14:16",
    "summary": "作者 | 周智宇 11月20日晚，零跑汽车交出了季度销量超过31万辆的成绩单，归母净利润却只有约4000万元。去年同期，这个数字是1.5亿元，刚刚过去的二季度则是6亿元。 三季度零跑交付量同比增长78.3%，营收增长63%至317亿元，毛利率却从二季度的12.6%降至10.9%。按财报披露的收入和销售成本计算，零跑一个季度多做了44.1亿元收入，毛利只增加约3000万元，至34.6亿元。 当晚的业",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "苹果悄然布局AI Agent，Meta Muse迎来新对手",
+   "link": "https://wallstreetcn.com/articles/3786389",
+   "time": "11-20 13:29",
+   "summary": "苹果正悄然加码AI Agent布局，招聘工程人才开发自主智能体系统，加入科技巨头争夺下一代AI入口的竞争。 11月20日，据报道， 苹果近日在官网密集发布多个招聘职位，寻求工程人才协助构建自主AI智能体系统。相关职位涉及多智能体协调、长周期推理、工具调用和任务规划等核心技术，显示苹果正加快推进智能体领域的技术布局。 与此同时，Meta旗下AI助手Muse自9月8日上线以来迅速走红，在苹果应用商店免",
    "comment": "",
    "score": 40
   },
