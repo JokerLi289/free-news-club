@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23 01:12",
- "raw_total": 160,
+ "generated_at": "2026-11-23 02:16",
+ "raw_total": 140,
  "items": [
   {
    "group": "快讯",
@@ -73,16 +73,6 @@
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "为何与科技股同跌？黄金成了流动性危机的“提款机”",
@@ -91,16 +81,6 @@
    "summary": "国际金价单周重挫约10%，与暴跌的科技股同步遭抛售——当AI交易退潮触发跨资产追加保证金（Margin Calls），传统的避险资产正沦为市场筹集现金的“提款机”。 11月17日至20日的四个交易日内，金价急跌9%，自2025年9月以来首次失守3600美元/盎司关口；据摩根大通周五早报，现货金价报3588美元/盎司。白银跌势更为剧烈，全周重挫15%。 这场贵金属抛售与美股动荡高度重合。11月20日",
    "comment": "",
    "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
   },
   {
    "group": "AI与数据",
@@ -129,16 +109,6 @@
    "link": "https://wallstreetcn.com/articles/3786429",
    "time": "11-21 05:22",
    "summary": "美股持续下跌，金融条件急剧收紧，市场正显现出与2018年末相似的危险信号：美联储在市场压力不断累积之际，仍面临继续加息的政策预期，投资者开始担忧货币政策是否会再次加剧市场动荡。 据高盛交易主管Rich Privorotsky周五报告，当前市场与2018年末存在惊人的相似之处。他将近期抛售定性为“全面清仓式变现”，而非普通的板块轮动，并警告市场可能正在从风险偏好下降转向更深层次的流动性收缩。 彼时，",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
