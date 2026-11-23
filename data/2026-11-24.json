@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24 06:13",
- "raw_total": 205,
+ "generated_at": "2026-11-24 07:14",
+ "raw_total": 185,
  "items": [
   {
    "group": "学术",
@@ -21,6 +21,16 @@
    "summary": "arXiv:2611.27910v1 Announce Type: cross Abstract: Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a natural-language question, with outcomes yes, no, or not stated. A record's embedding is its answers across an ordered set of questions. Similarity decomposes exactly into per-question contributions, and new questions add coordinates without altering existing ones. On public product benchmarks, question-space retrieval matches dense candidate generation statistically in a retrieve-then-verify entity matcher, while providing exact explanations for accepted matches. Questions derived from retrieval failures triple mean reciprocal rank without re-encoding prior answers. For search, inferring the attributes of a suitable result outperforms encoding only the literal request, and combining question-space and dense scores improves retrieval, though not at our prespecified confidence threshold. A single small neural network predicts the full interpretable vector from an existing dense embedding, enabling corpus backfilling from a few thousand labeled rows at roughly 1/200 the cost. We position interpretable embeddings as a complementary, readable retrieval channel for explaining matches, filtering on attributes, and extending indexes as failures expose missing facts.",
    "comment": "",
    "score": 53
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储“三把手”：通胀仍未达标，需逐步采取行动，不排除连续加息的可能",
+   "link": "https://wallstreetcn.com/articles/3786554",
+   "time": "11-23 22:28",
+   "summary": "美联储仍面临通胀压力，政策收紧路径尚未走完。 纽约联储主席John Williams周一表示， 美联储在实现2%通胀目标的道路上\"仍有工作要做\"，强调官员必须“随时间推移采取行动”，不排除FOMC在必要时连续加息的可能， 未来（多次）会议都不排除任何选项。 其还指出， 数据将决定利率行动的时机和步伐，市场走势可能会在短期内逆转，金融条件的持续变化可能会影响需求，对增长前景仍然非常乐观。 与此同时，",
+   "comment": "",
+   "score": 48
   },
   {
    "group": "财经深度",
@@ -113,24 +123,14 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋回归引爆美股空头回补，英伟达暴涨31%，芯片指数飙涨14%，黄金反弹近3%",
+   "link": "https://wallstreetcn.com/articles/3786472",
+   "time": "11-23 22:28",
+   "summary": "英伟达董事会恢复黄仁勋CEO职务，点燃市场对人工智能赛道的重燃信心，推动美股周一录得自2025年4月以来最大单日涨幅。油价因对伊朗的外交表态重挫，10年期美债收益率回落，美元指数走高。 周一 标普500指数 上涨4.7%， 道琼斯工业平均指数 上涨3%。 英伟达 股价暴涨31%，创2003年以来最大单日涨幅。 纳斯达克100指数 单日飙升6.9%，单日市值增加逾2万亿美元。 此前一周，受黄仁勋辞职",
    "comment": "",
    "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
   },
   {
    "group": "AI与数据",
@@ -141,16 +141,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美股科技大反攻！黄仁勋回归，英伟达暴涨35%，纳指涨8%，布油失守90美元",
-   "link": "https://wallstreetcn.com/articles/3786472",
-   "time": "11-23 15:48",
-   "summary": "黄仁勋回归，市场风险偏好回升，带动美股大反弹。此前，AI交易遭遇集中抛售，拖累标普500指数进入回调区间。与此同时，国际油价持续走低，布伦特原油日内跌幅达3%。 周一，美股盘中，标普500指数涨幅扩大至5.5%，道指涨3.3%，纳指涨7.6%，纳斯达克100指数涨7.9%，半导体指数涨14.3%。美股费城半导体指数一度涨15.3%，有望创2025年3月以来最单日涨幅。 个股方面，英伟达涨幅扩大至3",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "快讯",
@@ -169,16 +159,6 @@
    "link": "https://wallstreetcn.com/articles/3786525",
    "time": "11-23 11:54",
    "summary": "网络安全行业正在经历一场规模空前的整合。CrowdStrike宣布以约439亿美元全股票交易收购网络安全公司Zscaler，刷新该行业并购纪录，同时公布的第三财季业绩也超出市场预期，两大利好叠加，进一步强化了市场对这家公司成为AI时代网络安全领域主导平台的预期。 根据双方周一发布的公告，Zscaler股东将以1.135股CrowdStrike普通股换取每股Zscaler普通股，折合每股Zscale",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -233,6 +213,16 @@
    "score": 30
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储监管副主席鲍曼遭罕见调查，被指违反“静默期”规定，鲍曼否认",
+   "link": "https://wallstreetcn.com/articles/3786556",
+   "time": "11-23 22:58",
+   "summary": "美联储内部监察机构正就理事Michelle Bowman（米歇尔·鲍曼）今年6月出席一场美国银行私人晚宴一事展开调查，核心问题是她是否违反了央行的\"静默期\"通讯限制规定。这是对一位在任美联储理事的罕见审查行动。 据彭博援引一位知情人士透露， 该晚宴于6月17日在纽约举行，时间恰在美联储政策会议结束数小时后，彼时官员们仍处于禁止就经济或货币政策向公众发表评论的静默期内。 美联储监察长办公室近期已寻求",
+   "comment": "",
+   "score": 29
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -273,16 +263,6 @@
    "score": 27
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "马斯克承认SpaceX AI研发落后，出租算力比自研Grok更赚钱",
-   "link": "https://wallstreetcn.com/articles/3786545",
-   "time": "11-23 18:49",
-   "summary": "SpaceX的人工智能业务正面临一个深层矛盾：靠向竞争对手出租算力获利，远比发展自有AI产品更赚钱。 据《纽约时报》报道， 马斯克已向员工坦承，公司在AI研发上正在落后，这使得将算力对外出租比用于自研产品更具商业价值。 Anthropic每月向SpaceX支付约31亿美元购买算力，谷歌每月支付约8亿美元，相关协议可能延续至2029年。SpaceX旗下AI部门SpaceXSI目前贡献了公司逾半数营收",
-   "comment": "",
-   "score": 24
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
@@ -301,16 +281,6 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "时隔多年重启公益联名，苹果拟推（RED）特别版 HomePod mini 2 与 AirPods Max 2",
-   "link": "https://wallstreetcn.com/articles/3786551",
-   "time": "11-23 21:47",
-   "summary": "苹果正准备重启与（RED）公益项目的合作，计划推出两款特别版配色硬件。此次发布不仅恰逢世界艾滋病日以及（RED）组织成立20周年，也将为苹果的年终假日季销售注入新的增长动力。 11月23日，据彭博援引知情人士透露， 苹果将发布红色版HomePod mini 2与新配色AirPods Max 2，发布时间预计在12月1日前后。 这将是苹果自2023年Apple Watch Series 9之后，时隔",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "AI与数据",
