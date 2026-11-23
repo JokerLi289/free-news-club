@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23 14:33",
+ "generated_at": "2026-11-23 16:22",
  "raw_total": 185,
  "items": [
   {
@@ -31,6 +31,16 @@
    "summary": "arXiv:2611.27910v1 Announce Type: cross Abstract: Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a natural-language question, with outcomes yes, no, or not stated. A record's embedding is its answers across an ordered set of questions. Similarity decomposes exactly into per-question contributions, and new questions add coordinates without altering existing ones. On public product benchmarks, question-space retrieval matches dense candidate generation statistically in a retrieve-then-verify entity matcher, while providing exact explanations for accepted matches. Questions derived from retrieval failures triple mean reciprocal rank without re-encoding prior answers. For search, inferring the attributes of a suitable result outperforms encoding only the literal request, and combining question-space and dense scores improves retrieval, though not at our prespecified confidence threshold. A single small neural network predicts the full interpretable vector from an existing dense embedding, enabling corpus backfilling from a few thousand labeled rows at roughly 1/200 the cost. We position interpretable embeddings as a complementary, readable retrieval channel for explaining matches, filtering on attributes, and extending indexes as failures expose missing facts.",
    "comment": "",
    "score": 53
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“至暗一周”后，黄金终于等来散户抄底！",
+   "link": "https://wallstreetcn.com/articles/3786504",
+   "time": "11-23 07:30",
+   "summary": "黄金从近八个月来最大单周跌幅中反弹，超卖后的抄底买盘为金价提供支撑，市场也开始下调对美联储12月加息的押注。尽管美国通胀和就业数据仍是短期压制金价的主要因素，但多家机构认为，本轮调整可能已接近尾声。 周一，现货黄金涨超2%，报每盎司3627美元。此前一周，金价累计下跌9%，创近八个月来最大单周跌幅，并跌至一年多来的低位。从技术指标看，黄金14日相对强弱指数（RSI）已跌破30，进入通常被视为超卖的",
+   "comment": "",
+   "score": 48
   },
   {
    "group": "财经深度",
@@ -75,6 +85,16 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
+   "link": "https://wallstreetcn.com/articles/3786484",
+   "time": "11-23 08:14",
+   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "美银美林：芯片股“触底”需要“利率见顶”，等待“股价不再理会利空”时抄底",
    "link": "https://wallstreetcn.com/articles/3786476",
    "time": "11-23 00:53",
@@ -103,16 +123,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "沪指午后收复3500点，创业板大涨超2%，光模块拉升、天孚通信大涨10%，恒科指震荡回升，生物医药爆发",
-   "link": "https://wallstreetcn.com/articles/3786484",
-   "time": "11-23 05:26",
-   "summary": "在美股上周“黑色一周”（纳指周跌10.02%、抹去年内涨幅）与韩股周一熔断式下跌的海外冲击下，A股早盘低开，科创50跌超2%，半导体、光刻机、存储等领跌。 11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创",
-   "comment": "",
-   "score": 39
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Testability of Homomorphism Inadmissibility: Property Testing Meets Database Theory",
@@ -121,16 +131,6 @@
    "summary": "arXiv:2611.26861v1 Announce Type: new Abstract: In this paper, we utilize the perspective of property testing to consider the testability of relational database queries. A primary motivation is the desire to avoid reading an entire database to decide a property thereof. We focus on conjunctive queries, which are the most basic and heavily studied database queries. Each conjunctive query can be represented as a relational structure $\\mathbf{A}$ such that deciding if the conjunctive query is satisfied by a relational structure $\\mathbf{B}$ is equivalent to deciding if there exists a homomorphism from $\\mathbf{A}$ to $\\mathbf{B}$. We phrase our results in terms of homomorphisms. Precisely, we study, for each relational structure $\\mathbf{A}$, the testability of homomorphism inadmissibility from $\\mathbf{A}$. We consider algorithms that have oracle access to an input relational structure $\\mathbf{B}$ and that distinguish, with high probability, the case where there is no homomorphism from $\\mathbf{A}$ to $\\mathbf{B}$, from the case where one needs to remove a constant fraction of tuples from $\\mathbf{B}$ in order to suppress all such homomorphisms. We provide a complete characterization of the structures $\\mathbf{A}$ from which one can test homomorphism inadmissibility with one-sided error by making a constant number of queries to $\\mathbf{B}$. Our characterization shows that homomorphism inadmissibility from $\\mathbf{A}$ is constant-query testable with one-sided error if and only if the core of $\\mathbf{A}$ is $\\alpha$-acyclic. We also show that the injective version of the problem is constant-query testable with one-sided error if $\\mathbf{A}$ is $\\alpha$-acyclic; this result generalizes existing results for testing subgraph-freeness in the general graph model.",
    "comment": "",
    "score": 39
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”",
-   "link": "https://wallstreetcn.com/articles/3786482",
-   "time": "11-23 02:06",
-   "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
-   "comment": "",
-   "score": 32
   },
   {
    "group": "AI与数据",
@@ -145,20 +145,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "为马斯克融资买GPU，高盛“秀操作”",
-   "link": "https://wallstreetcn.com/articles/3786456",
-   "time": "11-22 12:11",
-   "summary": "周四，高盛联手阿波罗全球管理公司（Apollo Global Management），协助马斯克旗下的SpaceX完成了约320亿美元债券定价。这批兼具公司债与资产支持证券（ABS）特征的债券，是高盛耗时一年多交出的答卷——试图在不压垮企业资产负债表的前提下，为昂贵的AI芯片找到买单方案。 这笔债券属于SpaceX总额约440亿美元整体融资的核心部分，虽获贝莱德、Pimco等机构认购，但Space",
+   "title": "共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”",
+   "link": "https://wallstreetcn.com/articles/3786482",
+   "time": "11-23 02:06",
+   "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
    "comment": "",
    "score": 30
   },
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "为何与科技股同跌？黄金成了流动性危机的“提款机”",
-   "link": "https://wallstreetcn.com/articles/3786449",
-   "time": "11-22 07:38",
-   "summary": "国际金价单周重挫约10%，与暴跌的科技股同步遭抛售——当AI交易退潮触发跨资产追加保证金（Margin Calls），传统的避险资产正沦为市场筹集现金的“提款机”。 11月17日至20日的四个交易日内，金价急跌9%，自2025年9月以来首次失守3600美元/盎司关口；据摩根大通周五早报，现货金价报3588美元/盎司。白银跌势更为剧烈，全周重挫15%。 这场贵金属抛售与美股动荡高度重合。11月20日",
+   "title": "为马斯克融资买GPU，高盛“秀操作”",
+   "link": "https://wallstreetcn.com/articles/3786456",
+   "time": "11-22 12:11",
+   "summary": "周四，高盛联手阿波罗全球管理公司（Apollo Global Management），协助马斯克旗下的SpaceX完成了约320亿美元债券定价。这批兼具公司债与资产支持证券（ABS）特征的债券，是高盛耗时一年多交出的答卷——试图在不压垮企业资产负债表的前提下，为昂贵的AI芯片找到买单方案。 这笔债券属于SpaceX总额约440亿美元整体融资的核心部分，虽获贝莱德、Pimco等机构认购，但Space",
    "comment": "",
    "score": 30
   },
