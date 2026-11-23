@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24 02:17",
- "raw_total": 205,
+ "generated_at": "2026-11-24 03:12",
+ "raw_total": 185,
  "items": [
   {
    "group": "学术",
@@ -73,16 +73,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "广发证券：五大因素促成本轮金价大跌，下一个关键节点在12月美联储议息",
-   "link": "https://wallstreetcn.com/articles/3786506",
-   "time": "11-23 08:17",
-   "summary": "COMEX黄金从11月9日阶段性高点4129美元/盎司跌至11月20日3526美元/盎司、10个交易日14.4%的跌幅。黄金的这轮下跌，市场最顺手的解释是美联储加息预期升温。 但广发证券在11月22日发布的宏观周度述评中指出，加息只是金价下跌“加速项”，叙事定价退潮、金饰需求走弱、流动性变现需求，以及价格中隐含的2027年地缘缓和预期，共同造成了本轮金价大跌。 对于黄金后续走势，该团队给出的观察窗",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -123,16 +113,6 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "美股科技大反攻！黄仁勋回归，英伟达暴涨35%，纳指涨8%，布油失守90美元",
@@ -140,17 +120,7 @@
    "time": "11-23 15:48",
    "summary": "黄仁勋回归，市场风险偏好回升，带动美股大反弹。此前，AI交易遭遇集中抛售，拖累标普500指数进入回调区间。与此同时，国际油价持续走低，布伦特原油日内跌幅达3%。 周一，美股盘中，标普500指数涨幅扩大至5.5%，道指涨3.3%，纳指涨7.6%，纳斯达克100指数涨7.9%，半导体指数涨14.3%。美股费城半导体指数一度涨15.3%，有望创2025年3月以来最单日涨幅。 个股方面，英伟达涨幅扩大至3",
    "comment": "",
-   "score": 36
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
+   "score": 33
   },
   {
    "group": "快讯",
@@ -160,7 +130,7 @@
    "time": "11-23 13:42",
    "summary": "沃什出任美联储主席半年后，其“少说话、不提供前瞻指引”的沟通理念正遭遇内部阻力。随着官员分歧公开化，市场对货币政策路径的判断难度上升，政策沟通缺位也开始影响决策效果。 最新信号来自上周三公布的10月议息会议纪要。据彭博报道， 纪要显示，部分支持加息的官员表示，如果市场能够清楚理解进一步收紧政策的可能性，他们原本可以支持维持利率不变。这一表态凸显了沟通不足带来的政策传导问题。 美联储内部的分歧也日益",
    "comment": "",
-   "score": 33
+   "score": 31
   },
   {
    "group": "AI与数据",
@@ -179,16 +149,6 @@
    "link": "https://wallstreetcn.com/articles/3786525",
    "time": "11-23 11:54",
    "summary": "网络安全行业正在经历一场规模空前的整合。CrowdStrike宣布以约439亿美元全股票交易收购网络安全公司Zscaler，刷新该行业并购纪录，同时公布的第三财季业绩也超出市场预期，两大利好叠加，进一步强化了市场对这家公司成为AI时代网络安全领域主导平台的预期。 根据双方周一发布的公告，Zscaler股东将以1.135股CrowdStrike普通股换取每股Zscaler普通股，折合每股Zscale",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -241,6 +201,16 @@
    "summary": "arXiv:2611.01363v2 Announce Type: replace Abstract: State Machine Replication (SMR) underpins many stateful systems, including distributed databases, coordination services, and metadata stores. Fundamentally, SMR requires state to be materialized from a durable total order of commands. Existing SMR systems rely on servers to materialize, locally store, and serve snapshots of state; while the durable total order either resides on the same servers, or on an external, disaggregated shared log. Unfortunately, servers act as brittle, expensive choke-points in such systems, causing service unavailability when they fail; incurring provisioning latency on cold starts; and red-lining when exposed to bad clients. In this paper, we propose Serverless SMR (S^2MR), where both the materialized state and the durable total order are stored on disaggregated storage; clients concurrently maintain a single copy of materialized state on external storage. Our key technical insight is that the shared log abstraction is useful not just for consistently ordering commands in SMR, but also for enabling distributed materialization, thus becoming the only interface for ac hieving SMR. We demonstrate S^2MR by developing AirDB, a transactional key-value store. In our evaluation, AirD B over S^2MR achieves higher availability than existing SMR-based systems like etcd over Raft: it is oblivious to server failures and bad client activity; and spins up 10x-45x faster from a cold start.",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "马斯克承认SpaceX AI研发落后，出租算力比自研Grok更赚钱",
+   "link": "https://wallstreetcn.com/articles/3786545",
+   "time": "11-23 18:49",
+   "summary": "SpaceX的人工智能业务正面临一个深层矛盾：靠向竞争对手出租算力获利，远比发展自有AI产品更赚钱。 据《纽约时报》报道， 马斯克已向员工坦承，公司在AI研发上正在落后，这使得将算力对外出租比用于自研产品更具商业价值。 Anthropic每月向SpaceX支付约31亿美元购买算力，谷歌每月支付约8亿美元，相关协议可能延续至2029年。SpaceX旗下AI部门SpaceXSI目前贡献了公司逾半数营收",
+   "comment": "",
+   "score": 29
   },
   {
    "group": "AI与数据",
@@ -310,7 +280,7 @@
    "time": "11-23 13:33",
    "summary": "Anthropic上周上市募资逾1000亿美元、市值约1.18万亿美元，但同期对外承诺未来数年的算力支出高达约9000亿美元。公司尚未盈利、成立不足六年，债券市场普遍预期评级机构将把其债券定为投机级（垃圾级），多家大型债券基金经理预计落在BB区间。这一问题不仅关乎Anthropic自身的资本计划，也将牵动芯片厂商的贷款担保安排与整个AI生态的融资结构。 据《华尔街日报》报道， 多位债券基金经理预计",
    "comment": "",
-   "score": 22
+   "score": 20
   },
   {
    "group": "AI与数据",
