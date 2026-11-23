@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23 20:22",
+ "generated_at": "2026-11-23 22:17",
  "raw_total": 185,
  "items": [
   {
@@ -21,16 +21,6 @@
    "summary": "arXiv:2611.27910v1 Announce Type: cross Abstract: Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a natural-language question, with outcomes yes, no, or not stated. A record's embedding is its answers across an ordered set of questions. Similarity decomposes exactly into per-question contributions, and new questions add coordinates without altering existing ones. On public product benchmarks, question-space retrieval matches dense candidate generation statistically in a retrieve-then-verify entity matcher, while providing exact explanations for accepted matches. Questions derived from retrieval failures triple mean reciprocal rank without re-encoding prior answers. For search, inferring the attributes of a suitable result outperforms encoding only the literal request, and combining question-space and dense scores improves retrieval, though not at our prespecified confidence threshold. A single small neural network predicts the full interpretable vector from an existing dense embedding, enabling corpus backfilling from a few thousand labeled rows at roughly 1/200 the cost. We position interpretable embeddings as a complementary, readable retrieval channel for explaining matches, filtering on attributes, and extending indexes as failures expose missing facts.",
    "comment": "",
    "score": 53
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
-   "link": "https://wallstreetcn.com/articles/3786522",
-   "time": "11-23 11:24",
-   "summary": "美联储是否应该继续加息，正面临越来越大的争议。对冲基金大佬比尔·阿克曼 （ Bill Ackman）警告，当前金融条件已大幅收紧，如果美联储在12月9日的政策会议上继续加息，将是严重的政策失误，甚至可能把美国乃至全球经济推入衰退。 11月23日，阿克曼在X平台发文称， 美联储可能在12月9日“再犯一个错误”，因为金融条件已经明显收紧。 他以SpaceX为例指出，该公司近期有担保债务融资利率达到8.",
-   "comment": "",
-   "score": 47
   },
   {
    "group": "财经深度",
@@ -71,6 +61,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
+   "link": "https://wallstreetcn.com/articles/3786522",
+   "time": "11-23 11:24",
+   "summary": "美联储是否应该继续加息，正面临越来越大的争议。对冲基金大佬比尔·阿克曼 （ Bill Ackman）警告，当前金融条件已大幅收紧，如果美联储在12月9日的政策会议上继续加息，将是严重的政策失误，甚至可能把美国乃至全球经济推入衰退。 11月23日，阿克曼在X平台发文称， 美联储可能在12月9日“再犯一个错误”，因为金融条件已经明显收紧。 他以SpaceX为例指出，该公司近期有担保债务融资利率达到8.",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -125,10 +125,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "439亿美元！CrowdStrike收购Zscaler，创网络安全行业并购纪录",
-   "link": "https://wallstreetcn.com/articles/3786525",
-   "time": "11-23 11:54",
-   "summary": "网络安全行业正在经历一场规模空前的整合。CrowdStrike宣布以约439亿美元全股票交易收购网络安全公司Zscaler，刷新该行业并购纪录，同时公布的第三财季业绩也超出市场预期，两大利好叠加，进一步强化了市场对这家公司成为AI时代网络安全领域主导平台的预期。 根据双方周一发布的公告，Zscaler股东将以1.135股CrowdStrike普通股换取每股Zscaler普通股，折合每股Zscale",
+   "title": "沃什的“少说话”战略遭遇阻力，美联储内部分歧日益明显",
+   "link": "https://wallstreetcn.com/articles/3786534",
+   "time": "11-23 13:42",
+   "summary": "沃什出任美联储主席半年后，其“少说话、不提供前瞻指引”的沟通理念正遭遇内部阻力。随着官员分歧公开化，市场对货币政策路径的判断难度上升，政策沟通缺位也开始影响决策效果。 最新信号来自上周三公布的10月议息会议纪要。据彭博报道， 纪要显示，部分支持加息的官员表示，如果市场能够清楚理解进一步收紧政策的可能性，他们原本可以支持维持利率不变。这一表态凸显了沟通不足带来的政策传导问题。 美联储内部的分歧也日益",
    "comment": "",
    "score": 39
   },
@@ -143,6 +143,16 @@
    "score": 39
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "439亿美元！CrowdStrike收购Zscaler，创网络安全行业并购纪录",
+   "link": "https://wallstreetcn.com/articles/3786525",
+   "time": "11-23 11:54",
+   "summary": "网络安全行业正在经历一场规模空前的整合。CrowdStrike宣布以约439亿美元全股票交易收购网络安全公司Zscaler，刷新该行业并购纪录，同时公布的第三财季业绩也超出市场预期，两大利好叠加，进一步强化了市场对这家公司成为AI时代网络安全领域主导平台的预期。 根据双方周一发布的公告，Zscaler股东将以1.135股CrowdStrike普通股换取每股Zscaler普通股，折合每股Zscale",
+   "comment": "",
+   "score": 31
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -155,10 +165,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
-   "link": "https://wallstreetcn.com/articles/3786484",
-   "time": "11-23 08:14",
-   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
+   "title": "黄仁勋回归，美股盘前科技股反攻，英伟达涨超23%，布油失守90美元",
+   "link": "https://wallstreetcn.com/articles/3786472",
+   "time": "11-23 14:11",
+   "summary": "随着抛售压力缓解、市场风险偏好回升，美国股指期货反弹。此前，AI交易遭遇集中抛售，拖累标普500指数进入回调区间。与此同时，国际油价持续走低，布伦特原油日内跌幅达3%。 周一，美股盘前，科技股集体反弹，英伟达盘前涨超30%，英伟达董事会恢复黄仁勋首席执行官职务。Nebius集团涨29%，戴尔科技涨超22%。 Anthropic涨4.2%。 纳斯达克100股指期货涨7.1%，标普股指期货涨4.4%，",
    "comment": "",
    "score": 30
   },
@@ -223,16 +233,6 @@
    "score": 29
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "智谱GLM-5.4携循环推理架构上线，如何以更少token完成思考",
-   "link": "https://wallstreetcn.com/articles/3786523",
-   "time": "11-23 11:28",
-   "summary": "11月23日，智谱（ 02513.HK ）新模型GLM-5.4上线GLM Coding Plan订阅体系，同步接入ZCode、Trae等编码平台。V2、V3及团队版订阅用户使用GLM-5.4的额度提升至原来的1.5倍。 智谱介绍，GLM-5.4是公司第一代采用Loop Transformer架构的旗舰模型，做法是把GLM-5基座中的28层改为共享权重、循环执行两轮，在不增加参数量的情况下增加模型的",
-   "comment": "",
-   "score": 28
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
@@ -270,7 +270,7 @@
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
-   "score": 25
+   "score": 24
   },
   {
    "group": "AI与数据",
@@ -300,7 +300,7 @@
    "time": "11-18 13:00",
    "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
    "comment": "",
-   "score": 17
+   "score": 16
   },
   {
    "group": "财经深度",
@@ -310,7 +310,7 @@
    "time": "11-16 04:27",
    "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 14
+   "score": 13
   }
  ]
 }
