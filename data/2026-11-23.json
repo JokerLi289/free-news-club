@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23 22:17",
- "raw_total": 185,
+ "generated_at": "2026-11-23 23:16",
+ "raw_total": 205,
  "items": [
   {
    "group": "学术",
@@ -143,6 +143,26 @@
    "score": 39
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "439亿美元！CrowdStrike收购Zscaler，创网络安全行业并购纪录",
@@ -165,10 +185,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "黄仁勋回归，美股盘前科技股反攻，英伟达涨超23%，布油失守90美元",
+   "title": "美股科技大反攻！黄仁勋回归，英伟达涨超30%，纳斯达克100涨7%，布油失守90美元",
    "link": "https://wallstreetcn.com/articles/3786472",
+   "time": "11-23 14:40",
+   "summary": "黄仁勋回归，市场风险偏好回升，带动美股大反弹。此前，AI交易遭遇集中抛售，拖累标普500指数进入回调区间。与此同时，国际油价持续走低，布伦特原油日内跌幅达3%。 周一，美股盘初，标普涨4.8%，道指涨2.7%，纳斯达克100指数涨7%，半导体指数涨13.5%。 个股方面，英伟达涨32%，Nebius集团涨33.5%，CoreWeave涨28%，Lumentum涨21.8%，闪迪、希捷科技、SK海力",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
    "time": "11-23 14:11",
-   "summary": "随着抛售压力缓解、市场风险偏好回升，美国股指期货反弹。此前，AI交易遭遇集中抛售，拖累标普500指数进入回调区间。与此同时，国际油价持续走低，布伦特原油日内跌幅达3%。 周一，美股盘前，科技股集体反弹，英伟达盘前涨超30%，英伟达董事会恢复黄仁勋首席执行官职务。Nebius集团涨29%，戴尔科技涨超22%。 Anthropic涨4.2%。 纳斯达克100股指期货涨7.1%，标普股指期货涨4.4%，",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
