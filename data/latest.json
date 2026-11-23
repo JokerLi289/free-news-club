@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23 17:21",
- "raw_total": 205,
+ "generated_at": "2026-11-23 18:16",
+ "raw_total": 185,
  "items": [
   {
    "group": "学术",
@@ -43,16 +43,6 @@
    "score": 45
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "广发证券：五大因素促成本轮金价大跌，下一个关键节点在12月美联储议息",
-   "link": "https://wallstreetcn.com/articles/3786506",
-   "time": "11-23 08:17",
-   "summary": "COMEX黄金从11月9日阶段性高点4129美元/盎司跌至11月20日3526美元/盎司、10个交易日14.4%的跌幅。黄金的这轮下跌，市场最顺手的解释是美联储加息预期升温。 但广发证券在11月22日发布的宏观周度述评中指出，加息只是金价下跌“加速项”，叙事定价退潮、金饰需求走弱、流动性变现需求，以及价格中隐含的2027年地缘缓和预期，共同造成了本轮金价大跌。 对于黄金后续走势，该团队给出的观察窗",
-   "comment": "",
-   "score": 43
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -71,6 +61,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "广发证券：五大因素促成本轮金价大跌，下一个关键节点在12月美联储议息",
+   "link": "https://wallstreetcn.com/articles/3786506",
+   "time": "11-23 08:17",
+   "summary": "COMEX黄金从11月9日阶段性高点4129美元/盎司跌至11月20日3526美元/盎司、10个交易日14.4%的跌幅。黄金的这轮下跌，市场最顺手的解释是美联储加息预期升温。 但广发证券在11月22日发布的宏观周度述评中指出，加息只是金价下跌“加速项”，叙事定价退潮、金饰需求走弱、流动性变现需求，以及价格中隐含的2027年地缘缓和预期，共同造成了本轮金价大跌。 对于黄金后续走势，该团队给出的观察窗",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -124,36 +124,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
-   "link": "https://wallstreetcn.com/articles/3786484",
-   "time": "11-23 08:14",
-   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
-   "comment": "",
-   "score": 32
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -165,20 +135,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”",
-   "link": "https://wallstreetcn.com/articles/3786482",
-   "time": "11-23 02:06",
-   "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
+   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
+   "link": "https://wallstreetcn.com/articles/3786484",
+   "time": "11-23 08:14",
+   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
    "comment": "",
    "score": 30
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”",
+   "link": "https://wallstreetcn.com/articles/3786482",
+   "time": "11-23 02:06",
+   "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
    "comment": "",
    "score": 30
   },
@@ -231,6 +201,16 @@
    "summary": "arXiv:2611.01363v2 Announce Type: replace Abstract: State Machine Replication (SMR) underpins many stateful systems, including distributed databases, coordination services, and metadata stores. Fundamentally, SMR requires state to be materialized from a durable total order of commands. Existing SMR systems rely on servers to materialize, locally store, and serve snapshots of state; while the durable total order either resides on the same servers, or on an external, disaggregated shared log. Unfortunately, servers act as brittle, expensive choke-points in such systems, causing service unavailability when they fail; incurring provisioning latency on cold starts; and red-lining when exposed to bad clients. In this paper, we propose Serverless SMR (S^2MR), where both the materialized state and the durable total order are stored on disaggregated storage; clients concurrently maintain a single copy of materialized state on external storage. Our key technical insight is that the shared log abstraction is useful not just for consistently ordering commands in SMR, but also for enabling distributed materialization, thus becoming the only interface for ac hieving SMR. We demonstrate S^2MR by developing AirDB, a transactional key-value store. In our evaluation, AirD B over S^2MR achieves higher availability than existing SMR-based systems like etcd over Raft: it is oblivious to server failures and bad client activity; and spins up 10x-45x faster from a cold start.",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "IPO搁置后，英伟达支持的Firmus转向债券融资，拟募资15亿美元",
+   "link": "https://wallstreetcn.com/articles/3786518",
+   "time": "11-23 10:04",
+   "summary": "英伟达支持的人工智能公司Firmus在搁置IPO计划后，正转向债务市场融资，以推进其在印度尼西亚的数据中心项目。受AI行业估值承压及融资环境趋紧影响，该公司融资规模明显收缩，最新债务融资目标较两个月前提出的方案大幅缩水。 11月23日，据彭博援引知情人士，Firmus正考虑发行约15亿美元债券，作为一项总规模最高约40亿美元的综合债务融资方案的一部分。 该方案还包括银行贷款和夹层债务，较公司两个月",
+   "comment": "",
+   "score": 29
   },
   {
    "group": "财经深度",
@@ -301,16 +281,6 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "从UpToDate接入阿福，看蚂蚁做医疗AI的边界",
-   "link": "https://wallstreetcn.com/articles/3786515",
-   "time": "11-23 09:18",
-   "summary": "11月22日，2026蚂蚁阿福医疗健康生态大会在广州开幕。阿福医生版发布PC工作台，同时接入威科集团的循证医学临床决策支持工具UpToDate，这是UpToDate第一次接入国内的AI平台。 双方8月底宣布战略合作，首期上线的是威科旗下的一批医学期刊。三个月后，合作从期刊做到了临床决策工具。 当天的媒体采访环节，蚂蚁集团副总裁、蚂蚁健康事业群总裁张俊杰被问到阿福会不会往医院信息化系统的方向做。他的",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "AI与数据",
