@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24 00:16",
- "raw_total": 185,
+ "generated_at": "2026-11-24 01:14",
+ "raw_total": 205,
  "items": [
   {
    "group": "学术",
@@ -133,12 +133,32 @@
    "score": 37
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "沃什的“少说话”战略遭遇阻力，美联储内部分歧日益明显",
    "link": "https://wallstreetcn.com/articles/3786534",
    "time": "11-23 13:42",
    "summary": "沃什出任美联储主席半年后，其“少说话、不提供前瞻指引”的沟通理念正遭遇内部阻力。随着官员分歧公开化，市场对货币政策路径的判断难度上升，政策沟通缺位也开始影响决策效果。 最新信号来自上周三公布的10月议息会议纪要。据彭博报道， 纪要显示，部分支持加息的官员表示，如果市场能够清楚理解进一步收紧政策的可能性，他们原本可以支持维持利率不变。这一表态凸显了沟通不足带来的政策传导问题。 美联储内部的分歧也日益",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
    "comment": "",
    "score": 34
   },
@@ -169,6 +189,16 @@
    "link": "https://wallstreetcn.com/articles/3786484",
    "time": "11-23 08:14",
    "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
