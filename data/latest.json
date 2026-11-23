@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23 18:16",
- "raw_total": 185,
+ "generated_at": "2026-11-23 19:14",
+ "raw_total": 205,
  "items": [
   {
    "group": "学术",
@@ -93,6 +93,16 @@
    "score": 40
   },
   {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Amazon Earnings, The Chip Question, About Agents",
+   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+   "time": "11-23 11:00",
+   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "comment": "",
+   "score": 40
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "Multi-Tier Edge Triage: Optimizing Latency for Safe Clinical Agents",
@@ -124,6 +134,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -149,6 +179,16 @@
    "link": "https://wallstreetcn.com/articles/3786482",
    "time": "11-23 02:06",
    "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -213,16 +253,6 @@
    "score": 29
   },
   {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
-   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
-   "time": "11-20 11:00",
-   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -235,20 +265,20 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "An Interview With Eric Seufert About Agentic Commerce",
-   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
-   "time": "11-19 11:00",
-   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
    "comment": "",
    "score": 28
   },
   {
    "group": "财经深度",
    "source": "Stratechery",
-   "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
-   "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
-   "time": "11-18 11:00",
-   "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+   "title": "An Interview With Eric Seufert About Agentic Commerce",
+   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "time": "11-19 11:00",
+   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
    "comment": "",
    "score": 27
   },
