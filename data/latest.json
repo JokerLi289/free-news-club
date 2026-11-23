@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-23 16:22",
- "raw_total": 185,
+ "generated_at": "2026-11-23 17:21",
+ "raw_total": 205,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "本周重磅日程：“美联储最爱通胀指标”、小米、美团、B站、戴尔财报",
-   "link": "https://wallstreetcn.com/articles/3786441",
-   "time": "11-22 16:13",
-   "summary": "11月22日 - 11月30日当周重磅财经事件一览，以下均为北京时间： 上周美股遭遇年内最猛烈抛售，纳指重挫10.02%抹平年内涨幅，AI投资前景疑虑持续发酵。经历暴跌后，本周进入感恩节缩短交易周，见闻财经日历提醒本周重点关注： 宏观层面聚焦美股企稳之问。 美国10月PCE即“美联储最爱的通胀指标”与三季度GDP修正值本周三同日出炉，机构预期核心PCE同比由3.1%升至3.2%以上，若超预期将加剧",
-   "comment": "",
-   "score": 60
-  },
   {
    "group": "学术",
    "source": "arXiv cs.LG",
@@ -33,16 +23,6 @@
    "score": 53
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“至暗一周”后，黄金终于等来散户抄底！",
-   "link": "https://wallstreetcn.com/articles/3786504",
-   "time": "11-23 07:30",
-   "summary": "黄金从近八个月来最大单周跌幅中反弹，超卖后的抄底买盘为金价提供支撑，市场也开始下调对美联储12月加息的押注。尽管美国通胀和就业数据仍是短期压制金价的主要因素，但多家机构认为，本轮调整可能已接近尾声。 周一，现货黄金涨超2%，报每盎司3627美元。此前一周，金价累计下跌9%，创近八个月来最大单周跌幅，并跌至一年多来的低位。从技术指标看，黄金14日相对强弱指数（RSI）已跌破30，进入通常被视为超卖的",
-   "comment": "",
-   "score": 48
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -61,6 +41,16 @@
    "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
    "comment": "",
    "score": 45
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "广发证券：五大因素促成本轮金价大跌，下一个关键节点在12月美联储议息",
+   "link": "https://wallstreetcn.com/articles/3786506",
+   "time": "11-23 08:17",
+   "summary": "COMEX黄金从11月9日阶段性高点4129美元/盎司跌至11月20日3526美元/盎司、10个交易日14.4%的跌幅。黄金的这轮下跌，市场最顺手的解释是美联储加息预期升温。 但广发证券在11月22日发布的宏观周度述评中指出，加息只是金价下跌“加速项”，叙事定价退潮、金饰需求走弱、流动性变现需求，以及价格中隐含的2027年地缘缓和预期，共同造成了本轮金价大跌。 对于黄金后续走势，该团队给出的观察窗",
+   "comment": "",
+   "score": 43
   },
   {
    "group": "AI与数据",
@@ -85,10 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
-   "link": "https://wallstreetcn.com/articles/3786484",
-   "time": "11-23 08:14",
-   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
+   "title": "“至暗一周”后，黄金终于等来散户抄底！",
+   "link": "https://wallstreetcn.com/articles/3786504",
+   "time": "11-23 07:30",
+   "summary": "黄金从近八个月来最大单周跌幅中反弹，超卖后的抄底买盘为金价提供支撑，市场也开始下调对美联储12月加息的押注。尽管美国通胀和就业数据仍是短期压制金价的主要因素，但多家机构认为，本轮调整可能已接近尾声。 周一，现货黄金涨超2%，报每盎司3627美元。此前一周，金价累计下跌9%，创近八个月来最大单周跌幅，并跌至一年多来的低位。从技术指标看，黄金14日相对强弱指数（RSI）已跌破30，进入通常被视为超卖的",
    "comment": "",
    "score": 40
   },
@@ -134,6 +124,36 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 38
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "沪指午后反弹收复3500点，创业板大涨超3%，机器人爆发，宇树20CM涨停，恒科指盘中一度翻红，光通信拉升",
+   "link": "https://wallstreetcn.com/articles/3786484",
+   "time": "11-23 08:14",
+   "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
+   "comment": "",
+   "score": 32
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -153,12 +173,12 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "为马斯克融资买GPU，高盛“秀操作”",
-   "link": "https://wallstreetcn.com/articles/3786456",
-   "time": "11-22 12:11",
-   "summary": "周四，高盛联手阿波罗全球管理公司（Apollo Global Management），协助马斯克旗下的SpaceX完成了约320亿美元债券定价。这批兼具公司债与资产支持证券（ABS）特征的债券，是高盛耗时一年多交出的答卷——试图在不压垮企业资产负债表的前提下，为昂贵的AI芯片找到买单方案。 这笔债券属于SpaceX总额约440亿美元整体融资的核心部分，虽获贝莱德、Pimco等机构认购，但Space",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "time": "06-29 13:03",
+   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -281,6 +301,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "从UpToDate接入阿福，看蚂蚁做医疗AI的边界",
+   "link": "https://wallstreetcn.com/articles/3786515",
+   "time": "11-23 09:18",
+   "summary": "11月22日，2026蚂蚁阿福医疗健康生态大会在广州开幕。阿福医生版发布PC工作台，同时接入威科集团的循证医学临床决策支持工具UpToDate，这是UpToDate第一次接入国内的AI平台。 双方8月底宣布战略合作，首期上线的是威科旗下的一批医学期刊。三个月后，合作从期刊做到了临床决策工具。 当天的媒体采访环节，蚂蚁集团副总裁、蚂蚁健康事业群总裁张俊杰被问到阿福会不会往医院信息化系统的方向做。他的",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "AI与数据",
