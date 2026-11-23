@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23 19:14",
- "raw_total": 205,
+ "generated_at": "2026-11-23 20:22",
+ "raw_total": 185,
  "items": [
   {
    "group": "学术",
@@ -21,6 +21,16 @@
    "summary": "arXiv:2611.27910v1 Announce Type: cross Abstract: Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a natural-language question, with outcomes yes, no, or not stated. A record's embedding is its answers across an ordered set of questions. Similarity decomposes exactly into per-question contributions, and new questions add coordinates without altering existing ones. On public product benchmarks, question-space retrieval matches dense candidate generation statistically in a retrieve-then-verify entity matcher, while providing exact explanations for accepted matches. Questions derived from retrieval failures triple mean reciprocal rank without re-encoding prior answers. For search, inferring the attributes of a suitable result outperforms encoding only the literal request, and combining question-space and dense scores improves retrieval, though not at our prespecified confidence threshold. A single small neural network predicts the full interpretable vector from an existing dense embedding, enabling corpus backfilling from a few thousand labeled rows at roughly 1/200 the cost. We position interpretable embeddings as a complementary, readable retrieval channel for explaining matches, filtering on attributes, and extending indexes as failures expose missing facts.",
    "comment": "",
    "score": 53
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
+   "link": "https://wallstreetcn.com/articles/3786522",
+   "time": "11-23 11:24",
+   "summary": "美联储是否应该继续加息，正面临越来越大的争议。对冲基金大佬比尔·阿克曼 （ Bill Ackman）警告，当前金融条件已大幅收紧，如果美联储在12月9日的政策会议上继续加息，将是严重的政策失误，甚至可能把美国乃至全球经济推入衰退。 11月23日，阿克曼在X平台发文称， 美联储可能在12月9日“再犯一个错误”，因为金融条件已经明显收紧。 他以SpaceX为例指出，该公司近期有担保债务融资利率达到8.",
+   "comment": "",
+   "score": 47
   },
   {
    "group": "财经深度",
@@ -83,16 +93,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美银美林：芯片股“触底”需要“利率见顶”，等待“股价不再理会利空”时抄底",
-   "link": "https://wallstreetcn.com/articles/3786476",
-   "time": "11-23 00:53",
-   "summary": "美银证券认为，利率见顶是费城半导体指数（SOX）形成持久底部的必要条件。 11月20日，据追风交易台消息，美银Vivek Arya等分析师发布报告 《利率见顶，芯片见底（ Peak Rates, Trough Semis） 》。报告认为，利率对芯片股的影响已不只停留在估值层面，还会直接作用于AI需求本身。10年期美债收益率逼近5%，美联储仍可能进一步收紧，芯片股正在定价一个市场共识尚未回答的问题：",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -123,6 +123,16 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "439亿美元！CrowdStrike收购Zscaler，创网络安全行业并购纪录",
+   "link": "https://wallstreetcn.com/articles/3786525",
+   "time": "11-23 11:54",
+   "summary": "网络安全行业正在经历一场规模空前的整合。CrowdStrike宣布以约439亿美元全股票交易收购网络安全公司Zscaler，刷新该行业并购纪录，同时公布的第三财季业绩也超出市场预期，两大利好叠加，进一步强化了市场对这家公司成为AI时代网络安全领域主导平台的预期。 根据双方周一发布的公告，Zscaler股东将以1.135股CrowdStrike普通股换取每股Zscaler普通股，折合每股Zscale",
+   "comment": "",
+   "score": 39
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Testability of Homomorphism Inadmissibility: Property Testing Meets Database Theory",
@@ -131,26 +141,6 @@
    "summary": "arXiv:2611.26861v1 Announce Type: new Abstract: In this paper, we utilize the perspective of property testing to consider the testability of relational database queries. A primary motivation is the desire to avoid reading an entire database to decide a property thereof. We focus on conjunctive queries, which are the most basic and heavily studied database queries. Each conjunctive query can be represented as a relational structure $\\mathbf{A}$ such that deciding if the conjunctive query is satisfied by a relational structure $\\mathbf{B}$ is equivalent to deciding if there exists a homomorphism from $\\mathbf{A}$ to $\\mathbf{B}$. We phrase our results in terms of homomorphisms. Precisely, we study, for each relational structure $\\mathbf{A}$, the testability of homomorphism inadmissibility from $\\mathbf{A}$. We consider algorithms that have oracle access to an input relational structure $\\mathbf{B}$ and that distinguish, with high probability, the case where there is no homomorphism from $\\mathbf{A}$ to $\\mathbf{B}$, from the case where one needs to remove a constant fraction of tuples from $\\mathbf{B}$ in order to suppress all such homomorphisms. We provide a complete characterization of the structures $\\mathbf{A}$ from which one can test homomorphism inadmissibility with one-sided error by making a constant number of queries to $\\mathbf{B}$. Our characterization shows that homomorphism inadmissibility from $\\mathbf{A}$ is constant-query testable with one-sided error if and only if the core of $\\mathbf{A}$ is $\\alpha$-acyclic. We also show that the injective version of the problem is constant-query testable with one-sided error if $\\mathbf{A}$ is $\\alpha$-acyclic; this result generalizes existing results for testing subgraph-freeness in the general graph model.",
    "comment": "",
    "score": 39
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 35
   },
   {
    "group": "AI与数据",
@@ -169,26 +159,6 @@
    "link": "https://wallstreetcn.com/articles/3786484",
    "time": "11-23 08:14",
    "summary": "11月23日，沪指午后回升，收复3500点，盘中一度跌超1%，主要受权重股拖累，银行、地产、油气等陷入调整，中国石油跌5%，工商银行、农业银行、建设银行、贵州茅台等跌超2%。物理AI、人形机器人、AI短剧、光模块、电路板等概念股纷纷反弹，推动创业板涨超2%。 11月22日，监管层发布一揽子稳市举措，包括调整融资保证金比例、在创业板引入做市商制度、发布一揽子降费举措等，意在稳市场、稳预期，增强稳市力",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”",
-   "link": "https://wallstreetcn.com/articles/3786482",
-   "time": "11-23 02:06",
-   "summary": "特斯拉自动驾驶系统迎来一次颇具视觉冲击力的升级。 当地时间11月21日，特斯拉开始推送FSD V15.0.1， 新版本不仅引入实时生成式驾驶可视化系统，还升级了底层视觉编码器，将汽车、Robotaxi与人形机器人Optimus的视觉训练进一步打通。 此次升级最引人注目的变化，据追风交易台，野村证券认为，特斯拉正尝试打通自动驾驶汽车与人形机器人的视觉系统，通过共享AI视觉技术和扩大训练数据来源，构建",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "link": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "time": "06-29 13:03",
-   "summary": "What eras bookend our interregnum?",
    "comment": "",
    "score": 30
   },
@@ -243,16 +213,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "IPO搁置后，英伟达支持的Firmus转向债券融资，拟募资15亿美元",
-   "link": "https://wallstreetcn.com/articles/3786518",
-   "time": "11-23 10:04",
-   "summary": "英伟达支持的人工智能公司Firmus在搁置IPO计划后，正转向债务市场融资，以推进其在印度尼西亚的数据中心项目。受AI行业估值承压及融资环境趋紧影响，该公司融资规模明显收缩，最新债务融资目标较两个月前提出的方案大幅缩水。 11月23日，据彭博援引知情人士，Firmus正考虑发行约15亿美元债券，作为一项总规模最高约40亿美元的综合债务融资方案的一部分。 该方案还包括银行贷款和夹层债务，较公司两个月",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -261,6 +221,16 @@
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
    "comment": "",
    "score": 29
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "智谱GLM-5.4携循环推理架构上线，如何以更少token完成思考",
+   "link": "https://wallstreetcn.com/articles/3786523",
+   "time": "11-23 11:28",
+   "summary": "11月23日，智谱（ 02513.HK ）新模型GLM-5.4上线GLM Coding Plan订阅体系，同步接入ZCode、Trae等编码平台。V2、V3及团队版订阅用户使用GLM-5.4的额度提升至原来的1.5倍。 智谱介绍，GLM-5.4是公司第一代采用Loop Transformer架构的旗舰模型，做法是把GLM-5基座中的28层改为共享权重、循环执行两轮，在不增加参数量的情况下增加模型的",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "财经深度",
