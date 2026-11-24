@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-24 18:14",
+ "generated_at": "2026-11-24 19:14",
  "raw_total": 190,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
+   "link": "https://wallstreetcn.com/articles/3786599",
+   "time": "11-24 10:56",
+   "summary": "韩国央行预计将于11月26日再次加息，但半导体出口繁荣难掩内需疲软，AI科技股下跌进一步加剧消费压力，本轮加息周期或已接近尾声。 据路透社对34名经济学家的调查，32人预计韩国央行将于11月26日上调基准利率25个基点至3.25%，仅2人预测维持不变。法国兴业银行经济学家Michelle Lam表示，市场已充分消化加息预期， “如果不加息，反而会令市场意外”。 她指出，韩国三季度GDP表现强劲，通",
+   "comment": "",
+   "score": 70
+  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
@@ -70,7 +80,7 @@
    "time": "11-24 10:06",
    "summary": "11月24日，小米集团发布2026年第三季度业绩，营收略超市场预期，但利润端承压。 当季总收入1072.4亿元，同比下降5.2%，略高于市场预期的1064.4亿元；净利润38.8亿元，低于市场预期的44.9亿元。 经调整净利润为49亿元，同比下降56.8%。与此同时，集团毛利率从去年同期的22.9%降至20.2%。 利润下滑主要受到多重因素影响：存储等核心器件成本持续上涨，手机业务毛利率受到挤压；",
    "comment": "",
-   "score": 49
+   "score": 46
   },
   {
    "group": "财经深度",
@@ -103,16 +113,6 @@
    "score": 43
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板高开低走尾盘翻绿，机器人爆发，半导体活跃，恒科指午后跌超1%，AI大模型双雄齐跌",
-   "link": "https://wallstreetcn.com/articles/3786562",
-   "time": "11-24 08:26",
-   "summary": "11月24日，A股在隔夜\"黄仁勋复职、英伟达暴涨\"的全球AI情绪共振下大幅高开，随后冲高回落、全天高开低走。早盘创业板指一度高开3.88%、科创50冲高，午后各指数集体回吐涨幅，创业板尾盘翻绿。在半导体/国产算力的带动下，科创50收涨近2%。 板块方面 半导体国产算力链在“自主可控”逻辑下接力走强；钴、镍等小金属受刚果(金)出口禁令刺激领涨两市；黄金、白银等贵金属则回吐昨日涨幅、集体重挫；保险、银",
-   "comment": "",
-   "score": 42
-  },
-  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "LLM Powered Autonomous Agents",
@@ -125,20 +125,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "云知声营收增五成，向模型调用生意拓展",
-   "link": "https://wallstreetcn.com/articles/3786583",
-   "time": "11-24 07:01",
-   "summary": "在医疗、交通等行业积累客户之后，云知声正在拓展按调用提供模型服务的生意。 11月23日，人工智能服务商云知声发布2026年第三季度自愿性公告。公司当季收入约3.44亿元，同比增长53.3%；毛利约1.44亿元，同比增长79.6%；毛利率升至41.8%，同比提高6.1个百分点。收入增长的同时，毛利率也有所改善。 这份成绩单背后，云知声正同时推进三类业务，大模型调用、企业智能化服务和端侧AI。其中，模",
+   "title": "创业板高开低走尾盘翻绿，机器人爆发，半导体活跃，恒科指午后跌超1%，AI大模型双雄齐跌",
+   "link": "https://wallstreetcn.com/articles/3786562",
+   "time": "11-24 08:26",
+   "summary": "11月24日，A股在隔夜\"黄仁勋复职、英伟达暴涨\"的全球AI情绪共振下大幅高开，随后冲高回落、全天高开低走。早盘创业板指一度高开3.88%、科创50冲高，午后各指数集体回吐涨幅，创业板尾盘翻绿。在半导体/国产算力的带动下，科创50收涨近2%。 板块方面 半导体国产算力链在“自主可控”逻辑下接力走强；钴、镍等小金属受刚果(金)出口禁令刺激领涨两市；黄金、白银等贵金属则回吐昨日涨幅、集体重挫；保险、银",
    "comment": "",
    "score": 40
   },
   {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Amazon Earnings, The Chip Question, About Agents",
-   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
-   "time": "11-23 11:00",
-   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "云知声营收增五成，向模型调用生意拓展",
+   "link": "https://wallstreetcn.com/articles/3786583",
+   "time": "11-24 07:01",
+   "summary": "在医疗、交通等行业积累客户之后，云知声正在拓展按调用提供模型服务的生意。 11月23日，人工智能服务商云知声发布2026年第三季度自愿性公告。公司当季收入约3.44亿元，同比增长53.3%；毛利约1.44亿元，同比增长79.6%；毛利率升至41.8%，同比提高6.1个百分点。收入增长的同时，毛利率也有所改善。 这份成绩单背后，云知声正同时推进三类业务，大模型调用、企业智能化服务和端侧AI。其中，模",
    "comment": "",
    "score": 40
   },
@@ -153,6 +153,16 @@
    "score": 40
   },
   {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Amazon Earnings, The Chip Question, About Agents",
+   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+   "time": "11-23 11:00",
+   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "comment": "",
+   "score": 39
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -161,16 +171,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI“大到不能倒”了？特朗普亲自营救黄仁勋，被指是“现代水门事件”！",
-   "link": "https://wallstreetcn.com/articles/3786592",
-   "time": "11-24 10:10",
-   "summary": "特朗普政府对英伟达董事会施压、推动黄仁勋复职一事，正从一场市场救援行动演变为潜在的政治危机。 据Fox Business记者Charles Gasparino援引知情人士消息，促使财政部长贝森特转变立场、力挺黄仁勋复职的核心动因， 是对经济衰退的恐惧——AI股票的抛售潮令主要投资者向白宫周边人士传递警告，称美国陷入衰退的概率\"接近100%\"。 黄仁勋复职消息公布后，英伟达单日暴涨逾34%，创200",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "快讯",
@@ -223,16 +223,6 @@
    "score": 29
   },
   {
-   "group": "财经深度",
-   "source": "Stratechery",
-   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
-   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
-   "time": "11-20 11:00",
-   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
-   "comment": "",
-   "score": 28
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "RefineKV: Query-Adaptive KV Cache Compression via Attention-Error Bounds",
@@ -245,12 +235,22 @@
   {
    "group": "财经深度",
    "source": "Stratechery",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
    "comment": "",
-   "score": 27
+   "score": 26
   },
   {
    "group": "AI与数据",
