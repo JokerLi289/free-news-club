@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-24 19:14",
- "raw_total": 190,
+ "generated_at": "2026-11-24 20:22",
+ "raw_total": 210,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
-   "link": "https://wallstreetcn.com/articles/3786599",
-   "time": "11-24 10:56",
-   "summary": "韩国央行预计将于11月26日再次加息，但半导体出口繁荣难掩内需疲软，AI科技股下跌进一步加剧消费压力，本轮加息周期或已接近尾声。 据路透社对34名经济学家的调查，32人预计韩国央行将于11月26日上调基准利率25个基点至3.25%，仅2人预测维持不变。法国兴业银行经济学家Michelle Lam表示，市场已充分消化加息预期， “如果不加息，反而会令市场意外”。 她指出，韩国三季度GDP表现强劲，通",
-   "comment": "",
-   "score": 70
-  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
@@ -21,6 +11,16 @@
    "summary": "arXiv:2611.29948v1 Announce Type: new Abstract: Disk-resident approximate nearest-neighbor search (ANNS) scales vector search beyond DRAM, yet state-of-the-art systems remain I/O-bound, even with fast SSDs and sophisticated I/O execution. To understand this bottleneck, we conduct an I/O-centric analysis that breaks each query down into an approach phase that locates a query-near region and a converge phase that resolves the final top-k. This analysis reveals complementary I/O tradeoffs: cluster-based search circumvents approach-phase I/O through in-memory routing but reads coarse-grained, full clusters during convergence, whereas graph-based search employs fine-grained, vector-level I/O throughout, enabling efficient convergence at the cost of inevitable I/O during the approach phase. To combine the complementary I/O benefits of the two granularities, we present TriVS, a new paradigm that re-architects disk-resident vector search as a trilogy: approach coarsely, distill progressively, and converge exactly. Its key innovations come in two parts. First, it decouples the approach and converge phases from a single search granularity, employing cluster-based search to avoid approach-phase I/O and leveraging vector-level I/O for efficient convergence. Second, to bridge the two granularities, it introduces a new in-memory distill phase between the original two, progressively reducing routed clusters to a vector-level shortlist using compact quantized vectors before disk access. Moreover, coarser clustering shrinks the centroid-routing index, allowing TriVS to reallocate existing memory to distillation rather than expand its memory budget. Our evaluation on five datasets spanning diverse vector types and scales shows that, at Recall@10=0.9, TriVS achieves on average 3.42X PipeANN's throughput, 51.2% lower latency, and 63.7% less disk I/O, while using less memory and storage than PipeANN.",
    "comment": "",
    "score": 65
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
+   "link": "https://wallstreetcn.com/articles/3786599",
+   "time": "11-24 10:56",
+   "summary": "韩国央行预计将于11月26日再次加息，但半导体出口繁荣难掩内需疲软，AI科技股下跌进一步加剧消费压力，本轮加息周期或已接近尾声。 据路透社对34名经济学家的调查，32人预计韩国央行将于11月26日上调基准利率25个基点至3.25%，仅2人预测维持不变。法国兴业银行经济学家Michelle Lam表示，市场已充分消化加息预期， “如果不加息，反而会令市场意外”。 她指出，韩国三季度GDP表现强劲，通",
+   "comment": "",
+   "score": 64
   },
   {
    "group": "快讯",
@@ -73,16 +73,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "小米Q3营收超预期，存储涨价挤压手机毛利，汽车收入同比下降19.9%，增程SUV首月锁单超7万｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786596",
-   "time": "11-24 10:06",
-   "summary": "11月24日，小米集团发布2026年第三季度业绩，营收略超市场预期，但利润端承压。 当季总收入1072.4亿元，同比下降5.2%，略高于市场预期的1064.4亿元；净利润38.8亿元，低于市场预期的44.9亿元。 经调整净利润为49亿元，同比下降56.8%。与此同时，集团毛利率从去年同期的22.9%降至20.2%。 利润下滑主要受到多重因素影响：存储等核心器件成本持续上涨，手机业务毛利率受到挤压；",
-   "comment": "",
-   "score": 46
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -121,6 +111,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "小米Q3营收超预期，存储涨价挤压手机毛利，汽车收入同比下降19.9%，增程SUV首月锁单超7万｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786596",
+   "time": "11-24 10:06",
+   "summary": "11月24日，小米集团发布2026年第三季度业绩，营收略超市场预期，但利润端承压。 当季总收入1072.4亿元，同比下降5.2%，略高于市场预期的1064.4亿元；净利润38.8亿元，低于市场预期的44.9亿元。 经调整净利润为49亿元，同比下降56.8%。与此同时，集团毛利率从去年同期的22.9%降至20.2%。 利润下滑主要受到多重因素影响：存储等核心器件成本持续上涨，手机业务毛利率受到挤压；",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -164,6 +164,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -175,10 +195,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "华尔街解读“黄仁勋复辟”：卖方“兴奋雀跃”，买方“困惑不解”，这是“第一次AI大救助”",
-   "link": "https://wallstreetcn.com/articles/3786579",
-   "time": "11-24 08:03",
-   "summary": "英伟达董事会用11天时间验证了市场给出的答案：一个没有黄仁勋的英伟达，代价是标普500蒸发逾5万亿美元。 周一，黄仁勋以全票通过的方式重返英伟达CEO职位，消息公布后英伟达股价单日暴涨31.5%，收于165.05美元，单日市值增加约9520亿美元，纳斯达克100指数飙升6.9%，标普500指数上涨4.7%，创2025年4月关税暂停以来最佳单日表现。这是有史以来单一公司单日创造市值最多的记录。特朗普",
+   "title": "AI风险推高美债吸引力！Pimco称一旦危机爆发，收益率将迎来“难以预测”的下行",
+   "link": "https://wallstreetcn.com/articles/3786607",
+   "time": "11-24 12:03",
+   "summary": "AI热潮正在给美国经济和金融市场带来新的不确定性，也让美债的避险价值重新受到重视。全球最大债券基金管理公司之一太平洋投资管理公司（Pimco）认为， AI相关金融风险及其对传统行业商业模式的冲击，可能在未来数年对经济增长形成压力。在这一背景下，美国国债及其他高质量债券的配置吸引力正在上升。 Pimco首席投资官Daniel Ivascyn在接受彭博采访时表示，AI不仅可能引发金融市场波动，还可能通",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
