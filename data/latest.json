@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-25 06:13",
+ "generated_at": "2026-11-25 07:13",
  "raw_total": 190,
  "items": [
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋回归行情一日游！华尔街警告：油价、通胀和鹰派美联储，一个都没解决",
+   "link": "https://wallstreetcn.com/articles/3786638",
+   "time": "11-24 22:22",
+   "summary": "黄仁勋重返英伟达CEO职位引发的市场狂欢仅持续一个交易日，AI科技股便重新遭遇抛售。华尔街人士警告，黄仁勋回归虽然缓解了英伟达短期的领导层不确定性，却没有解决通胀、利率和AI巨额投资回报等更深层次的问题，甚至可能带来新的公司治理与政治风险。 周一暴涨后迅速回吐，AI产业链集体承压 美东时间11月24日周二，周一因黄仁勋复职而大幅上涨的科技股重新成为美股抛售中心。 周一，道琼斯工业平均指数上涨近15",
+   "comment": "",
+   "score": 67
+  },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
@@ -11,16 +21,6 @@
    "summary": "arXiv:2611.29948v1 Announce Type: new Abstract: Disk-resident approximate nearest-neighbor search (ANNS) scales vector search beyond DRAM, yet state-of-the-art systems remain I/O-bound, even with fast SSDs and sophisticated I/O execution. To understand this bottleneck, we conduct an I/O-centric analysis that breaks each query down into an approach phase that locates a query-near region and a converge phase that resolves the final top-k. This analysis reveals complementary I/O tradeoffs: cluster-based search circumvents approach-phase I/O through in-memory routing but reads coarse-grained, full clusters during convergence, whereas graph-based search employs fine-grained, vector-level I/O throughout, enabling efficient convergence at the cost of inevitable I/O during the approach phase. To combine the complementary I/O benefits of the two granularities, we present TriVS, a new paradigm that re-architects disk-resident vector search as a trilogy: approach coarsely, distill progressively, and converge exactly. Its key innovations come in two parts. First, it decouples the approach and converge phases from a single search granularity, employing cluster-based search to avoid approach-phase I/O and leveraging vector-level I/O for efficient convergence. Second, to bridge the two granularities, it introduces a new in-memory distill phase between the original two, progressively reducing routed clusters to a vector-level shortlist using compact quantized vectors before disk access. Moreover, coarser clustering shrinks the centroid-routing index, allowing TriVS to reallocate existing memory to distillation rather than expand its memory budget. Our evaluation on five datasets spanning diverse vector types and scales shows that, at Recall@10=0.9, TriVS achieves on average 3.42X PipeANN's throughput, 51.2% lower latency, and 63.7% less disk I/O, while using less memory and storage than PipeANN.",
    "comment": "",
    "score": 65
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
-   "link": "https://wallstreetcn.com/articles/3786636",
-   "time": "11-24 21:38",
-   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
-   "comment": "",
-   "score": 59
   },
   {
    "group": "学术",
@@ -41,6 +41,16 @@
    "summary": "arXiv:2611.29399v1 Announce Type: new Abstract: Graph-based indexes enable efficient approximate nearest neighbor search at scale by linking similar objects. In applications such as product retrieval and rental listing search, similarity depends on several components whose relative importance varies across queries. The challenge is that the index must select neighbors during construction, but the query weights that determine which objects are closest are not yet known. A straightforward approach is to index each component separately. However, merging the results of these searches can miss the nearest neighbor under the weighted distance. A joint graph allows a search to follow links across components, helping to avoid such misses, but selecting neighbors separately within each component can leave redundant edges, and keeping component hierarchies synchronized limits parallel construction. To address these limitations, we propose the Skyline Joint Graph (SJG). Although query weights can change the ranking of candidate neighbors, the dominance relation among them is independent of those weights. SJG exploits this property by pooling candidates across components and retaining the Skyline for each node, thereby enabling efficient approximate nearest neighbor search under different query weights while supporting parallel graph construction. Extensive experiments on six real-world datasets demonstrate that SJG achieves up to $27.9\\times$ the query throughput of baseline methods at 90% Recall@10, while accelerating single-threaded index construction by up to $201\\times$. Its index requires at least 36% less space than the smallest baseline index.",
    "comment": "",
    "score": 56
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
+   "link": "https://wallstreetcn.com/articles/3786636",
+   "time": "11-24 21:38",
+   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
+   "comment": "",
+   "score": 54
   },
   {
    "group": "学术",
@@ -71,16 +81,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic暴跌14%破发！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
-   "link": "https://wallstreetcn.com/articles/3786627",
-   "time": "11-24 20:31",
-   "summary": "Anthropic上市热潮迅速退去。其在登陆纳斯达克仅三个交易日后便跌破83美元的IPO发行价。创始人及高管大额出售股份、AI行业估值压力，以及黄仁勋回归后可能加剧的产业路线竞争，共同成为市场关注焦点。 周二美股盘中，Anthropic一度大跌14%至75.61美元，市值跌破万亿美元关口，随后有所回升，截至发稿下跌9.37%。 监管文件显示， CEO Dario Amodei和总裁Daniela ",
-   "comment": "",
-   "score": 45
   },
   {
    "group": "AI与数据",
@@ -115,10 +115,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "惠普盈利指引超预期，内存成本控制取得进展",
-   "link": "https://wallstreetcn.com/articles/3786637",
-   "time": "11-24 22:00",
-   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
+   "title": "Anthropic破发一度暴跌14%！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
+   "link": "https://wallstreetcn.com/articles/3786627",
+   "time": "11-24 20:31",
+   "summary": "Anthropic上市热潮迅速退去。其在登陆纳斯达克仅三个交易日后便跌破83美元的IPO发行价。创始人及高管大额出售股份、AI行业估值压力，以及黄仁勋回归后可能加剧的产业路线竞争，共同成为市场关注焦点。 周二美股盘中，Anthropic一度大跌14%至75.61美元，市值跌破万亿美元关口，随后有所回升，最终收跌6.55%，报81.9美元。 监管文件显示， CEO Dario Amodei和总裁Da",
    "comment": "",
    "score": 40
   },
@@ -155,12 +155,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "摩根大通：物理AI“ChatGPT时刻”最早明年到来",
-   "link": "https://wallstreetcn.com/articles/3786601",
-   "time": "11-24 15:51",
-   "summary": "人形机器人与物理AI正从技术演示迈向真实场景部署，行业规模化落地的拐点可能比预期来得更早。 11月24日，摩根大通亚太股票研究团队发布最新行业深度报告， 认为多模态模型进步、数据积累、政策支持与商业化执行正在形成合力，推动物理AI进入S曲线加速阶段。 该行预计，物理AI的“ChatGPT时刻”最乐观有望于2027年到来。 这一判断也得到产业界的呼应。在摩根大通亚太科技创新与增长（TIG）会议上，机",
+   "title": "AI交易疑虑未消，芯片股领跌纳指，道指涨0.8%，Anthropic破发，金属普跌",
+   "link": "https://wallstreetcn.com/articles/3786560",
+   "time": "11-24 22:54",
+   "summary": "市场对AI交易可持续性的疑虑重燃，前一日因黄仁勋复职大涨的AI行情迅速退潮，叠加贸易消息影响，美股指涨跌不一，避险资产美债和瑞郎走强。 周二标普500收于7,200.82点，跌0.50%；纳斯达克综合收于23,733.54点，跌1.48%；道琼斯收于50,018.70点，涨0.85%。费城半导体指数跌7.88%。科技板块跌约4%，医疗保健涨约3%。英伟达跌5.86%。 Cetera Financi",
    "comment": "",
-   "score": 31
+   "score": 38
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "惠普盈利指引超预期，内存成本控制取得进展",
+   "link": "https://wallstreetcn.com/articles/3786637",
+   "time": "11-24 22:00",
+   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
+   "comment": "",
+   "score": 36
   },
   {
    "group": "AI与数据",
@@ -171,16 +181,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "个人Agent的大厂战事：野心与克制",
-   "link": "https://wallstreetcn.com/articles/3786620",
-   "time": "11-24 15:50",
-   "summary": "国内Personal Agent（个人智能体）市场迎来了一位重量级玩家。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测。这款采用独立App形态的产品，更加强调长期记忆、主动服务及任务执行能力，用户可以将一些需要长期跟进的个人事务交给AI处理。 至此，从腾讯的小微、阿里的千问Go！，到蚂蚁的灵光2.0、字节的小豆，四家互联网大厂均已面向市场推出各自的Personal Agent产品。 ",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "学术",
