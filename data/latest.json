@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24 11:18",
- "raw_total": 185,
+ "generated_at": "2026-11-24 12:18",
+ "raw_total": 205,
  "items": [
   {
    "group": "快讯",
@@ -10,7 +10,7 @@
    "time": "11-24 01:58",
    "summary": "11月24日，A股早盘集体高开，三大股指盘初上涨，创业板一度涨超4%，AI硬件大反弹，光模块、光通信、电路板、存储芯片等概念股集体拉升，得益于隔夜黄仁勋重返英伟达任CEO，带动科技股大涨，英伟达单日暴涨31%。券商、油气、煤炭等板块陷入调整。 港股早盘亦高开，恒指、恒科指盘初涨幅收窄，权重科网股多数下跌，光模块、光纤、光通信等科技股集体大涨，东山精密涨超10%。AI大模型股同样回暖。债市方面，国债",
    "comment": "",
-   "score": 67
+   "score": 64
   },
   {
    "group": "学术",
@@ -50,7 +50,7 @@
    "time": "11-18 10:19",
    "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
    "comment": "",
-   "score": 45
+   "score": 44
   },
   {
    "group": "AI与数据",
@@ -123,14 +123,24 @@
    "score": 39
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋回归提振亚洲股市，韩股涨7%，SK海力士涨10%，日经一度涨5%",
-   "link": "https://wallstreetcn.com/articles/3786560",
-   "time": "11-24 02:00",
-   "summary": "英伟达董事会恢复黄仁勋首席执行官职务，点燃全球科技股行情。 亚太市场周二全线大涨，芯片相关个股领涨，MSCI亚太指数创逾三个月来最大单日涨幅，此前该指数已连跌八个交易日、逼近熊市边缘。 周二亚太时段，MSCI亚太指数涨幅达4%，报243点。韩国综合股价指数涨幅一度超过7%，日本股市在长假后复市，日经225指数涨幅扩大至5%。 美元指数小幅回落0.12%。黄金延续涨势，现货金价上涨0.7%至每盎司3",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
    "comment": "",
-   "score": 38
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -141,6 +151,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋回归提振亚洲股市，韩股涨7%，SK海力士涨逾8%，日经一度涨5%",
+   "link": "https://wallstreetcn.com/articles/3786560",
+   "time": "11-24 04:11",
+   "summary": "英伟达董事会恢复黄仁勋首席执行官职务，点燃全球科技股行情。亚太市场周二全线大涨，芯片相关个股领涨，MSCI亚太指数创逾三个月来最大单日涨幅，此前该指数已连跌八个交易日、逼近熊市边缘。 周二亚太时段，MSCI亚太股票指数上涨3.7%，有望创下7月31日以来的最大单日涨幅。韩国综合股价指数 涨幅超过7%，日本股市在长假后复市， 日经225指数 涨幅一度扩大至5%。 美元指数 小幅回落0.12%。 布伦",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -159,6 +179,16 @@
    "link": "https://wallstreetcn.com/articles/3786534",
    "time": "11-23 13:42",
    "summary": "沃什出任美联储主席半年后，其“少说话、不提供前瞻指引”的沟通理念正遭遇内部阻力。随着官员分歧公开化，市场对货币政策路径的判断难度上升，政策沟通缺位也开始影响决策效果。 最新信号来自上周三公布的10月议息会议纪要。据彭博报道， 纪要显示，部分支持加息的官员表示，如果市场能够清楚理解进一步收紧政策的可能性，他们原本可以支持维持利率不变。这一表态凸显了沟通不足带来的政策传导问题。 美联储内部的分歧也日益",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -213,16 +243,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "英伟达一夜暴涨31%，空头跌懵了",
-   "link": "https://wallstreetcn.com/articles/3786564",
-   "time": "11-24 02:39",
-   "summary": "英伟达股价周一单日飙升逾31%，将押注其下跌的空头打了个措手不及——杠杆做空产品最高暴跌92%，空头单日账面亏损约112亿美元。 触发这场轧空行情的，是英伟达董事会宣布恢复黄仁勋首席执行官职务。消息一出，英伟达股价当日最高涨幅达37%，收盘报165.05美元，涨幅31.5%，市值单日增加约9500亿美元。据ORTEX联合创始人Peter Hillerberg向MarketWatch透露，这是美国股",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -231,6 +251,16 @@
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
    "comment": "",
    "score": 29
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "豆包推出“小豆”，大厂争夺个人AI入口",
+   "link": "https://wallstreetcn.com/articles/3786572",
+   "time": "11-24 04:03",
+   "summary": "Personal Agent的竞争正在升温。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测，采用独立App的产品形态。目前，小豆采取邀请制开放，用户凭邀请码即可开启体验。 与豆包App不同，小豆更加侧重长期记忆、主动服务及任务执行能力，应用场景覆盖办公、消费、出行等个人事务。 豆包表示，未来小豆上的能力与体验也将逐步在豆包App上线。 华尔街见闻·全天候科技第一时间获得了小豆的邀请码",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "财经深度",
@@ -260,7 +290,7 @@
    "time": "11-19 23:58",
    "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
    "comment": "",
-   "score": 27
+   "score": 26
   },
   {
    "group": "财经深度",
@@ -285,10 +315,10 @@
   {
    "group": "AI与数据",
    "source": "Latent Space",
-   "title": "[AINews] Riemann Hypothesis proved...twice independently",
-   "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
-   "time": "11-21 05:02",
-   "summary": "November 20 2026 —",
+   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+   "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+   "time": "11-24 04:14",
+   "summary": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
    "comment": "",
    "score": 20
   },
