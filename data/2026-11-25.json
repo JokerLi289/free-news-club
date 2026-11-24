@@ -1,0 +1,316 @@
+{
+ "generated_at": "2026-11-25 00:17",
+ "raw_total": 190,
+ "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Look Before You Leap: Re-Architecting Disk-Resident Vector Search with TriVS",
+   "link": "https://arxiv.org/abs/2611.29948",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.29948v1 Announce Type: new Abstract: Disk-resident approximate nearest-neighbor search (ANNS) scales vector search beyond DRAM, yet state-of-the-art systems remain I/O-bound, even with fast SSDs and sophisticated I/O execution. To understand this bottleneck, we conduct an I/O-centric analysis that breaks each query down into an approach phase that locates a query-near region and a converge phase that resolves the final top-k. This analysis reveals complementary I/O tradeoffs: cluster-based search circumvents approach-phase I/O through in-memory routing but reads coarse-grained, full clusters during convergence, whereas graph-based search employs fine-grained, vector-level I/O throughout, enabling efficient convergence at the cost of inevitable I/O during the approach phase. To combine the complementary I/O benefits of the two granularities, we present TriVS, a new paradigm that re-architects disk-resident vector search as a trilogy: approach coarsely, distill progressively, and converge exactly. Its key innovations come in two parts. First, it decouples the approach and converge phases from a single search granularity, employing cluster-based search to avoid approach-phase I/O and leveraging vector-level I/O for efficient convergence. Second, to bridge the two granularities, it introduces a new in-memory distill phase between the original two, progressively reducing routed clusters to a vector-level shortlist using compact quantized vectors before disk access. Moreover, coarser clustering shrinks the centroid-routing index, allowing TriVS to reallocate existing memory to distillation rather than expand its memory budget. Our evaluation on five datasets spanning diverse vector types and scales shows that, at Recall@10=0.9, TriVS achieves on average 3.42X PipeANN's throughput, 51.2% lower latency, and 63.7% less disk I/O, while using less memory and storage than PipeANN.",
+   "comment": "",
+   "score": 65
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
+   "link": "https://wallstreetcn.com/articles/3786599",
+   "time": "11-24 10:56",
+   "summary": "韩国央行预计将于11月26日再次加息，但半导体出口繁荣难掩内需疲软，AI科技股下跌进一步加剧消费压力，本轮加息周期或已接近尾声。 据路透社对34名经济学家的调查，32人预计韩国央行将于11月26日上调基准利率25个基点至3.25%，仅2人预测维持不变。法国兴业银行经济学家Michelle Lam表示，市场已充分消化加息预期， “如果不加息，反而会令市场意外”。 她指出，韩国三季度GDP表现强劲，通",
+   "comment": "",
+   "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Mind the Trap As LLMs Guess the Data Model: Grain-Aware Guards Against Fan-out in Text-to-SQL and Its Benchmarks",
+   "link": "https://arxiv.org/abs/2611.29009",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.29009v1 Announce Type: new Abstract: Text-to-SQL systems built on large language models (LLMs) often aggregate over one-to-many and many-to-many joins, a classic trap: when the joined rows repeat an entity, a SUM or COUNT counts it more than once, yet the query runs and returns a plausible number. We characterize these fan-out errors by one condition on the relation an aggregate reads, which depends on two facts a schema does not show: each measure's grain, and how many rows a join on each key repeats. An audit that tests the condition on the data finds distorted gold answers for 4.2% of the dev questions of BIRD, a widely used benchmark, and BIRD's later, independent revision changed 44% of the answers the audit flags as definite fan-out, against 16% of unflagged ones. We release BIRD-FanOut, 486 BIRD questions with reviewed gold, and GrainTraps, synthetic questions that set this trap and related ones. Across eight LLM agents, functional dependencies (FDs) computed from the data help no more than per-column statistics on GrainTraps, but grain-aware FDs, which also state each measure's grain and the repetition per key, cut fan-out errors on BIRD from 18.4% of runs to about 13%, also on held-out questions and without LLM judges. Accuracy rises less, because most remaining errors are not fan-out and BIRD's hints often prescribe the over-count. Text-to-SQL models should be given the grain of the data, and benchmark gold should be audited on the data. Code, data and benchmarks are available at https://github.com/ahmed-mahran/misqal",
+   "comment": "",
+   "score": 57
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "SJG: A Skyline Joint Graph for Multi-Component Approximate Nearest Neighbor Search",
+   "link": "https://arxiv.org/abs/2611.29399",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.29399v1 Announce Type: new Abstract: Graph-based indexes enable efficient approximate nearest neighbor search at scale by linking similar objects. In applications such as product retrieval and rental listing search, similarity depends on several components whose relative importance varies across queries. The challenge is that the index must select neighbors during construction, but the query weights that determine which objects are closest are not yet known. A straightforward approach is to index each component separately. However, merging the results of these searches can miss the nearest neighbor under the weighted distance. A joint graph allows a search to follow links across components, helping to avoid such misses, but selecting neighbors separately within each component can leave redundant edges, and keeping component hierarchies synchronized limits parallel construction. To address these limitations, we propose the Skyline Joint Graph (SJG). Although query weights can change the ranking of candidate neighbors, the dominance relation among them is independent of those weights. SJG exploits this property by pooling candidates across components and retaining the Skyline for each node, thereby enabling efficient approximate nearest neighbor search under different query weights while supporting parallel graph construction. Extensive experiments on six real-world datasets demonstrate that SJG achieves up to $27.9\\times$ the query throughput of baseline methods at 90% Recall@10, while accelerating single-threaded index construction by up to $201\\times$. Its index requires at least 36% less space than the smallest baseline index.",
+   "comment": "",
+   "score": 56
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Zarc: Exact Nearest Neighbors over a Billion Vectors in Seconds",
+   "link": "https://arxiv.org/abs/2611.29252",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.29252v1 Announce Type: cross Abstract: Exact k-nearest-neighbor vector search lies on the critical path of machine learning systems, from sparse attention in the latest large language models (LLMs) to long-context memories and training-data deduplication. Exhaustive GPU search scans the whole dataset for every query, while approximate indexes return inexact neighbors. Recent methods skip almost every vector with a cheap half-precision proof that it lies too far away, but only on one GPU that holds the whole dataset. Our insight is to keep only the short rows of these proofs in GPU memory and to fetch the few remaining full vectors from host memory. Our system, Zarc, answers Euclidean, cosine, inner-product, and filtered queries exactly under updates. On four H100 GPUs, it answers 10,000 exact queries over one billion vectors in 1.1 seconds instead of five minutes. On eleven open LLMs, it retrieves the exact top-10 attention keys 2.2x to 13.1x faster than exhaustive search. In sparse attention over one million tokens, it runs 3.1x faster than bf16 selection with FlashInfer, which misses the exact top-64 for most queries.",
+   "comment": "",
+   "score": 51
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Shoonya: Zero-Socket In-Process Small Language Models for Graph Databases with Schema-Epoch KV Caching, Live Catalog Logit Masking, and Verifier-Advantage Distillation",
+   "link": "https://arxiv.org/abs/2611.28502",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28502v1 Announce Type: new Abstract: Coupling a property-graph database to an external language-model server imposes a three-part socket tax: serialization overhead dwarfing microsecond graph reads, repeated prefill of verbose schemas, and blind decoding divorced from the live catalog and multi-version concurrency control (MVCC) engine. We present Shoonya, from-scratch commercially clean (0.0% non-commercial or share-alike data) tri-modal (Python, Rust, OpenCypher) small language models (16.8M to 1.07B parameters) co-designed with shoonya-infer, a zero-dependency pure-Rust runtime embedded inside the samyama-graph-enterprise address space. Direct GraphStore references unlock three database-native primitives: (1) an epoch-invalidated SchemaPrefixCache over a copy-on-write PagedKvArena accelerating warm CPU time-to-first-token by 4.91x--13.68x with O(1) DDL invalidation; (2) a 36 us columnar catalog and source-span logit mask enforcing valid ontology identifiers and verbatim spans; and (3) a sub-65 us read-only MVCC gate serving Tier-0 queries inside 389.8 MiB INT8 RSS (59.8--67.9 tok/s) with 0.0% hallucination leak. Rank-factorized tied embeddings (-74.5% vocabulary weights), atomic indentation tokens (0/421 indentation errors), 4:1 grouped-query attention with 2:1 cross-layer KV sharing (-93.75% INT8 KV memory), Warmup-Stable-Decay training, KnOTS SVD merging, Step-GRPO, and Rust Jacobi SVD governance keep 100% of layers heavy-tailed ($\\alpha \\in [1.88, 2.20]$). Finally, we synthesize nine lessons across v0.1--v1.0, resolving a Reverse-Token-Density Distillation Trap via teacher scaling and zero-VRAM Verifier-Advantage-Gated Knowledge Distillation (AdvKD), recovering +13.61 MBPP points (33.07%) while reaching 100% validity on enrichment, grounded extraction, and tool planning.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+   "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+   "time": "11-18 10:19",
+   "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+   "comment": "",
+   "score": 44
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "摩根大通：物理AI“ChatGPT时刻”最早明年到来",
+   "link": "https://wallstreetcn.com/articles/3786601",
+   "time": "11-24 15:51",
+   "summary": "人形机器人与物理AI正从技术演示迈向真实场景部署，行业规模化落地的拐点可能比预期来得更早。 11月24日，摩根大通亚太股票研究团队发布最新行业深度报告， 认为多模态模型进步、数据积累、政策支持与商业化执行正在形成合力，推动物理AI进入S曲线加速阶段。 该行预计，物理AI的“ChatGPT时刻”最乐观有望于2027年到来。 这一判断也得到产业界的呼应。在摩根大通亚太科技创新与增长（TIG）会议上，机",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "B站三季度广告收入增长20%，用户活跃度提升支撑商业化",
+   "link": "https://wallstreetcn.com/articles/3786611",
+   "time": "11-24 12:36",
+   "summary": "用户在B站停留的时间更长了，广告也继续成为公司收入增长的主要动力。 11月24日，哔哩哔哩发布2026年第三季度未经审计财报。当季营收83.17亿元，同比增长8%；净利润5.04亿元，同比增长7%；经调整净利润8.28亿元，同比增长5%。毛利率由上年同期的36.7%升至37.3%，盈利能力继续改善。 广告是这份成绩单中最突出的业务。第三季度，广告收入30.87亿元，同比增长20%，规模已接近增值服",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "小米Q3营收超预期，存储涨价挤压手机毛利，增程SUV首月锁单超7万｜财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786596",
+   "time": "11-24 10:06",
+   "summary": "11月24日，小米集团发布2026年第三季度业绩，营收略超市场预期，但利润端承压。 当季总收入1072.4亿元，同比下降5.2%，略高于市场预期的1064.4亿元；净利润38.8亿元，低于市场预期的44.9亿元。 经调整净利润为49亿元，同比下降56.8%。与此同时，集团毛利率从去年同期的22.9%降至20.2%。 利润下滑主要受到多重因素影响：存储等核心器件成本持续上涨，手机业务毛利率受到挤压；",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "PAMS: Preconditioned Activation-Metric Subspace for Zeroth-Order LLM Fine-tuning",
+   "link": "https://arxiv.org/abs/2611.28476",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28476v1 Announce Type: new Abstract: Zeroth-order (ZO) optimization provides a computationally efficient approach to fine-tuning large language models (LLMs), but conventional methods typically rely on isotropic perturbations that ignore the anisotropic structure of neural-network parameter spaces. We introduce Preconditioned Activation-Metric Subspace (PAMS), a ZO optimization framework that uses forward-pass activation statistics to construct structured, layer-wise perturbation geometries without computing gradients or forming dense curvature matrices. PAMS tracks a low-rank approximation of the dominant activation subspace and its associated spectrum online, and uses the spectrum to softly reweight perturbation variance while preserving exploration in directions outside the retained subspace. A trace normalization separates the perturbation geometry from its overall scale, enabling consistent perturbation magnitudes across layers. We show theoretically that the resulting perturbation covariance induces right-side preconditioning of the gradient of the corresponding Gaussian-smoothed objective. We further characterize the estimator's smoothing bias and second moment and derive a nonconvex convergence guarantee that captures the effects of the perturbation geometry and smoothing radius. The proposed low-rank tracking procedure requires $\\mathcal{O}(n_l r)$ persistent memory for a layer with input dimension nl and retained rank r, avoiding the $\\mathcal{O}(n_l^2)$ memory required by a dense activation covariance. Experiments on transformer-based language-model fine-tuning tasks across GLUE and SuperGLUE demonstrate that PAMS improves the effectiveness and stability of zeroth-order optimization while retaining its gradient-free and objective-evaluation-based advantages.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Amazon Earnings, The Chip Question, About Agents",
+   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+   "time": "11-23 11:00",
+   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "个人Agent的大厂战事：野心与克制",
+   "link": "https://wallstreetcn.com/articles/3786620",
+   "time": "11-24 15:50",
+   "summary": "国内Personal Agent（个人智能体）市场迎来了一位重量级玩家。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测。这款采用独立App形态的产品，更加强调长期记忆、主动服务及任务执行能力，用户可以将一些需要长期跟进的个人事务交给AI处理。 至此，从腾讯的小微、阿里的千问Go！，到蚂蚁的灵光2.0、字节的小豆，四家互联网大厂均已面向市场推出各自的Personal Agent产品。 ",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI信用危机、美国经济硬着陆？美银Hartnett预判2027年两大意外",
+   "link": "https://wallstreetcn.com/articles/3786617",
+   "time": "11-24 14:01",
+   "summary": "2027年全球市场可能迎来哪些意外？美国银行首席投资策略师Michael Hartnett（迈克尔·哈特奈特）建议投资者上半年暂缓加仓风险资产，等待全球加息周期在明年春季结束后，再转向周期性板块。 在其基准情景中，全球经济有望实现软着陆，周期性板块将成为下半年投资主线。 但市场也面临两大尾部风险：AI投资热潮引发信用危机，以及美国经济意外硬着陆。 具体而言，哈特奈特预计，全球央行到明年6月前仍将累",
+   "comment": "",
+   "score": 32
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Cross-Site Transformers Are Robust Heart Rate Estimators",
+   "link": "https://arxiv.org/abs/2611.28366",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28366v1 Announce Type: new Abstract: Single-site heart-rate estimation from photoplethysmography (PPG) degrades sharply under real-world motion. Multi-site PPG provides a natural solution, but existing models fuse sites as generic sensor channels rather than exploiting their hemodynamic structure: each heartbeat propagates along the arterial tree, appearing across body sites as delayed and transformed copies of the same cardiac event. We propose the Cross-Site Transformer, which introduces a hemodynamically informed inductive bias by restricting multi-sensor fusion to cross-attention between PPG sites. On WildPPG, the largest in-the-wild benchmark available, our model establishes a new single-model state of the art, reducing error by 21% over the previous best and 35% over the best prior transformer. The same cross-site restriction makes the trained network directly auditable. Because each cross-attention head lies on one directed pathway between sites, causal resample ablation can isolate and test each direction of information flow. Ablating the chest-to-wrist pathway doubles error, whereas the reverse costs far less. Encoding hemodynamic structure into attention routing thus improves real-world sensing robustness and enables rigorous auditing of multi-sensor fusion.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "WingBench: Benchmarking How AI Agents Search for Better Designs",
+   "link": "https://arxiv.org/abs/2611.28418",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28418v1 Announce Type: new Abstract: Design search often uses cheap learned predictions to choose which candidates deserve expensive tests, but these tests can fail, especially on the unusual designs that optimization favors. We introduce WingBench, a multifidelity benchmark in which optimizers and AI agents design transonic wings with computational fluid dynamics (CFD) inside the search. They can query a learned aerodynamic surrogate and spend a fixed budget of sequential CFD evaluations, each returning a score or a failure type. WingBench grades the design each method recommends, reporting separately whether it receives a valid score and how good that score is. Using WingBench, we contribute a study of five baseline optimizers and a comparison of three AI agent methods, which produced 6,629 CFD evaluation records. Feedback helps baseline optimizers deliver valid designs when it changes their later proposals, but the differential-evolution variant does so with lower aerodynamic quality. An open-ended research agent finds designs of similar quality to the strongest baselines over 32 CFD queries, with different prior information and unmatched total computation. In early search, our reflection and planning implementations do not consistently improve on it. We release the data, code, agent prompts, and analysis scripts for reproducibility.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time Series",
+   "link": "https://arxiv.org/abs/2611.28465",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28465v1 Announce Type: new Abstract: Irregular time series are recorded at nonuniform times and are often queried at other times: between observations, after the last one, or on a regular grid. Continuous-time models answer such queries by integrating latent dynamics, and time-aware attention models answer them by revisiting the observation tokens. We introduce HiPPO Functional Memory (HiPPO-FM), an attention operator that writes an irregular history into a rank-M function space with explicit time coordinates. Masked self-attention first exchanges content among the observations; the updated values are then contracted against kernel-smoothed HiPPO-Legendre features and solved through a regularized Gram matrix, so the retained coefficients define a function that is read at any time through the same features. The write and read have the form of an interdomain sparse Gaussian-process mean: every readout lies in an M-dimensional reproducing-kernel subspace, and a pointwise bound separates the approximation error of this subspace from the error of the learned memory. Removing the functional memory from the encoder raises Spiral reconstruction RMSE 18-fold. The full model has the lowest error in 11 of 12 Spiral settings, the highest overall accuracy and best average rank on 20 irregular UEA datasets, the highest event-type accuracy on all five multi-type event benchmarks, and a 21% lower extrapolation MSE than CRU on PhysioNet. Because the memory has fixed rank, the state retained after encoding keeps a fixed size as the history grows and is 102 times smaller than a token cache at 1,024 observations.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Thoughts on Verification Engineering in the Agentic SDLC",
+   "link": "https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering",
+   "time": "11-18 21:59",
+   "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "RefineKV: Query-Adaptive KV Cache Compression via Attention-Error Bounds",
+   "link": "https://arxiv.org/abs/2611.28171",
+   "time": "11-24 05:00",
+   "summary": "arXiv:2611.28171v1 Announce Type: new Abstract: Repeatedly accessing the full key--value (KV) cache is a major bottleneck in long-context language model decoding. We find that small query-specific subsets can accurately approximate full attention, yet their union covers nearly the entire cache, motivating query-adaptive access for the KV cache. A natural approach is to split the KV cache into clusters, using compact representatives for clusters that incur negligible error while expanding the rest to their original KV entries. We derive a selection criterion from an upper bound on attention-output error, which reveals two complementary factors governing the error: importance measures the impact of a cluster, while distortion measures how faithfully the cluster can be represented. Based on this criterion, we propose RefineKV, a decoding-time query-adaptive KV compression method. Experiments on two models and three benchmarks demonstrate that RefineKV retains near-full-attention quality while achieving up to 7.6x speedup in the attention phase and 1.66x faster decoding, establishing a new quality-latency Pareto frontier.",
+   "comment": "",
+   "score": 28
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview With Eric Seufert About Agentic Commerce",
+   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "time": "11-19 11:00",
+   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "link": "https://latent.space/p/linear-scaling/",
+   "time": "11-19 23:58",
+   "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+   "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+   "time": "11-24 04:14",
+   "summary": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: The Biggest Losers of the Year",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-biggest-losers-of-the-year/",
+   "time": "11-18 13:00",
+   "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
+   "comment": "",
+   "score": 16
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Nvidia: Now What?",
+   "link": "https://awealthofcommonsense.com/2026/11/nvidia-now-what/",
+   "time": "11-16 04:27",
+   "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 13
+  }
+ ]
+}
