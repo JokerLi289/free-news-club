@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24 07:14",
+ "generated_at": "2026-11-24 08:33",
  "raw_total": 185,
  "items": [
   {
@@ -23,16 +23,6 @@
    "score": 53
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储“三把手”：通胀仍未达标，需逐步采取行动，不排除连续加息的可能",
-   "link": "https://wallstreetcn.com/articles/3786554",
-   "time": "11-23 22:28",
-   "summary": "美联储仍面临通胀压力，政策收紧路径尚未走完。 纽约联储主席John Williams周一表示， 美联储在实现2%通胀目标的道路上\"仍有工作要做\"，强调官员必须“随时间推移采取行动”，不排除FOMC在必要时连续加息的可能， 未来（多次）会议都不排除任何选项。 其还指出， 数据将决定利率行动的时机和步伐，市场走势可能会在短期内逆转，金融条件的持续变化可能会影响需求，对增长前景仍然非常乐观。 与此同时，",
-   "comment": "",
-   "score": 48
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -53,6 +43,16 @@
    "score": 45
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储“三把手”：通胀仍未达标，需逐步采取行动，不排除连续加息的可能",
+   "link": "https://wallstreetcn.com/articles/3786554",
+   "time": "11-23 22:28",
+   "summary": "美联储仍面临通胀压力，政策收紧路径尚未走完。 纽约联储主席John Williams周一表示， 美联储在实现2%通胀目标的道路上\"仍有工作要做\"，强调官员必须“随时间推移采取行动”，不排除FOMC在必要时连续加息的可能， 未来（多次）会议都不排除任何选项。 其还指出， 数据将决定利率行动的时机和步伐，市场走势可能会在短期内逆转，金融条件的持续变化可能会影响需求，对增长前景仍然非常乐观。 与此同时，",
+   "comment": "",
+   "score": 44
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -71,16 +71,6 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
-   "link": "https://wallstreetcn.com/articles/3786522",
-   "time": "11-23 11:24",
-   "summary": "美联储是否应该继续加息，正面临越来越大的争议。对冲基金大佬比尔·阿克曼 （ Bill Ackman）警告，当前金融条件已大幅收紧，如果美联储在12月9日的政策会议上继续加息，将是严重的政策失误，甚至可能把美国乃至全球经济推入衰退。 11月23日，阿克曼在X平台发文称， 美联储可能在12月9日“再犯一个错误”，因为金融条件已经明显收紧。 他以SpaceX为例指出，该公司近期有担保债务融资利率达到8.",
-   "comment": "",
-   "score": 40
   },
   {
    "group": "财经深度",
@@ -130,7 +120,7 @@
    "time": "11-23 22:28",
    "summary": "英伟达董事会恢复黄仁勋CEO职务，点燃市场对人工智能赛道的重燃信心，推动美股周一录得自2025年4月以来最大单日涨幅。油价因对伊朗的外交表态重挫，10年期美债收益率回落，美元指数走高。 周一 标普500指数 上涨4.7%， 道琼斯工业平均指数 上涨3%。 英伟达 股价暴涨31%，创2003年以来最大单日涨幅。 纳斯达克100指数 单日飙升6.9%，单日市值增加逾2万亿美元。 此前一周，受黄仁勋辞职",
    "comment": "",
-   "score": 37
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -213,16 +203,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储监管副主席鲍曼遭罕见调查，被指违反“静默期”规定，鲍曼否认",
-   "link": "https://wallstreetcn.com/articles/3786556",
-   "time": "11-23 22:58",
-   "summary": "美联储内部监察机构正就理事Michelle Bowman（米歇尔·鲍曼）今年6月出席一场美国银行私人晚宴一事展开调查，核心问题是她是否违反了央行的\"静默期\"通讯限制规定。这是对一位在任美联储理事的罕见审查行动。 据彭博援引一位知情人士透露， 该晚宴于6月17日在纽约举行，时间恰在美联储政策会议结束数小时后，彼时官员们仍处于禁止就经济或货币政策向公众发表评论的静默期内。 美联储监察长办公室近期已寻求",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -231,6 +211,16 @@
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
    "comment": "",
    "score": 29
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "黄仁勋重掌英伟达帅印！股价暴涨31%，市值单日增长近万亿",
+   "link": "https://wallstreetcn.com/articles/3786536",
+   "time": "11-23 23:15",
+   "summary": "黄仁勋重返英伟达，结束了这家全球最大芯片公司持续数周的高层动荡。消息公布后，股价单日暴涨逾31%，市值一日之内增加9520亿美元，创下历史纪录。 周一盘前，英伟达官网宣布，公司重新任命黄仁勋为首席执行官。英伟达在其公告中称， 黄仁勋表示，很荣幸能重返英伟达，感谢英伟达董事会在此过程中给予的信任。 英伟达董事会表示，经过多轮讨论和会面，董事会对黄仁勋的坦诚态度及领导能力表示认可，认为其复职“符合股东",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "财经深度",
@@ -261,6 +251,16 @@
    "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
    "comment": "",
    "score": 27
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储监管副主席鲍曼遭罕见调查，被指违反“静默期”规定，鲍曼否认",
+   "link": "https://wallstreetcn.com/articles/3786556",
+   "time": "11-23 22:58",
+   "summary": "美联储内部监察机构正就理事Michelle Bowman（米歇尔·鲍曼）今年6月出席一场美国银行私人晚宴一事展开调查，核心问题是她是否违反了央行的\"静默期\"通讯限制规定。这是对一位在任美联储理事的罕见审查行动。 据彭博援引一位知情人士透露， 该晚宴于6月17日在纽约举行，时间恰在美联储政策会议结束数小时后，彼时官员们仍处于禁止就经济或货币政策向公众发表评论的静默期内。 美联储监察长办公室近期已寻求",
+   "comment": "",
+   "score": 25
   },
   {
    "group": "财经深度",
