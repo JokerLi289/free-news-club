@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25 03:13",
+ "generated_at": "2026-11-25 05:14",
  "raw_total": 190,
  "items": [
   {
@@ -63,6 +63,16 @@
    "score": 50
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic暴跌14%破发！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
+   "link": "https://wallstreetcn.com/articles/3786627",
+   "time": "11-24 20:31",
+   "summary": "Anthropic上市热潮迅速退去。其在登陆纳斯达克仅三个交易日后便跌破83美元的IPO发行价。创始人及高管大额出售股份、AI行业估值压力，以及黄仁勋回归后可能加剧的产业路线竞争，共同成为市场关注焦点。 周二美股盘中，Anthropic一度大跌14%至75.61美元，市值跌破万亿美元关口，随后有所回升，截至发稿下跌9.37%。 监管文件显示， CEO Dario Amodei和总裁Daniela ",
+   "comment": "",
+   "score": 48
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -113,16 +123,6 @@
    "score": 40
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "小米Q3营收超预期，存储涨价挤压手机毛利，增程SUV首月锁单超7万｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786596",
-   "time": "11-24 10:06",
-   "summary": "11月24日，小米集团发布2026年第三季度业绩，营收略超市场预期，但利润端承压。 当季总收入1072.4亿元，同比下降5.2%，略高于市场预期的1064.4亿元；净利润38.8亿元，低于市场预期的44.9亿元。 经调整净利润为49亿元，同比下降56.8%。与此同时，集团毛利率从去年同期的22.9%降至20.2%。 利润下滑主要受到多重因素影响：存储等核心器件成本持续上涨，手机业务毛利率受到挤压；",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "PAMS: Preconditioned Activation-Metric Subspace for Zeroth-Order LLM Fine-tuning",
@@ -150,17 +150,7 @@
    "time": "11-24 15:51",
    "summary": "人形机器人与物理AI正从技术演示迈向真实场景部署，行业规模化落地的拐点可能比预期来得更早。 11月24日，摩根大通亚太股票研究团队发布最新行业深度报告， 认为多模态模型进步、数据积累、政策支持与商业化执行正在形成合力，推动物理AI进入S曲线加速阶段。 该行预计，物理AI的“ChatGPT时刻”最乐观有望于2027年到来。 这一判断也得到产业界的呼应。在摩根大通亚太科技创新与增长（TIG）会议上，机",
    "comment": "",
-   "score": 37
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "个人Agent的大厂战事：野心与克制",
-   "link": "https://wallstreetcn.com/articles/3786620",
-   "time": "11-24 15:50",
-   "summary": "国内Personal Agent（个人智能体）市场迎来了一位重量级玩家。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测。这款采用独立App形态的产品，更加强调长期记忆、主动服务及任务执行能力，用户可以将一些需要长期跟进的个人事务交给AI处理。 至此，从腾讯的小微、阿里的千问Go！，到蚂蚁的灵光2.0、字节的小豆，四家互联网大厂均已面向市场推出各自的Personal Agent产品。 ",
-   "comment": "",
-   "score": 33
+   "score": 34
   },
   {
    "group": "AI与数据",
@@ -171,6 +161,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "个人Agent的大厂战事：野心与克制",
+   "link": "https://wallstreetcn.com/articles/3786620",
+   "time": "11-24 15:50",
+   "summary": "国内Personal Agent（个人智能体）市场迎来了一位重量级玩家。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测。这款采用独立App形态的产品，更加强调长期记忆、主动服务及任务执行能力，用户可以将一些需要长期跟进的个人事务交给AI处理。 至此，从腾讯的小微、阿里的千问Go！，到蚂蚁的灵光2.0、字节的小豆，四家互联网大厂均已面向市场推出各自的Personal Agent产品。 ",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -263,16 +263,6 @@
    "score": 26
   },
   {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Talk Your Book: The Anthropic IPO",
-   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
-   "time": "11-16 13:00",
-   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
-   "comment": "",
-   "score": 24
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -281,6 +271,26 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 23
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "The Most Powerful Force on Earth",
+   "link": "https://awealthofcommonsense.com/2026/11/the-most-powerful-force-on-earth/",
+   "time": "11-24 20:10",
+   "summary": "Is the stock market too big to fail? The post The Most Powerful Force on Earth appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "AI与数据",
@@ -300,17 +310,7 @@
    "time": "11-18 13:00",
    "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
    "comment": "",
-   "score": 16
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Nvidia: Now What?",
-   "link": "https://awealthofcommonsense.com/2026/11/nvidia-now-what/",
-   "time": "11-16 04:27",
-   "summary": "How does the Jensen scandal impact the AI winners and losers? The post Nvidia: Now What? appeared first on A Wealth of Common Sense. ...",
-   "comment": "",
-   "score": 13
+   "score": 15
   }
  ]
 }
