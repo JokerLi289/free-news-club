@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25 05:14",
+ "generated_at": "2026-11-25 06:13",
  "raw_total": 190,
  "items": [
   {
@@ -15,12 +15,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
-   "link": "https://wallstreetcn.com/articles/3786599",
-   "time": "11-24 10:56",
-   "summary": "韩国央行预计将于11月26日再次加息，但半导体出口繁荣难掩内需疲软，AI科技股下跌进一步加剧消费压力，本轮加息周期或已接近尾声。 据路透社对34名经济学家的调查，32人预计韩国央行将于11月26日上调基准利率25个基点至3.25%，仅2人预测维持不变。法国兴业银行经济学家Michelle Lam表示，市场已充分消化加息预期， “如果不加息，反而会令市场意外”。 她指出，韩国三季度GDP表现强劲，通",
+   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
+   "link": "https://wallstreetcn.com/articles/3786636",
+   "time": "11-24 21:38",
+   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
    "comment": "",
-   "score": 60
+   "score": 59
   },
   {
    "group": "学术",
@@ -63,16 +63,6 @@
    "score": 50
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic暴跌14%破发！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
-   "link": "https://wallstreetcn.com/articles/3786627",
-   "time": "11-24 20:31",
-   "summary": "Anthropic上市热潮迅速退去。其在登陆纳斯达克仅三个交易日后便跌破83美元的IPO发行价。创始人及高管大额出售股份、AI行业估值压力，以及黄仁勋回归后可能加剧的产业路线竞争，共同成为市场关注焦点。 周二美股盘中，Anthropic一度大跌14%至75.61美元，市值跌破万亿美元关口，随后有所回升，截至发稿下跌9.37%。 监管文件显示， CEO Dario Amodei和总裁Daniela ",
-   "comment": "",
-   "score": 48
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -81,6 +71,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic暴跌14%破发！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
+   "link": "https://wallstreetcn.com/articles/3786627",
+   "time": "11-24 20:31",
+   "summary": "Anthropic上市热潮迅速退去。其在登陆纳斯达克仅三个交易日后便跌破83美元的IPO发行价。创始人及高管大额出售股份、AI行业估值压力，以及黄仁勋回归后可能加剧的产业路线竞争，共同成为市场关注焦点。 周二美股盘中，Anthropic一度大跌14%至75.61美元，市值跌破万亿美元关口，随后有所回升，截至发稿下跌9.37%。 监管文件显示， CEO Dario Amodei和总裁Daniela ",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "AI与数据",
@@ -111,6 +111,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "惠普盈利指引超预期，内存成本控制取得进展",
+   "link": "https://wallstreetcn.com/articles/3786637",
+   "time": "11-24 22:00",
+   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -150,7 +160,7 @@
    "time": "11-24 15:51",
    "summary": "人形机器人与物理AI正从技术演示迈向真实场景部署，行业规模化落地的拐点可能比预期来得更早。 11月24日，摩根大通亚太股票研究团队发布最新行业深度报告， 认为多模态模型进步、数据积累、政策支持与商业化执行正在形成合力，推动物理AI进入S曲线加速阶段。 该行预计，物理AI的“ChatGPT时刻”最乐观有望于2027年到来。 这一判断也得到产业界的呼应。在摩根大通亚太科技创新与增长（TIG）会议上，机",
    "comment": "",
-   "score": 34
+   "score": 31
   },
   {
    "group": "AI与数据",
@@ -169,16 +179,6 @@
    "link": "https://wallstreetcn.com/articles/3786620",
    "time": "11-24 15:50",
    "summary": "国内Personal Agent（个人智能体）市场迎来了一位重量级玩家。 11月24日，豆包旗下AI个人助理产品“小豆”正式开启公测。这款采用独立App形态的产品，更加强调长期记忆、主动服务及任务执行能力，用户可以将一些需要长期跟进的个人事务交给AI处理。 至此，从腾讯的小微、阿里的千问Go！，到蚂蚁的灵光2.0、字节的小豆，四家互联网大厂均已面向市场推出各自的Personal Agent产品。 ",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI信用危机、美国经济硬着陆？美银Hartnett预判2027年两大意外",
-   "link": "https://wallstreetcn.com/articles/3786617",
-   "time": "11-24 14:01",
-   "summary": "2027年全球市场可能迎来哪些意外？美国银行首席投资策略师Michael Hartnett（迈克尔·哈特奈特）建议投资者上半年暂缓加仓风险资产，等待全球加息周期在明年春季结束后，再转向周期性板块。 在其基准情景中，全球经济有望实现软着陆，周期性板块将成为下半年投资主线。 但市场也面临两大尾部风险：AI投资热潮引发信用危机，以及美国经济意外硬着陆。 具体而言，哈特奈特预计，全球央行到明年6月前仍将累",
    "comment": "",
    "score": 30
   },
