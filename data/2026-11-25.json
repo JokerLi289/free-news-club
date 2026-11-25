@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25 08:36",
- "raw_total": 190,
+ "generated_at": "2026-11-25 09:16",
+ "raw_total": 210,
  "items": [
   {
    "group": "学术",
@@ -20,7 +20,7 @@
    "time": "11-24 22:22",
    "summary": "黄仁勋重返英伟达CEO职位引发的市场狂欢仅持续一个交易日，AI科技股便重新遭遇抛售。华尔街人士警告，黄仁勋回归虽然缓解了英伟达短期的领导层不确定性，却没有解决通胀、利率和AI巨额投资回报等更深层次的问题，甚至可能带来新的公司治理与政治风险。 周一暴涨后迅速回吐，AI产业链集体承压 美东时间11月24日周二，周一因黄仁勋复职而大幅上涨的科技股重新成为美股抛售中心。 周一，道琼斯工业平均指数上涨近15",
    "comment": "",
-   "score": 64
+   "score": 61
   },
   {
    "group": "学术",
@@ -43,16 +43,6 @@
    "score": 56
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
-   "link": "https://wallstreetcn.com/articles/3786636",
-   "time": "11-24 21:38",
-   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
-   "comment": "",
-   "score": 51
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "Zarc: Exact Nearest Neighbors over a Billion Vectors in Seconds",
@@ -61,6 +51,16 @@
    "summary": "arXiv:2611.29252v1 Announce Type: cross Abstract: Exact k-nearest-neighbor vector search lies on the critical path of machine learning systems, from sparse attention in the latest large language models (LLMs) to long-context memories and training-data deduplication. Exhaustive GPU search scans the whole dataset for every query, while approximate indexes return inexact neighbors. Recent methods skip almost every vector with a cheap half-precision proof that it lies too far away, but only on one GPU that holds the whole dataset. Our insight is to keep only the short rows of these proofs in GPU memory and to fetch the few remaining full vectors from host memory. Our system, Zarc, answers Euclidean, cosine, inner-product, and filtered queries exactly under updates. On four H100 GPUs, it answers 10,000 exact queries over one billion vectors in 1.1 seconds instead of five minutes. On eleven open LLMs, it retrieves the exact top-10 attention keys 2.2x to 13.1x faster than exhaustive search. In sparse attention over one million tokens, it runs 3.1x faster than bf16 selection with FlashInfer, which misses the exact top-64 for most queries.",
    "comment": "",
    "score": 51
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
+   "link": "https://wallstreetcn.com/articles/3786636",
+   "time": "11-24 21:38",
+   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
+   "comment": "",
+   "score": 50
   },
   {
    "group": "学术",
@@ -133,6 +133,16 @@
    "score": 40
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "阴霾笼罩年底市场！摩根大通：伊朗军事升级、美联储紧缩、政府关门、关税上调、芯片管制一起来了！",
+   "link": "https://wallstreetcn.com/articles/3786649",
+   "time": "11-25 01:11",
+   "summary": "距离2026年结束还有五周，市场却要同时面对一张密密麻麻的风险清单。 据追风交易台消息，11月19日，摩根大通全球研究主席Joyce Chang率团队在华盛顿与政策制定者、官方债权人及独立智库人士举行了一整天的闭门会议。该行于11月24日发布报告，将会议核心内容整理为\"中期选举后需监测的十大风险\"。 报告开篇基调沉重。分析师写道，\"从华盛顿回来后，我们对中期选举后的风险更加谨慎\"，而那一周几乎每一",
+   "comment": "",
+   "score": 39
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -143,32 +153,32 @@
    "score": 39
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "AI交易疑虑未消，芯片股领跌纳指，道指涨0.8%，Anthropic破发，金属普跌",
    "link": "https://wallstreetcn.com/articles/3786560",
    "time": "11-24 22:54",
    "summary": "市场对AI交易可持续性的疑虑重燃，前一日因黄仁勋复职大涨的AI行情迅速退潮，叠加贸易消息影响，美股指涨跌不一，避险资产美债和瑞郎走强。 周二标普500收于7,200.82点，跌0.50%；纳斯达克综合收于23,733.54点，跌1.48%；道琼斯收于50,018.70点，涨0.85%。费城半导体指数跌7.88%。科技板块跌约4%，医疗保健涨约3%。英伟达跌5.86%。 Cetera Financi",
-   "comment": "",
-   "score": 35
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "惠普盈利指引超预期，内存成本控制取得进展",
-   "link": "https://wallstreetcn.com/articles/3786637",
-   "time": "11-24 22:00",
-   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
-   "comment": "",
-   "score": 33
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI服务器需求引爆戴尔业绩！营收翻倍、上调全年指引，1323亿美元订单积压创新高｜财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786635",
-   "time": "11-24 21:52",
-   "summary": "戴尔科技公布的最新财报显示，AI基础设施投资热潮正以前所未有的速度转化为公司收入。第三财季营收同比翻倍，AI优化服务器收入增长近三倍，新订单和积压订单均创历史新高，推动公司第三次上调本财年业绩指引。 当地时间11月24日，戴尔公布截至2026年10月30日的2027财年第三季度业绩。财报显示， 公司当季营收达到549.37亿美元，同比增长103%；非GAAP每股收益为9.45美元，同比增长265%",
    "comment": "",
    "score": 32
   },
@@ -181,6 +191,26 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "惠普盈利指引超预期，内存成本控制取得进展",
+   "link": "https://wallstreetcn.com/articles/3786637",
+   "time": "11-24 22:00",
+   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "学术",
