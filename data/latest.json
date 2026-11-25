@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25 21:16",
+ "generated_at": "2026-11-25 22:16",
  "raw_total": 186,
  "items": [
   {
@@ -113,6 +113,16 @@
    "score": 41
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "万国数据营收增一成，成本上涨压缩利润空间",
+   "link": "https://wallstreetcn.com/articles/3786704",
+   "time": "11-25 14:14",
+   "summary": "万国数据的机房更满了，利润空间却在收窄。 11月25日，数据中心运营商万国数据发布2026年三季报，营收31.8亿元，同比增长10.1%。截至9月底，上架率升至81.2%，高于上年同期的74.4%和今年二季度的79.2%。客户持续入驻，正在转化为实际收入。 但毛利润同比下降2.1%至6.26亿元，毛利率由22.1%降至19.7%。公司将其主要归因于公用事业成本增加。经调整EBITDA，即调整后的息",
+   "comment": "",
+   "score": 40
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -125,12 +135,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "美国10月PCE物价指数同比增长3.8%创三年半新高，核心同比 3.3%超预期，12月加息几成定局！",
+   "link": "https://wallstreetcn.com/articles/3786699",
+   "time": "11-25 13:52",
+   "summary": "美国通胀降温进程在10月再度受阻。核心个人消费支出（PCE）物价指数同比升幅反弹至3.3%，高于市场预期，距离美联储2%的政策目标仍有明显距离。消费支出同期几乎停滞，通胀黏性与需求走弱同时出现，货币政策的转向时点被迫继续后移。 美国商务部经济分析局周三公布的数据显示，10月核心PCE物价指数同比上涨3.3%，为2023年11月以来最高水平，预期为3.2%，前值为3.1%；环比上涨0.3%，与预期和",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "AI交易信仰动摇，纳指期货跌超3%，英伟达盘前跌超4%，金银大跌，避险资金涌入美债",
    "link": "https://wallstreetcn.com/articles/3786656",
    "time": "11-25 12:03",
    "summary": "围绕人工智能热潮能否持续的疑虑正在重塑全球资产定价，投资者从科技股大举撤离，资金涌向国债与美元避险。 11月25日，美股股指期货跌幅扩大，纳指期货跌超3%，标普500指数期货跌超1%。科技股延续跌势，英伟达跌超4%，Anthropic下跌3%；AMD跌近5%，闪迪跌超5%。 避险需求推动美债上涨，基准10年期美债收益率下降4个基点至4.89%，日本10年期国债收益率同步下行7.5个基点至2.645",
    "comment": "",
-   "score": 35
+   "score": 31
   },
   {
    "group": "AI与数据",
@@ -169,6 +189,16 @@
    "link": "https://wallstreetcn.com/articles/3786676",
    "time": "11-25 08:30",
    "summary": "理想汽车第三季度营收与盈利指标全面好于市场预期，毛利率环比大幅修复，自由现金流转正，但第四季度营收指引显著低于分析师预估。 公司11月25日公布未经审计的第三季度业绩， 营收288.3亿元人民币，同比增长5.4%，高于彭博综合预期的280亿元。毛利率16.7%，较上年同期的16.3%提升0.4个百分点，远超预估的13.6%。 第三季度交付量为99964辆，同比增长7.2%，但略低于预估的10248",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: The Stock Market is Too Big to Fail",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
+   "time": "11-25 13:00",
+   "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
    "comment": "",
    "score": 30
   },
@@ -213,16 +243,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "韩股陷入“无差别抛售”：三星与SK海力士齐现死叉，高盛称估值已计入70%盈利暴跌",
-   "link": "https://wallstreetcn.com/articles/3786692",
-   "time": "11-25 12:39",
-   "summary": "韩国股市再度进入清算模式。KOSPI指数隔夜重挫，收于本轮AI行情调整启动以来的最低水平，三星电子与SK海力士双双跌破关键支撑并确认“死叉”，技术面全面恶化。与此同时， 对冲基金正以十余年未见的速度撤离韩国市场，但高盛的估值框架显示，当前股价已隐含盈利预测被下调70%的极端情形。 高盛数据显示，亚洲基本面多空对冲基金的净杠杆率在一个月内骤降47.4个百分点至10%，为该行十余年数据中的最低读数。韩",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Thoughts on Verification Engineering in the Agentic SDLC",
@@ -231,16 +251,6 @@
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
    "comment": "",
    "score": 29
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "高盛：市场已替美联储“加息四次”，但沃什12月仍将继续加息",
-   "link": "https://wallstreetcn.com/articles/3786691",
-   "time": "11-25 12:16",
-   "summary": "高盛测算，今年以来美国金融条件已收紧约100个基点，相当于美联储四次标准加息的紧缩效果，而其中几乎全部发生在9月初之后。该行首席美国经济学家David Mericle认为， 这并不足以阻止美联储在12月再度加息25个基点，他将此举称为“近乎确定”。 Mericle在最新报告《金融条件收紧对增长和美联储意味着什么》中表示，金融条件指数（FCI）今年累计收紧104.1个基点，其中上周单周就贡献逾40个",
-   "comment": "",
-   "score": 27
   },
   {
    "group": "财经深度",
@@ -290,7 +300,7 @@
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
-   "score": 23
+   "score": 22
   },
   {
    "group": "财经深度",
@@ -300,17 +310,7 @@
    "time": "11-24 20:10",
    "summary": "Is the stock market too big to fail? The post The Most Powerful Force on Earth appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 20
-  },
-  {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Animal Spirits: The Biggest Losers of the Year",
-   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-biggest-losers-of-the-year/",
-   "time": "11-18 13:00",
-   "summary": "On today’s show we discuss Jensen’s resignation, what this means for Nvidia, why the stock market isn’t down more, hubris is a risk, the end of the AI bubble, semiconductor valuations, hedge fund herd",
-   "comment": "",
-   "score": 15
+   "score": 19
   }
  ]
 }
