@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25 17:18",
+ "generated_at": "2026-11-25 18:16",
  "raw_total": 186,
  "items": [
   {
@@ -11,16 +11,6 @@
    "summary": "arXiv:2611.32073v1 Announce Type: new Abstract: Large language models (LLMs) enable declarative semantic sorting through LLM-ORDER BY operators that rank tuples according to natural-language criteria over unstructured data. Executing such operators efficiently is challenging because LLM comparisons are expensive, stochastic, and sometimes inconsistent. Pairwise approaches require many costly calls. Listwise approaches such as external merge sort rank several items per call, but they follow a fixed merge schedule and keep no record of earlier answers: each merge call re-asks orderings that previous calls have already revealed, directly or by transitivity. We present Transitive Batched Sort (TBS), a transitivity-aware physical operator for semantic sorting that records every revealed preference in a global acyclic preference graph and issues a listwise request only for items whose relative order is not yet implied. To scale, TBS stores only directly observed preferences and answers transitivity queries through a memory-efficient reachability index; to handle noisy LLM outputs, it validates responses and rejects cycle-inducing updates. We evaluate TBS on six benchmarks spanning structured sorting, product price ranking, passage ranking, and personalized recommendation with four LLMs. TBS reduces API calls by 12-20x relative to pairwise quicksort and, at the same batch size, uses 1.1-1.6x fewer calls and 1.3-5.3x lower cost than listwise merge sort while achieving competitive or higher ranking quality across most benchmarks; on Amazon it scales to one million products. These results show that reusing previously inferred preference relations, rather than re-querying them, is an effective foundation for scalable semantic ORDER BY operators.",
    "comment": "",
    "score": 87
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "黄仁勋回归行情一日游！华尔街警告：油价、通胀和鹰派美联储，一个都没解决",
-   "link": "https://wallstreetcn.com/articles/3786638",
-   "time": "11-24 22:22",
-   "summary": "黄仁勋重返英伟达CEO职位引发的市场狂欢仅持续一个交易日，AI科技股便重新遭遇抛售。华尔街人士警告，黄仁勋回归虽然缓解了英伟达短期的领导层不确定性，却没有解决通胀、利率和AI巨额投资回报等更深层次的问题，甚至可能带来新的公司治理与政治风险。 周一暴涨后迅速回吐，AI产业链集体承压 美东时间11月24日周二，周一因黄仁勋复职而大幅上涨的科技股重新成为美股抛售中心。 周一，道琼斯工业平均指数上涨近15",
-   "comment": "",
-   "score": 60
   },
   {
    "group": "学术",
@@ -125,10 +115,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "“新债王”：美国债务危机将在2029-2030年启动，只有三条路化债“重组、印钞和通胀”",
-   "link": "https://wallstreetcn.com/articles/3786673",
-   "time": "11-25 09:00",
-   "summary": "美国联邦债务在2025年8月18日突破40万亿美元。此后两个月，债务规模又增加了6000亿美元。DoubleLine Capital创始人、CEO兼CIO杰弗里·冈拉克（Jeffrey Gundlach）预计，美国2027财年的财政赤字可能达到3万亿美元，相当于GDP的9%。 按照他的测算，美国债务增长的年化速度，已经从2万亿美元上升至3万亿美元。 在洛杉矶的一场对谈中，这位被称为“新债王”的投资",
+   "title": "今晚，美联储12月决议前最后一份重磅通胀报告出炉！",
+   "link": "https://wallstreetcn.com/articles/3786680",
+   "time": "11-25 10:06",
+   "summary": "美联储12月议息会议临近，市场正等待一份关键通胀报告，以判断下一阶段货币政策走向。美国劳工部将于当地时间11月25日上午8时30分（北京时间21时30分）公布10月个人消费支出（PCE）物价指数。这将是美联储12月8日至9日议息会议前最后一份重磅通胀报告，而11月CPI数据要到议息会议结束后的第二天才会公布。 市场普遍预计， 10月整体PCE同比增速将从9月的3.6%升至3.8%，核心PCE同比增",
    "comment": "",
    "score": 40
   },
@@ -145,12 +135,22 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
+   "title": "“新债王”：美国债务危机将在2029-2030年启动，只有三条路化债“重组、印钞和通胀”",
+   "link": "https://wallstreetcn.com/articles/3786673",
+   "time": "11-25 09:00",
+   "summary": "美国联邦债务在2025年8月18日突破40万亿美元。此后两个月，债务规模又增加了6000亿美元。DoubleLine Capital创始人、CEO兼CIO杰弗里·冈拉克（Jeffrey Gundlach）预计，美国2027财年的财政赤字可能达到3万亿美元，相当于GDP的9%。 按照他的测算，美国债务增长的年化速度，已经从2万亿美元上升至3万亿美元。 在洛杉矶的一场对谈中，这位被称为“新债王”的投资",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
    "title": "理想汽车Q3营收同增5.4%超预期，经营亏损大幅收窄，但Q4交付指引远低于市场预估 | 财报见闻",
    "link": "https://wallstreetcn.com/articles/3786676",
    "time": "11-25 08:30",
    "summary": "理想汽车第三季度营收与盈利指标全面好于市场预期，毛利率环比大幅修复，自由现金流转正，但第四季度营收指引显著低于分析师预估。 公司11月25日公布未经审计的第三季度业绩， 营收288.3亿元人民币，同比增长5.4%，高于彭博综合预期的280亿元。毛利率16.7%，较上年同期的16.3%提升0.4个百分点，远超预估的13.6%。 第三季度交付量为99964辆，同比增长7.2%，但略低于预估的10248",
    "comment": "",
-   "score": 37
+   "score": 34
   },
   {
    "group": "快讯",
@@ -160,7 +160,7 @@
    "time": "11-25 07:33",
    "summary": "围绕人工智能热潮能否持续的疑虑正在重塑全球资产定价，投资者从科技股大举撤离，资金涌向国债与美元避险。 11月25日，美股股指期货跌幅扩大，纳指期货跌超2%，标普500指数期货跌超1%。亚太市场成为抛售重灾区。MSCI亚太指数下跌2.1%，其中韩国KOSPI指数收跌6.16%，报4697.51点；日经225指数收跌2.78%。芯片股领跌，SK海力士股价下挫11%，三星电子跌10%。 避险需求推动美债",
    "comment": "",
-   "score": 34
+   "score": 31
   },
   {
    "group": "AI与数据",
