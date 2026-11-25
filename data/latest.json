@@ -1,7 +1,17 @@
 {
- "generated_at": "2026-11-25 13:16",
- "raw_total": 140,
+ "generated_at": "2026-11-25 14:25",
+ "raw_total": 186,
  "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Efficient Semantic ORDER BY via Transitivity-Aware LLM Batch Sorting",
+   "link": "https://arxiv.org/abs/2611.32073",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.32073v1 Announce Type: new Abstract: Large language models (LLMs) enable declarative semantic sorting through LLM-ORDER BY operators that rank tuples according to natural-language criteria over unstructured data. Executing such operators efficiently is challenging because LLM comparisons are expensive, stochastic, and sometimes inconsistent. Pairwise approaches require many costly calls. Listwise approaches such as external merge sort rank several items per call, but they follow a fixed merge schedule and keep no record of earlier answers: each merge call re-asks orderings that previous calls have already revealed, directly or by transitivity. We present Transitive Batched Sort (TBS), a transitivity-aware physical operator for semantic sorting that records every revealed preference in a global acyclic preference graph and issues a listwise request only for items whose relative order is not yet implied. To scale, TBS stores only directly observed preferences and answers transitivity queries through a memory-efficient reachability index; to handle noisy LLM outputs, it validates responses and rejects cycle-inducing updates. We evaluate TBS on six benchmarks spanning structured sorting, product price ranking, passage ranking, and personalized recommendation with four LLMs. TBS reduces API calls by 12-20x relative to pairwise quicksort and, at the same batch size, uses 1.1-1.6x fewer calls and 1.3-5.3x lower cost than listwise merge sort while achieving competitive or higher ranking quality across most benchmarks; on Amazon it scales to one million products. These results show that reusing previously inferred preference relations, rather than re-querying them, is an effective foundation for scalable semantic ORDER BY operators.",
+   "comment": "",
+   "score": 87
+  },
   {
    "group": "快讯",
    "source": "华尔街见闻",
@@ -11,6 +21,16 @@
    "summary": "黄仁勋重返英伟达CEO职位引发的市场狂欢仅持续一个交易日，AI科技股便重新遭遇抛售。华尔街人士警告，黄仁勋回归虽然缓解了英伟达短期的领导层不确定性，却没有解决通胀、利率和AI巨额投资回报等更深层次的问题，甚至可能带来新的公司治理与政治风险。 周一暴涨后迅速回吐，AI产业链集体承压 美东时间11月24日周二，周一因黄仁勋复职而大幅上涨的科技股重新成为美股抛售中心。 周一，道琼斯工业平均指数上涨近15",
    "comment": "",
    "score": 60
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Rethinking Document Indexing for LLM-based Analysis",
+   "link": "https://arxiv.org/abs/2611.31679",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31679v1 Announce Type: new Abstract: Documents such as clinical records, legal contracts, and scientific papers are increasingly analyzed with large language models (LLMs). The na\\\"ive approach of prompting the model with the full text for every question is slow, expensive, prone to hallucination on long inputs, and reuses no work across questions. Retrieval-augmented generation (RAG) systems build reusable state to address this, but they store it as embedded chunks: slicing text into fragments can lose the meaning that spans them, and the resulting index is tied to one embedding model, so it must be rebuilt whenever that model changes. Answering many questions over a large body of data without a full rescan, however, is not a new problem: it is the problem database indexes have been solving for decades, and we argue that this accumulated index design knowledge is waiting to be revisited for LLM access. As a concrete starting point, we propose Periplus, a hierarchical plain-text index inspired by the classic B+ tree. It arranges a document into pages running from general summaries at the root to specific ones at the leaves, so that each level guides the search into the next. But it departs from the B+ tree in three ways suited to LLM access: content lives at every level, the pages are plain text rather than attribute values, and navigation follows the relevance of a page summary to the question rather than a key comparison. The structure itself is discovered per document by the LLM rather than hand-designed in advance. In a preliminary evaluation on narrative and contract corpora, Periplus comes within 0.1--0.9 percentage points of the strongest baseline's accuracy while consuming 70--72\\% fewer total tokens. These early results are encouraging, and they offer only a glimpse of what index design can bring to LLM-based analysis.",
+   "comment": "",
+   "score": 59
   },
   {
    "group": "快讯",
@@ -23,6 +43,36 @@
    "score": 50
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+   "link": "https://arxiv.org/abs/2611.31442",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31442v1 Announce Type: new Abstract: Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small learned projection W: R^1024 -> R^d (d in {11, 32}), trained by a deterministic recipe on a declared set of cases, that suppresses the trap: for the declared cases, HN@10 = 0.0000 (no trap in the top-10) in all twelve (domain, pool-size) settings across four independent domains (legal, medical, patent, financial) and pools up to 100,000, while the correct paraphrase is retained for 93-99% of cases, under exact nearest-neighbour search. Second, a boundary-conditioned accelerator that serves the projection at that scale: an acceleration of spectral graph retrieval (SpectRAG) that replaces a dense eigendecomposition with a boundary-value solve, holding HN@10 = 0.0000 at n = 100,000 in every domain and retrieving the ~300-query suite in 0.6-1.1 s (~2-4 ms per query on average). Because the lens's output is the stored representation (a few floats per document), a hardened, specialised index per domain or tenant is ~90x smaller and dimension-proportionally faster than the full embedding, making many small declared indexes a practical alternative to one large vector store. The claim is scoped to the declared cases on the measured pools, with no probabilistic bound; the correct-answer rate drops for a reworded query against an unchanged corpus (about 0.79, trap suppression still holding). A projection transfers only partly to other domains, which we report in full. The recipe, lenses, trap sets and evaluation harness are released under AGPL-3.0; the accelerator's implementation is a reserved commercial component, and every HN number is reproducible under exact search.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "LimoBench: How Street Smart Are Large Language Models?",
+   "link": "https://arxiv.org/abs/2611.31682",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31682v1 Announce Type: cross Abstract: Large language models (LLMs) have transformed how humans interact with information, enabling natural-language interfaces across various domains. They are increasingly deployed for geospatial applications including map-based question answering, location-based services, and natural-language interfaces to spatial databases. But are LLMs truly location-aware, able to reliably interpret and precisely answer location queries involving real-world coordinates, points of interest (POIs), and geospatial distances? To answer this concretely, we present LimoBench, a street-level benchmark of 82 natural-language location queries over seven canonical spatial operations: geocoding, reverse geocoding, routing, directionality, range search, $k$-nearest-neighbor search, and spatial join. The queries are grounded in real map data of West Lafayette, Indiana, and are graded by location and semantic complexity. They are designed to probe LLMs' street-level spatial awareness, from simple lookups to multi-step spatial reasoning. We also present Limo, an approach based on the Model Context Protocol (MCP) that enhances the location awareness of LLMs. Limo grounds LLMs in PostGIS-backed spatial data through a compact set of tools. We find that ungrounded models mostly achieve single-digit accuracy (3.1% for GPT-6 Luna) across different spatial operations. In contrast, the same models achieve near-perfect accuracy (99.3% for GPT-6 Luna) when given access to Limo's spatial tools through MCP. Current LLMs thus have limited and unreliable street-level spatial knowledge, while grounding provides accurate answers at modest overhead (+0.2 s latency, 7.7$\\times$ tokens, and 2.2$\\times$ cost for GPT-6 Luna). We release the benchmark, Limo toolset, and evaluation code to encourage the community to evaluate their own location-aware LLM approaches.",
+   "comment": "",
+   "score": 50
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "O2N2: Efficient Doubly Oblivious Approximate Nearest Neighbor Search",
+   "link": "https://arxiv.org/abs/2611.03415",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.03415v2 Announce Type: replace-cross Abstract: Privacy-preserving approximate nearest neighbor (ANN) search allows clients to search from an untrusted server without revealing sensitive queries, and is useful in scenarios like medical diagnostics and credit scoring. Among the various privacy-preserving primitives, trusted execution environments (TEEs) have much lower overhead than heavy cryptographic ones, yet they leak memory access patterns, enabling adversaries to infer query contents. Oblivious RAM (ORAM) can be used to hide those access patterns at $\\mathrm{O}(\\log N)$ asymptotic cost, but existing high-performance ANN search algorithms (e.g., IVF or HNSW) exhibit complex, data-dependent access patterns that are unfriendly for ORAM. Furthermore, standard ORAM constructions typically assume there exists a small amount of trusted storage, which weakens the security guarantees and is not always feasible. Solutions that eliminate such trusted storage (known as {\\em double obliviousness}) typically degrade performance further to $\\mathrm{O}(\\log^2 N)$. We introduce O2N2, a doubly oblivious ANN framework built around single-path search in randomly rotated $k$-d tree forests. A pointer-based Circuit ORAM stores the search structure, with separate storage for compact internal nodes and vector-bearing leaves. Each visited leaf is processed by an oblivious selection network, and fixed-schedule duplicate removal and selection combine the local results into the final top-$k$. We evaluate O2N2 on real-world datasets and further test its scalability on 100 million vectors. For 10-NN and 100-NN search at the specified high-recall targets, it achieves a $9.8$--$125.9\\times$ speedup over the fastest doubly oblivious baselines. It also achieves comparable efficiency against existing singly oblivious systems such as Compass (OSDI~'25) and BiSON (EuroS\\&P~'26), while providing stronger privacy guarantees.",
+   "comment": "",
+   "score": 50
+  },
+  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -31,6 +81,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "When the Miner is the Generator: Rethinking the Separation Axiom in LLM-Driven Data Mining",
+   "link": "https://arxiv.org/abs/2611.32207",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.32207v1 Announce Type: new Abstract: The theoretical foundation of data mining implicitly relies on an unstated premise, the Separation Axiom (SA), which assumes that mining tools and the data being analyzed are epistemologically independent. However, this premise is increasingly challenged by the emergence of LLM-driven AI agents that actively participate in data generation. We argue that this shift leads to a new epistemic failure mode, which we term ontological self-reference, where discovered patterns may reflect the inductive biases of the tools rather than the underlying structure of the data. This raises fundamental concerns about the credibility of knowledge discovery and the risk of self-reinforcing epistemic loops, where inferred patterns may reflect model-internal biases rather than the underlying structure of the data. We therefore call for a rethinking of the data mining paradigm in the era of large language models, grounded in an SA-aware theoretical foundation and extended to system-level epistemic safeguards. We argue that such a shift is necessary to conceptually rearm the discipline, preventing future knowledge discovery from collapsing into self-justifying algorithmic echo chambers.",
+   "comment": "",
+   "score": 45
   },
   {
    "group": "AI与数据",
@@ -63,6 +123,16 @@
    "score": 42
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Detecting Harmful Short Videos in Toxic Diet Culture: A Governance-Ready Evidence Framework with Sparse Autoencoders",
+   "link": "https://arxiv.org/abs/2611.31354",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31354v1 Announce Type: new Abstract: Algorithmic content moderation is increasingly important for governing short-form video content, yet harmful-content detection research focuses primarily on prediction or limited explanations. This leaves a governance challenge underexplored: producing decision-linked evidence that supports the review and justification of moderation decisions. Using toxic diet culture as an empirical case, we conceptualize governance-ready evidence as computational traceability, evidence localization, policy grounding, and evidence inspectability. We develop the Sparse Autoencoder-based Policy-Aligned Contrastive Evidence (SPACE) framework in a pretrained SAE feature space derived from a large multimodal model. A global relevance gate and decomposable linear evidence head identify decision-linked evidence; segment supervision and within-video ranking localize this evidence; policy alignment maps it to platform guidelines; and Pareto-efficient selection yields a compact, task-specific evidence vocabulary. On 3,711 labeled TikTok videos, SPACE achieves the highest harmful-category Macro F1 among benchmarks across four families, at 0.8507. Its highest-scoring observation overlaps a ground-truth harmful span for 88.0% of harmful test videos, while its evidence representation retrieves the corresponding policy category for 87.0%. Stakeholder evaluations indicate that the SPACE evidence report is perceived as useful for understanding, reviewing, documenting, and responding to moderation decisions. The study contributes computational design science knowledge for embedding governance-ready evidence within predictive content-moderation systems.",
+   "comment": "",
+   "score": 41
+  },
+  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "Anthropic破发一度暴跌14%！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
@@ -83,16 +153,6 @@
    "score": 39
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "阴霾笼罩年底市场！摩根大通：伊朗军事升级、美联储紧缩、政府关门、关税上调、芯片管制一起来了！",
-   "link": "https://wallstreetcn.com/articles/3786649",
-   "time": "11-25 01:11",
-   "summary": "距离2026年结束还有五周，市场却要同时面对一张密密麻麻的风险清单。 据追风交易台消息，11月19日，摩根大通全球研究主席Joyce Chang率团队在华盛顿与政策制定者、官方债权人及独立智库人士举行了一整天的闭门会议。该行于11月24日发布报告，将会议核心内容整理为\"中期选举后需监测的十大风险\"。 报告开篇基调沉重。分析师写道，\"从华盛顿回来后，我们对中期选举后的风险更加谨慎\"，而那一周几乎每一",
-   "comment": "",
-   "score": 31
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -105,10 +165,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "A股三大股指均跌超1%，医药、消费逆势走强，半导体产业链下跌，恒科指盘中涨超2%之后回落，小米涨4%",
-   "link": "https://wallstreetcn.com/articles/3786653",
-   "time": "11-25 04:05",
-   "summary": "11月25日，A股A股在隔夜美股科技股\"一日游\"式回调的拖累下集体低开，随后盘初震荡收窄，盘中跌幅有所扩大，三大指数午盘均跌超1%，算力硬件局部活跃，光模块龙头“易中天”走高，天孚通信大涨超11%。零售、餐饮旅游等大消费活跃。半导体产业链陷入调整，GPU、先进封装、光刻机等概念股下跌。 港股早盘冲高回落，恒指、恒科指双双上涨，恒科指盘初一度涨2%，临近午盘再度回落，权重科网股多数反弹，小米涨4%，",
+   "title": "AI算力需求存疑！贝莱德拟大砍250亿美元数据中心收购价",
+   "link": "https://wallstreetcn.com/articles/3786662",
+   "time": "11-25 05:32",
+   "summary": "数据中心行业波动加剧，贝莱德领衔财团正重新评估亚太区资产价值，考虑下调收购要约并引入业绩对赌条款。 据彭博报道， 贝莱德（BlackRock）与IFM Investors Pty组成的投资财团正考虑下调对Stack Infrastructure亚太区数据中心的收购报价，原因是该行业波动性上升，加之本地社区反对声音渐强，算力需求前景不确定性加剧。 据知情人士透露，该财团可能削减要约中的股权对价部分，",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "阴霾笼罩年底市场！摩根大通：伊朗军事升级、美联储紧缩、政府关门、关税上调、芯片管制一起来了！",
+   "link": "https://wallstreetcn.com/articles/3786649",
+   "time": "11-25 01:11",
+   "summary": "距离2026年结束还有五周，市场却要同时面对一张密密麻麻的风险清单。 据追风交易台消息，11月19日，摩根大通全球研究主席Joyce Chang率团队在华盛顿与政策制定者、官方债权人及独立智库人士举行了一整天的闭门会议。该行于11月24日发布报告，将会议核心内容整理为\"中期选举后需监测的十大风险\"。 报告开篇基调沉重。分析师写道，\"从华盛顿回来后，我们对中期选举后的风险更加谨慎\"，而那一周几乎每一",
    "comment": "",
    "score": 30
   },
@@ -129,6 +199,36 @@
    "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
    "time": "11-25 04:29",
    "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Is 4 Bits Enough for EEG Sleep Staging? A Subject-Level Benchmark of MXFP4, NVFP4 and FP8",
+   "link": "https://arxiv.org/abs/2611.31436",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31436v1 Announce Type: new Abstract: Staging sleep on a wearable device keeps the raw electroencephalogram (EEG) private and saves the energy needed to transmit it. It also requires small, energy-efficient neural networks. We benchmark 13 post-training quantization (PTQ) configurations, from FP16 to the block-scaled 4-bit formats MXFP4 and NVFP4, for five-stage sleep staging from single-channel Fpz-Cz EEG. We use Sleep-EDF-78 (78 subjects), subject-wise cross-validation, three training seeds, value-exact emulation, and per-subject paired statistics. All 8- and 16-bit formats stay within 0.45 percentage points (pp) of FP32 Macro-F1. With 4-bit weights and activations, an epoch-wise CNN loses 1.98 to 3.04 pp, and a temporal-context network loses at most 1.19 pp. A same-encoder ablation shows that temporal context explains little of this gap. At equal block size, NVFP4 outperforms MXFP4. The first layer, which quantizes the raw EEG, is the most sensitive layer in both networks. Keeping the first and last layers in FP8 brings both tested 4-bit formats within 0.48 pp of FP32. This recipe adds at most 2.1% weight storage, needs no retraining, and is equivalent to quantization-aware training (QAT) within an exploratory 1-pp margin. The 4-bit losses fall on the same subjects across architectures (Spearman correlation coefficient = 0.69 to 0.79), and they reduce N3 recall the most. On the nested Sleep-EDF-20 subset, NVFP4 with FP8 first and last layers again stays within 0.25 pp of FP32. Under MXFP4, however, the ranking of the architectures reverses, and FP8 first and last layers do not fully recover two of the three tested models. In our emulation, NVFP4 with FP8 first and last layers thus loses little accuracy without QAT in both cohorts.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
+   "link": "https://arxiv.org/abs/2611.31511",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31511v1 Announce Type: new Abstract: Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with experience replay under out-of-distribution (OOD) data using the LIBERO and LIBERO-Plus benchmarks. While the in-domain (ID) setup achieves near-zero catastrophic forgetting, OOD performance on previous tasks quickly collapses. Specifically, we show that during the continual learning process, the OOD capabilities of the model degrade, following a shared representational pattern across domain shifts, which is also visible behaviorally in the two simpler suites. Representational analysis shows that drift concentrates in the multimodal and action features. Linear probes indicate that OOD features still retain task-relevant information, but appear unreadable, consistent with representation misalignment. These findings suggest that even when ID stability remains intact, severe OOD forgetting can still occur, accompanied by representational drift during continual learning.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "ECLIPSE: Embedding-Centered Foundation-Model Federated Knowledge Transfer for Data-Free Edge Intelligence",
+   "link": "https://arxiv.org/abs/2611.31527",
+   "time": "11-25 05:00",
+   "summary": "arXiv:2611.31527v1 Announce Type: new Abstract: Foundation Models (FMs) are envisioned to become an integral component of intelligent federated edge networks because of their strong representation and generalization capabilities. However, their integration into resource-constrained and privacy-sensitive edge environments remains challenging. This challenge is particularly pronounced in data-free settings, where no shared, public, or server-accessible reference dataset is available to establish a common reference space for aligning distributed knowledge. To address this challenge, we propose ECLIPSE, which is an embedding-centered FM-based federated knowledge transfer framework developed for data-free edge intelligence. ECLIPSE enables edge intelligence capitalizing on a server-hosted FM without sharing raw data, local models, or a public reference dataset. It establishes a shared embedding reference space through which edge devices encode their local task knowledge. Only the resulting embeddings are transmitted to the server for alignment and aggregation. Using the aggregated embeddings, the server constructs a task-aware surrogate dataset through an embedding-guided generative process. This surrogate dataset is then used to adapt the server-hosted FM to the downstream task. The adapted FM is subsequently distilled into a lightweight global model and distributed to the edge devices. This process allows edge devices to benefit from both distributed task knowledge and the generalization capabilities of the FM. Experimental results across diverse classification datasets show that ECLIPSE outperforms conventional Federated Learning (FL) and data-free Federated Knowledge-Transfer (FKT) baselines. It also achieves competitive performance compared with databased approaches. Furthermore, the framework remains robust under statistical and model heterogeneity across different data distributions and local architectures.",
    "comment": "",
    "score": 30
   },
