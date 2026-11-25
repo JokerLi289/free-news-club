@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25 09:16",
- "raw_total": 210,
+ "generated_at": "2026-11-25 10:21",
+ "raw_total": 190,
  "items": [
   {
    "group": "学术",
@@ -20,7 +20,7 @@
    "time": "11-24 22:22",
    "summary": "黄仁勋重返英伟达CEO职位引发的市场狂欢仅持续一个交易日，AI科技股便重新遭遇抛售。华尔街人士警告，黄仁勋回归虽然缓解了英伟达短期的领导层不确定性，却没有解决通胀、利率和AI巨额投资回报等更深层次的问题，甚至可能带来新的公司治理与政治风险。 周一暴涨后迅速回吐，AI产业链集体承压 美东时间11月24日周二，周一因黄仁勋复职而大幅上涨的科技股重新成为美股抛售中心。 周一，道琼斯工业平均指数上涨近15",
    "comment": "",
-   "score": 61
+   "score": 60
   },
   {
    "group": "学术",
@@ -135,10 +135,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "阴霾笼罩年底市场！摩根大通：伊朗军事升级、美联储紧缩、政府关门、关税上调、芯片管制一起来了！",
-   "link": "https://wallstreetcn.com/articles/3786649",
-   "time": "11-25 01:11",
-   "summary": "距离2026年结束还有五周，市场却要同时面对一张密密麻麻的风险清单。 据追风交易台消息，11月19日，摩根大通全球研究主席Joyce Chang率团队在华盛顿与政策制定者、官方债权人及独立智库人士举行了一整天的闭门会议。该行于11月24日发布报告，将会议核心内容整理为\"中期选举后需监测的十大风险\"。 报告开篇基调沉重。分析师写道，\"从华盛顿回来后，我们对中期选举后的风险更加谨慎\"，而那一周几乎每一",
+   "title": "A股三大股指早盘震荡回升，光模块龙头“易中天”集体反弹，半导体产业链下跌，恒指、恒科指齐涨，小米大涨6%",
+   "link": "https://wallstreetcn.com/articles/3786653",
+   "time": "11-25 01:56",
+   "summary": "11月25日，A股早盘低开，三大股指盘初震荡拉升，跌幅持续收窄，算力硬件低开高走，光模块龙头“易中天”纷纷转涨，天孚通信大涨超11%。光芯片、光电路交换机早盘亦走高。零售、餐饮旅游等大消费活跃。半导体产业链陷入调整，GPU、先进封装、光刻机等概念股下跌。 港股早盘拉升，恒指、恒科指双双上涨，恒科指盘初一度涨1%，权重科网股多数反弹，小米、京东大涨5%，哔哩哔哩拉升近10%。半导体下挫，华虹宏力跌超",
    "comment": "",
    "score": 39
   },
@@ -153,34 +153,14 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "AI交易疑虑未消，芯片股领跌纳指，道指涨0.8%，Anthropic破发，金属普跌",
-   "link": "https://wallstreetcn.com/articles/3786560",
-   "time": "11-24 22:54",
-   "summary": "市场对AI交易可持续性的疑虑重燃，前一日因黄仁勋复职大涨的AI行情迅速退潮，叠加贸易消息影响，美股指涨跌不一，避险资产美债和瑞郎走强。 周二标普500收于7,200.82点，跌0.50%；纳斯达克综合收于23,733.54点，跌1.48%；道琼斯收于50,018.70点，涨0.85%。费城半导体指数跌7.88%。科技板块跌约4%，医疗保健涨约3%。英伟达跌5.86%。 Cetera Financi",
+   "title": "阴霾笼罩年底市场！摩根大通：伊朗军事升级、美联储紧缩、政府关门、关税上调、芯片管制一起来了！",
+   "link": "https://wallstreetcn.com/articles/3786649",
+   "time": "11-25 01:11",
+   "summary": "距离2026年结束还有五周，市场却要同时面对一张密密麻麻的风险清单。 据追风交易台消息，11月19日，摩根大通全球研究主席Joyce Chang率团队在华盛顿与政策制定者、官方债权人及独立智库人士举行了一整天的闭门会议。该行于11月24日发布报告，将会议核心内容整理为\"中期选举后需监测的十大风险\"。 报告开篇基调沉重。分析师写道，\"从华盛顿回来后，我们对中期选举后的风险更加谨慎\"，而那一周几乎每一",
    "comment": "",
-   "score": 32
+   "score": 36
   },
   {
    "group": "AI与数据",
@@ -195,20 +175,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "惠普盈利指引超预期，内存成本控制取得进展",
-   "link": "https://wallstreetcn.com/articles/3786637",
-   "time": "11-24 22:00",
-   "summary": "惠普财报显示在应对内存芯片成本上涨方面正逐步改善，盘后股价随即大幅跳涨。 周二美股盘后，惠普发布2026财年全年及第四季度业绩报告，宣布提高股息。报告显示， 截至明年1月的当前财季，每股收益预期为0.66至0.76美元，市场预期为0.72美元，上述指引均已纳入关税退税的影响 。 预计自本月起的新财年非通用会计准则每股收益预期区间为3.15至3.45美元，据彭博汇总的分析师一致预期为3.18美元。 ",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
+   "title": "AI交易疑虑未消，芯片股领跌纳指，道指涨0.8%，Anthropic破发，金属普跌",
+   "link": "https://wallstreetcn.com/articles/3786560",
+   "time": "11-24 22:54",
+   "summary": "市场对AI交易可持续性的疑虑重燃，前一日因黄仁勋复职大涨的AI行情迅速退潮，叠加贸易消息影响，美股指涨跌不一，避险资产美债和瑞郎走强。 周二标普500收于7,200.82点，跌0.50%；纳斯达克综合收于23,733.54点，跌1.48%；道琼斯收于50,018.70点，涨0.85%。费城半导体指数跌7.88%。科技板块跌约4%，医疗保健涨约3%。英伟达跌5.86%。 Cetera Financi",
    "comment": "",
    "score": 30
   },
