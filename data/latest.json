@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25 16:20",
+ "generated_at": "2026-11-25 17:18",
  "raw_total": 186,
  "items": [
   {
@@ -31,16 +31,6 @@
    "summary": "arXiv:2611.31679v1 Announce Type: new Abstract: Documents such as clinical records, legal contracts, and scientific papers are increasingly analyzed with large language models (LLMs). The na\\\"ive approach of prompting the model with the full text for every question is slow, expensive, prone to hallucination on long inputs, and reuses no work across questions. Retrieval-augmented generation (RAG) systems build reusable state to address this, but they store it as embedded chunks: slicing text into fragments can lose the meaning that spans them, and the resulting index is tied to one embedding model, so it must be rebuilt whenever that model changes. Answering many questions over a large body of data without a full rescan, however, is not a new problem: it is the problem database indexes have been solving for decades, and we argue that this accumulated index design knowledge is waiting to be revisited for LLM access. As a concrete starting point, we propose Periplus, a hierarchical plain-text index inspired by the classic B+ tree. It arranges a document into pages running from general summaries at the root to specific ones at the leaves, so that each level guides the search into the next. But it departs from the B+ tree in three ways suited to LLM access: content lives at every level, the pages are plain text rather than attribute values, and navigation follows the relevance of a page summary to the question rather than a key comparison. The structure itself is discovered per document by the LLM rather than hand-designed in advance. In a preliminary evaluation on narrative and contract corpora, Periplus comes within 0.1--0.9 percentage points of the strongest baseline's accuracy while consuming 70--72\\% fewer total tokens. These early results are encouraging, and they offer only a glimpse of what index design can bring to LLM-based analysis.",
    "comment": "",
    "score": 59
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "铜价\"收回\"对AI周期信任票，大跌超4%回吐周一全部涨幅",
-   "link": "https://wallstreetcn.com/articles/3786636",
-   "time": "11-24 21:38",
-   "summary": "英伟达CEO黄仁勋重获任命所引发的铜价单日涨幅，不到24小时便被全数抹去。 周二，铜价大跌4.3%，收报每磅5.47美元，将前一日2.7%的涨幅悉数回吐。与此同时，伦敦金属交易所三个月期铜一度下挫5.7%至每吨11,780美元，跌破12,000美元关口。 多重利空因素在同一时间窗口叠加：美国关税政策不确定性上升、需求疲软、美联储进一步加息预期升温，以及此前推动铜价上涨的AI基础设施投资叙事遭受质疑",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "学术",
@@ -135,12 +125,12 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "AI交易信仰动摇，纳指期货跌超2%，韩股收跌6.16%，金油齐跌，避险资金涌入美债",
-   "link": "https://wallstreetcn.com/articles/3786656",
-   "time": "11-25 07:33",
-   "summary": "围绕人工智能热潮能否持续的疑虑正在重塑全球资产定价，投资者从科技股大举撤离，资金涌向国债与美元避险。 11月25日，美股股指期货跌幅扩大，纳指期货跌超2%，标普500指数期货跌超1%。亚太市场成为抛售重灾区。MSCI亚太指数下跌2.1%，其中韩国KOSPI指数收跌6.16%，报4697.51点；日经225指数收跌2.78%。芯片股领跌，SK海力士股价下挫11%，三星电子跌10%。 避险需求推动美债",
+   "title": "“新债王”：美国债务危机将在2029-2030年启动，只有三条路化债“重组、印钞和通胀”",
+   "link": "https://wallstreetcn.com/articles/3786673",
+   "time": "11-25 09:00",
+   "summary": "美国联邦债务在2025年8月18日突破40万亿美元。此后两个月，债务规模又增加了6000亿美元。DoubleLine Capital创始人、CEO兼CIO杰弗里·冈拉克（Jeffrey Gundlach）预计，美国2027财年的财政赤字可能达到3万亿美元，相当于GDP的9%。 按照他的测算，美国债务增长的年化速度，已经从2万亿美元上升至3万亿美元。 在洛杉矶的一场对谈中，这位被称为“新债王”的投资",
    "comment": "",
-   "score": 39
+   "score": 40
   },
   {
    "group": "财经深度",
@@ -153,6 +143,26 @@
    "score": 39
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "理想汽车Q3营收同增5.4%超预期，经营亏损大幅收窄，但Q4交付指引远低于市场预估 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786676",
+   "time": "11-25 08:30",
+   "summary": "理想汽车第三季度营收与盈利指标全面好于市场预期，毛利率环比大幅修复，自由现金流转正，但第四季度营收指引显著低于分析师预估。 公司11月25日公布未经审计的第三季度业绩， 营收288.3亿元人民币，同比增长5.4%，高于彭博综合预期的280亿元。毛利率16.7%，较上年同期的16.3%提升0.4个百分点，远超预估的13.6%。 第三季度交付量为99964辆，同比增长7.2%，但略低于预估的10248",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易信仰动摇，纳指期货跌超2%，韩股收跌6.16%，金油齐跌，避险资金涌入美债",
+   "link": "https://wallstreetcn.com/articles/3786656",
+   "time": "11-25 07:33",
+   "summary": "围绕人工智能热潮能否持续的疑虑正在重塑全球资产定价，投资者从科技股大举撤离，资金涌向国债与美元避险。 11月25日，美股股指期货跌幅扩大，纳指期货跌超2%，标普500指数期货跌超1%。亚太市场成为抛售重灾区。MSCI亚太指数下跌2.1%，其中韩国KOSPI指数收跌6.16%，报4697.51点；日经225指数收跌2.78%。芯片股领跌，SK海力士股价下挫11%，三星电子跌10%。 避险需求推动美债",
+   "comment": "",
+   "score": 34
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -161,16 +171,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "小鹏科技日：L4级Robotaxi正式载客，机器人上台演讲称“有点紧张”",
-   "link": "https://wallstreetcn.com/articles/3786672",
-   "time": "11-25 08:11",
-   "summary": "小鹏汽车正加快推进自动驾驶、具身智能与补能技术落地。11月25日举行的2026小鹏科技日上，Robotaxi、人形机器人及新一代智能驾驶技术集中亮相，多项业务披露最新进展。 当天， 小鹏汽车宣布L4级Robotaxi正式开启主驾无人载 客体验 ，首款面向个人消费者的定制车型YOYO-01计划于2027年发布。这意味着小鹏Robotaxi正从技术验证进一步迈向实际运营，并向终端消费市场延伸。 人形机",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "快讯",
