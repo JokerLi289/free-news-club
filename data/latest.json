@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26 20:21",
+ "generated_at": "2026-11-26 23:15",
  "raw_total": 181,
  "items": [
   {
@@ -21,16 +21,6 @@
    "summary": "arXiv:2611.33765v1 Announce Type: new Abstract: Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
    "comment": "",
    "score": 59
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“新美联储通讯社”：别指望美联储出手救市，沃什更可能借AI暴跌给通胀降温！",
-   "link": "https://wallstreetcn.com/articles/3786751",
-   "time": "11-26 07:17",
-   "summary": "AI驱动的科技股抛售与美联储主席沃什（Kevin Warsh）的抗通胀立场正面碰撞，投资者在下跌中寻找“美联储看跌期权”（Fed put），但这一次， 美联储大概率不会轻易出手 。多位官员的表态显示， 股市下跌被视为收紧金融条件、压制需求的工具之一 ，而非需要救助的信号。 11月25日，素有“新美联储通讯社”之称的华尔街日报记者Nick Timiraos撰文称，若本月科技股跌势加剧，沃什将面临一个",
-   "comment": "",
-   "score": 50
   },
   {
    "group": "财经深度",
@@ -153,26 +143,6 @@
    "score": 39
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
-   "link": "https://wallstreetcn.com/articles/3786780",
-   "time": "11-26 11:35",
-   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
-   "comment": "",
-   "score": 38
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储为何变得如此鹰派？野村：或希望避免重蹈2022年落后曲线的覆辙",
-   "link": "https://wallstreetcn.com/articles/3786777",
-   "time": "11-26 11:22",
-   "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SeQLean: Verifying SQL queries using Lean",
@@ -193,6 +163,16 @@
    "score": 35
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
+   "link": "https://wallstreetcn.com/articles/3786780",
+   "time": "11-26 11:35",
+   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
+   "comment": "",
+   "score": 33
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "REI: Learning Ideation from Repository Evolution",
@@ -203,6 +183,16 @@
    "score": 33
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储为何变得如此鹰派？野村：或希望避免重蹈2022年落后曲线的覆辙",
+   "link": "https://wallstreetcn.com/articles/3786777",
+   "time": "11-26 11:22",
+   "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
+   "comment": "",
+   "score": 32
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -211,6 +201,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "存储芯片短缺冲击美国年末购物季：苹果、微软集体涨价，消费者为AI热潮买单",
+   "link": "https://wallstreetcn.com/articles/3786766",
+   "time": "11-26 09:11",
+   "summary": "AI数据中心的爆发式扩张正引发一场席卷全球的内存芯片供应危机，短缺冲击已从服务器机房蔓延至普通消费者的购物车。 据《华尔街日报》近日报道，此轮短缺已导致部分内存芯片价格在过去一年内飙升至原来的10倍。随着黑色星期五购物季临近，苹果、微软、亚马逊、Meta等科技巨头相继上调旗下产品售价，消费电子市场面临更大涨价压力。 苹果CEO蒂姆·库克甚至将此次芯片短缺比作一场“百年一遇的洪灾”。 供应紧张的核心",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "财经深度",
