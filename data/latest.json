@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26 15:17",
- "raw_total": 181,
+ "generated_at": "2026-11-26 16:20",
+ "raw_total": 201,
  "items": [
   {
    "group": "学术",
@@ -11,16 +11,6 @@
    "summary": "arXiv:2611.34925v1 Announce Type: cross Abstract: Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
    "comment": "",
    "score": 62
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板午后跌1%，银行股逆势走强，PCB、化工活跃，港股涨幅收窄，AI大模型双雄均大涨",
-   "link": "https://wallstreetcn.com/articles/3786732",
-   "time": "11-26 06:32",
-   "summary": "隔夜美国PCE超预期推升12月加息预期、AI抛售后避险情绪升温，贵金属走出\"V型\"反弹，PCB则受紧缺警报与AI服务器放量双重提振。 11月26日，A股午后震荡下滑，三大股指集体走低，创业板指跌超1%，盘中一度涨超2%。银行、中字头等逆势走强，AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股午后涨幅",
-   "comment": "",
-   "score": 60
   },
   {
    "group": "学术",
@@ -35,10 +25,30 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美联储褐皮书：AI基建支撑工业扩张，高成本加剧消费“K型”分化",
-   "link": "https://wallstreetcn.com/articles/3786712",
-   "time": "11-25 19:49",
-   "summary": "美联储发布的最新一期《褐皮书》显示，美国经济整体维持轻微至适度扩张态势，但内部结构分化显著。 在数据中心建设与国防需求强劲支撑工业活动的同时，高利率、关税与能源成本持续挤压终端消费与企业利润率。 美东时间11月25日周三，美联储公布基于截至11月16日所收集信息编制的褐皮书。褐皮书显示，在12个地区联储的辖区中，有8个报告经济活动出现轻微至适度增长，其余4个辖区则维持持平。 大多数辖区预计未来数月",
+   "title": "“新美联储通讯社”：别指望美联储出手救市，沃什更可能借AI暴跌给通胀降温！",
+   "link": "https://wallstreetcn.com/articles/3786751",
+   "time": "11-26 07:17",
+   "summary": "AI驱动的科技股抛售与美联储主席沃什（Kevin Warsh）的抗通胀立场正面碰撞，投资者在下跌中寻找“美联储看跌期权”（Fed put），但这一次， 美联储大概率不会轻易出手 。多位官员的表态显示， 股市下跌被视为收紧金融条件、压制需求的工具之一 ，而非需要救助的信号。 11月25日，素有“新美联储通讯社”之称的华尔街日报记者Nick Timiraos撰文称，若本月科技股跌势加剧，沃什将面临一个",
+   "comment": "",
+   "score": 53
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板午后跌1%，银行股逆势走强，PCB、化工活跃，港股涨幅收窄，AI大模型双雄均大涨",
+   "link": "https://wallstreetcn.com/articles/3786732",
+   "time": "11-26 06:32",
+   "summary": "隔夜美国PCE超预期推升12月加息预期、AI抛售后避险情绪升温，贵金属走出\"V型\"反弹，PCB则受紧缺警报与AI服务器放量双重提振。 11月26日，A股午后震荡下滑，三大股指集体走低，创业板指跌超1%，盘中一度涨超2%。银行、中字头等逆势走强，AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股午后涨幅",
+   "comment": "",
+   "score": 52
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "理想汽车预计四季度扭亏，车型更新节奏放缓",
+   "link": "https://wallstreetcn.com/articles/3786762",
+   "time": "11-26 07:56",
+   "summary": "理想汽车正在减亏，也准备放慢车型更新的节奏。 11 月 25 日，新能源汽车厂商理想汽车发布 2026 年三季报，营收 288.34 亿元，同比增长 5.4% ；净亏损 3.1 亿元，同比收窄 50.4% 。在当晚的财报电话会上，首席财务官李铁表示，预计第四季度净利润实现扭亏为盈，经营现金流也将环比进一步改善。 利润修复首先来自产品组合。三季度，理想车辆毛利率由二季度的 9.4% 回升至 15.3",
    "comment": "",
    "score": 50
   },
@@ -143,6 +153,26 @@
    "score": 39
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "砍掉宁德时代，理想砍出利润",
+   "link": "https://wallstreetcn.com/articles/3786758",
+   "time": "11-26 07:48",
+   "summary": "汽车行业的竞争正在从规模扩张转向成本与效率的较量，理想汽车则试图通过重构供应链，重新找回利润增长空间。 11月26日，理想汽车港股收涨8%。此前一晚，公司公布2026年第三季度财报，车辆毛利率升至15.3%，环比大幅提升5.9个百分点，净亏损显著收窄，自由现金流也由负转正。此前持续承压的盈利能力，终于出现明显修复。 财报公布后，华尔街对理想的态度也出现分化中的转暖。 花旗将利润率反弹的重要原因指向",
+   "comment": "",
+   "score": 36
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SeQLean: Verifying SQL queries using Lean",
@@ -163,6 +193,16 @@
    "score": 35
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "REI: Learning Ideation from Repository Evolution",
@@ -171,16 +211,6 @@
    "summary": "arXiv:2611.33183v1 Announce Type: new Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration. In many real-world domains, useful ideas are sparse and their validation is costly, making direct online exploration inefficient. We observe that repository evolution provides a scalable source of reusable technical experience: code changes record concrete technical hypotheses, while subsequent revisions, adoption, and reuse provide signals about their utility. Based on this observation, we propose REI, a Repository Evolution-driven Ideation framework that learns reusable ideation policies from repository evolution, injecting domain-specific technical experience into model parameters and reducing reliance on costly trial-and-error. We further identify a hidden failure mode in quality-driven ideation optimization: semantic diversity collapse. Although generated ideas can remain lexically diverse, they increasingly concentrate in a small number of dominant method families, limiting cross-task generalization and long-tail exploration. To address this problem, we introduce Semantic Prior Optimization and Debiasing (SPOD), a diversity-preserving alignment mechanism that makes method identity explicit, corrects category-level reward bias, and limits redundant accumulation within the same method family while retaining strong representatives. Experiments on public benchmarks and a real-world industrial setting demonstrate improvements in ideation quality, method diversity, cross-task generalization, and long-tail exploration.",
    "comment": "",
    "score": 33
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "摩根大通：大模型用量暴增79%，但价格大跌，存储只剩DRAM在涨",
-   "link": "https://wallstreetcn.com/articles/3786738",
-   "time": "11-26 04:19",
-   "summary": "AI基础设施的最新数据呈现出一幅分化图景：用量与价格背道而驰，存储市场内部也出现明显裂痕。 追风交易台消息，11月23日摩根大通Joseph Cardoso团队发布最新《数据中心观察》月度追踪报告， 11月大模型付费Token用量环比激增79%，但价格同步大幅下滑，导致整体支出环比增速骤然放缓至仅8% 。 这一\"量升价跌\"的格局，主要由腾讯Hy4 Flash和DeepSeek V4.1 Flash",
-   "comment": "",
-   "score": 32
   },
   {
    "group": "AI与数据",
@@ -195,20 +225,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
-   "link": "https://wallstreetcn.com/articles/3786723",
-   "time": "11-26 00:31",
-   "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "高盛策略师：AI抛售尚未见底，抄底为时过早，美联储转鸽是关键",
-   "link": "https://wallstreetcn.com/articles/3786711",
-   "time": "11-25 18:55",
-   "summary": "高盛集团策略师Christian Mueller-Glissmann警告，投资者不应对当前AI板块的抛售急于抄底，市场仍在等待巨额人工智能资本开支转化为实际利润的证据。 他表示，市场正处于“相当脆弱的状态”，仓位尚未出清到足以确认底部的深度。 周三Mueller-Glissmann在接受采访时指出，高盛的风险偏好指标“尚不足以让我们在没有基本面进一步支持的情况下轻易判断底部”。 他认为，最明确的稳",
+   "title": "摩根大通：大模型用量暴增79%，但价格大跌，存储只剩DRAM在涨",
+   "link": "https://wallstreetcn.com/articles/3786738",
+   "time": "11-26 04:19",
+   "summary": "AI基础设施的最新数据呈现出一幅分化图景：用量与价格背道而驰，存储市场内部也出现明显裂痕。 追风交易台消息，11月23日摩根大通Joseph Cardoso团队发布最新《数据中心观察》月度追踪报告， 11月大模型付费Token用量环比激增79%，但价格同步大幅下滑，导致整体支出环比增速骤然放缓至仅8% 。 这一\"量升价跌\"的格局，主要由腾讯Hy4 Flash和DeepSeek V4.1 Flash",
    "comment": "",
    "score": 30
   },
@@ -219,6 +239,16 @@
    "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
    "time": "11-25 13:00",
    "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
