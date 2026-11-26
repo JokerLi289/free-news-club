@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26 08:35",
- "raw_total": 206,
+ "generated_at": "2026-11-26 09:16",
+ "raw_total": 186,
  "items": [
   {
    "group": "学术",
@@ -125,7 +125,7 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "纳指惊险“深V”躲过大跌，但AI交易依旧在“寻底”",
+   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
    "link": "https://wallstreetcn.com/articles/3786723",
    "time": "11-26 00:31",
    "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
@@ -164,26 +164,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -219,16 +199,6 @@
    "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
    "time": "11-25 13:00",
    "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
