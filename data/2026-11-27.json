@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27 04:15",
+ "generated_at": "2026-11-27 05:14",
  "raw_total": 181,
  "items": [
   {
@@ -21,6 +21,16 @@
    "summary": "arXiv:2611.33765v1 Announce Type: new Abstract: Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
    "comment": "",
    "score": 59
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "全球燃油供应回升，炼油利润跌至数月低点",
+   "link": "https://wallstreetcn.com/articles/3786801",
+   "time": "11-26 20:16",
+   "summary": "伊朗战争对能源市场的冲击正在退潮。随着全球炼厂开足马力补充供应、中东出口恢复以及石油消费走弱，将原油加工为燃油的利润已跌至数月来最低水平，消费者、企业和央行由此获得了一丝暂时的通胀缓解。 柴油裂解价差是衡量炼油利润的核心指标。据彭博报道，亚洲和欧洲柴油裂解价差已逼近7月以来最低，美国汽油裂解价差回落至战前水平，欧洲汽油裂解价差则跌至2023年以来的三年低点。 裂解价差走弱意味着成品油价格下跌快于原",
+   "comment": "",
+   "score": 48
   },
   {
    "group": "财经深度",
@@ -65,40 +75,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
-   "link": "https://wallstreetcn.com/articles/3786800",
-   "time": "11-26 19:14",
-   "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "日本央行鹰派委员田村直树：需要加快加息步伐，或一次性上调50个基点",
    "link": "https://wallstreetcn.com/articles/3786765",
    "time": "11-26 08:19",
    "summary": "日本央行鹰派声音进一步增强，政策正常化可能进入加速阶段。随着通胀压力持续显现，市场对12月加息的预期升温，日元融资成本上行也可能给全球套利交易带来新的压力。 11月26日，据彭博报道， 日本央行鹰派审议委员田村直树周四表示，央行应尽快将政策利率提升至中性水平。如果通胀风险成为现实，日本央行可能需要加快加息步伐，甚至一次性上调50个基点。 他还明确释放支持12月加息的信号，并表示基本设想是每隔几个月",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "速腾聚创营收增四成，产品替换拨备拖累盈利",
-   "link": "https://wallstreetcn.com/articles/3786764",
-   "time": "11-26 07:58",
-   "summary": "速腾聚创的销量增长，仍未充分转化为盈利改善。 11月25日，激光雷达及机器人零部件供应商速腾聚创披露2026年前三季度业绩，营收16.92亿元，同比增长42.2%；激光雷达销量129.47万台，同比增长186.2%。同期净亏损3.28亿元，同比扩大31.9%，毛利率由25.2%降至14.6%。 产品替换成本是本期利润承压的重要原因。公司为一家整车厂客户车辆所用激光雷达产品替换累计计提约1.37亿元",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "理想汽车预计四季度扭亏，车型更新节奏放缓",
-   "link": "https://wallstreetcn.com/articles/3786762",
-   "time": "11-26 07:56",
-   "summary": "理想汽车正在减亏，也准备放慢车型更新的节奏。 11 月 25 日，新能源汽车厂商理想汽车发布 2026 年三季报，营收 288.34 亿元，同比增长 5.4% ；净亏损 3.1 亿元，同比收窄 50.4% 。在当晚的财报电话会上，首席财务官李铁表示，预计第四季度净利润实现扭亏为盈，经营现金流也将环比进一步改善。 利润修复首先来自产品组合。三季度，理想车辆毛利率由二季度的 9.4% 回升至 15.3",
    "comment": "",
    "score": 40
   },
@@ -151,6 +131,16 @@
    "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
    "comment": "",
    "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
+   "link": "https://wallstreetcn.com/articles/3786800",
+   "time": "11-26 19:14",
+   "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
+   "comment": "",
+   "score": 36
   },
   {
    "group": "学术",
@@ -209,6 +199,16 @@
    "link": "https://wallstreetcn.com/articles/3786777",
    "time": "11-26 11:22",
    "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "存储芯片短缺冲击美国年末购物季：苹果、微软集体涨价，消费者为AI热潮买单",
+   "link": "https://wallstreetcn.com/articles/3786766",
+   "time": "11-26 09:11",
+   "summary": "AI数据中心的爆发式扩张正引发一场席卷全球的内存芯片供应危机，短缺冲击已从服务器机房蔓延至普通消费者的购物车。 据《华尔街日报》近日报道，此轮短缺已导致部分内存芯片价格在过去一年内飙升至原来的10倍。随着黑色星期五购物季临近，苹果、微软、亚马逊、Meta等科技巨头相继上调旗下产品售价，消费电子市场面临更大涨价压力。 苹果CEO蒂姆·库克甚至将此次芯片短缺比作一场“百年一遇的洪灾”。 供应紧张的核心",
    "comment": "",
    "score": 30
   },
