@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26 23:15",
+ "generated_at": "2026-11-27 04:15",
  "raw_total": 181,
  "items": [
   {
@@ -61,6 +61,16 @@
    "summary": "arXiv:2611.33184v1 Announce Type: new Abstract: Persistent textual memory can improve LLM agents, but repeated updates can erode task performance. We ask whether memory-store statistics warn before held-out accuracy declines. We registered mean pairwise cosine similarity ($\\rho$) and 13 additional geometry, retrieval, and graph statistics on 805 snapshots from 13 memory methods across ALFWorld, AppWorld, ScienceWorld, WebShop, and two ARC-AGI settings. These methods store trajectories, rules, workflows, strategies, or linked records, using selective retrieval or whole-store prompting. No such statistic reliably predicted early signs of task accuracy decline, and $\\rho$ had zero median lead. With the checkpoint after peak accuracy as a secondary decline point, measures of highly similar pairs and nearest-neighbor crowding changed earlier but did not consistently outperform stored-item count. We trained classifiers on this corpus and applied them unchanged to PropWorld runs of up to 5,000 crafting tasks. They falsely flagged 56.9% of checkpoints from size-limited stores with stable accuracy and detected only 18% of checkpoints after task success fell to zero. Thus, global semantic density did not provide a reliable warning, while local crowding did not transfer consistently across memory designs. In these long-horizon runs, size-limited stores remained stable, while the sole failure arose when unbounded whole-store prompting exceeded model input capacity, which token growth predicted directly.",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
+   "link": "https://wallstreetcn.com/articles/3786800",
+   "time": "11-26 19:14",
+   "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -163,16 +173,6 @@
    "score": 35
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
-   "link": "https://wallstreetcn.com/articles/3786780",
-   "time": "11-26 11:35",
-   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
-   "comment": "",
-   "score": 33
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "REI: Learning Ideation from Repository Evolution",
@@ -181,16 +181,6 @@
    "summary": "arXiv:2611.33183v1 Announce Type: new Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration. In many real-world domains, useful ideas are sparse and their validation is costly, making direct online exploration inefficient. We observe that repository evolution provides a scalable source of reusable technical experience: code changes record concrete technical hypotheses, while subsequent revisions, adoption, and reuse provide signals about their utility. Based on this observation, we propose REI, a Repository Evolution-driven Ideation framework that learns reusable ideation policies from repository evolution, injecting domain-specific technical experience into model parameters and reducing reliance on costly trial-and-error. We further identify a hidden failure mode in quality-driven ideation optimization: semantic diversity collapse. Although generated ideas can remain lexically diverse, they increasingly concentrate in a small number of dominant method families, limiting cross-task generalization and long-tail exploration. To address this problem, we introduce Semantic Prior Optimization and Debiasing (SPOD), a diversity-preserving alignment mechanism that makes method identity explicit, corrects category-level reward bias, and limits redundant accumulation within the same method family while retaining strong representatives. Experiments on public benchmarks and a real-world industrial setting demonstrate improvements in ideation quality, method diversity, cross-task generalization, and long-tail exploration.",
    "comment": "",
    "score": 33
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美联储为何变得如此鹰派？野村：或希望避免重蹈2022年落后曲线的覆辙",
-   "link": "https://wallstreetcn.com/articles/3786777",
-   "time": "11-26 11:22",
-   "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
-   "comment": "",
-   "score": 32
   },
   {
    "group": "AI与数据",
@@ -205,20 +195,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "存储芯片短缺冲击美国年末购物季：苹果、微软集体涨价，消费者为AI热潮买单",
-   "link": "https://wallstreetcn.com/articles/3786766",
-   "time": "11-26 09:11",
-   "summary": "AI数据中心的爆发式扩张正引发一场席卷全球的内存芯片供应危机，短缺冲击已从服务器机房蔓延至普通消费者的购物车。 据《华尔街日报》近日报道，此轮短缺已导致部分内存芯片价格在过去一年内飙升至原来的10倍。随着黑色星期五购物季临近，苹果、微软、亚马逊、Meta等科技巨头相继上调旗下产品售价，消费电子市场面临更大涨价压力。 苹果CEO蒂姆·库克甚至将此次芯片短缺比作一场“百年一遇的洪灾”。 供应紧张的核心",
+   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
+   "link": "https://wallstreetcn.com/articles/3786780",
+   "time": "11-26 11:35",
+   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
    "comment": "",
    "score": 30
   },
   {
-   "group": "财经深度",
-   "source": "A Wealth of Common Sense",
-   "title": "Animal Spirits: The Stock Market is Too Big to Fail",
-   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
-   "time": "11-25 13:00",
-   "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储为何变得如此鹰派？野村：或希望避免重蹈2022年落后曲线的覆辙",
+   "link": "https://wallstreetcn.com/articles/3786777",
+   "time": "11-26 11:22",
+   "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
    "comment": "",
    "score": 30
   },
@@ -231,6 +221,16 @@
    "summary": "arXiv:2611.33248v1 Announce Type: new Abstract: The UCI Heart Disease data are a widely used machine-learning benchmark. We show that their chest-pain variable is stored in reverse of its documentation. At all four sites, the code documented as \"asymptomatic\" (4) marks patients with typical angina, and the code documented as \"typical angina\" (1) marks patients with almost none of the classical angina features (at Cleveland, no chest pain). Two complementary checks establish this: (i) the chest-pain table and regression coefficients of the original 1986 Cleveland study are reproduced only under the corrected reading; (ii) in the Budapest, Switzerland and Long Beach files, 93-96% of patients coded 4 have all three classical angina features. A 1990 word-labeled Cleveland file already uses the documented labels, and Statlog (Heart), a Cleveland subset, stores the same codes. OpenML, PMLB and two highly voted Kaggle copies that name the categories use the same documented labels (about 400,000 downloads combined). We audited a seeded random sample of 150 records from a pre-specified Scholar query for SHAP studies of these data mentioning asymptomatic chest pain (124 readable). Of 32 papers that state a direction for a named category, 25 (78%; 95% CI 61-89%) state one inconsistent with the corrected category identities; 22 (69%; 51-82%; post hoc) are attributable to the documentation error, and nine of these explain it clinically. None of the 124 readable papers identifies the reversal. Conventional models are essentially unaffected, one reason the error went unnoticed. Interpretations that attach the documented names to model effects are reversed, and zero-shot language-model classifiers that read the labels are misled: with the documented labels, three open-weight models lose 0.12-0.33 in area under the receiver operating characteristic curve (AUC) given age, sex and chest-pain type. We give the corrected mapping, evidence and code.",
    "comment": "",
    "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: The Stock Market is Too Big to Fail",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
+   "time": "11-25 13:00",
+   "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "comment": "",
+   "score": 29
   },
   {
    "group": "AI与数据",
@@ -300,7 +300,7 @@
    "time": "11-16 13:00",
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
-   "score": 22
+   "score": 21
   },
   {
    "group": "财经深度",
@@ -310,7 +310,7 @@
    "time": "11-24 20:10",
    "summary": "Is the stock market too big to fail? The post The Most Powerful Force on Earth appeared first on A Wealth of Common Sense. ...",
    "comment": "",
-   "score": 19
+   "score": 18
   }
  ]
 }

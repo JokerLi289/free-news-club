@@ -1,0 +1,316 @@
+{
+ "generated_at": "2026-11-27 04:15",
+ "raw_total": 181,
+ "items": [
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+   "link": "https://arxiv.org/abs/2611.34925",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.34925v1 Announce Type: cross Abstract: Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
+   "comment": "",
+   "score": 62
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "EMMA: Efficient and Effective Cooperative Multi-Modal Analytics over Embodied AI Data",
+   "link": "https://arxiv.org/abs/2611.33765",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33765v1 Announce Type: new Abstract: Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
+   "comment": "",
+   "score": 59
+  },
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 46
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Semantic Density Does Not Predict Agent-Memory Collapse",
+   "link": "https://arxiv.org/abs/2611.33184",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33184v1 Announce Type: new Abstract: Persistent textual memory can improve LLM agents, but repeated updates can erode task performance. We ask whether memory-store statistics warn before held-out accuracy declines. We registered mean pairwise cosine similarity ($\\rho$) and 13 additional geometry, retrieval, and graph statistics on 805 snapshots from 13 memory methods across ALFWorld, AppWorld, ScienceWorld, WebShop, and two ARC-AGI settings. These methods store trajectories, rules, workflows, strategies, or linked records, using selective retrieval or whole-store prompting. No such statistic reliably predicted early signs of task accuracy decline, and $\\rho$ had zero median lead. With the checkpoint after peak accuracy as a secondary decline point, measures of highly similar pairs and nearest-neighbor crowding changed earlier but did not consistently outperform stored-item count. We trained classifiers on this corpus and applied them unchanged to PropWorld runs of up to 5,000 crafting tasks. They falsely flagged 56.9% of checkpoints from size-limited stores with stable accuracy and detected only 18% of checkpoints after task success fell to zero. Thus, global semantic density did not provide a reliable warning, while local crowding did not transfer consistently across memory designs. In these long-horizon runs, size-limited stores remained stable, while the sole failure arose when unbounded whole-store prompting exceeded model input capacity, which token growth predicted directly.",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
+   "link": "https://wallstreetcn.com/articles/3786800",
+   "time": "11-26 19:14",
+   "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本央行鹰派委员田村直树：需要加快加息步伐，或一次性上调50个基点",
+   "link": "https://wallstreetcn.com/articles/3786765",
+   "time": "11-26 08:19",
+   "summary": "日本央行鹰派声音进一步增强，政策正常化可能进入加速阶段。随着通胀压力持续显现，市场对12月加息的预期升温，日元融资成本上行也可能给全球套利交易带来新的压力。 11月26日，据彭博报道， 日本央行鹰派审议委员田村直树周四表示，央行应尽快将政策利率提升至中性水平。如果通胀风险成为现实，日本央行可能需要加快加息步伐，甚至一次性上调50个基点。 他还明确释放支持12月加息的信号，并表示基本设想是每隔几个月",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "速腾聚创营收增四成，产品替换拨备拖累盈利",
+   "link": "https://wallstreetcn.com/articles/3786764",
+   "time": "11-26 07:58",
+   "summary": "速腾聚创的销量增长，仍未充分转化为盈利改善。 11月25日，激光雷达及机器人零部件供应商速腾聚创披露2026年前三季度业绩，营收16.92亿元，同比增长42.2%；激光雷达销量129.47万台，同比增长186.2%。同期净亏损3.28亿元，同比扩大31.9%，毛利率由25.2%降至14.6%。 产品替换成本是本期利润承压的重要原因。公司为一家整车厂客户车辆所用激光雷达产品替换累计计提约1.37亿元",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "理想汽车预计四季度扭亏，车型更新节奏放缓",
+   "link": "https://wallstreetcn.com/articles/3786762",
+   "time": "11-26 07:56",
+   "summary": "理想汽车正在减亏，也准备放慢车型更新的节奏。 11 月 25 日，新能源汽车厂商理想汽车发布 2026 年三季报，营收 288.34 亿元，同比增长 5.4% ；净亏损 3.1 亿元，同比收窄 50.4% 。在当晚的财报电话会上，首席财务官李铁表示，预计第四季度净利润实现扭亏为盈，经营现金流也将环比进一步改善。 利润修复首先来自产品组合。三季度，理想车辆毛利率由二季度的 9.4% 回升至 15.3",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+   "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+   "time": "11-18 10:19",
+   "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+   "link": "https://arxiv.org/abs/2611.33162",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33162v1 Announce Type: new Abstract: Agentic benchmarks report a success rate that confounds distinct causes of failure: misreading the environment, never working out how components of the environment operates, operating the components in the wrong order, and failing to recover from a mistake, each of which calls for a different fix. We present an early preview of MultiNet v2.0-Gridworld - an interactive maze environment built for attribution rather than ranking. Four different types of mechanisms, namely key-door pairs, switch-gate pairs, distractors and decoys, and ordered combinations of these mechanisms, can be added, modified, or removed independently while the renderer, the action space, and the scoring function stay fixed. A breadth-first search over the joint state of position, facing direction, inventory, and mechanism state gives every instance an exact optimal action count, which sets its difficulty and grades unfinished episodes. We fix the evaluation protocol on 15 held-out mazes over 540 episodes, then evaluate three vision-language models on 50 mazes. They solve 6 of 150 episodes, 45 of the 50 mazes were not solved by any model, and no episode containing a switch-gate mechanism was solved.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Resource-Efficient Multimodal Fusion for Early Rice Blast Forecasting in Sustainable Agriculture",
+   "link": "https://arxiv.org/abs/2611.33237",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33237v1 Announce Type: new Abstract: Resource-efficient artificial intelligence has become increasingly important for sustainable agriculture, where timely disease forecasting must be achieved under computational and energy constraints. Early estimation of rice blast can enhance food security by optimizing crop management practices while reducing excessive pesticide use. However, existing frameworks often suffer from high computational overhead and limited capability to model the complex spectral-temporal dependencies present in heterogeneous meteorological and remote sensing data. To address these challenges, this paper proposes a lightweight multimodal fusion framework comprising an attentive positional encoding-based Transformer and a convolutional neural network (CNN)-embedded gated recurrent unit (GRU) for efficient spectral-temporal representation learning. The attention-enhanced positional encoding assigns adaptive importance to sequential meteorological tokens, enabling effective modelling of temporal characteristics. In parallel, the lightweight CNN extracts discriminative spectral features, while the GRU captures temporal dynamics from remote sensing imagery acquired over two time-instances. A multimodal fusion layer integrates these heterogeneous representations to forecast rice blast risk 5-10 days before symptom manifestation across diverse agro-climatic zones. Extensive experiments demonstrate that the proposed framework outperforms state-of-the-art methods, achieving a validation accuracy of 96.93% and an F1-score of 95.79%. In addition to its predictive performance, the lightweight multimodal architecture substantially reduces computational complexity, inference latency, and carbon emissions, making it an energy-efficient solution for large-scale disease forecasting. The proposed framework provides a practical foundation for resource-efficient artificial intelligence in sustainable agriculture.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Data Agents Need a Map: Evolving, Demand-Driven Knowledge of Large Collections",
+   "link": "https://arxiv.org/abs/2611.33763",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33763v1 Announce Type: new Abstract: Most data that could power rich analysis sits unintegrated and uncataloged in open data portals, data lakes, and collections of independently published tables. Data agents now answer analytical questions over such collections with a full workflow per question, including dataset retrieval, join discovery and evaluation, and tailored program synthesis, most of which are discarded when a new task arrives. The knowledge these workflows depend on, such as what each column means, which context a dataset leaves implicit, and how datasets combine, is therefore perpetually rederived and never persisted. We argue for persisting this knowledge in an evolving semantic atlas that users and agents can navigate and extend. The atlas describes every dataset offline, through topics, semantic types, and profiles, so that agents can find the datasets that a task requires. Relationships between datasets and integrated views, which require comparing datasets, are instead built on demand for the areas of analysis that users declare. Every item is stored with its provenance and the confidence of the methods that produced it, so that agents can decide how far to trust it or whether to abstain. As datasets change, inconsistencies are detected and corrected automatically, while human users settle what the data leaves inconclusive. We present this vision and its challenges, namely building the atlas over large, multi-domain collections, keeping it correct and up to date, serving it to users and agents, and evaluating whether it improves their answers. A proof of concept on DAB, a benchmark for data agents, shows that with only part of the atlas a coding agent can already read a fifth to a third fewer tokens while achieving the same accuracy as without it.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Amazon Earnings, The Chip Question, About Agents",
+   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+   "time": "11-23 11:00",
+   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "SeQLean: Verifying SQL queries using Lean",
+   "link": "https://arxiv.org/abs/2611.33181",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33181v1 Announce Type: cross Abstract: We present SeQLean, a system that uses formal verification in Lean to increase the accuracy of translation from natural language to SQL. This is based on modelling SQL in Lean via relational algebras. Since we do not have a translation known to be correct, we cannot directly prove correctness. Instead, we use proof challenges: tests of internal consistency that are unlikely to be satisfied by an incorrect translation. The simplest proof challenge is based on generating two translations of the same natural language query into SQL, ideally with one being optimized for performance and the other for understandability. If two translations are equivalent, they must give the same answer for every database. This can be checked using proof automation in Lean. Using Lean allows us to have essentially arbitrary properties as proof challenges, and also check these (including equivalence) taking into account known properties of the underlying database system. Even for equivalence queries of an arithmetic nature, we show that Lean can be more powerful than traditional tools due to the availability of Mathlib theorems. A JSON API over HTTP allows the verifier to be integrated into agentic frameworks.",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+   "link": "https://arxiv.org/abs/2611.34363",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.34363v1 Announce Type: cross Abstract: Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "REI: Learning Ideation from Repository Evolution",
+   "link": "https://arxiv.org/abs/2611.33183",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33183v1 Announce Type: new Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration. In many real-world domains, useful ideas are sparse and their validation is costly, making direct online exploration inefficient. We observe that repository evolution provides a scalable source of reusable technical experience: code changes record concrete technical hypotheses, while subsequent revisions, adoption, and reuse provide signals about their utility. Based on this observation, we propose REI, a Repository Evolution-driven Ideation framework that learns reusable ideation policies from repository evolution, injecting domain-specific technical experience into model parameters and reducing reliance on costly trial-and-error. We further identify a hidden failure mode in quality-driven ideation optimization: semantic diversity collapse. Although generated ideas can remain lexically diverse, they increasingly concentrate in a small number of dominant method families, limiting cross-task generalization and long-tail exploration. To address this problem, we introduce Semantic Prior Optimization and Debiasing (SPOD), a diversity-preserving alignment mechanism that makes method identity explicit, corrects category-level reward bias, and limits redundant accumulation within the same method family while retaining strong representatives. Experiments on public benchmarks and a real-world industrial setting demonstrate improvements in ideation quality, method diversity, cross-task generalization, and long-tail exploration.",
+   "comment": "",
+   "score": 33
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
+   "link": "https://wallstreetcn.com/articles/3786780",
+   "time": "11-26 11:35",
+   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储为何变得如此鹰派？野村：或希望避免重蹈2022年落后曲线的覆辙",
+   "link": "https://wallstreetcn.com/articles/3786777",
+   "time": "11-26 11:22",
+   "summary": "美联储近期的鹰派转向正让投资者感到困惑。 据追风交易台，野村证券策略师Naka Matsuzawa在最新报告中指出， 市场难以理解美联储为何如此强硬，而这一转向背后的动机将决定其对资产价格的截然不同的含义。 野村认为， 美联储可能是在回应通胀指标的超预期上行，也可能是希望避免重蹈2022年落后于曲线的覆辙，这两种解释都指向“向后看”的政策制定方式。 市场已对此作出明确回应。2年期远期OIS利率作为",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Typical Angina, Reversed: A Long-Standing Documentation Error in the UCI Heart Disease Data",
+   "link": "https://arxiv.org/abs/2611.33248",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33248v1 Announce Type: new Abstract: The UCI Heart Disease data are a widely used machine-learning benchmark. We show that their chest-pain variable is stored in reverse of its documentation. At all four sites, the code documented as \"asymptomatic\" (4) marks patients with typical angina, and the code documented as \"typical angina\" (1) marks patients with almost none of the classical angina features (at Cleveland, no chest pain). Two complementary checks establish this: (i) the chest-pain table and regression coefficients of the original 1986 Cleveland study are reproduced only under the corrected reading; (ii) in the Budapest, Switzerland and Long Beach files, 93-96% of patients coded 4 have all three classical angina features. A 1990 word-labeled Cleveland file already uses the documented labels, and Statlog (Heart), a Cleveland subset, stores the same codes. OpenML, PMLB and two highly voted Kaggle copies that name the categories use the same documented labels (about 400,000 downloads combined). We audited a seeded random sample of 150 records from a pre-specified Scholar query for SHAP studies of these data mentioning asymptomatic chest pain (124 readable). Of 32 papers that state a direction for a named category, 25 (78%; 95% CI 61-89%) state one inconsistent with the corrected category identities; 22 (69%; 51-82%; post hoc) are attributable to the documentation error, and nine of these explain it clinically. None of the 124 readable papers identifies the reversal. Conventional models are essentially unaffected, one reason the error went unnoticed. Interpretations that attach the documented names to model effects are reversed, and zero-shot language-model classifiers that read the labels are misled: with the documented labels, three open-weight models lose 0.12-0.33 in area under the receiver operating characteristic curve (AUC) given age, sex and chest-pain type. We give the corrected mapping, evidence and code.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: The Stock Market is Too Big to Fail",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
+   "time": "11-25 13:00",
+   "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Thoughts on Verification Engineering in the Agentic SDLC",
+   "link": "https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering",
+   "time": "11-18 21:59",
+   "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "time": "11-25 04:29",
+   "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "comment": "",
+   "score": 28
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview With Eric Seufert About Agentic Commerce",
+   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "time": "11-19 11:00",
+   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "link": "https://latent.space/p/linear-scaling/",
+   "time": "11-19 23:58",
+   "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+   "comment": "",
+   "score": 23
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 21
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "The Most Powerful Force on Earth",
+   "link": "https://awealthofcommonsense.com/2026/11/the-most-powerful-force-on-earth/",
+   "time": "11-24 20:10",
+   "summary": "Is the stock market too big to fail? The post The Most Powerful Force on Earth appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 18
+  }
+ ]
+}
