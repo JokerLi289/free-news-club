@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26 16:20",
- "raw_total": 201,
+ "generated_at": "2026-11-26 17:17",
+ "raw_total": 181,
  "items": [
   {
    "group": "学术",
@@ -30,26 +30,6 @@
    "time": "11-26 07:17",
    "summary": "AI驱动的科技股抛售与美联储主席沃什（Kevin Warsh）的抗通胀立场正面碰撞，投资者在下跌中寻找“美联储看跌期权”（Fed put），但这一次， 美联储大概率不会轻易出手 。多位官员的表态显示， 股市下跌被视为收紧金融条件、压制需求的工具之一 ，而非需要救助的信号。 11月25日，素有“新美联储通讯社”之称的华尔街日报记者Nick Timiraos撰文称，若本月科技股跌势加剧，沃什将面临一个",
    "comment": "",
-   "score": 53
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "创业板午后跌1%，银行股逆势走强，PCB、化工活跃，港股涨幅收窄，AI大模型双雄均大涨",
-   "link": "https://wallstreetcn.com/articles/3786732",
-   "time": "11-26 06:32",
-   "summary": "隔夜美国PCE超预期推升12月加息预期、AI抛售后避险情绪升温，贵金属走出\"V型\"反弹，PCB则受紧缺警报与AI服务器放量双重提振。 11月26日，A股午后震荡下滑，三大股指集体走低，创业板指跌超1%，盘中一度涨超2%。银行、中字头等逆势走强，AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股午后涨幅",
-   "comment": "",
-   "score": 52
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "理想汽车预计四季度扭亏，车型更新节奏放缓",
-   "link": "https://wallstreetcn.com/articles/3786762",
-   "time": "11-26 07:56",
-   "summary": "理想汽车正在减亏，也准备放慢车型更新的节奏。 11 月 25 日，新能源汽车厂商理想汽车发布 2026 年三季报，营收 288.34 亿元，同比增长 5.4% ；净亏损 3.1 亿元，同比收窄 50.4% 。在当晚的财报电话会上，首席财务官李铁表示，预计第四季度净利润实现扭亏为盈，经营现金流也将环比进一步改善。 利润修复首先来自产品组合。三季度，理想车辆毛利率由二季度的 9.4% 回升至 15.3",
-   "comment": "",
    "score": 50
   },
   {
@@ -63,6 +43,26 @@
    "score": 46
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本央行鹰派委员田村直树：需要加快加息步伐，或一次性上调50个基点",
+   "link": "https://wallstreetcn.com/articles/3786765",
+   "time": "11-26 08:19",
+   "summary": "日本央行鹰派声音进一步增强，政策正常化可能进入加速阶段。随着通胀压力持续显现，市场对12月加息的预期升温，日元融资成本上行也可能给全球套利交易带来新的压力。 11月26日，据彭博报道， 日本央行鹰派审议委员田村直树周四表示，央行应尽快将政策利率提升至中性水平。如果通胀风险成为现实，日本央行可能需要加快加息步伐，甚至一次性上调50个基点。 他还明确释放支持12月加息的信号，并表示基本设想是每隔几个月",
+   "comment": "",
+   "score": 44
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "速腾聚创营收增四成，产品替换拨备拖累盈利",
+   "link": "https://wallstreetcn.com/articles/3786764",
+   "time": "11-26 07:58",
+   "summary": "速腾聚创的销量增长，仍未充分转化为盈利改善。 11月25日，激光雷达及机器人零部件供应商速腾聚创披露2026年前三季度业绩，营收16.92亿元，同比增长42.2%；激光雷达销量129.47万台，同比增长186.2%。同期净亏损3.28亿元，同比扩大31.9%，毛利率由25.2%降至14.6%。 产品替换成本是本期利润承压的重要原因。公司为一家整车厂客户车辆所用激光雷达产品替换累计计提约1.37亿元",
+   "comment": "",
+   "score": 43
+  },
+  {
    "group": "AI与数据",
    "source": "Lil'Log",
    "title": "Adversarial Attacks on LLMs",
@@ -71,6 +71,16 @@
    "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
    "comment": "",
    "score": 43
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "理想汽车预计四季度扭亏，车型更新节奏放缓",
+   "link": "https://wallstreetcn.com/articles/3786762",
+   "time": "11-26 07:56",
+   "summary": "理想汽车正在减亏，也准备放慢车型更新的节奏。 11 月 25 日，新能源汽车厂商理想汽车发布 2026 年三季报，营收 288.34 亿元，同比增长 5.4% ；净亏损 3.1 亿元，同比收窄 50.4% 。在当晚的财报电话会上，首席财务官李铁表示，预计第四季度净利润实现扭亏为盈，经营现金流也将环比进一步改善。 利润修复首先来自产品组合。三季度，理想车辆毛利率由二季度的 9.4% 回升至 15.3",
+   "comment": "",
+   "score": 42
   },
   {
    "group": "AI与数据",
@@ -95,10 +105,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月26日",
-   "link": "https://wallstreetcn.com/articles/3786720",
-   "time": "11-25 23:05",
-   "summary": "华见早安之声 要闻精选 中国 神舟二十四号载人飞船 发射圆满成功 ，乘组进驻“天宫”，中外航天员首次“太空握手”。 中国外交部 回应报道称美国将宣布对中国商品加征关税： 反对借口“产能过剩”进行政治操弄。 理想汽车 Q3营收同比增5.4%超预期 ，经营亏损大幅收窄，但 Q4交付指引远低于预期 。 小鹏汽车 ： L4级Robotaxi正式载客 ， 人形机器人IRON 登台演讲， 明年1月起量产 。 ",
+   "title": "存储芯片短缺冲击美国年末购物季：苹果、微软集体涨价，消费者为AI热潮买单",
+   "link": "https://wallstreetcn.com/articles/3786766",
+   "time": "11-26 09:11",
+   "summary": "AI数据中心的爆发式扩张正引发一场席卷全球的内存芯片供应危机，短缺冲击已从服务器机房蔓延至普通消费者的购物车。 据《华尔街日报》近日报道，此轮短缺已导致部分内存芯片价格在过去一年内飙升至原来的10倍。随着黑色星期五购物季临近，苹果、微软、亚马逊、Meta等科技巨头相继上调旗下产品售价，消费电子市场面临更大涨价压力。 苹果CEO蒂姆·库克甚至将此次芯片短缺比作一场“百年一遇的洪灾”。 供应紧张的核心",
    "comment": "",
    "score": 40
   },
@@ -153,24 +163,14 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "砍掉宁德时代，理想砍出利润",
-   "link": "https://wallstreetcn.com/articles/3786758",
-   "time": "11-26 07:48",
-   "summary": "汽车行业的竞争正在从规模扩张转向成本与效率的较量，理想汽车则试图通过重构供应链，重新找回利润增长空间。 11月26日，理想汽车港股收涨8%。此前一晚，公司公布2026年第三季度财报，车辆毛利率升至15.3%，环比大幅提升5.9个百分点，净亏损显著收窄，自由现金流也由负转正。此前持续承压的盈利能力，终于出现明显修复。 财报公布后，华尔街对理想的态度也出现分化中的转暖。 花旗将利润率反弹的重要原因指向",
+   "title": "AI交易大跌后，汇丰：科技股已在定价“最坏情景”，2027年或迎“现金流翻身仗”",
+   "link": "https://wallstreetcn.com/articles/3786767",
+   "time": "11-26 08:57",
+   "summary": "汇丰认为，全球股市尤其是AI板块在2026年的深度回撤，已经把估值压到“最坏情景”的水平。随着超大规模云厂商自由现金流在2027年一季度或二季度见底回升、债券收益率见顶以及美联储紧缩力度不及预期，2027年股市的风险回报比已显著改善。 据追风交易台消息，这家投行的全球股票策略主管Alastair Pinder在11月24日发布的《2027年全球股票展望》中表示，标普500指数每股盈利2027年预计",
    "comment": "",
-   "score": 36
+   "score": 38
   },
   {
    "group": "学术",
@@ -193,16 +193,6 @@
    "score": 35
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "REI: Learning Ideation from Repository Evolution",
@@ -223,32 +213,12 @@
    "score": 31
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "摩根大通：大模型用量暴增79%，但价格大跌，存储只剩DRAM在涨",
-   "link": "https://wallstreetcn.com/articles/3786738",
-   "time": "11-26 04:19",
-   "summary": "AI基础设施的最新数据呈现出一幅分化图景：用量与价格背道而驰，存储市场内部也出现明显裂痕。 追风交易台消息，11月23日摩根大通Joseph Cardoso团队发布最新《数据中心观察》月度追踪报告， 11月大模型付费Token用量环比激增79%，但价格同步大幅下滑，导致整体支出环比增速骤然放缓至仅8% 。 这一\"量升价跌\"的格局，主要由腾讯Hy4 Flash和DeepSeek V4.1 Flash",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Animal Spirits: The Stock Market is Too Big to Fail",
    "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
    "time": "11-25 13:00",
    "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
