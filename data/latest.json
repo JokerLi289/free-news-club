@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26 09:16",
- "raw_total": 186,
+ "generated_at": "2026-11-26 12:17",
+ "raw_total": 206,
  "items": [
   {
    "group": "学术",
@@ -11,6 +11,16 @@
    "summary": "arXiv:2611.32073v1 Announce Type: new Abstract: Large language models (LLMs) enable declarative semantic sorting through LLM-ORDER BY operators that rank tuples according to natural-language criteria over unstructured data. Executing such operators efficiently is challenging because LLM comparisons are expensive, stochastic, and sometimes inconsistent. Pairwise approaches require many costly calls. Listwise approaches such as external merge sort rank several items per call, but they follow a fixed merge schedule and keep no record of earlier answers: each merge call re-asks orderings that previous calls have already revealed, directly or by transitivity. We present Transitive Batched Sort (TBS), a transitivity-aware physical operator for semantic sorting that records every revealed preference in a global acyclic preference graph and issues a listwise request only for items whose relative order is not yet implied. To scale, TBS stores only directly observed preferences and answers transitivity queries through a memory-efficient reachability index; to handle noisy LLM outputs, it validates responses and rejects cycle-inducing updates. We evaluate TBS on six benchmarks spanning structured sorting, product price ranking, passage ranking, and personalized recommendation with four LLMs. TBS reduces API calls by 12-20x relative to pairwise quicksort and, at the same batch size, uses 1.1-1.6x fewer calls and 1.3-5.3x lower cost than listwise merge sort while achieving competitive or higher ranking quality across most benchmarks; on Amazon it scales to one million products. These results show that reusing previously inferred preference relations, rather than re-querying them, is an effective foundation for scalable semantic ORDER BY operators.",
    "comment": "",
    "score": 87
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "A股三大股指早盘震荡反弹，有色金属爆发，AI硬件侧反弹，恒指、恒科指集体大涨，AI大模型双雄均飙涨超10%",
+   "link": "https://wallstreetcn.com/articles/3786732",
+   "time": "11-26 03:03",
+   "summary": "11月26日，A股早盘震荡走高，三大股指盘初大幅上涨，盘中震荡回落，AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股高开高走，恒指、恒科指双双大涨，恒科指涨超3%，权重科网股爆发，芯片、光模块、光纤等科技股拉升。AI大模型股强势爆发，智谱、MINIMAX涨超10%。债市方面，国债期货集体下跌。商品方",
+   "comment": "",
+   "score": 66
   },
   {
    "group": "学术",
@@ -73,16 +83,6 @@
    "score": 46
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月26日",
-   "link": "https://wallstreetcn.com/articles/3786720",
-   "time": "11-25 23:05",
-   "summary": "华见早安之声 要闻精选 中国 神舟二十四号载人飞船 发射圆满成功 ，乘组进驻“天宫”，中外航天员首次“太空握手”。 中国外交部 回应报道称美国将宣布对中国商品加征关税： 反对借口“产能过剩”进行政治操弄。 理想汽车 Q3营收同比增5.4%超预期 ，经营亏损大幅收窄，但 Q4交付指引远低于预期 。 小鹏汽车 ： L4级Robotaxi正式载客 ， 人形机器人IRON 登台演讲， 明年1月起量产 。 ",
-   "comment": "",
-   "score": 45
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "When the Miner is the Generator: Rethinking the Separation Axiom in LLM-Driven Data Mining",
@@ -125,10 +125,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
-   "link": "https://wallstreetcn.com/articles/3786723",
-   "time": "11-26 00:31",
-   "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月26日",
+   "link": "https://wallstreetcn.com/articles/3786720",
+   "time": "11-25 23:05",
+   "summary": "华见早安之声 要闻精选 中国 神舟二十四号载人飞船 发射圆满成功 ，乘组进驻“天宫”，中外航天员首次“太空握手”。 中国外交部 回应报道称美国将宣布对中国商品加征关税： 反对借口“产能过剩”进行政治操弄。 理想汽车 Q3营收同比增5.4%超预期 ，经营亏损大幅收窄，但 Q4交付指引远低于预期 。 小鹏汽车 ： L4级Robotaxi正式载客 ， 人形机器人IRON 登台演讲， 明年1月起量产 。 ",
    "comment": "",
    "score": 40
   },
@@ -164,6 +164,36 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
+   "link": "https://wallstreetcn.com/articles/3786723",
+   "time": "11-26 00:31",
+   "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -183,22 +213,22 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "万国数据营收增一成，成本上涨压缩利润空间",
-   "link": "https://wallstreetcn.com/articles/3786704",
-   "time": "11-25 14:14",
-   "summary": "万国数据的机房更满了，利润空间却在收窄。 11月25日，数据中心运营商万国数据发布2026年三季报，营收31.8亿元，同比增长10.1%。截至9月底，上架率升至81.2%，高于上年同期的74.4%和今年二季度的79.2%。客户持续入驻，正在转化为实际收入。 但毛利润同比下降2.1%至6.26亿元，毛利率由22.1%降至19.7%。公司将其主要归因于公用事业成本增加。经调整EBITDA，即调整后的息",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Animal Spirits: The Stock Market is Too Big to Fail",
    "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
    "time": "11-25 13:00",
    "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
