@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-11-26 12:17",
- "raw_total": 206,
+ "generated_at": "2026-11-26 13:15",
+ "raw_total": 181,
  "items": [
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Efficient Semantic ORDER BY via Transitivity-Aware LLM Batch Sorting",
-   "link": "https://arxiv.org/abs/2611.32073",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.32073v1 Announce Type: new Abstract: Large language models (LLMs) enable declarative semantic sorting through LLM-ORDER BY operators that rank tuples according to natural-language criteria over unstructured data. Executing such operators efficiently is challenging because LLM comparisons are expensive, stochastic, and sometimes inconsistent. Pairwise approaches require many costly calls. Listwise approaches such as external merge sort rank several items per call, but they follow a fixed merge schedule and keep no record of earlier answers: each merge call re-asks orderings that previous calls have already revealed, directly or by transitivity. We present Transitive Batched Sort (TBS), a transitivity-aware physical operator for semantic sorting that records every revealed preference in a global acyclic preference graph and issues a listwise request only for items whose relative order is not yet implied. To scale, TBS stores only directly observed preferences and answers transitivity queries through a memory-efficient reachability index; to handle noisy LLM outputs, it validates responses and rejects cycle-inducing updates. We evaluate TBS on six benchmarks spanning structured sorting, product price ranking, passage ranking, and personalized recommendation with four LLMs. TBS reduces API calls by 12-20x relative to pairwise quicksort and, at the same batch size, uses 1.1-1.6x fewer calls and 1.3-5.3x lower cost than listwise merge sort while achieving competitive or higher ranking quality across most benchmarks; on Amazon it scales to one million products. These results show that reusing previously inferred preference relations, rather than re-querying them, is an effective foundation for scalable semantic ORDER BY operators.",
+   "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+   "link": "https://arxiv.org/abs/2611.34925",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.34925v1 Announce Type: cross Abstract: Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
    "comment": "",
-   "score": 87
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "A股三大股指早盘震荡反弹，有色金属爆发，AI硬件侧反弹，恒指、恒科指集体大涨，AI大模型双雄均飙涨超10%",
-   "link": "https://wallstreetcn.com/articles/3786732",
-   "time": "11-26 03:03",
-   "summary": "11月26日，A股早盘震荡走高，三大股指盘初大幅上涨，盘中震荡回落，AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股高开高走，恒指、恒科指双双大涨，恒科指涨超3%，权重科网股爆发，芯片、光模块、光纤等科技股拉升。AI大模型股强势爆发，智谱、MINIMAX涨超10%。债市方面，国债期货集体下跌。商品方",
-   "comment": "",
-   "score": 66
+   "score": 62
   },
   {
    "group": "学术",
    "source": "arXiv cs.DB",
-   "title": "Rethinking Document Indexing for LLM-based Analysis",
-   "link": "https://arxiv.org/abs/2611.31679",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31679v1 Announce Type: new Abstract: Documents such as clinical records, legal contracts, and scientific papers are increasingly analyzed with large language models (LLMs). The na\\\"ive approach of prompting the model with the full text for every question is slow, expensive, prone to hallucination on long inputs, and reuses no work across questions. Retrieval-augmented generation (RAG) systems build reusable state to address this, but they store it as embedded chunks: slicing text into fragments can lose the meaning that spans them, and the resulting index is tied to one embedding model, so it must be rebuilt whenever that model changes. Answering many questions over a large body of data without a full rescan, however, is not a new problem: it is the problem database indexes have been solving for decades, and we argue that this accumulated index design knowledge is waiting to be revisited for LLM access. As a concrete starting point, we propose Periplus, a hierarchical plain-text index inspired by the classic B+ tree. It arranges a document into pages running from general summaries at the root to specific ones at the leaves, so that each level guides the search into the next. But it departs from the B+ tree in three ways suited to LLM access: content lives at every level, the pages are plain text rather than attribute values, and navigation follows the relevance of a page summary to the question rather than a key comparison. The structure itself is discovered per document by the LLM rather than hand-designed in advance. In a preliminary evaluation on narrative and contract corpora, Periplus comes within 0.1--0.9 percentage points of the strongest baseline's accuracy while consuming 70--72\\% fewer total tokens. These early results are encouraging, and they offer only a glimpse of what index design can bring to LLM-based analysis.",
+   "title": "EMMA: Efficient and Effective Cooperative Multi-Modal Analytics over Embodied AI Data",
+   "link": "https://arxiv.org/abs/2611.33765",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33765v1 Announce Type: new Abstract: Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
    "comment": "",
    "score": 59
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板早盘冲高回落微涨0.1%，PCB、化工走强，恒指、恒科指集体拉升，AI大模型双雄均大涨超10%",
+   "link": "https://wallstreetcn.com/articles/3786732",
+   "time": "11-26 04:04",
+   "summary": "隔夜美国PCE超预期推升12月加息预期、AI抛售后避险情绪升温，贵金属走出\"V型\"反弹，PCB则受紧缺警报与AI服务器放量双重提振。 11月26日，A股早盘冲高回落，创业板指小幅上涨，盘中一度涨超2%。AI硬件侧局部活跃，电路板、覆铜板拉升，工业金属、盐湖提锂、铜产业等概念股上涨。油气、煤炭等板块上涨。疫苗、物理AI、机器人等概念股陷入调整。 港股高开高走，恒指、恒科指双双大涨，恒科指一度涨超3%",
+   "comment": "",
+   "score": 57
   },
   {
    "group": "快讯",
@@ -43,36 +43,6 @@
    "score": 50
   },
   {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
-   "link": "https://arxiv.org/abs/2611.31442",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31442v1 Announce Type: new Abstract: Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small learned projection W: R^1024 -> R^d (d in {11, 32}), trained by a deterministic recipe on a declared set of cases, that suppresses the trap: for the declared cases, HN@10 = 0.0000 (no trap in the top-10) in all twelve (domain, pool-size) settings across four independent domains (legal, medical, patent, financial) and pools up to 100,000, while the correct paraphrase is retained for 93-99% of cases, under exact nearest-neighbour search. Second, a boundary-conditioned accelerator that serves the projection at that scale: an acceleration of spectral graph retrieval (SpectRAG) that replaces a dense eigendecomposition with a boundary-value solve, holding HN@10 = 0.0000 at n = 100,000 in every domain and retrieving the ~300-query suite in 0.6-1.1 s (~2-4 ms per query on average). Because the lens's output is the stored representation (a few floats per document), a hardened, specialised index per domain or tenant is ~90x smaller and dimension-proportionally faster than the full embedding, making many small declared indexes a practical alternative to one large vector store. The claim is scoped to the declared cases on the measured pools, with no probabilistic bound; the correct-answer rate drops for a reworded query against an unchanged corpus (about 0.79, trap suppression still holding). A projection transfers only partly to other domains, which we report in full. The recipe, lenses, trap sets and evaluation harness are released under AGPL-3.0; the accelerator's implementation is a reserved commercial component, and every HN number is reproducible under exact search.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "LimoBench: How Street Smart Are Large Language Models?",
-   "link": "https://arxiv.org/abs/2611.31682",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31682v1 Announce Type: cross Abstract: Large language models (LLMs) have transformed how humans interact with information, enabling natural-language interfaces across various domains. They are increasingly deployed for geospatial applications including map-based question answering, location-based services, and natural-language interfaces to spatial databases. But are LLMs truly location-aware, able to reliably interpret and precisely answer location queries involving real-world coordinates, points of interest (POIs), and geospatial distances? To answer this concretely, we present LimoBench, a street-level benchmark of 82 natural-language location queries over seven canonical spatial operations: geocoding, reverse geocoding, routing, directionality, range search, $k$-nearest-neighbor search, and spatial join. The queries are grounded in real map data of West Lafayette, Indiana, and are graded by location and semantic complexity. They are designed to probe LLMs' street-level spatial awareness, from simple lookups to multi-step spatial reasoning. We also present Limo, an approach based on the Model Context Protocol (MCP) that enhances the location awareness of LLMs. Limo grounds LLMs in PostGIS-backed spatial data through a compact set of tools. We find that ungrounded models mostly achieve single-digit accuracy (3.1% for GPT-6 Luna) across different spatial operations. In contrast, the same models achieve near-perfect accuracy (99.3% for GPT-6 Luna) when given access to Limo's spatial tools through MCP. Current LLMs thus have limited and unreliable street-level spatial knowledge, while grounding provides accurate answers at modest overhead (+0.2 s latency, 7.7$\\times$ tokens, and 2.2$\\times$ cost for GPT-6 Luna). We release the benchmark, Limo toolset, and evaluation code to encourage the community to evaluate their own location-aware LLM approaches.",
-   "comment": "",
-   "score": 50
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "O2N2: Efficient Doubly Oblivious Approximate Nearest Neighbor Search",
-   "link": "https://arxiv.org/abs/2611.03415",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.03415v2 Announce Type: replace-cross Abstract: Privacy-preserving approximate nearest neighbor (ANN) search allows clients to search from an untrusted server without revealing sensitive queries, and is useful in scenarios like medical diagnostics and credit scoring. Among the various privacy-preserving primitives, trusted execution environments (TEEs) have much lower overhead than heavy cryptographic ones, yet they leak memory access patterns, enabling adversaries to infer query contents. Oblivious RAM (ORAM) can be used to hide those access patterns at $\\mathrm{O}(\\log N)$ asymptotic cost, but existing high-performance ANN search algorithms (e.g., IVF or HNSW) exhibit complex, data-dependent access patterns that are unfriendly for ORAM. Furthermore, standard ORAM constructions typically assume there exists a small amount of trusted storage, which weakens the security guarantees and is not always feasible. Solutions that eliminate such trusted storage (known as {\\em double obliviousness}) typically degrade performance further to $\\mathrm{O}(\\log^2 N)$. We introduce O2N2, a doubly oblivious ANN framework built around single-path search in randomly rotated $k$-d tree forests. A pointer-based Circuit ORAM stores the search structure, with separate storage for compact internal nodes and vector-bearing leaves. Each visited leaf is processed by an oblivious selection network, and fixed-schedule duplicate removal and selection combine the local results into the final top-$k$. We evaluate O2N2 on real-world datasets and further test its scalability on 100 million vectors. For 10-NN and 100-NN search at the specified high-recall targets, it achieves a $9.8$--$125.9\\times$ speedup over the fastest doubly oblivious baselines. It also achieves comparable efficiency against existing singly oblivious systems such as Compass (OSDI~'25) and BiSON (EuroS\\&P~'26), while providing stronger privacy guarantees.",
-   "comment": "",
-   "score": 50
-  },
-  {
    "group": "财经深度",
    "source": "Not Boring",
    "title": "Weekly Dose of Optimism #217",
@@ -81,16 +51,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.DB",
-   "title": "When the Miner is the Generator: Rethinking the Separation Axiom in LLM-Driven Data Mining",
-   "link": "https://arxiv.org/abs/2611.32207",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.32207v1 Announce Type: new Abstract: The theoretical foundation of data mining implicitly relies on an unstated premise, the Separation Axiom (SA), which assumes that mining tools and the data being analyzed are epistemologically independent. However, this premise is increasingly challenged by the emergence of LLM-driven AI agents that actively participate in data generation. We argue that this shift leads to a new epistemic failure mode, which we term ontological self-reference, where discovered patterns may reflect the inductive biases of the tools rather than the underlying structure of the data. This raises fundamental concerns about the credibility of knowledge discovery and the risk of self-reinforcing epistemic loops, where inferred patterns may reflect model-internal biases rather than the underlying structure of the data. We therefore call for a rethinking of the data mining paradigm in the era of large language models, grounded in an SA-aware theoretical foundation and extended to system-level epistemic safeguards. We argue that such a shift is necessary to conceptually rearm the discipline, preventing future knowledge discovery from collapsing into self-justifying algorithmic echo chambers.",
-   "comment": "",
-   "score": 45
   },
   {
    "group": "AI与数据",
@@ -115,12 +75,12 @@
   {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Detecting Harmful Short Videos in Toxic Diet Culture: A Governance-Ready Evidence Framework with Sparse Autoencoders",
-   "link": "https://arxiv.org/abs/2611.31354",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31354v1 Announce Type: new Abstract: Algorithmic content moderation is increasingly important for governing short-form video content, yet harmful-content detection research focuses primarily on prediction or limited explanations. This leaves a governance challenge underexplored: producing decision-linked evidence that supports the review and justification of moderation decisions. Using toxic diet culture as an empirical case, we conceptualize governance-ready evidence as computational traceability, evidence localization, policy grounding, and evidence inspectability. We develop the Sparse Autoencoder-based Policy-Aligned Contrastive Evidence (SPACE) framework in a pretrained SAE feature space derived from a large multimodal model. A global relevance gate and decomposable linear evidence head identify decision-linked evidence; segment supervision and within-video ranking localize this evidence; policy alignment maps it to platform guidelines; and Pareto-efficient selection yields a compact, task-specific evidence vocabulary. On 3,711 labeled TikTok videos, SPACE achieves the highest harmful-category Macro F1 among benchmarks across four families, at 0.8507. Its highest-scoring observation overlaps a ground-truth harmful span for 88.0% of harmful test videos, while its evidence representation retrieves the corresponding policy category for 87.0%. Stakeholder evaluations indicate that the SPACE evidence report is perceived as useful for understanding, reviewing, documenting, and responding to moderation decisions. The study contributes computational design science knowledge for embedding governance-ready evidence within predictive content-moderation systems.",
+   "title": "Semantic Density Does Not Predict Agent-Memory Collapse",
+   "link": "https://arxiv.org/abs/2611.33184",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33184v1 Announce Type: new Abstract: Persistent textual memory can improve LLM agents, but repeated updates can erode task performance. We ask whether memory-store statistics warn before held-out accuracy declines. We registered mean pairwise cosine similarity ($\\rho$) and 13 additional geometry, retrieval, and graph statistics on 805 snapshots from 13 memory methods across ALFWorld, AppWorld, ScienceWorld, WebShop, and two ARC-AGI settings. These methods store trajectories, rules, workflows, strategies, or linked records, using selective retrieval or whole-store prompting. No such statistic reliably predicted early signs of task accuracy decline, and $\\rho$ had zero median lead. With the checkpoint after peak accuracy as a secondary decline point, measures of highly similar pairs and nearest-neighbor crowding changed earlier but did not consistently outperform stored-item count. We trained classifiers on this corpus and applied them unchanged to PropWorld runs of up to 5,000 crafting tasks. They falsely flagged 56.9% of checkpoints from size-limited stores with stable accuracy and detected only 18% of checkpoints after task success fell to zero. Thus, global semantic density did not provide a reliable warning, while local crowding did not transfer consistently across memory designs. In these long-horizon runs, size-limited stores remained stable, while the sole failure arose when unbounded whole-store prompting exceeded model input capacity, which token growth predicted directly.",
    "comment": "",
-   "score": 41
+   "score": 42
   },
   {
    "group": "快讯",
@@ -153,6 +113,36 @@
    "score": 40
   },
   {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+   "link": "https://arxiv.org/abs/2611.33162",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33162v1 Announce Type: new Abstract: Agentic benchmarks report a success rate that confounds distinct causes of failure: misreading the environment, never working out how components of the environment operates, operating the components in the wrong order, and failing to recover from a mistake, each of which calls for a different fix. We present an early preview of MultiNet v2.0-Gridworld - an interactive maze environment built for attribution rather than ranking. Four different types of mechanisms, namely key-door pairs, switch-gate pairs, distractors and decoys, and ordered combinations of these mechanisms, can be added, modified, or removed independently while the renderer, the action space, and the scoring function stay fixed. A breadth-first search over the joint state of position, facing direction, inventory, and mechanism state gives every instance an exact optimal action count, which sets its difficulty and grades unfinished episodes. We fix the evaluation protocol on 15 held-out mazes over 540 episodes, then evaluate three vision-language models on 50 mazes. They solve 6 of 150 episodes, 45 of the 50 mazes were not solved by any model, and no episode containing a switch-gate mechanism was solved.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "Resource-Efficient Multimodal Fusion for Early Rice Blast Forecasting in Sustainable Agriculture",
+   "link": "https://arxiv.org/abs/2611.33237",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33237v1 Announce Type: new Abstract: Resource-efficient artificial intelligence has become increasingly important for sustainable agriculture, where timely disease forecasting must be achieved under computational and energy constraints. Early estimation of rice blast can enhance food security by optimizing crop management practices while reducing excessive pesticide use. However, existing frameworks often suffer from high computational overhead and limited capability to model the complex spectral-temporal dependencies present in heterogeneous meteorological and remote sensing data. To address these challenges, this paper proposes a lightweight multimodal fusion framework comprising an attentive positional encoding-based Transformer and a convolutional neural network (CNN)-embedded gated recurrent unit (GRU) for efficient spectral-temporal representation learning. The attention-enhanced positional encoding assigns adaptive importance to sequential meteorological tokens, enabling effective modelling of temporal characteristics. In parallel, the lightweight CNN extracts discriminative spectral features, while the GRU captures temporal dynamics from remote sensing imagery acquired over two time-instances. A multimodal fusion layer integrates these heterogeneous representations to forecast rice blast risk 5-10 days before symptom manifestation across diverse agro-climatic zones. Extensive experiments demonstrate that the proposed framework outperforms state-of-the-art methods, achieving a validation accuracy of 96.93% and an F1-score of 95.79%. In addition to its predictive performance, the lightweight multimodal architecture substantially reduces computational complexity, inference latency, and carbon emissions, making it an energy-efficient solution for large-scale disease forecasting. The proposed framework provides a practical foundation for resource-efficient artificial intelligence in sustainable agriculture.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Data Agents Need a Map: Evolving, Demand-Driven Knowledge of Large Collections",
+   "link": "https://arxiv.org/abs/2611.33763",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33763v1 Announce Type: new Abstract: Most data that could power rich analysis sits unintegrated and uncataloged in open data portals, data lakes, and collections of independently published tables. Data agents now answer analytical questions over such collections with a full workflow per question, including dataset retrieval, join discovery and evaluation, and tailored program synthesis, most of which are discarded when a new task arrives. The knowledge these workflows depend on, such as what each column means, which context a dataset leaves implicit, and how datasets combine, is therefore perpetually rederived and never persisted. We argue for persisting this knowledge in an evolving semantic atlas that users and agents can navigate and extend. The atlas describes every dataset offline, through topics, semantic types, and profiles, so that agents can find the datasets that a task requires. Relationships between datasets and integrated views, which require comparing datasets, are instead built on demand for the areas of analysis that users declare. Every item is stored with its provenance and the confidence of the methods that produced it, so that agents can decide how far to trust it or whether to abstain. As datasets change, inconsistencies are detected and corrected automatically, while human users settle what the data leaves inconclusive. We present this vision and its challenges, namely building the atlas over large, multi-domain collections, keeping it correct and up to date, serving it to users and agents, and evaluating whether it improves their answers. A proof of concept on DAB, a benchmark for data agents, shows that with only part of the atlas a coding agent can already read a fifth to a third fewer tokens while achieving the same accuracy as without it.",
+   "comment": "",
+   "score": 40
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -163,34 +153,44 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
-   "link": "https://wallstreetcn.com/articles/3786723",
-   "time": "11-26 00:31",
-   "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
+   "title": "摩根大通：大模型用量暴增79%，但价格大跌，存储只剩DRAM在涨",
+   "link": "https://wallstreetcn.com/articles/3786738",
+   "time": "11-26 04:19",
+   "summary": "AI基础设施的最新数据呈现出一幅分化图景：用量与价格背道而驰，存储市场内部也出现明显裂痕。 追风交易台消息，11月23日摩根大通Joseph Cardoso团队发布最新《数据中心观察》月度追踪报告， 11月大模型付费Token用量环比激增79%，但价格同步大幅下滑，导致整体支出环比增速骤然放缓至仅8% 。 这一\"量升价跌\"的格局，主要由腾讯Hy4 Flash和DeepSeek V4.1 Flash",
    "comment": "",
-   "score": 31
+   "score": 38
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "SeQLean: Verifying SQL queries using Lean",
+   "link": "https://arxiv.org/abs/2611.33181",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33181v1 Announce Type: cross Abstract: We present SeQLean, a system that uses formal verification in Lean to increase the accuracy of translation from natural language to SQL. This is based on modelling SQL in Lean via relational algebras. Since we do not have a translation known to be correct, we cannot directly prove correctness. Instead, we use proof challenges: tests of internal consistency that are unlikely to be satisfied by an incorrect translation. The simplest proof challenge is based on generating two translations of the same natural language query into SQL, ideally with one being optimized for performance and the other for understandability. If two translations are equivalent, they must give the same answer for every database. This can be checked using proof automation in Lean. Using Lean allows us to have essentially arbitrary properties as proof challenges, and also check these (including equivalence) taking into account known properties of the underlying database system. Even for equivalence queries of an arithmetic nature, we show that Lean can be more powerful than traditional tools due to the availability of Mathlib theorems. A JSON API over HTTP allows the verifier to be integrated into agentic frameworks.",
+   "comment": "",
+   "score": 36
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.DB",
+   "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+   "link": "https://arxiv.org/abs/2611.34363",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.34363v1 Announce Type: cross Abstract: Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
+   "comment": "",
+   "score": 35
+  },
+  {
+   "group": "学术",
+   "source": "arXiv cs.LG",
+   "title": "REI: Learning Ideation from Repository Evolution",
+   "link": "https://arxiv.org/abs/2611.33183",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33183v1 Announce Type: new Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration. In many real-world domains, useful ideas are sparse and their validation is costly, making direct online exploration inefficient. We observe that repository evolution provides a scalable source of reusable technical experience: code changes record concrete technical hypotheses, while subsequent revisions, adoption, and reuse provide signals about their utility. Based on this observation, we propose REI, a Repository Evolution-driven Ideation framework that learns reusable ideation policies from repository evolution, injecting domain-specific technical experience into model parameters and reducing reliance on costly trial-and-error. We further identify a hidden failure mode in quality-driven ideation optimization: semantic diversity collapse. Although generated ideas can remain lexically diverse, they increasingly concentrate in a small number of dominant method families, limiting cross-task generalization and long-tail exploration. To address this problem, we introduce Semantic Prior Optimization and Debiasing (SPOD), a diversity-preserving alignment mechanism that makes method identity explicit, corrects category-level reward bias, and limits redundant accumulation within the same method family while retaining strong representatives. Experiments on public benchmarks and a real-world industrial setting demonstrate improvements in ideation quality, method diversity, cross-task generalization, and long-tail exploration.",
+   "comment": "",
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -205,10 +205,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "高盛策略师：AI抛售尚未见底，抄底为时过早，美联储转鸽是关键",
-   "link": "https://wallstreetcn.com/articles/3786711",
-   "time": "11-25 18:55",
-   "summary": "高盛集团策略师Christian Mueller-Glissmann警告，投资者不应对当前AI板块的抛售急于抄底，市场仍在等待巨额人工智能资本开支转化为实际利润的证据。 他表示，市场正处于“相当脆弱的状态”，仓位尚未出清到足以确认底部的深度。 周三Mueller-Glissmann在接受采访时指出，高盛的风险偏好指标“尚不足以让我们在没有基本面进一步支持的情况下轻易判断底部”。 他认为，最明确的稳",
+   "title": "纳指“深V”惊险躲过大跌，但AI交易依旧在“寻底”",
+   "link": "https://wallstreetcn.com/articles/3786723",
+   "time": "11-26 00:31",
+   "summary": "周三美股上演惊心动魄的盘中大逆转，纳斯达克100指数在开盘仅15分钟暴跌近5%并一度触及熊市门槛后，午后逐步收复大部分失地，但市场对AI投资回报率及债务风险的深层质疑仍未消散。 盘中极端波动凸显了华尔街对AI热潮可持续性的日益焦虑。尽管本周一英伟达宣布重新任命黄仁勋为CEO曾短暂提振市场情绪，但相关涨幅在随后两个交易日内大幅回吐，英伟达周三收跌3.9%。 与此同时，信贷市场释放出更为严峻的预警信号",
    "comment": "",
    "score": 30
   },
@@ -223,42 +223,12 @@
    "score": 30
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.LG",
-   "title": "Is 4 Bits Enough for EEG Sleep Staging? A Subject-Level Benchmark of MXFP4, NVFP4 and FP8",
-   "link": "https://arxiv.org/abs/2611.31436",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31436v1 Announce Type: new Abstract: Staging sleep on a wearable device keeps the raw electroencephalogram (EEG) private and saves the energy needed to transmit it. It also requires small, energy-efficient neural networks. We benchmark 13 post-training quantization (PTQ) configurations, from FP16 to the block-scaled 4-bit formats MXFP4 and NVFP4, for five-stage sleep staging from single-channel Fpz-Cz EEG. We use Sleep-EDF-78 (78 subjects), subject-wise cross-validation, three training seeds, value-exact emulation, and per-subject paired statistics. All 8- and 16-bit formats stay within 0.45 percentage points (pp) of FP32 Macro-F1. With 4-bit weights and activations, an epoch-wise CNN loses 1.98 to 3.04 pp, and a temporal-context network loses at most 1.19 pp. A same-encoder ablation shows that temporal context explains little of this gap. At equal block size, NVFP4 outperforms MXFP4. The first layer, which quantizes the raw EEG, is the most sensitive layer in both networks. Keeping the first and last layers in FP8 brings both tested 4-bit formats within 0.48 pp of FP32. This recipe adds at most 2.1% weight storage, needs no retraining, and is equivalent to quantization-aware training (QAT) within an exploratory 1-pp margin. The 4-bit losses fall on the same subjects across architectures (Spearman correlation coefficient = 0.69 to 0.79), and they reduce N3 recall the most. On the nested Sleep-EDF-20 subset, NVFP4 with FP8 first and last layers again stays within 0.25 pp of FP32. Under MXFP4, however, the ranking of the architectures reverses, and FP8 first and last layers do not fully recover two of the three tested models. In our emulation, NVFP4 with FP8 first and last layers thus loses little accuracy without QAT in both cohorts.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
-   "link": "https://arxiv.org/abs/2611.31511",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31511v1 Announce Type: new Abstract: Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with experience replay under out-of-distribution (OOD) data using the LIBERO and LIBERO-Plus benchmarks. While the in-domain (ID) setup achieves near-zero catastrophic forgetting, OOD performance on previous tasks quickly collapses. Specifically, we show that during the continual learning process, the OOD capabilities of the model degrade, following a shared representational pattern across domain shifts, which is also visible behaviorally in the two simpler suites. Representational analysis shows that drift concentrates in the multimodal and action features. Linear probes indicate that OOD features still retain task-relevant information, but appear unreadable, consistent with representation misalignment. These findings suggest that even when ID stability remains intact, severe OOD forgetting can still occur, accompanied by representational drift during continual learning.",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "学术",
-   "source": "arXiv cs.LG",
-   "title": "ECLIPSE: Embedding-Centered Foundation-Model Federated Knowledge Transfer for Data-Free Edge Intelligence",
-   "link": "https://arxiv.org/abs/2611.31527",
-   "time": "11-25 05:00",
-   "summary": "arXiv:2611.31527v1 Announce Type: new Abstract: Foundation Models (FMs) are envisioned to become an integral component of intelligent federated edge networks because of their strong representation and generalization capabilities. However, their integration into resource-constrained and privacy-sensitive edge environments remains challenging. This challenge is particularly pronounced in data-free settings, where no shared, public, or server-accessible reference dataset is available to establish a common reference space for aligning distributed knowledge. To address this challenge, we propose ECLIPSE, which is an embedding-centered FM-based federated knowledge transfer framework developed for data-free edge intelligence. ECLIPSE enables edge intelligence capitalizing on a server-hosted FM without sharing raw data, local models, or a public reference dataset. It establishes a shared embedding reference space through which edge devices encode their local task knowledge. Only the resulting embeddings are transmitted to the server for alignment and aggregation. Using the aggregated embeddings, the server constructs a task-aware surrogate dataset through an embedding-guided generative process. This surrogate dataset is then used to adapt the server-hosted FM to the downstream task. The adapted FM is subsequently distilled into a lightweight global model and distributed to the edge devices. This process allows edge devices to benefit from both distributed task knowledge and the generalization capabilities of the FM. Experimental results across diverse classification datasets show that ECLIPSE outperforms conventional Federated Learning (FL) and data-free Federated Knowledge-Transfer (FKT) baselines. It also achieves competitive performance compared with databased approaches. Furthermore, the framework remains robust under statistical and model heterogeneity across different data distributions and local architectures.",
+   "title": "Typical Angina, Reversed: A Long-Standing Documentation Error in the UCI Heart Disease Data",
+   "link": "https://arxiv.org/abs/2611.33248",
+   "time": "11-26 05:00",
+   "summary": "arXiv:2611.33248v1 Announce Type: new Abstract: The UCI Heart Disease data are a widely used machine-learning benchmark. We show that their chest-pain variable is stored in reverse of its documentation. At all four sites, the code documented as \"asymptomatic\" (4) marks patients with typical angina, and the code documented as \"typical angina\" (1) marks patients with almost none of the classical angina features (at Cleveland, no chest pain). Two complementary checks establish this: (i) the chest-pain table and regression coefficients of the original 1986 Cleveland study are reproduced only under the corrected reading; (ii) in the Budapest, Switzerland and Long Beach files, 93-96% of patients coded 4 have all three classical angina features. A 1990 word-labeled Cleveland file already uses the documented labels, and Statlog (Heart), a Cleveland subset, stores the same codes. OpenML, PMLB and two highly voted Kaggle copies that name the categories use the same documented labels (about 400,000 downloads combined). We audited a seeded random sample of 150 records from a pre-specified Scholar query for SHAP studies of these data mentioning asymptomatic chest pain (124 readable). Of 32 papers that state a direction for a named category, 25 (78%; 95% CI 61-89%) state one inconsistent with the corrected category identities; 22 (69%; 51-82%; post hoc) are attributable to the documentation error, and nine of these explain it clinically. None of the 124 readable papers identifies the reversal. Conventional models are essentially unaffected, one reason the error went unnoticed. Interpretations that attach the documented names to model effects are reversed, and zero-shot language-model classifiers that read the labels are misled: with the documented labels, three open-weight models lose 0.12-0.33 in area under the receiver operating characteristic curve (AUC) given age, sex and chest-pain type. We give the corrected mapping, evidence and code.",
    "comment": "",
    "score": 30
   },
