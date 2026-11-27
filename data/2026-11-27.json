@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27 08:35",
- "raw_total": 181,
+ "generated_at": "2026-11-27 09:17",
+ "raw_total": 201,
  "items": [
   {
    "group": "学术",
@@ -11,6 +11,16 @@
    "summary": "arXiv:2611.34925v1 Announce Type: cross Abstract: Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
    "comment": "",
    "score": 62
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "德银预计2027年“加息三次，标普9000点”，背后是同一股力量",
+   "link": "https://wallstreetcn.com/articles/3786813",
+   "time": "11-27 00:37",
+   "summary": "德意志银行在最新发布的2027年全球展望中提出，标普500指数有望在2027年底升至9000点。不过，该行预计美联储还将实施三次加息，联邦基金利率或升至4.625%。 这两项看似方向不同的预测，指向同一个核心变量： AI资本开支。 德银认为，AI投资将继续带动美国增长、企业盈利和股市表现；但与此同时，相关投资也可能加剧通胀压力、推高融资成本，并放大信用市场的脆弱性。 该行股票策略团队看好科技股及美",
+   "comment": "",
+   "score": 59
   },
   {
    "group": "学术",
@@ -70,7 +80,7 @@
    "time": "11-26 20:16",
    "summary": "伊朗战争对能源市场的冲击正在退潮。随着全球炼厂开足马力补充供应、中东出口恢复以及石油消费走弱，将原油加工为燃油的利润已跌至数月来最低水平，消费者、企业和央行由此获得了一丝暂时的通胀缓解。 柴油裂解价差是衡量炼油利润的核心指标。据彭博报道，亚洲和欧洲柴油裂解价差已逼近7月以来最低，美国汽油裂解价差回落至战前水平，欧洲汽油裂解价差则跌至2023年以来的三年低点。 裂解价差走弱意味着成品油价格下跌快于原",
    "comment": "",
-   "score": 41
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -133,6 +143,16 @@
    "score": 39
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SeQLean: Verifying SQL queries using Lean",
@@ -153,6 +173,16 @@
    "score": 35
   },
   {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
    "group": "学术",
    "source": "arXiv cs.LG",
    "title": "REI: Learning Ideation from Repository Evolution",
@@ -171,6 +201,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "今年已跌11%！欧元对人民币势创二十年来最大年度跌幅",
+   "link": "https://wallstreetcn.com/articles/3786809",
+   "time": "11-27 00:41",
+   "summary": "欧元正迈向二十年来对人民币的最大年度跌幅。 截至11月27日，欧元兑人民币报7.3064附近，接近2023年低点，年内累计下挫约11%。若当前的下跌趋势得以维持，或创2005年来最大跌幅。 据彭博报道，法国政局动荡，加上美国利率预期相对高企，令投资者撤离欧元。与此同时，创纪录的贸易顺差也在支撑人民币。 据欧盟统计局数据，9月欧元区对华贸易逆差同比扩大18.5%，至417亿欧元，相当于日均近14亿欧",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -203,12 +243,12 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "存储芯片短缺冲击美国年末购物季：苹果、微软集体涨价，消费者为AI热潮买单",
-   "link": "https://wallstreetcn.com/articles/3786766",
-   "time": "11-26 09:11",
-   "summary": "AI数据中心的爆发式扩张正引发一场席卷全球的内存芯片供应危机，短缺冲击已从服务器机房蔓延至普通消费者的购物车。 据《华尔街日报》近日报道，此轮短缺已导致部分内存芯片价格在过去一年内飙升至原来的10倍。随着黑色星期五购物季临近，苹果、微软、亚马逊、Meta等科技巨头相继上调旗下产品售价，消费电子市场面临更大涨价压力。 苹果CEO蒂姆·库克甚至将此次芯片短缺比作一场“百年一遇的洪灾”。 供应紧张的核心",
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -221,16 +261,6 @@
    "summary": "arXiv:2611.33248v1 Announce Type: new Abstract: The UCI Heart Disease data are a widely used machine-learning benchmark. We show that their chest-pain variable is stored in reverse of its documentation. At all four sites, the code documented as \"asymptomatic\" (4) marks patients with typical angina, and the code documented as \"typical angina\" (1) marks patients with almost none of the classical angina features (at Cleveland, no chest pain). Two complementary checks establish this: (i) the chest-pain table and regression coefficients of the original 1986 Cleveland study are reproduced only under the corrected reading; (ii) in the Budapest, Switzerland and Long Beach files, 93-96% of patients coded 4 have all three classical angina features. A 1990 word-labeled Cleveland file already uses the documented labels, and Statlog (Heart), a Cleveland subset, stores the same codes. OpenML, PMLB and two highly voted Kaggle copies that name the categories use the same documented labels (about 400,000 downloads combined). We audited a seeded random sample of 150 records from a pre-specified Scholar query for SHAP studies of these data mentioning asymptomatic chest pain (124 readable). Of 32 papers that state a direction for a named category, 25 (78%; 95% CI 61-89%) state one inconsistent with the corrected category identities; 22 (69%; 51-82%; post hoc) are attributable to the documentation error, and nine of these explain it clinically. None of the 124 readable papers identifies the reversal. Conventional models are essentially unaffected, one reason the error went unnoticed. Interpretations that attach the documented names to model effects are reversed, and zero-shot language-model classifiers that read the labels are misled: with the documented labels, three open-weight models lose 0.12-0.33 in area under the receiver operating characteristic curve (AUC) given age, sex and chest-pain type. We give the corrected mapping, evidence and code.",
    "comment": "",
    "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "暴跌40%后，铠侠成日本最便宜蓝筹股，华尔街“压倒性看多”",
-   "link": "https://wallstreetcn.com/articles/3786811",
-   "time": "11-27 00:25",
-   "summary": "由于市场对人工智能热潮可持续性的担忧加剧， 铠侠控股本月股价暴跌逾40%，估值已跌至日经225指数成分股最低水平，成为日本最便宜的蓝筹股。 这家日本存储芯片制造商当前股价对应预期市盈率约1.7倍，不仅低于东京电力，也低于SK海力士等存储同业。据彭博11月27日报道，华尔街分析师对此普遍看多，18个买入评级对1个持有和1个卖出。同时，高盛在11月22日的报告中维持买入评级，认为进一步下行空间有限。 ",
-   "comment": "",
-   "score": 29
   },
   {
    "group": "财经深度",
