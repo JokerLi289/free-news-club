@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 06:14",
+ "generated_at": "2026-11-28 07:13",
  "raw_total": 140,
  "items": [
   {
@@ -35,20 +35,20 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
-   "link": "https://wallstreetcn.com/articles/3786861",
-   "time": "11-27 13:42",
-   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月28日",
+   "link": "https://wallstreetcn.com/articles/3786883",
+   "time": "11-27 23:07",
+   "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
    "comment": "",
    "score": 40
   },
   {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
-   "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
-   "time": "11-26 23:02",
-   "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
+   "link": "https://wallstreetcn.com/articles/3786861",
+   "time": "11-27 13:42",
+   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
    "comment": "",
    "score": 40
   },
@@ -74,6 +74,16 @@
   },
   {
    "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "time": "11-26 23:02",
+   "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -81,16 +91,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
-   "link": "https://wallstreetcn.com/articles/3786881",
-   "time": "11-27 21:53",
-   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "快讯",
@@ -143,16 +143,6 @@
    "score": 29
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美存储芯片与光通信领涨，纳指涨2.3%，金银铜齐涨，美债跌，原油冲高转跌",
-   "link": "https://wallstreetcn.com/articles/3786838",
-   "time": "11-27 21:15",
-   "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
-   "comment": "",
-   "score": 28
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
@@ -163,14 +153,14 @@
    "score": 27
   },
   {
-   "group": "AI与数据",
-   "source": "Latent Space",
-   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
-   "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
-   "time": "11-25 04:29",
-   "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
+   "link": "https://wallstreetcn.com/articles/3786881",
+   "time": "11-27 21:53",
+   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
    "comment": "",
-   "score": 27
+   "score": 26
   },
   {
    "group": "财经深度",
@@ -179,6 +169,16 @@
    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
    "time": "11-19 11:00",
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "time": "11-25 04:29",
+   "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
    "comment": "",
    "score": 26
   },
