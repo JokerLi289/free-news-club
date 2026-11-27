@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 02:17",
+ "generated_at": "2026-11-28 04:15",
  "raw_total": 140,
  "items": [
   {
@@ -11,16 +11,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 45
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
-   "link": "https://wallstreetcn.com/articles/3786861",
-   "time": "11-27 13:42",
-   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
-   "comment": "",
-   "score": 43
   },
   {
    "group": "AI与数据",
@@ -41,6 +31,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
+   "link": "https://wallstreetcn.com/articles/3786861",
+   "time": "11-27 13:42",
+   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -85,16 +85,6 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "AI交易回暖，纳指涨1.5%，闪迪涨超8%，中概指数涨3%，金银大涨，美债回落",
-   "link": "https://wallstreetcn.com/articles/3786838",
-   "time": "11-27 14:43",
-   "summary": "人工智能交易回暖，全球股市普涨，今日美股将提前收盘。 美股盘初，标普500指数涨1.11%，道琼斯工业平均指数涨0.55%，纳斯达克综合指数涨1.58%，纳斯达克100指数涨1.5%，中概指数涨3%。 个股方面，闪迪涨8.1%，Nebius集团涨5.1%，希捷科技、SK海力士ADR、西部数据、Cerebras系统、美光、CoreWeave、英特尔、AMD、台积电至多涨超4%，英伟达涨1.2%。An",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "美团单季赚21亿元，增长向零售和海外延伸",
    "link": "https://wallstreetcn.com/articles/3786857",
    "time": "11-27 11:30",
@@ -123,16 +113,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "支付宝加码车载支付，争夺汽车里的交易入口",
-   "link": "https://wallstreetcn.com/articles/3786870",
-   "time": "11-27 14:27",
-   "summary": "汽车里的AI助手，开始接手下单和付款。 11月27日，支付宝在广州车展发布车载助手3.0，将停车缴费、加油充电、点单等服务与身份核验、支付连接起来。用户在车内提出需求后，系统可以调用相应服务，并在授权范围内完成交易。 支付宝同时发起Alipay Inside Car生态联盟，比亚迪、理想、奇瑞等车企，以及华为引望、科大讯飞等企业加入。其座舱开放平台也同步上线，向合作伙伴开放智能体搭建、分发及服务接",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Animal Spirits: The Stock Market is Too Big to Fail",
@@ -151,6 +131,16 @@
    "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
    "comment": "",
    "score": 29
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本烟草大涨！市场押注其与奥驰亚联手收购并分拆帝国品牌",
+   "link": "https://wallstreetcn.com/articles/3786874",
+   "time": "11-27 19:20",
+   "summary": "日本烟草股价近日表现亮眼。 市场押注该公司将与奥驰亚（Altria）联手，收购并拆分英国卷烟制造商帝国品牌（Imperial Brands）。 据 华尔街见闻此前文章 ，奥驰亚此前一天表示，正在考虑以全现金方式竞购帝国品牌，并已就收购其中部分业务与另一方展开讨论。据彭博报道，日本烟草正在评估与合作伙伴共同收购的方案。 帝国品牌表示尚未收到任何收购接洽，但会考虑任何提案。Jefferies 的 An",
+   "comment": "",
+   "score": 28
   },
   {
    "group": "财经深度",
@@ -181,6 +171,16 @@
    "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
    "comment": "",
    "score": 26
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易回暖，纳指涨1.5%，闪迪涨超8%，中概指数涨3%，金银大涨，美债回落",
+   "link": "https://wallstreetcn.com/articles/3786838",
+   "time": "11-27 14:43",
+   "summary": "人工智能交易回暖，全球股市普涨，今日美股将提前收盘。 美股盘初，标普500指数涨1.11%，道琼斯工业平均指数涨0.55%，纳斯达克综合指数涨1.58%，纳斯达克100指数涨1.5%，中概指数涨3%。 个股方面，闪迪涨8.1%，Nebius集团涨5.1%，希捷科技、SK海力士ADR、西部数据、Cerebras系统、美光、CoreWeave、英特尔、AMD、台积电至多涨超4%，英伟达涨1.2%。An",
+   "comment": "",
+   "score": 25
   },
   {
    "group": "AI与数据",
