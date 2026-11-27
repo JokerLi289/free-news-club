@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27 11:18",
- "raw_total": 201,
+ "generated_at": "2026-11-27 12:17",
+ "raw_total": 181,
  "items": [
   {
    "group": "学术",
@@ -21,6 +21,16 @@
    "summary": "arXiv:2611.33765v1 Announce Type: new Abstract: Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
    "comment": "",
    "score": 59
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "创业板大涨超3%，科创50暴涨4%，AI算力掀涨停潮，半导体大反弹，恒科指涨3%，科网股集体拉升",
+   "link": "https://wallstreetcn.com/articles/3786820",
+   "time": "11-27 04:06",
+   "summary": "11月27日，A股震荡上涨，沪指盘初一度下跌，盘中震荡走高，创业板高开高走，盘中一度大涨超4%，科创综指、科创50均涨超4%，得益于AI算力爆发，润和软件20CM涨停，常山北明、拓维信息涨停。半导体板块大反弹，华虹宏力涨超5%。算力硬件拉升，光电路交换机、光模块、光芯片概念股大涨。军工、基本金属、精细化工等板块走强。银行、煤炭、石油天然气等板块陷入调整。 港股早盘高开高走，恒指、恒科指双双拉升，恒",
+   "comment": "",
+   "score": 50
   },
   {
    "group": "财经深度",
@@ -133,16 +143,6 @@
    "score": 39
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "学术",
    "source": "arXiv cs.DB",
    "title": "SeQLean: Verifying SQL queries using Lean",
@@ -161,16 +161,6 @@
    "summary": "arXiv:2611.34363v1 Announce Type: cross Abstract: Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
    "comment": "",
    "score": 35
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
   },
   {
    "group": "学术",
@@ -195,40 +185,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "创业板涨超2%，科创50涨近3%，AI算力掀起涨停潮，半导体产业链反弹，恒科指涨3%，科网股集体拉升",
-   "link": "https://wallstreetcn.com/articles/3786820",
-   "time": "11-27 02:40",
-   "summary": "11月27日，A股震荡分化，沪指盘初回落，创业板高开高走，早盘涨1%，盘中三大股指集体拉升，AI算力爆发，润和软件20CM涨停，常山北明、拓维信息涨停。半导体板块反弹，华虹宏力涨超5%。军工、汽车、教育等板块走强。煤炭、石油化工、冰雪旅游等板块集体调整。 港股早盘高开高走，恒指、恒科指双双拉升，恒科指涨3%，权重科网股集体反弹，美团、快手、哔哩哔哩等纷纷走高，芯片半导体、光模块等走高。债市方面，国",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
    "link": "https://wallstreetcn.com/articles/3786800",
    "time": "11-26 19:14",
    "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美银2027年七大交易：上半年做多美元、做空美债，下半年转战新兴市场.......",
-   "link": "https://wallstreetcn.com/articles/3786780",
-   "time": "11-26 11:35",
-   "summary": "据追风交易台，美银全球研究部在11月25日发布的《Liquid Insight》报告中给出2027年七大交易构想， 核心判断是“双速世界”：上半年美国例外论延续、AI投资韧性犹存、通胀黏性使美联储紧缩时间超出市场预期，美元与美债收益率面临上行风险；下半年随着美联储见顶、AI资本开支放缓、能源价格回落，交易主线转向收益率下行与新兴市场 。报告由Oliver Levingston等策略师撰写，覆盖G1",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -263,16 +223,6 @@
    "score": 29
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "中国10月规模以上工业企业利润同比加速增长至20.1%，AI驱动下电子行业1-10月利润翻倍",
-   "link": "https://wallstreetcn.com/articles/3786817",
-   "time": "11-27 02:01",
-   "summary": "11月27日，国家统计局公布数据显示，1-10月份，全国规模以上工业企业实现利润总额67373.6亿元，同比增长16.0%。全国工业生产总体平稳，新动能快速成长，带动规模以上工业企业利润同比增长16.0%，较1—9月份加快0.5个百分点，今年以来继续保持两位数增长。 其中，10月份，全国规模以上工业企业利润同比增长20.1%，较9月份加快5.7个百分点。 从三大门类看，1-10月采矿业利润增长38",
-   "comment": "",
-   "score": 28
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
@@ -293,6 +243,16 @@
    "score": 27
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "中国10月规模以上工业企业利润同比加速增长至20.1%，AI驱动下电子行业1-10月利润翻倍",
+   "link": "https://wallstreetcn.com/articles/3786817",
+   "time": "11-27 02:01",
+   "summary": "11月27日，国家统计局公布数据显示，1-10月份，全国规模以上工业企业实现利润总额67373.6亿元，同比增长16.0%。全国工业生产总体平稳，新动能快速成长，带动规模以上工业企业利润同比增长16.0%，较1—9月份加快0.5个百分点，今年以来继续保持两位数增长。 其中，10月份，全国规模以上工业企业利润同比增长20.1%，较9月份加快5.7个百分点。 从三大门类看，1-10月采矿业利润增长38",
+   "comment": "",
+   "score": 26
+  },
+  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
@@ -303,16 +263,6 @@
    "score": 26
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "德银：科技股抛售或将见底，预计明年标普500再涨25%至9000点，美联储或再加息三次",
-   "link": "https://wallstreetcn.com/articles/3786813",
-   "time": "11-27 01:17",
-   "summary": "德意志银行在最新发布的2027年全球展望中提出，标普500指数有望在2027年底升至9000点。该行首席美国股票与全球策略师Binky Chadha领衔的团队报告中进一步判断，这轮科技股抛售应在不久后见底，随后标普500指数有望上涨逾25%——以周三收盘价7182.78点计算，9000点目标意味着超过25%的上行空间，这也是各大投行中最高的目标位，市场共识目标为8700点。 不过，该行预计美联储还",
-   "comment": "",
-   "score": 25
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -321,6 +271,26 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "德银：科技股抛售或将见底，预计明年标普500再涨25%至9000点，美联储或再加息三次",
+   "link": "https://wallstreetcn.com/articles/3786813",
+   "time": "11-27 01:17",
+   "summary": "德意志银行在最新发布的2027年全球展望中提出，标普500指数有望在2027年底升至9000点。该行首席美国股票与全球策略师Binky Chadha领衔的团队报告中进一步判断，这轮科技股抛售应在不久后见底，随后标普500指数有望上涨逾25%——以周三收盘价7182.78点计算，9000点目标意味着超过25%的上行空间，这也是各大投行中最高的目标位，市场共识目标为8700点。 不过，该行预计美联储还",
+   "comment": "",
+   "score": 23
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "今年已跌11%！欧元对人民币势创二十年来最大年度跌幅",
+   "link": "https://wallstreetcn.com/articles/3786809",
+   "time": "11-27 00:41",
+   "summary": "欧元正迈向二十年来对人民币的最大年度跌幅。 截至11月27日，欧元兑人民币报7.3064附近，接近2023年低点，年内累计下挫约11%。若当前的下跌趋势得以维持，或创2005年来最大跌幅。 据彭博报道，法国政局动荡，加上美国利率预期相对高企，令投资者撤离欧元。与此同时，创纪录的贸易顺差也在支撑人民币。 据欧盟统计局数据，9月欧元区对华贸易逆差同比扩大18.5%，至417亿欧元，相当于日均近14亿欧",
+   "comment": "",
+   "score": 22
   },
   {
    "group": "财经深度",
