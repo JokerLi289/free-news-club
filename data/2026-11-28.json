@@ -1,0 +1,246 @@
+{
+ "generated_at": "2026-11-28 01:13",
+ "raw_total": 160,
+ "items": [
+  {
+   "group": "财经深度",
+   "source": "Not Boring",
+   "title": "Weekly Dose of Optimism #217",
+   "link": "https://www.notboring.co/p/weekly-dose-of-optimism-217",
+   "time": "10-30 12:58",
+   "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
+   "comment": "",
+   "score": 45
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
+   "link": "https://wallstreetcn.com/articles/3786861",
+   "time": "11-27 13:42",
+   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "Adversarial Attacks on LLMs",
+   "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+   "time": "10-25 00:00",
+   "summary": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default ",
+   "comment": "",
+   "score": 43
+  },
+  {
+   "group": "AI与数据",
+   "source": "Lil'Log",
+   "title": "LLM Powered Autonomous Agents",
+   "link": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+   "time": "06-23 00:00",
+   "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
+   "comment": "",
+   "score": 42
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "time": "11-26 23:02",
+   "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+   "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+   "time": "11-18 10:19",
+   "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+   "comment": "",
+   "score": 40
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Amazon Earnings, The Chip Question, About Agents",
+   "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+   "time": "11-23 11:00",
+   "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+   "comment": "",
+   "score": 39
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "The Self-Organizing Data Stack",
+   "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "time": "10-14 10:41",
+   "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "comment": "",
+   "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI交易回暖，纳指涨1.5%，闪迪涨超8%，中概指数涨3%，金银大涨，美债回落",
+   "link": "https://wallstreetcn.com/articles/3786838",
+   "time": "11-27 14:43",
+   "summary": "人工智能交易回暖，全球股市普涨，今日美股将提前收盘。 美股盘初，标普500指数涨1.11%，道琼斯工业平均指数涨0.55%，纳斯达克综合指数涨1.58%，纳斯达克100指数涨1.5%，中概指数涨3%。 个股方面，闪迪涨8.1%，Nebius集团涨5.1%，希捷科技、SK海力士ADR、西部数据、Cerebras系统、美光、CoreWeave、英特尔、AMD、台积电至多涨超4%，英伟达涨1.2%。An",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团单季赚21亿元，增长向零售和海外延伸",
+   "link": "https://wallstreetcn.com/articles/3786857",
+   "time": "11-27 11:30",
+   "summary": "美团的利润开始修复了。 11月27日，美团发布三季报，营收1156亿元，同比增长21.6%；净利润20.7亿元，上年同期为亏损186.3亿元。核心本地商业经营利润恢复至57亿元，成为此次盈利改善的主要支撑。 这份财报呈现出两个变化，国内主业重新贡献利润，食杂零售和海外业务继续扩张。美团需要解决的问题，也从承受补贴战的亏损，转向如何分配恢复的盈利能力。 利润修复首先来自营销投入的变化。三季度，美团销",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "外卖大战降温，美团Q3营收同比增长21.6%超预期，营业利润连续两个季度盈利，核心业务扭亏为盈 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786845",
+   "time": "11-27 09:11",
+   "summary": "美团发布强劲三季报，连续第二个季度实现盈利。核心本地商业分部完成重大转折，外卖行业竞争趋于理性为业绩改善提供支撑。 美团公布截至2026年9月30日止三个月业绩， 美团营业利润为27.4亿元人民币（约4.06亿美元）， 大幅高于分析师平均预期的5.27亿元；营业收入达到1,155.6亿元，同比增长21.6%，同样超过1,133.7亿元的彭博综合预期。 净利润为20.7亿元，而上年同期为亏损186亿",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "国常会“稳市”！AH股午后暴拉：创业板狂飙11%，20CM涨停潮席卷，恒科指涨6%，半导体、光模块飙涨",
+   "link": "https://wallstreetcn.com/articles/3786820",
+   "time": "11-27 08:13",
+   "summary": "大奇迹日！A股和H股午后全线大爆发，芯片半导体、AI算力等科技股直线拉升，掀起涨停潮，券商板块亦放量拉升，多只宽基ETF较上一日爆量成交。此前国务院常务会议指出，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。 11月27日，A股午后直线大涨，沪指涨超3%，创业板直线拉升涨超11%，科创综指、科创50均涨超14%，其中科创50涨15%，权重股中芯国际、寒",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "支付宝加码车载支付，争夺汽车里的交易入口",
+   "link": "https://wallstreetcn.com/articles/3786870",
+   "time": "11-27 14:27",
+   "summary": "汽车里的AI助手，开始接手下单和付款。 11月27日，支付宝在广州车展发布车载助手3.0，将停车缴费、加油充电、点单等服务与身份核验、支付连接起来。用户在车内提出需求后，系统可以调用相应服务，并在授权范围内完成交易。 支付宝同时发起Alipay Inside Car生态联盟，比亚迪、理想、奇瑞等车企，以及华为引望、科大讯飞等企业加入。其座舱开放平台也同步上线，向合作伙伴开放智能体搭建、分发及服务接",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Animal Spirits: The Stock Market is Too Big to Fail",
+   "link": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/",
+   "time": "11-25 13:00",
+   "summary": "On today’s show we discuss last week’s stock market crash, an AI fire drill for your portfolio, the AI trade blew up, valuations are crashing, the Anthropic IPO, Jensen is back, the growing importance",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Thoughts on Verification Engineering in the Agentic SDLC",
+   "link": "https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering",
+   "time": "11-18 21:59",
+   "summary": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
+   "comment": "",
+   "score": 29
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+   "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+   "time": "11-20 11:00",
+   "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "AI与数据",
+   "source": "Latent Space",
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "time": "11-25 04:29",
+   "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "comment": "",
+   "score": 27
+  },
+  {
+   "group": "财经深度",
+   "source": "Stratechery",
+   "title": "An Interview With Eric Seufert About Agentic Commerce",
+   "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "time": "11-19 11:00",
+   "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+   "comment": "",
+   "score": 26
+  },
+  {
+   "group": "AI与数据",
+   "source": "Data Engineering Weekly",
+   "title": "Do We Still Need Data Models?",
+   "link": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "time": "10-28 04:22",
+   "summary": "As agents build data systems, models must help us understand the decisions behind them.",
+   "comment": "",
+   "score": 24
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "Talk Your Book: The Anthropic IPO",
+   "link": "https://awealthofcommonsense.com/2026/11/talk-your-book-the-anthropic-ipo/",
+   "time": "11-16 13:00",
+   "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
+   "comment": "",
+   "score": 21
+  },
+  {
+   "group": "财经深度",
+   "source": "A Wealth of Common Sense",
+   "title": "The Most Powerful Force on Earth",
+   "link": "https://awealthofcommonsense.com/2026/11/the-most-powerful-force-on-earth/",
+   "time": "11-24 20:10",
+   "summary": "Is the stock market too big to fail? The post The Most Powerful Force on Earth appeared first on A Wealth of Common Sense. ...",
+   "comment": "",
+   "score": 18
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27 23:15",
- "raw_total": 140,
+ "generated_at": "2026-11-28 01:13",
+ "raw_total": 160,
  "items": [
   {
    "group": "财经深度",
@@ -74,6 +74,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -119,6 +139,16 @@
    "link": "https://wallstreetcn.com/articles/3786820",
    "time": "11-27 08:13",
    "summary": "大奇迹日！A股和H股午后全线大爆发，芯片半导体、AI算力等科技股直线拉升，掀起涨停潮，券商板块亦放量拉升，多只宽基ETF较上一日爆量成交。此前国务院常务会议指出，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。 11月27日，A股午后直线大涨，沪指涨超3%，创业板直线拉升涨超11%，科创综指、科创50均涨超14%，其中科创50涨15%，权重股中芯国际、寒",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
