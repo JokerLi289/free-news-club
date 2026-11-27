@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27 15:17",
- "raw_total": 160,
+ "generated_at": "2026-11-27 16:20",
+ "raw_total": 140,
  "items": [
   {
    "group": "财经深度",
@@ -11,16 +11,6 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 46
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "国常会“稳市”！AH股午后集体飙升，创业板暴涨10%，科创50狂拉超12%，恒科指涨5%",
-   "link": "https://wallstreetcn.com/articles/3786820",
-   "time": "11-27 05:47",
-   "summary": "11月27日，A股午后直线大涨，沪指涨超1%，创业板直线拉升涨超10%，科创综指、科创50均涨超10%，其中科创50涨12%，中芯国际、寒武纪、华虹宏力、中微公司、海光信息全线爆发。AI算力、半导体板块大反弹，算力硬件拉升，光电路交换机、光模块、光芯片概念股大涨。券商板块午后拉升。军工、基本金属、精细化工等板块走强。 消息面，国常会会议指出，资本市场事关经济发展大局。要坚持目标导向、问题导向，坚持",
-   "comment": "",
-   "score": 44
   },
   {
    "group": "AI与数据",
@@ -41,6 +31,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "国常会“稳市”！AH股午后暴拉：创业板狂飙11%，20CM涨停潮席卷，恒科指涨6%，科网股集体爆发",
+   "link": "https://wallstreetcn.com/articles/3786820",
+   "time": "11-27 07:51",
+   "summary": "大奇迹日！A股和H股午后全线大爆发，芯片半导体、AI算力等科技股直线拉升，掀起涨停潮，券商板块亦放量拉升，多只宽基ETF较上一日爆量成交。此前国务院常务会议指出，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。 11月27日，A股午后直线大涨，沪指涨超1%，创业板直线拉升涨超10%，科创综指、科创50均涨超10%，其中科创50涨12%，中芯国际、寒武纪、",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "快讯",
@@ -84,26 +84,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -111,26 +91,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
-   "link": "https://wallstreetcn.com/articles/3786800",
-   "time": "11-26 19:14",
-   "summary": "欧洲央行官员在上月举行的会议上认为，随着通胀前景恶化，未来可能需要进一步收紧货币政策。 欧洲央行周四公布的10月货币政策会议纪要显示，尽管决策者当时没有加息，但部分官员甚至担忧，消费者价格涨幅可能要到2028年之后才能回到2%的目标水平。 欧洲央行表示： “与会委员普遍认为，通胀前景已经恶化。”他们“支持继续采取审慎的政策应对措施，同时指出，未来很可能有必要进一步收紧货币政策”。 此后，部分官员已",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "财经深度",
@@ -173,16 +133,6 @@
    "score": 27
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI的数据使用规则来了：智能设备与云数据如何用于训练？",
-   "link": "https://wallstreetcn.com/articles/3786833",
-   "time": "11-27 06:22",
-   "summary": "11月26日，国家数据局就《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿）向社会公开征求意见，反馈截止时间为12月6日。 征求意见稿围绕人工智能发展的数据要素需求，从支持合法获取的数据用于人工智能训练和推理、依法平等保护相关主体合法权益、完善数据流通责任认定和安全治理机制三个方面提出十二项举措。 从条文看，对模型厂、数据与硬件服务商和用数据做训练的企业影响比较直接的条款，涉及",
-   "comment": "",
-   "score": 26
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
@@ -201,6 +151,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "AI的数据使用规则来了：智能设备与云数据如何用于训练？",
+   "link": "https://wallstreetcn.com/articles/3786833",
+   "time": "11-27 06:22",
+   "summary": "11月26日，国家数据局就《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿）向社会公开征求意见，反馈截止时间为12月6日。 征求意见稿围绕人工智能发展的数据要素需求，从支持合法获取的数据用于人工智能训练和推理、依法平等保护相关主体合法权益、完善数据流通责任认定和安全治理机制三个方面提出十二项举措。 从条文看，对模型厂、数据与硬件服务商和用数据做训练的企业影响比较直接的条款，涉及",
+   "comment": "",
+   "score": 23
   },
   {
    "group": "财经深度",
@@ -229,6 +189,16 @@
    "link": "https://wallstreetcn.com/articles/3786813",
    "time": "11-27 01:17",
    "summary": "德意志银行在最新发布的2027年全球展望中提出，标普500指数有望在2027年底升至9000点。该行首席美国股票与全球策略师Binky Chadha领衔的团队报告中进一步判断，这轮科技股抛售应在不久后见底，随后标普500指数有望上涨逾25%——以周三收盘价7182.78点计算，9000点目标意味着超过25%的上行空间，这也是各大投行中最高的目标位，市场共识目标为8700点。 不过，该行预计美联储还",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "今年已跌11%！欧元对人民币势创二十年来最大年度跌幅",
+   "link": "https://wallstreetcn.com/articles/3786809",
+   "time": "11-27 00:41",
+   "summary": "欧元正迈向二十年来对人民币的最大年度跌幅。 截至11月27日，欧元兑人民币报7.3064附近，接近2023年低点，年内累计下挫约11%。若当前的下跌趋势得以维持，或创2005年来最大跌幅。 据彭博报道，法国政局动荡，加上美国利率预期相对高企，令投资者撤离欧元。与此同时，创纪录的贸易顺差也在支撑人民币。 据欧盟统计局数据，9月欧元区对华贸易逆差同比扩大18.5%，至417亿欧元，相当于日均近14亿欧",
    "comment": "",
    "score": 20
   },
