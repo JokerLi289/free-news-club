@@ -1,17 +1,7 @@
 {
- "generated_at": "2026-11-27 22:16",
- "raw_total": 160,
+ "generated_at": "2026-11-27 23:15",
+ "raw_total": 140,
  "items": [
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
-   "link": "https://wallstreetcn.com/articles/3786861",
-   "time": "11-27 13:42",
-   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
-   "comment": "",
-   "score": 48
-  },
   {
    "group": "财经深度",
    "source": "Not Boring",
@@ -21,6 +11,16 @@
    "summary": "Anduril BlueChip, OpenAI Science, Anthropic Drugs, Robot Brain Surgery, Readwise Books, Reta, Neuralink VOICE + Extra Doses",
    "comment": "",
    "score": 45
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
+   "link": "https://wallstreetcn.com/articles/3786861",
+   "time": "11-27 13:42",
+   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
+   "comment": "",
+   "score": 43
   },
   {
    "group": "AI与数据",
@@ -41,16 +41,6 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "AI交易回暖，纳指100期货盘前涨2.5%，科技股集体大涨，闪迪暴涨10%，金银大涨，美债价格回落",
-   "link": "https://wallstreetcn.com/articles/3786838",
-   "time": "11-27 08:34",
-   "summary": "人工智能交易回暖提振市场风险偏好，全球股市普涨。 周五，美国股指期货全线走高，预示感恩节假期后华尔街的反弹行情有望延续。纳斯达克100指数期货上涨2.5%，标普500指数期货上涨1.7%；MSCI亚太指数上涨1.8%，延续周三美股反弹势头。 市场风险偏好回升，投资者减持避险资产，美国国债价格随之下跌。感恩节假期结束后，美债现货交易于周五恢复，10年期美债收益率上升6个基点至4.92%。美元小幅走低",
-   "comment": "",
-   "score": 40
   },
   {
    "group": "AI与数据",
@@ -84,46 +74,6 @@
   },
   {
    "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美团单季赚21亿元，增长向零售和海外延伸",
-   "link": "https://wallstreetcn.com/articles/3786857",
-   "time": "11-27 11:30",
-   "summary": "美团的利润开始修复了。 11月27日，美团发布三季报，营收1156亿元，同比增长21.6%；净利润20.7亿元，上年同期为亏损186.3亿元。核心本地商业经营利润恢复至57亿元，成为此次盈利改善的主要支撑。 这份财报呈现出两个变化，国内主业重新贡献利润，食杂零售和海外业务继续扩张。美团需要解决的问题，也从承受补贴战的亏损，转向如何分配恢复的盈利能力。 利润修复首先来自营销投入的变化。三季度，美团销",
-   "comment": "",
-   "score": 34
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "外卖大战降温，美团Q3营收同比增长21.6%超预期，营业利润连续两个季度盈利，核心业务扭亏为盈 | 财报见闻",
-   "link": "https://wallstreetcn.com/articles/3786845",
-   "time": "11-27 09:11",
-   "summary": "美团发布强劲三季报，连续第二个季度实现盈利。核心本地商业分部完成重大转折，外卖行业竞争趋于理性为业绩改善提供支撑。 美团公布截至2026年9月30日止三个月业绩， 美团营业利润为27.4亿元人民币（约4.06亿美元）， 大幅高于分析师平均预期的5.27亿元；营业收入达到1,155.6亿元，同比增长21.6%，同样超过1,133.7亿元的彭博综合预期。 净利润为20.7亿元，而上年同期为亏损186亿",
-   "comment": "",
-   "score": 31
-  },
-  {
-   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -135,10 +85,30 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "AI股抛售潮接近尾声？摩根大通警告：真正的风险可能在2027年",
-   "link": "https://wallstreetcn.com/articles/3786864",
-   "time": "11-27 14:10",
-   "summary": "AI股的抛售潮或许正在接近尾声，但市场真正需要警惕的，可能不是眼前的暴跌，而是反弹之后逐渐累积的经济增长风险。 摩根大通欧洲量化策略主管Khuram Chaudhry领衔的团队在最新报告中指出， 当前市场正处于“熊市三阶段”框架中的第一阶段（崩跌）尾声，短期有望转向第二阶段（反弹），但随后可能进入第三阶段（缓慢下行），2027年全球经济增长放缓将成为市场面临的主要风险。 该团队认为，近期动量股的集",
+   "title": "AI交易回暖，纳指涨1.5%，闪迪涨超8%，中概指数涨3%，金银大涨，美债回落",
+   "link": "https://wallstreetcn.com/articles/3786838",
+   "time": "11-27 14:43",
+   "summary": "人工智能交易回暖，全球股市普涨，今日美股将提前收盘。 美股盘初，标普500指数涨1.11%，道琼斯工业平均指数涨0.55%，纳斯达克综合指数涨1.58%，纳斯达克100指数涨1.5%，中概指数涨3%。 个股方面，闪迪涨8.1%，Nebius集团涨5.1%，希捷科技、SK海力士ADR、西部数据、Cerebras系统、美光、CoreWeave、英特尔、AMD、台积电至多涨超4%，英伟达涨1.2%。An",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美团单季赚21亿元，增长向零售和海外延伸",
+   "link": "https://wallstreetcn.com/articles/3786857",
+   "time": "11-27 11:30",
+   "summary": "美团的利润开始修复了。 11月27日，美团发布三季报，营收1156亿元，同比增长21.6%；净利润20.7亿元，上年同期为亏损186.3亿元。核心本地商业经营利润恢复至57亿元，成为此次盈利改善的主要支撑。 这份财报呈现出两个变化，国内主业重新贡献利润，食杂零售和海外业务继续扩张。美团需要解决的问题，也从承受补贴战的亏损，转向如何分配恢复的盈利能力。 利润修复首先来自营销投入的变化。三季度，美团销",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "外卖大战降温，美团Q3营收同比增长21.6%超预期，营业利润连续两个季度盈利，核心业务扭亏为盈 | 财报见闻",
+   "link": "https://wallstreetcn.com/articles/3786845",
+   "time": "11-27 09:11",
+   "summary": "美团发布强劲三季报，连续第二个季度实现盈利。核心本地商业分部完成重大转折，外卖行业竞争趋于理性为业绩改善提供支撑。 美团公布截至2026年9月30日止三个月业绩， 美团营业利润为27.4亿元人民币（约4.06亿美元）， 大幅高于分析师平均预期的5.27亿元；营业收入达到1,155.6亿元，同比增长21.6%，同样超过1,133.7亿元的彭博综合预期。 净利润为20.7亿元，而上年同期为亏损186亿",
    "comment": "",
    "score": 30
   },
@@ -153,14 +123,14 @@
    "score": 30
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "支付宝加码车载支付，争夺汽车里的交易入口",
+   "link": "https://wallstreetcn.com/articles/3786870",
+   "time": "11-27 14:27",
+   "summary": "汽车里的AI助手，开始接手下单和付款。 11月27日，支付宝在广州车展发布车载助手3.0，将停车缴费、加油充电、点单等服务与身份核验、支付连接起来。用户在车内提出需求后，系统可以调用相应服务，并在授权范围内完成交易。 支付宝同时发起Alipay Inside Car生态联盟，比亚迪、理想、奇瑞等车企，以及华为引望、科大讯飞等企业加入。其座舱开放平台也同步上线，向合作伙伴开放智能体搭建、分发及服务接",
    "comment": "",
-   "score": 30
+   "score": 29
   },
   {
    "group": "财经深度",
