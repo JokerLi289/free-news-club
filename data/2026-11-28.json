@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28 17:15",
- "raw_total": 160,
+ "generated_at": "2026-11-28 18:13",
+ "raw_total": 140,
  "items": [
   {
    "group": "财经深度",
@@ -53,16 +53,6 @@
    "score": 39
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
-   "link": "https://wallstreetcn.com/articles/3786904",
-   "time": "11-28 07:18",
-   "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
-   "comment": "",
-   "score": 38
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
@@ -73,24 +63,14 @@
    "score": 38
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
+   "link": "https://wallstreetcn.com/articles/3786904",
+   "time": "11-28 07:18",
+   "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
    "comment": "",
    "score": 37
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
   },
   {
    "group": "AI与数据",
@@ -105,10 +85,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "付费让Claude训练AI，结果研究越做越差？Anthropic被曝秘密限制模型能力，开发者怒了",
-   "link": "https://wallstreetcn.com/articles/3786909",
-   "time": "11-28 08:59",
-   "summary": "开发者最怕的，或许不是AI写不出代码，而是它明明给出了答案，却悄悄把你的研究带进了沟里。 最近，一场围绕Anthropic旗下Claude模型的争议在开发者社区迅速发酵。多名研究人员声称， 在使用Claude进行机器学习研究时，模型不仅频繁给出有缺陷的代码，还会擅自修改训练参数、改变实验条件，导致模型无法收敛，白白消耗数天GPU算力。 更令开发者不安的是，这些异常表现似乎与Anthropic此前披",
+   "title": "40%！美国家庭股票敞口创历史新高，AI暴跌之际仍在疯狂买入",
+   "link": "https://wallstreetcn.com/articles/3786910",
+   "time": "11-28 09:55",
+   "summary": "美国家庭对股市的押注已达到有史以来最高水平，即便AI股票近期大幅下挫，散户资金仍源源不断涌入。这场长达四年的牛市正将数以百万计的普通投资者推向前所未有的风险敞口，而他们的财富走向，也将在很大程度上左右市场能否企稳。 据德意志银行对EPFR数据的分析， 今年流入追踪美股的ETF及共同基金的新增资金已超过4500亿美元，有望创下历史纪录。即便在过去一个月AI交易全面瓦解、市场剧烈震荡之际，仅11月截至",
    "comment": "",
    "score": 30
   },
@@ -123,14 +103,14 @@
    "score": 30
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "付费让Claude训练AI，结果研究越做越差？Anthropic被曝秘密限制模型能力，开发者怒了",
+   "link": "https://wallstreetcn.com/articles/3786909",
+   "time": "11-28 08:59",
+   "summary": "开发者最怕的，或许不是AI写不出代码，而是它明明给出了答案，却悄悄把你的研究带进了沟里。 最近，一场围绕Anthropic旗下Claude模型的争议在开发者社区迅速发酵。多名研究人员声称， 在使用Claude进行机器学习研究时，模型不仅频繁给出有缺陷的代码，还会擅自修改训练参数、改变实验条件，导致模型无法收敛，白白消耗数天GPU算力。 更令开发者不安的是，这些异常表现似乎与Anthropic此前披",
    "comment": "",
-   "score": 30
+   "score": 29
   },
   {
    "group": "财经深度",
@@ -219,16 +199,6 @@
    "link": "https://wallstreetcn.com/articles/3786881",
    "time": "11-27 21:53",
    "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美存储芯片与光通信领涨，纳指涨2.3%，金银铜齐涨，美债跌，原油冲高转跌",
-   "link": "https://wallstreetcn.com/articles/3786838",
-   "time": "11-27 21:15",
-   "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
    "comment": "",
    "score": 20
   },
