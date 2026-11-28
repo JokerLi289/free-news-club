@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 07:13",
+ "generated_at": "2026-11-28 08:34",
  "raw_total": 140,
  "items": [
   {
@@ -35,16 +35,6 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月28日",
-   "link": "https://wallstreetcn.com/articles/3786883",
-   "time": "11-27 23:07",
-   "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
-   "comment": "",
-   "score": 40
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
    "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
    "link": "https://wallstreetcn.com/articles/3786861",
    "time": "11-27 13:42",
@@ -61,6 +51,16 @@
    "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
    "comment": "",
    "score": 40
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月28日",
+   "link": "https://wallstreetcn.com/articles/3786883",
+   "time": "11-27 23:07",
+   "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
+   "comment": "",
+   "score": 39
   },
   {
    "group": "财经深度",
@@ -113,16 +113,6 @@
    "score": 30
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "国常会“稳市”！AH股午后暴拉：创业板狂飙11%，20CM涨停潮席卷，恒科指涨6%，半导体、光模块飙涨",
-   "link": "https://wallstreetcn.com/articles/3786820",
-   "time": "11-27 08:13",
-   "summary": "大奇迹日！A股和H股午后全线大爆发，芯片半导体、AI算力等科技股直线拉升，掀起涨停潮，券商板块亦放量拉升，多只宽基ETF较上一日爆量成交。此前国务院常务会议指出，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。 11月27日，A股午后直线大涨，沪指涨超3%，创业板直线拉升涨超11%，科创综指、科创50均涨超14%，其中科创50涨15%，权重股中芯国际、寒",
-   "comment": "",
-   "score": 30
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Animal Spirits: The Stock Market is Too Big to Fail",
@@ -153,16 +143,6 @@
    "score": 27
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
-   "link": "https://wallstreetcn.com/articles/3786881",
-   "time": "11-27 21:53",
-   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
-   "comment": "",
-   "score": 26
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "An Interview With Eric Seufert About Agentic Commerce",
@@ -183,6 +163,16 @@
    "score": 26
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
+   "link": "https://wallstreetcn.com/articles/3786881",
+   "time": "11-27 21:53",
+   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
+   "comment": "",
+   "score": 25
+  },
+  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "Do We Still Need Data Models?",
@@ -191,6 +181,16 @@
    "summary": "As agents build data systems, models must help us understand the decisions behind them.",
    "comment": "",
    "score": 24
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美存储芯片与光通信领涨，纳指涨2.3%，金银铜齐涨，美债跌，原油冲高转跌",
+   "link": "https://wallstreetcn.com/articles/3786838",
+   "time": "11-27 21:15",
+   "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
+   "comment": "",
+   "score": 23
   },
   {
    "group": "财经深度",
