@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 11:17",
+ "generated_at": "2026-11-28 12:17",
  "raw_total": 140,
  "items": [
   {
@@ -70,7 +70,7 @@
    "time": "11-26 23:02",
    "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
    "comment": "",
-   "score": 39
+   "score": 38
   },
   {
    "group": "快讯",
@@ -80,7 +80,7 @@
    "time": "11-27 23:07",
    "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
    "comment": "",
-   "score": 33
+   "score": 31
   },
   {
    "group": "AI与数据",
@@ -133,6 +133,16 @@
    "score": 26
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic创纪录IPO背后的媒体暗战：纽约时报新锐AI作家被曝隐瞒“金主”背景",
+   "link": "https://wallstreetcn.com/articles/3786887",
+   "time": "11-28 01:43",
+   "summary": "当AI巨头Anthropic以83美元的定价完成史上最大规模的IPO时，媒体的狂欢如期而至。然而，《纽约时报》在此关键节点发布的一篇重磅专栏文章背后，却牵扯出一条隐秘的资本利益链。在科技与资本深度绑定的今天，所谓的“独立新闻”，究竟是谁在买单？ 2026年11月18日，这是属于AI行业的一个历史性时刻：Anthropic完成了史上最大规模的IPO，定价83美元，次日以111.50美元开盘。 就在I",
+   "comment": "",
+   "score": 25
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
@@ -140,7 +150,7 @@
    "time": "11-25 04:29",
    "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
    "comment": "",
-   "score": 26
+   "score": 25
   },
   {
    "group": "AI与数据",
@@ -165,10 +175,10 @@
   {
    "group": "快讯",
    "source": "华尔街见闻",
-   "title": "全球大救市，独缺美联储",
-   "link": "https://wallstreetcn.com/articles/3786891",
-   "time": "11-28 03:06",
-   "summary": "全球主要市场本周掀起一场密集的政策救市行动，从华盛顿到首尔，各市场财政部门、监管机构与国家基金轮番出手护盘。然而，分析人士警告，这些干预措施虽能短暂提振市场，却无法从根本上扭转方向，真正具备无限弹药的救市者——美联储，目前仍处于缄默期。 在美国，特朗普政府向英伟达董事会施压，推动黄仁勋重返CEO一职，纳指一度跌入技术性熊市后骤然拉升，标普500指数周内收涨5%。亚洲市场方面，据新华社，中国国务院常",
+   "title": "经历职业生涯最大规模清仓之一后，高盛对冲基金主管警告：AI交易最赚钱的阶段或已过去",
+   "link": "https://wallstreetcn.com/articles/3786895",
+   "time": "11-28 03:55",
+   "summary": "高盛全球对冲基金业务主管Tony Pasquariello在最新客户报告中给出罕见直白的判断：过去八周是他职业生涯中见过规模最大的清仓之一，而AI基础设施交易最丰厚的上行空间已经过去，2027年将是一个回报较少的年份。 Pasquariello的核心论据在于供需格局的转换。他认为， 仓位确实比二季度末健康得多，但明年将面对自2000年以来最大的股票净供给增量，同时AI资本开支对盈利的拉动正在减速，",
    "comment": "",
    "score": 20
   },
@@ -189,16 +199,6 @@
    "link": "https://wallstreetcn.com/articles/3786838",
    "time": "11-27 21:15",
    "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "日本烟草大涨！市场押注其与奥驰亚联手收购并分拆帝国品牌",
-   "link": "https://wallstreetcn.com/articles/3786874",
-   "time": "11-27 19:20",
-   "summary": "日本烟草股价近日表现亮眼。 市场押注该公司将与奥驰亚（Altria）联手，收购并拆分英国卷烟制造商帝国品牌（Imperial Brands）。 据 华尔街见闻此前文章 ，奥驰亚此前一天表示，正在考虑以全现金方式竞购帝国品牌，并已就收购其中部分业务与另一方展开讨论。据彭博报道，日本烟草正在评估与合作伙伴共同收购的方案。 帝国品牌表示尚未收到任何收购接洽，但会考虑任何提案。Jefferies 的 An",
    "comment": "",
    "score": 20
   },
