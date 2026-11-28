@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 16:17",
+ "generated_at": "2026-11-28 17:15",
  "raw_total": 160,
  "items": [
   {
@@ -33,16 +33,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
-   "link": "https://wallstreetcn.com/articles/3786904",
-   "time": "11-28 07:18",
-   "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
@@ -61,6 +51,16 @@
    "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
    "comment": "",
    "score": 39
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
+   "link": "https://wallstreetcn.com/articles/3786904",
+   "time": "11-28 07:18",
+   "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
+   "comment": "",
+   "score": 38
   },
   {
    "group": "AI与数据",
@@ -101,6 +101,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "付费让Claude训练AI，结果研究越做越差？Anthropic被曝秘密限制模型能力，开发者怒了",
+   "link": "https://wallstreetcn.com/articles/3786909",
+   "time": "11-28 08:59",
+   "summary": "开发者最怕的，或许不是AI写不出代码，而是它明明给出了答案，却悄悄把你的研究带进了沟里。 最近，一场围绕Anthropic旗下Claude模型的争议在开发者社区迅速发酵。多名研究人员声称， 在使用Claude进行机器学习研究时，模型不仅频繁给出有缺陷的代码，还会擅自修改训练参数、改变实验条件，导致模型无法收敛，白白消耗数天GPU算力。 更令开发者不安的是，这些异常表现似乎与Anthropic此前披",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "快讯",
@@ -219,16 +229,6 @@
    "link": "https://wallstreetcn.com/articles/3786838",
    "time": "11-27 21:15",
    "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "日本烟草大涨！市场押注其与奥驰亚联手收购并分拆帝国品牌",
-   "link": "https://wallstreetcn.com/articles/3786874",
-   "time": "11-27 19:20",
-   "summary": "日本烟草股价近日表现亮眼。 市场押注该公司将与奥驰亚（Altria）联手，收购并拆分英国卷烟制造商帝国品牌（Imperial Brands）。 据 华尔街见闻此前文章 ，奥驰亚此前一天表示，正在考虑以全现金方式竞购帝国品牌，并已就收购其中部分业务与另一方展开讨论。据彭博报道，日本烟草正在评估与合作伙伴共同收购的方案。 帝国品牌表示尚未收到任何收购接洽，但会考虑任何提案。Jefferies 的 An",
    "comment": "",
    "score": 20
   },
