@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28 14:22",
- "raw_total": 140,
+ "generated_at": "2026-11-28 15:15",
+ "raw_total": 160,
  "items": [
   {
    "group": "财经深度",
@@ -64,6 +64,26 @@
   },
   {
    "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "time": "11-02 14:30",
+   "summary": "What do LLMs think about vision models?",
+   "comment": "",
+   "score": 37
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "time": "10-12 12:30",
+   "summary": "Will we give robots the moon?",
+   "comment": "",
+   "score": 34
+  },
+  {
+   "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
    "link": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
@@ -79,6 +99,16 @@
    "link": "https://wallstreetcn.com/articles/3786883",
    "time": "11-27 23:07",
    "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
+   "comment": "",
+   "score": 30
+  },
+  {
+   "group": "AI与数据",
+   "source": "Import AI",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+   "time": "11-23 14:11",
+   "summary": "Could the scientific method be emergent?",
    "comment": "",
    "score": 30
   },
@@ -143,16 +173,6 @@
    "score": 24
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic创纪录IPO背后的媒体暗战：纽约时报新锐AI作家被曝隐瞒“金主”背景",
-   "link": "https://wallstreetcn.com/articles/3786887",
-   "time": "11-28 01:43",
-   "summary": "当AI巨头Anthropic以83美元的定价完成史上最大规模的IPO时，媒体的狂欢如期而至。然而，《纽约时报》在此关键节点发布的一篇重磅专栏文章背后，却牵扯出一条隐秘的资本利益链。在科技与资本深度绑定的今天，所谓的“独立新闻”，究竟是谁在买单？ 2026年11月18日，这是属于AI行业的一个历史性时刻：Anthropic完成了史上最大规模的IPO，定价83美元，次日以111.50美元开盘。 就在I",
-   "comment": "",
-   "score": 23
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
@@ -161,6 +181,16 @@
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
    "score": 21
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic创纪录IPO背后的媒体暗战：纽约时报新锐AI作家被曝隐瞒“金主”背景",
+   "link": "https://wallstreetcn.com/articles/3786887",
+   "time": "11-28 01:43",
+   "summary": "当AI巨头Anthropic以83美元的定价完成史上最大规模的IPO时，媒体的狂欢如期而至。然而，《纽约时报》在此关键节点发布的一篇重磅专栏文章背后，却牵扯出一条隐秘的资本利益链。在科技与资本深度绑定的今天，所谓的“独立新闻”，究竟是谁在买单？ 2026年11月18日，这是属于AI行业的一个历史性时刻：Anthropic完成了史上最大规模的IPO，定价83美元，次日以111.50美元开盘。 就在I",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "快讯",
