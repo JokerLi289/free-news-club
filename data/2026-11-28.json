@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28 19:13",
- "raw_total": 160,
+ "generated_at": "2026-11-28 20:19",
+ "raw_total": 140,
  "items": [
   {
    "group": "财经深度",
@@ -53,6 +53,16 @@
    "score": 39
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美联储转鸽的催化剂：一家小型新云公司倒闭，引爆一场“小型金融危机”？",
+   "link": "https://wallstreetcn.com/articles/3786914",
+   "time": "11-28 11:31",
+   "summary": "野村证券警告 ，美联储当前缺乏转向鸽派的宏观依据，但一场由\"替罪羊\"引发的“小型金融冲击”，或将成为其政策转向的导火索——候选对象包括一家小型新云公司或科技投资基金的倒闭，而非超大规模科技巨头。 据追风交易台，野村证券首席策略师Naka Matsuzawa在11月27日发布的宏观策略周报中指出， 近期美国经济数据持续强劲，通胀与增长均未给美联储提供任何暂停加息的理由 。然而，科技板块信用利差持续走",
+   "comment": "",
+   "score": 38
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
@@ -63,16 +73,6 @@
    "score": 38
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "link": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "time": "11-02 14:30",
-   "summary": "What do LLMs think about vision models?",
-   "comment": "",
-   "score": 37
-  },
-  {
    "group": "快讯",
    "source": "华尔街见闻",
    "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
@@ -80,17 +80,7 @@
    "time": "11-28 07:18",
    "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
    "comment": "",
-   "score": 35
-  },
-  {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "link": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "time": "10-12 12:30",
-   "summary": "Will we give robots the moon?",
-   "comment": "",
-   "score": 34
+   "score": 32
   },
   {
    "group": "AI与数据",
@@ -113,26 +103,6 @@
    "score": 30
   },
   {
-   "group": "AI与数据",
-   "source": "Import AI",
-   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-   "link": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-   "time": "11-23 14:11",
-   "summary": "Could the scientific method be emergent?",
-   "comment": "",
-   "score": 30
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "马斯克：算力租赁价格走向分化",
-   "link": "https://wallstreetcn.com/articles/3786911",
-   "time": "11-28 10:25",
-   "summary": "AI算力租赁市场出现新的价格信号。马斯克最新透露称， 面向大规模、高带宽AI训练的GPU集群租金正在显著上涨，而小规模算力租赁价格反而下跌。 马斯克周六在社交平台X上表示， 谷歌有意向SpaceX租用更多算力资源 。这一表态源于市场对谷歌与Anthropic谁会成为SpaceX更大算力客户的讨论。马斯克回应称： “不确定谁会租得更多，但谷歌已经表达了向我们租用更多算力的意愿。” 除了透露潜在客户需",
-   "comment": "",
-   "score": 29
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Animal Spirits: The Stock Market is Too Big to Fail",
@@ -153,26 +123,6 @@
    "score": 29
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "40%！美国家庭股票敞口创历史新高，AI暴跌之际仍在疯狂买入",
-   "link": "https://wallstreetcn.com/articles/3786910",
-   "time": "11-28 09:55",
-   "summary": "美国家庭对股市的押注已达到有史以来最高水平，即便AI股票近期大幅下挫，散户资金仍源源不断涌入。这场长达四年的牛市正将数以百万计的普通投资者推向前所未有的风险敞口，而他们的财富走向，也将在很大程度上左右市场能否企稳。 据德意志银行对EPFR数据的分析， 今年流入追踪美股的ETF及共同基金的新增资金已超过4500亿美元，有望创下历史纪录。即便在过去一个月AI交易全面瓦解、市场剧烈震荡之际，仅11月截至",
-   "comment": "",
-   "score": 28
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "付费让Claude训练AI，结果研究越做越差？Anthropic被曝秘密限制模型能力，开发者怒了",
-   "link": "https://wallstreetcn.com/articles/3786909",
-   "time": "11-28 08:59",
-   "summary": "开发者最怕的，或许不是AI写不出代码，而是它明明给出了答案，却悄悄把你的研究带进了沟里。 最近，一场围绕Anthropic旗下Claude模型的争议在开发者社区迅速发酵。多名研究人员声称， 在使用Claude进行机器学习研究时，模型不仅频繁给出有缺陷的代码，还会擅自修改训练参数、改变实验条件，导致模型无法收敛，白白消耗数天GPU算力。 更令开发者不安的是，这些异常表现似乎与Anthropic此前披",
-   "comment": "",
-   "score": 27
-  },
-  {
    "group": "财经深度",
    "source": "Stratechery",
    "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
@@ -181,6 +131,16 @@
    "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
    "comment": "",
    "score": 27
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "马斯克：算力租赁价格走向分化",
+   "link": "https://wallstreetcn.com/articles/3786911",
+   "time": "11-28 10:25",
+   "summary": "AI算力租赁市场出现新的价格信号。马斯克最新透露称， 面向大规模、高带宽AI训练的GPU集群租金正在显著上涨，而小规模算力租赁价格反而下跌。 马斯克周六在社交平台X上表示， 谷歌有意向SpaceX租用更多算力资源 。这一表态源于市场对谷歌与Anthropic谁会成为SpaceX更大算力客户的讨论。马斯克回应称： “不确定谁会租得更多，但谷歌已经表达了向我们租用更多算力的意愿。” 除了透露潜在客户需",
+   "comment": "",
+   "score": 26
   },
   {
    "group": "财经深度",
@@ -193,6 +153,16 @@
    "score": 26
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "40%！美国家庭股票敞口创历史新高，AI暴跌之际仍在疯狂买入",
+   "link": "https://wallstreetcn.com/articles/3786910",
+   "time": "11-28 09:55",
+   "summary": "美国家庭对股市的押注已达到有史以来最高水平，即便AI股票近期大幅下挫，散户资金仍源源不断涌入。这场长达四年的牛市正将数以百万计的普通投资者推向前所未有的风险敞口，而他们的财富走向，也将在很大程度上左右市场能否企稳。 据德意志银行对EPFR数据的分析， 今年流入追踪美股的ETF及共同基金的新增资金已超过4500亿美元，有望创下历史纪录。即便在过去一个月AI交易全面瓦解、市场剧烈震荡之际，仅11月截至",
+   "comment": "",
+   "score": 25
+  },
+  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
@@ -201,6 +171,16 @@
    "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
    "comment": "",
    "score": 25
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "付费让Claude训练AI，结果研究越做越差？Anthropic被曝秘密限制模型能力，开发者怒了",
+   "link": "https://wallstreetcn.com/articles/3786909",
+   "time": "11-28 08:59",
+   "summary": "开发者最怕的，或许不是AI写不出代码，而是它明明给出了答案，却悄悄把你的研究带进了沟里。 最近，一场围绕Anthropic旗下Claude模型的争议在开发者社区迅速发酵。多名研究人员声称， 在使用Claude进行机器学习研究时，模型不仅频繁给出有缺陷的代码，还会擅自修改训练参数、改变实验条件，导致模型无法收敛，白白消耗数天GPU算力。 更令开发者不安的是，这些异常表现似乎与Anthropic此前披",
+   "comment": "",
+   "score": 24
   },
   {
    "group": "AI与数据",
@@ -221,16 +201,6 @@
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
    "score": 21
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "伊朗反复袭船，美国武力拦截！霍尔木兹海峡遭美伊双向封锁，战前通航水平恐难恢复",
-   "link": "https://wallstreetcn.com/articles/3786912",
-   "time": "11-28 10:35",
-   "summary": "霍尔木兹海峡正陷入一场双向封锁的僵局。美国持续以海上封锁和制裁压制伊朗经济，伊朗则以愈发激进的袭船战术反制过往船只，两股力量的对峙正将这条全球最重要的能源航运通道推向长期失序的边缘。 据媒体报道，美国中央司令部于当地时间周五宣布，美军飞机于周四击中并瘫痪了一艘在阿曼湾试图突破美国海上封锁的帕劳籍散货船M/V Pacific Archer。该船从伊朗港口城市班达尔阿巴斯出发，在多次警告无效后遭到打击",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "财经深度",
