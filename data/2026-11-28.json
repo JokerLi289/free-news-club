@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 10:19",
+ "generated_at": "2026-11-28 11:17",
  "raw_total": 140,
  "items": [
   {
@@ -80,7 +80,7 @@
    "time": "11-27 23:07",
    "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
    "comment": "",
-   "score": 35
+   "score": 33
   },
   {
    "group": "AI与数据",
@@ -91,16 +91,6 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美团单季赚21亿元，增长向零售和海外延伸",
-   "link": "https://wallstreetcn.com/articles/3786857",
-   "time": "11-27 11:30",
-   "summary": "美团的利润开始修复了。 11月27日，美团发布三季报，营收1156亿元，同比增长21.6%；净利润20.7亿元，上年同期为亏损186.3亿元。核心本地商业经营利润恢复至57亿元，成为此次盈利改善的主要支撑。 这份财报呈现出两个变化，国内主业重新贡献利润，食杂零售和海外业务继续扩张。美团需要解决的问题，也从承受补贴战的亏损，转向如何分配恢复的盈利能力。 利润修复首先来自营销投入的变化。三季度，美团销",
-   "comment": "",
-   "score": 30
   },
   {
    "group": "财经深度",
@@ -163,16 +153,6 @@
    "score": 24
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
-   "link": "https://wallstreetcn.com/articles/3786881",
-   "time": "11-27 21:53",
-   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
-   "comment": "",
-   "score": 21
-  },
-  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
@@ -181,6 +161,26 @@
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
    "score": 21
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "全球大救市，独缺美联储",
+   "link": "https://wallstreetcn.com/articles/3786891",
+   "time": "11-28 03:06",
+   "summary": "全球主要市场本周掀起一场密集的政策救市行动，从华盛顿到首尔，各市场财政部门、监管机构与国家基金轮番出手护盘。然而，分析人士警告，这些干预措施虽能短暂提振市场，却无法从根本上扭转方向，真正具备无限弹药的救市者——美联储，目前仍处于缄默期。 在美国，特朗普政府向英伟达董事会施压，推动黄仁勋重返CEO一职，纳指一度跌入技术性熊市后骤然拉升，标普500指数周内收涨5%。亚洲市场方面，据新华社，中国国务院常",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "美国10月贸易逆差创一年半新高：受AI基建推动，进口额刷新历史纪录",
+   "link": "https://wallstreetcn.com/articles/3786881",
+   "time": "11-27 21:53",
+   "summary": "AI基础设施建设热潮正把美国的贸易账目推向新的失衡高度。10月商品贸易逆差扩大10.7%至1495亿美元，进口跃升6.1%至3653亿美元，创1992年有统计以来的最高纪录，贸易可能在第四季度继续拖累经济增长。 美国商务部周五公布的数据显示， 进口增长呈现全面开花态势，资本品、汽车、工业用品和消费品悉数上扬，反映内需依旧强劲。 企业大举押注AI，但相关基础设施严重依赖进口，而进口在GDP核算中属于",
+   "comment": "",
+   "score": 20
   },
   {
    "group": "快讯",
