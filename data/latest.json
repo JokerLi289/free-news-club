@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 12:17",
+ "generated_at": "2026-11-28 14:22",
  "raw_total": 140,
  "items": [
   {
@@ -33,16 +33,6 @@
    "score": 42
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "美团电话会：王兴复盘美团优选“重大错误” ，外卖竞争迎来拐点、四季度UE将明显改善，明年AI资本开支将下降",
-   "link": "https://wallstreetcn.com/articles/3786861",
-   "time": "11-27 13:42",
-   "summary": "美团的盈利修复正在加速，而管理层对未来竞争格局的判断也出现了积极变化。 11月27日，美团公布2026年第三季度业绩。财报显示，公司第三季度实现营收1156亿元，同比增长21.6%；调整后净利润19亿元，实现扭亏为盈。核心本地商业与新业务两大板块收入增速均较上一季度加快，分部经营利润合计达到44亿元。 业绩改善背后，外卖行业竞争趋于理性成为重要推动力。美团管理层在财报电话会上表示，第三季度外卖行业",
-   "comment": "",
-   "score": 40
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
@@ -73,16 +63,6 @@
    "score": 38
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "华尔街见闻早餐FM-Radio | 2026年11月28日",
-   "link": "https://wallstreetcn.com/articles/3786883",
-   "time": "11-27 23:07",
-   "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
-   "comment": "",
-   "score": 31
-  },
-  {
    "group": "AI与数据",
    "source": "Data Engineering Weekly",
    "title": "The Self-Organizing Data Stack",
@@ -91,6 +71,16 @@
    "summary": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
    "comment": "",
    "score": 31
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "华尔街见闻早餐FM-Radio | 2026年11月28日",
+   "link": "https://wallstreetcn.com/articles/3786883",
+   "time": "11-27 23:07",
+   "summary": "华见早安之声 要闻精选 中国 国常会 ： 加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能 。 证监会 ： 抓紧研究出台相关增量政策，壮大中长期资金入市力量 。 监管部门 ：全力维护资本市场平稳运行，严防“伪科技”借机上市、无真实业绩公司“注水”上市。 贷款罚息利率不再设上下限 ！ 中国央行 ：由金融机构与借款人协商确定。 中国10月规模以上工业企业利润 同比加速增长至20.",
+   "comment": "",
+   "score": 30
   },
   {
    "group": "财经深度",
@@ -133,16 +123,6 @@
    "score": 26
   },
   {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "Anthropic创纪录IPO背后的媒体暗战：纽约时报新锐AI作家被曝隐瞒“金主”背景",
-   "link": "https://wallstreetcn.com/articles/3786887",
-   "time": "11-28 01:43",
-   "summary": "当AI巨头Anthropic以83美元的定价完成史上最大规模的IPO时，媒体的狂欢如期而至。然而，《纽约时报》在此关键节点发布的一篇重磅专栏文章背后，却牵扯出一条隐秘的资本利益链。在科技与资本深度绑定的今天，所谓的“独立新闻”，究竟是谁在买单？ 2026年11月18日，这是属于AI行业的一个历史性时刻：Anthropic完成了史上最大规模的IPO，定价83美元，次日以111.50美元开盘。 就在I",
-   "comment": "",
-   "score": 25
-  },
-  {
    "group": "AI与数据",
    "source": "Latent Space",
    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
@@ -163,6 +143,16 @@
    "score": 24
   },
   {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "Anthropic创纪录IPO背后的媒体暗战：纽约时报新锐AI作家被曝隐瞒“金主”背景",
+   "link": "https://wallstreetcn.com/articles/3786887",
+   "time": "11-28 01:43",
+   "summary": "当AI巨头Anthropic以83美元的定价完成史上最大规模的IPO时，媒体的狂欢如期而至。然而，《纽约时报》在此关键节点发布的一篇重磅专栏文章背后，却牵扯出一条隐秘的资本利益链。在科技与资本深度绑定的今天，所谓的“独立新闻”，究竟是谁在买单？ 2026年11月18日，这是属于AI行业的一个历史性时刻：Anthropic完成了史上最大规模的IPO，定价83美元，次日以111.50美元开盘。 就在I",
+   "comment": "",
+   "score": 23
+  },
+  {
    "group": "财经深度",
    "source": "A Wealth of Common Sense",
    "title": "Talk Your Book: The Anthropic IPO",
@@ -171,16 +161,6 @@
    "summary": "On today's Talk Your Book we speak with Derek Yan from KraneShares about investing in public and private market AI companies, how to build an AI portfolio, the most important information from Anthropi",
    "comment": "",
    "score": 21
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "经历职业生涯最大规模清仓之一后，高盛对冲基金主管警告：AI交易最赚钱的阶段或已过去",
-   "link": "https://wallstreetcn.com/articles/3786895",
-   "time": "11-28 03:55",
-   "summary": "高盛全球对冲基金业务主管Tony Pasquariello在最新客户报告中给出罕见直白的判断：过去八周是他职业生涯中见过规模最大的清仓之一，而AI基础设施交易最丰厚的上行空间已经过去，2027年将是一个回报较少的年份。 Pasquariello的核心论据在于供需格局的转换。他认为， 仓位确实比二季度末健康得多，但明年将面对自2000年以来最大的股票净供给增量，同时AI资本开支对盈利的拉动正在减速，",
-   "comment": "",
-   "score": 20
   },
   {
    "group": "快讯",
@@ -199,6 +179,26 @@
    "link": "https://wallstreetcn.com/articles/3786838",
    "time": "11-27 21:15",
    "summary": "AI交易重新活跃，美股在提前收市的交易日里全面上涨，存储芯片与光通信板块领涨。现货黄金从一周低位反弹，WTI原油盘中冲高后回落，10年期美债收益率随避险需求消退而走高。 周五， 标普500 收于7,297.49点，涨1.60%，本周四个交易日累涨5.6%、创2025年4月以来最大单周涨幅； 纳指 涨2.31%； 道指 涨1.18%； 罗素2000 涨1.71%。 中概股指数 涨3.02%。 风险偏",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "日本烟草大涨！市场押注其与奥驰亚联手收购并分拆帝国品牌",
+   "link": "https://wallstreetcn.com/articles/3786874",
+   "time": "11-27 19:20",
+   "summary": "日本烟草股价近日表现亮眼。 市场押注该公司将与奥驰亚（Altria）联手，收购并拆分英国卷烟制造商帝国品牌（Imperial Brands）。 据 华尔街见闻此前文章 ，奥驰亚此前一天表示，正在考虑以全现金方式竞购帝国品牌，并已就收购其中部分业务与另一方展开讨论。据彭博报道，日本烟草正在评估与合作伙伴共同收购的方案。 帝国品牌表示尚未收到任何收购接洽，但会考虑任何提案。Jefferies 的 An",
+   "comment": "",
+   "score": 20
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "支付宝加码车载支付，争夺汽车里的交易入口",
+   "link": "https://wallstreetcn.com/articles/3786870",
+   "time": "11-27 14:27",
+   "summary": "汽车里的AI助手，开始接手下单和付款。 11月27日，支付宝在广州车展发布车载助手3.0，将停车缴费、加油充电、点单等服务与身份核验、支付连接起来。用户在车内提出需求后，系统可以调用相应服务，并在授权范围内完成交易。 支付宝同时发起Alipay Inside Car生态联盟，比亚迪、理想、奇瑞等车企，以及华为引望、科大讯飞等企业加入。其座舱开放平台也同步上线，向合作伙伴开放智能体搭建、分发及服务接",
    "comment": "",
    "score": 20
   },
