@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28 15:15",
+ "generated_at": "2026-11-28 16:17",
  "raw_total": 160,
  "items": [
   {
@@ -31,6 +31,16 @@
    "summary": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The",
    "comment": "",
    "score": 42
+  },
+  {
+   "group": "快讯",
+   "source": "华尔街见闻",
+   "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！",
+   "link": "https://wallstreetcn.com/articles/3786904",
+   "time": "11-28 07:18",
+   "summary": "“AI股神”、前OpenAI研究员Leopold Aschenbrenner旗下Situational Awareness基金在三季度遭遇重挫后，仍在其致投资者信中对AI赛道保持高度乐观，并将Anthropic列为核心持仓，称其估值\"极度低估\"。 据此前披露的投资者信函，该基金上半年录得439%的惊人回报，但三季度净值回撤65%，截至9月底全年收益收窄至88.5%。尽管如此，Aschenbrenn",
+   "comment": "",
+   "score": 40
   },
   {
    "group": "AI与数据",
@@ -219,16 +229,6 @@
    "link": "https://wallstreetcn.com/articles/3786874",
    "time": "11-27 19:20",
    "summary": "日本烟草股价近日表现亮眼。 市场押注该公司将与奥驰亚（Altria）联手，收购并拆分英国卷烟制造商帝国品牌（Imperial Brands）。 据 华尔街见闻此前文章 ，奥驰亚此前一天表示，正在考虑以全现金方式竞购帝国品牌，并已就收购其中部分业务与另一方展开讨论。据彭博报道，日本烟草正在评估与合作伙伴共同收购的方案。 帝国品牌表示尚未收到任何收购接洽，但会考虑任何提案。Jefferies 的 An",
-   "comment": "",
-   "score": 20
-  },
-  {
-   "group": "快讯",
-   "source": "华尔街见闻",
-   "title": "支付宝加码车载支付，争夺汽车里的交易入口",
-   "link": "https://wallstreetcn.com/articles/3786870",
-   "time": "11-27 14:27",
-   "summary": "汽车里的AI助手，开始接手下单和付款。 11月27日，支付宝在广州车展发布车载助手3.0，将停车缴费、加油充电、点单等服务与身份核验、支付连接起来。用户在车内提出需求后，系统可以调用相应服务，并在授权范围内完成交易。 支付宝同时发起Alipay Inside Car生态联盟，比亚迪、理想、奇瑞等车企，以及华为引望、科大讯飞等企业加入。其座舱开放平台也同步上线，向合作伙伴开放智能体搭建、分发及服务接",
    "comment": "",
    "score": 20
   },
